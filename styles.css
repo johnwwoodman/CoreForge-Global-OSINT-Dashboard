@@ -24,3 +24,10 @@ button:disabled{opacity:.42;cursor:not-allowed}
 .mapbox .land.selected{fill:#d2a84e;stroke:#f4e1a7;stroke-width:1.4}.mapbox .land:focus{outline:none;stroke:#ffe5a0;stroke-width:2}.mapreset{position:absolute;top:10px;right:10px;background:#132a3ee8;color:#e7eef7;border-color:#466075;font-size:11px}.brief-controls{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:12px}.brief-text{font-size:13px;line-height:1.75;white-space:pre-wrap}.brief-links{padding-left:20px}.brief-links li{margin:9px 0;font-size:12px}.brief-links a{color:var(--text)}.light .mapbox .land.selected{fill:#bb8e37;stroke:#765218}.light .mapreset{background:#f8fbfdee;color:#17293b}.light .brief-links a{color:#17293b}
 
 .mapcontrols{position:absolute;right:10px;top:10px;display:flex;gap:5px;align-items:center}.mapcontrols button{position:static;background:#132a3ee8;color:#e7eef7;border:1px solid #466075;min-width:34px;min-height:34px;padding:5px 8px;font-size:13px}.mapbox svg{touch-action:none;cursor:grab}.mapbox svg.panning{cursor:grabbing}.mapbox .land{vector-effect:non-scaling-stroke}.light .mapcontrols button{background:#f8fbfdee;color:#17293b;border-color:#7897a9}
+
+/* v0.3.2: bounded, user-resizable intelligence feed */
+.widget .feed-scroll{flex:0 0 auto;min-height:180px;max-height:1600px;overflow-y:auto;overscroll-behavior:contain;resize:vertical;scrollbar-gutter:stable;padding-bottom:22px}
+.widget .feed-scroll[style*="resize:none"]{max-height:none;min-height:0}
+.widget:has(.feed-scroll){min-height:0}
+.widget .feed-scroll::-webkit-resizer{background:var(--accent);border-radius:3px}
+@media(max-width:750px){.widget .feed-scroll{max-height:1000px}}

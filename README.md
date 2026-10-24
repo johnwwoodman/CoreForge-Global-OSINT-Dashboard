@@ -51,3 +51,6 @@ These briefings are summaries of source *headlines*, not full article analysis. 
 - Zoom using +/- buttons or the mouse wheel; drag the map to pan.
 - Region view resets the current map extent.
 - Map views are retained while navigating widgets and reset on a page reload.
+
+### v0.3.2 — Intelligence feed sizing
+The Intelligence Feed is initially limited to a 440px internal scrolling area. Scroll inside the feed to browse articles without extending the entire page. Drag the bottom-right corner of the feed content area to resize its height (180–1600px); the chosen height is stored separately for each workspace. Use **Expand** to show the full list, and **Collapse** to return to the saved bounded height. Existing browser-saved layouts are preserved.
