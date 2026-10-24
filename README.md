@@ -126,3 +126,15 @@ in the snapshot for troubleshooting.
 
 **Deploy:** Replace `app.js`, `index.html`, `styles.css`, `scripts/collect_feeds.py`, and `README.md` in their exact paths. Keep `.github/` workflows and the existing `data/` snapshot. Manually run the RSS collector once after deployment. GitHub Pages then serves the updated generated data.
 - Weekly briefing generator now caps repeated publishers, groups items by category, and includes short publisher-provided descriptions where available. It remains a rule-based digest, not AI analysis.
+
+
+## v0.8 local Ollama analyst
+
+Use the complete release ZIP and read `LOCAL-AI-SETUP.md` for Windows and Mac instructions. The GitHub Pages deployment retains its non-AI dashboard; the AI widget runs only when the app is served from the local-only Python launcher. This release is beta and source-grounded to RSS metadata, not verified full-text intelligence.
+
+
+See RELEASE-NOTES-v1.0-RC1.md for changes and known limitations.
+
+
+## RC2 podcast fix
+See `RELEASE-NOTES-v1.0-RC2.md`. Publish `scripts/collect_feeds.py` and run the collector before expecting new podcast episodes in the local dashboard.

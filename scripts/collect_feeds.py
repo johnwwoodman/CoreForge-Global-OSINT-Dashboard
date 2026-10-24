@@ -127,6 +127,7 @@ def approximate_reference(title, description):
 
 MAX_PER_FEED = 35
 MAX_DESC = 500
+PODCAST_TITLE = re.compile(r'\bpodcast\b|\b(audio|listen)\s+(episode|edition)\b', re.I)
 
 def strip_markup(s):
     s = re.sub(r'<[^>]*>', ' ', s or '')
@@ -166,6 +167,66 @@ def infer_regions(title, description, feed_region):
         found.insert(0, feed_region)
     return found
 
+def classify_kind(default_kind, title, item, atom=False):
+    """Detect embedded podcast episodes even in non-podcast publisher feeds."""
+    enclosure = item.find('enclosure') if not atom else None
+    if atom:
+        enclosure = next((link for link in item.findall('{http://www.w3.org/2005/Atom}link')
+                          if link.get('rel') == 'enclosure'), None)
+    audio_url = ''
+    if enclosure is not None:
+        candidate = enclosure.get('url', '') if not atom else enclosure.get('href', '')
+        mime = enclosure.get('type', '').lower()
+        if candidate.startswith('https://') and (mime.startswith('audio/') or re.search(r'\.(mp3|m4a|aac|ogg)(?:[?#]|$)', candidate, re.I)):
+            audio_url = candidate
+    # A podcast-specific feed can contain entries with no downloadable audio.
+    # Publisher feeds can contain podcast episodes with an audio enclosure.
+    # Title-only matches are flagged as podcast but without an invented player.
+    kind = 'podcast' if default_kind == 'podcast' or audio_url or PODCAST_TITLE.search(title) else default_kind
+    return kind, audio_url
+
+def parse_feed(raw, source, category, region, kind, seen):
+    root = ET.fromstring(raw)
+    if root.tag.endswith('rss') or root.find('channel') is not None:
+        entries = root.findall('./channel/item')
+        atom = False
+    else:
+        entries = root.findall('{http://www.w3.org/2005/Atom}entry')
+        atom = True
+    output = []
+    for item in entries:
+        if len(output) >= MAX_PER_FEED:
+            break
+        if atom:
+            ns = '{http://www.w3.org/2005/Atom}'
+            title = findtext(item, ns+'title')
+            description = findtext(item, ns+'summary', ns+'content')
+            published = findtext(item, ns+'published', ns+'updated')
+            links = item.findall(ns+'link')
+            link = next((x.get('href', '') for x in links if x.get('rel', 'alternate') == 'alternate'), '')
+        else:
+            title = findtext(item, 'title')
+            description = findtext(item, 'description')
+            published = findtext(item, 'pubDate')
+            link = findtext(item, 'link')
+        if not title or not link.startswith('https://'):
+            continue
+        clean_link = link.split('#')[0]
+        if clean_link in seen:
+            continue
+        clean_title = strip_markup(title)[:300]
+        clean_description = strip_markup(description)[:MAX_DESC]
+        entry_kind, audio_url = classify_kind(kind, clean_title, item, atom)
+        regions = infer_regions(clean_title, clean_description, region)
+        output.append({'title': clean_title, 'source': source, 'description': clean_description,
+                       'category': infer_category(clean_title, clean_description, category),
+                       'region': regions[0] if regions else 'all', 'regions': regions,
+                       'kind': entry_kind, **({'audio_url': audio_url} if audio_url else {}),
+                       'url': clean_link, 'published': date_iso(published),
+                       **approximate_reference(clean_title, clean_description)})
+        seen.add(clean_link)
+    return output
+
 def collect():
     records, errors, seen = [], [], set()
     for source, url, category, region, kind in [(s,u,c,r,'news') for s,u,c,r in FEEDS]+SPECIAL_FEEDS:
@@ -175,53 +236,14 @@ def collect():
                 raw = response.read(2_000_001)
             if len(raw) > 2_000_000:
                 raise ValueError('Feed exceeds 2 MB limit')
-            root = ET.fromstring(raw)
-            if root.tag.endswith('rss') or root.find('channel') is not None:
-                entries = root.findall('./channel/item')
-                atom = False
-            else:
-                entries = root.findall('{http://www.w3.org/2005/Atom}entry')
-                atom = True
-            count = 0
-            for item in entries:
-                if count >= MAX_PER_FEED:
-                    break
-                if atom:
-                    ns = '{http://www.w3.org/2005/Atom}'
-                    title = findtext(item, ns+'title')
-                    description = findtext(item, ns+'summary', ns+'content')
-                    published = findtext(item, ns+'published', ns+'updated')
-                    links = item.findall(ns+'link')
-                    link = next((x.get('href', '') for x in links if x.get('rel', 'alternate') == 'alternate'), '')
-                else:
-                    title = findtext(item, 'title')
-                    description = findtext(item, 'description')
-                    published = findtext(item, 'pubDate')
-                    link = findtext(item, 'link')
-                if not title or not link.startswith('https://'):
-                    continue
-                clean_link = link.split('#')[0]
-                if clean_link in seen:
-                    continue
-                seen.add(clean_link)
-                audio_url = ''
-                if not atom and kind == 'podcast':
-                    enclosure = item.find('enclosure')
-                    if enclosure is not None and (enclosure.get('type','').startswith('audio/') or enclosure.get('url','').lower().endswith('.mp3')):
-                        audio_url = enclosure.get('url','')
-                    if not audio_url.startswith('https://'):
-                        audio_url = ''
-                clean_title=strip_markup(title)[:300]
-                clean_description=strip_markup(description)[:MAX_DESC]
-                regions=infer_regions(clean_title,clean_description,region)
-                records.append({'title': clean_title, 'source': source, 'description': clean_description, 'category': infer_category(clean_title,clean_description,category), 'region': regions[0] if regions else 'all', 'regions': regions, 'kind': kind, **({'audio_url': audio_url} if audio_url else {}), 'url': clean_link, 'published': date_iso(published), **approximate_reference(clean_title,clean_description)})
-                count += 1
-            print(f'{source}: {count} articles')
+            added = parse_feed(raw, source, category, region, kind, seen)
+            records.extend(added)
+            print(f'{source}: {len(added)} records ({sum(x["kind"] == "podcast" for x in added)} podcasts)')
         except Exception as exc:
             errors.append({'source': source, 'message': str(exc)[:200]})
             print(f'{source}: ERROR {exc}')
     records.sort(key=lambda x: x['published'], reverse=True)
-    return {'updated': dt.datetime.now(dt.timezone.utc).isoformat().replace('+00:00','Z'), 'records': records, 'errors': errors, 'sources_checked': len(FEEDS)+len(SPECIAL_FEEDS), 'sources_ok': len(FEEDS)+len(SPECIAL_FEEDS)-len(errors), 'collector_version':'0.7.0', 'classification_method':'keyword-heuristic', 'location_method':'headline-or-lead-reference'}
+    return {'updated': dt.datetime.now(dt.timezone.utc).isoformat().replace('+00:00','Z'), 'records': records, 'errors': errors, 'sources_checked': len(FEEDS)+len(SPECIAL_FEEDS), 'sources_ok': len(FEEDS)+len(SPECIAL_FEEDS)-len(errors), 'collector_version':'1.0.0-rc2', 'classification_method':'keyword-heuristic', 'location_method':'headline-or-lead-reference', 'content_counts': {kind: sum(r['kind'] == kind for r in records) for kind in ('news','podcast','research')}, 'feed_health': 'See errors for failed source names'}
 
 if __name__ == '__main__':
     payload = collect()
