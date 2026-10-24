@@ -84,6 +84,39 @@ def approximate_place(title):
     name, (lat,lon) = selected[0]
     return {'lat':lat,'lon':lon,'place':name.title(),'location_precision':'city-reference' if name in CITY_NAMES else 'country-centroid', 'location_method':'headline-keyword', 'location_verified':False}
 
+# Rule-based topic labels are approximate; source/feed section is only a fallback.
+TOPIC_PATTERNS = {
+    'Humanitarian': [r'\bhumanitarian\b',r'\baid\b',r'\brefugee',r'\bdisplac',r'\bfamine\b',r'\bhunger\b',r'\bfood insecurity\b',r'\brelief\b',r'\bhealth crisis\b'],
+    'Defence': [r'\bmilitary\b',r'\bmissile',r'\bdrone',r'\bairstrike',r'\barmed forces\b',r'\bdefen[cs]e\b',r'\bweapon',r'\bnaval\b',r'\barmy\b',r'\btroops\b',r'\bceasefire\b'],
+    'Cyber': [r'\bcyber',r'\bhack',r'\bransomware\b',r'\bmalware\b',r'\bdata breach\b',r'\bphishing\b'],
+    'Disasters': [r'\bearthquake',r'\bflood',r'\bwildfire',r'\bcyclone',r'\bhurricane',r'\btsunami',r'\blandslide',r'\bdrought\b'],
+    'Economics': [r'\binflation\b',r'\bgdp\b',r'\beconom',r'\btrade\b',r'\btariff',r'\bcentral bank\b',r'\binterest rate',r'\bmarket',r'\bexports?\b',r'\bimports?\b'],
+}
+def infer_category(title, description, fallback):
+    # Title carries greater relevance than contextual feed descriptions.
+    title_text = title.lower()
+    description_text = description[:240].lower()
+    for category, patterns in TOPIC_PATTERNS.items():
+        if any(re.search(pattern, title_text) for pattern in patterns):
+            return category
+    if fallback != 'Geopolitics':
+        return fallback
+    for category, patterns in TOPIC_PATTERNS.items():
+        if any(re.search(pattern, description_text) for pattern in patterns):
+            return category
+    return fallback
+
+def approximate_reference(title, description):
+    point = approximate_place(title)
+    if point:
+        return point
+    # Lead-sentence matches only, and only where exactly one location is present.
+    lead = re.split(r'[.!?]', description[:180], maxsplit=1)[0]
+    point = approximate_place(lead)
+    if point:
+        point['location_method'] = 'description-lead-keyword'
+    return point
+
 MAX_PER_FEED = 35
 MAX_DESC = 500
 
@@ -166,14 +199,14 @@ def collect():
                 clean_title=strip_markup(title)[:300]
                 clean_description=strip_markup(description)[:MAX_DESC]
                 regions=infer_regions(clean_title,clean_description,region)
-                records.append({'title': clean_title, 'source': source, 'description': clean_description, 'category': category, 'region': regions[0] if regions else 'all', 'regions': regions, 'kind': 'news', 'url': clean_link, 'published': date_iso(published), **approximate_place(clean_title)})
+                records.append({'title': clean_title, 'source': source, 'description': clean_description, 'category': infer_category(clean_title,clean_description,category), 'region': regions[0] if regions else 'all', 'regions': regions, 'kind': 'news', 'url': clean_link, 'published': date_iso(published), **approximate_reference(clean_title,clean_description)})
                 count += 1
             print(f'{source}: {count} articles')
         except Exception as exc:
             errors.append({'source': source, 'message': str(exc)[:200]})
             print(f'{source}: ERROR {exc}')
     records.sort(key=lambda x: x['published'], reverse=True)
-    return {'updated': dt.datetime.now(dt.timezone.utc).isoformat().replace('+00:00','Z'), 'records': records, 'errors': errors, 'sources_checked': len(FEEDS), 'sources_ok': len(FEEDS)-len(errors)}
+    return {'updated': dt.datetime.now(dt.timezone.utc).isoformat().replace('+00:00','Z'), 'records': records, 'errors': errors, 'sources_checked': len(FEEDS), 'sources_ok': len(FEEDS)-len(errors), 'collector_version':'0.6.1', 'classification_method':'keyword-heuristic', 'location_method':'headline-or-lead-reference'}
 
 if __name__ == '__main__':
     payload = collect()

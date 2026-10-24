@@ -54,3 +54,5 @@ button:disabled{opacity:.42;cursor:not-allowed}
 .map-detail a{color:#69d8d0;font-weight:700}.pin.active{stroke:#ffda78;stroke-width:3;fill:#ffd56c}
 .light .map-detail{background:#f8fbfdef;color:#15283a}.light .map-detail a{color:#087f75}
 #clear-watch{margin:0 0 10px}.sidebar input[type=search]{width:100%}
+
+.diagnostic-alert{color:#f4c978!important;border-left:3px solid #e5ad45;padding-left:10px}

@@ -97,3 +97,20 @@ After updating the Python collector, run **Actions → Collect Intelligence Feed
 
 ### What is not implemented yet
 The map references are approximate keyword-derived mentions, **not incident geocoding**. Research and podcast directory entries are links, **not episode ingestion**. Briefings are deterministic summaries of collected publisher metadata, **not independent intelligence assessments**. The GitHub workflow must run to populate newly supported location references.
+
+
+## v0.6.1 data diagnostics and topic/map fixes
+
+This release updates the collector and adds an explicit **Collector version** diagnostic in the sidebar.
+If it says **legacy/unknown**, the browser is reading an older RSS snapshot: upload
+`scripts/collect_feeds.py` to GitHub, commit, manually run **Collect Intelligence Feeds**,
+then use **Check for updated feed**. Updating only HTML/JS cannot retroactively
+add coordinates or change categories in an existing RSS snapshot.
+
+Categories are approximate keyword-based article topics (not verified intelligence assessments).
+Locations are approximate place mentions in titles or opening description sentences;
+they are not verified incident coordinates. No map reference is invented when multiple
+places match. Some snapshots may legitimately have few references.
+
+The collector records `collector_version`, `classification_method` and `location_method`
+in the snapshot for troubleshooting.
