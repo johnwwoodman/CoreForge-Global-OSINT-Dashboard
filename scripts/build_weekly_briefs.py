@@ -18,7 +18,7 @@ def main():
     for key, region in WORKSPACES.items():
         candidates = []
         for record in source.get('records', []):
-            if region != 'all' and record.get('region') not in ('all', region):
+            if region != 'all' and region not in record.get('regions', [record.get('region', 'all')]):
                 continue
             try:
                 published = dt.datetime.fromisoformat(record['published'].replace('Z', '+00:00'))
