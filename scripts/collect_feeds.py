@@ -43,6 +43,36 @@ SPECIAL_FEEDS = [
     ('The Guardian Long Read', 'https://www.theguardian.com/news/series/the-long-read/rss', 'Geopolitics', 'all', 'research'),
     ('The Guardian Global Development Analysis', 'https://www.theguardian.com/global-development/rss', 'Humanitarian', 'all', 'research'),
 ]
+# Podcast discovery uses Apple's public podcast catalogue to obtain current RSS URLs.
+# Publisher/title constraints avoid accidentally importing unrelated similarly named shows.
+# No Apple account, API key or paid service is required. RSS is fetched directly from publishers.
+PODCAST_CATALOGUE = [
+    ('MEI Middle East Focus', 'Middle East Focus Middle East Institute', ('middle east focus',), ('middle east institute', 'mei'), 'Middle East'),
+    ('MEI Taking the Edge Off', 'Taking the Edge Off the Middle East Brian Katulis', ('taking the edge off',), ('middle east institute', 'mei'), 'Middle East'),
+    ('CSIS Babel', 'Babel Translating the Middle East CSIS', ('babel',), ('csis', 'strategic and international studies'), 'Middle East'),
+    ('Crisis Group Hold Your Fire', 'Hold Your Fire International Crisis Group', ('hold your fire',), ('crisis group',), 'all'),
+    ('Chatham House podcasts', 'Chatham House Independent Thinking podcast', ('independent thinking',), ('chatham house',), 'all'),
+    ('CFR The President Inbox', 'The President Inbox Council on Foreign Relations', ('president', 'inbox'), ('council on foreign relations', 'cfr'), 'all'),
+]
+
+def discover_podcast_feed(query, title_terms, publisher_terms):
+    """Resolve an RSS feed from a public catalogue; reject uncertain matches."""
+    from urllib.parse import urlencode, urlparse
+    api = 'https://itunes.apple.com/search?' + urlencode({'term':query, 'entity':'podcast', 'media':'podcast', 'limit':30})
+    req = urllib.request.Request(api, headers={'User-Agent':'CoreForgeOSINT/1.0', 'Accept':'application/json'})
+    with urllib.request.urlopen(req, timeout=18) as response:
+        payload = json.load(response)
+    for item in payload.get('results', []):
+        title = str(item.get('collectionName', '')).lower()
+        artist = str(item.get('artistName', '')).lower()
+        feed = str(item.get('feedUrl', ''))
+        parsed = urlparse(feed)
+        if (any(term in title for term in title_terms)
+                and any(term in artist or term in title for term in publisher_terms)
+                and parsed.scheme == 'https' and parsed.hostname):
+            return feed
+    raise ValueError('No verified publisher/title match with an HTTPS RSS feed in podcast catalogue')
+
 # Approximate reference points, NOT verified incident coordinates. Only title matches
 # are mapped; descriptions can mention a place in unrelated background context.
 # Country markers represent the country, not a precise incident location.
@@ -242,8 +272,27 @@ def collect():
         except Exception as exc:
             errors.append({'source': source, 'message': str(exc)[:200]})
             print(f'{source}: ERROR {exc}')
+    # Keep specialist discovery failures isolated from existing news collection.
+    # Deduplication is shared with ordinary feeds, so one episode is only stored once.
+    podcast_diagnostics = []
+    for source, query, titles, publishers, region in PODCAST_CATALOGUE:
+        try:
+            url = discover_podcast_feed(query, titles, publishers)
+            req = urllib.request.Request(url, headers={'User-Agent':'CoreForgeOSINT/1.0', 'Accept':'application/rss+xml, application/xml, text/xml'})
+            with urllib.request.urlopen(req, timeout=18) as response:
+                raw = response.read(2_000_001)
+            if len(raw) > 2_000_000:
+                raise ValueError('Podcast RSS exceeds 2 MB limit')
+            added = parse_feed(raw, source, 'Geopolitics', region, 'podcast', seen)
+            records.extend(added)
+            podcast_diagnostics.append({'source':source,'status':'ok','episodes':len(added)})
+            print(f'{source}: {len(added)} podcast episodes')
+        except Exception as exc:
+            errors.append({'source':source, 'message':str(exc)[:200]})
+            podcast_diagnostics.append({'source':source,'status':'error','episodes':0})
+            print(f'{source}: ERROR {exc}')
     records.sort(key=lambda x: x['published'], reverse=True)
-    return {'updated': dt.datetime.now(dt.timezone.utc).isoformat().replace('+00:00','Z'), 'records': records, 'errors': errors, 'sources_checked': len(FEEDS)+len(SPECIAL_FEEDS), 'sources_ok': len(FEEDS)+len(SPECIAL_FEEDS)-len(errors), 'collector_version':'1.0.0-rc2', 'classification_method':'keyword-heuristic', 'location_method':'headline-or-lead-reference', 'content_counts': {kind: sum(r['kind'] == kind for r in records) for kind in ('news','podcast','research')}, 'feed_health': 'See errors for failed source names'}
+    return {'updated': dt.datetime.now(dt.timezone.utc).isoformat().replace('+00:00','Z'), 'records': records, 'errors': errors, 'sources_checked': len(FEEDS)+len(SPECIAL_FEEDS)+len(PODCAST_CATALOGUE), 'sources_ok': len(FEEDS)+len(SPECIAL_FEEDS)+len(PODCAST_CATALOGUE)-len(errors), 'collector_version':'1.0.0-rc3', 'classification_method':'keyword-heuristic', 'location_method':'headline-or-lead-reference', 'content_counts': {kind: sum(r['kind'] == kind for r in records) for kind in ('news','podcast','research')}, 'podcast_sources': podcast_diagnostics, 'feed_health': 'See errors for failed source names'}
 
 if __name__ == '__main__':
     payload = collect()
