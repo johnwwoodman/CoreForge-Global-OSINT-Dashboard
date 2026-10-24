@@ -22,11 +22,11 @@ Sources are linked to their original publishers. Approximate map references iden
 
 All release notes are kept in this README. No separate `RELEASE-NOTES*.md` files are needed.
 
-## v1.0 RC3 — 24 October 2026
+## v1.0 Stable — 24 October 2026
 
 Expanded podcast discovery to specialist international-affairs programmes, including Middle East Institute, CSIS, International Crisis Group, Chatham House and Council on Foreign Relations. Added source-level diagnostics for discovered feeds and their episode counts. Added pagination to the Podcasts, Research and Directory tabs: 5, 10, 20 or 50 entries per page, with 10 as the default.
 
-**Maintenance update:** Removed the non-working dedicated UN News Middle East RSS endpoint after it returned an empty or invalid XML response. The collector continues to use the UN News global feed and classifies relevant articles by region. This removes the repeated parser error without claiming the retired endpoint is operational. Regional coverage depends on articles present in the global feed.
+**Maintenance update:** Retained the dedicated UN News Middle East feed and added checks for empty or invalid responses, with a fallback to relevant articles from the main UN News feed when necessary. Collection results depend on publisher availability.
 
 ## v1.0 RC2 — 24 October 2026
 
@@ -100,3 +100,4 @@ global RSS feed, and retains only articles classified as Middle East-related.
 When fallback is used, `warnings` in the generated JSON explains this. If both
 UN feeds fail, Data Health continues to report an error. This is a fallback,
 not proof that the dedicated regional endpoint is reliably accessible.
+
