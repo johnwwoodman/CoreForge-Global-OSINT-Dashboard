@@ -54,3 +54,6 @@ These briefings are summaries of source *headlines*, not full article analysis. 
 
 ### v0.3.2 — Intelligence feed sizing
 The Intelligence Feed is initially limited to a 440px internal scrolling area. Scroll inside the feed to browse articles without extending the entire page. Drag the bottom-right corner of the feed content area to resize its height (180–1600px); the chosen height is stored separately for each workspace. Use **Expand** to show the full list, and **Collapse** to return to the saved bounded height. Existing browser-saved layouts are preserved.
+
+### v0.3.3 — feed pagination and spoken briefing
+The Intelligence Feed now displays 10 articles per page by default (select 5, 10, 20, or 50), with Previous/Next controls. Its independent scroll/resize behaviour remains. The browser's Read Aloud button reads a grouped, publisher-attributed weekly news digest derived from the current seven-day feed rather than a numbered list of headlines. This is **not** an independently verified analytical intelligence assessment; source links are supplied for checking claims.

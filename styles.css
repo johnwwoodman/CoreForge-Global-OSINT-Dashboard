@@ -31,3 +31,10 @@ button:disabled{opacity:.42;cursor:not-allowed}
 .widget:has(.feed-scroll){min-height:0}
 .widget .feed-scroll::-webkit-resizer{background:var(--accent);border-radius:3px}
 @media(max-width:750px){.widget .feed-scroll{max-height:1000px}}
+
+/* v0.3.3: bounded, paginated intelligence feed */
+.feed-pagination{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:8px 0 14px;border-bottom:1px solid var(--line,#32465b);margin-bottom:8px;font-size:13px}
+.feed-pagination label{display:flex;align-items:center;gap:8px}
+.feed-pagination select,.feed-pagination button{background:var(--panel,#1a2b3d);color:inherit;border:1px solid var(--line,#40556b);border-radius:6px;padding:7px 9px;cursor:pointer}
+.feed-pagination button:disabled{opacity:.45;cursor:not-allowed}
+.feed-pagination span{margin-left:auto}
