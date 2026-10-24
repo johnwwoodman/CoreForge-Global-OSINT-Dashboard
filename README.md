@@ -1,140 +1,236 @@
-# CoreForge Global OSINT Dashboard — v0.2.0-alpha
+# CoreForge Global OSINT Dashboard
 
-Free, local-first browser dashboard with the official CoreForge Ltd logo.
+## Release Notes
 
-## Open it
+This document records the development of CoreForge Global OSINT Dashboard, from the initial dashboard through to the introduction of local AI analysis.
 
-Unzip and double-click `index.html`. **No Python, Node.js, server, or AI model is required to view the dashboard.** The bundled world map works when opened directly from disk.
+CoreForge is an open-source intelligence dashboard designed to bring together publicly available reporting, regional analysis, research publications and podcasts in one place.
 
-## What changed in v0.2
+The dashboard can be accessed through a web browser, with optional local AI analysis using Ollama.
 
-- Light theme button and badge contrast corrected.
-- Workspaces for Global, Middle East, Europe, Americas, Asia-Pacific, Africa and Custom; each saves its own widget layout. Selecting a workspace applies its regional filter, which you can then override.
-- RSS collection pipeline added (`scripts/collect_feeds.py` and `.github/workflows/collect.yml`). It collects **headlines, short descriptions, publication dates and original publisher links**, not full copyrighted articles.
-- The browser reads `data/live-feed.js` as a local static snapshot; when hosted over HTTP, **Check for updated feed** requests `data/live-feed.json` without requiring browser access to third-party RSS domains.
-- RSS feed freshness, counts and errors are displayed. Empty snapshots are labelled honestly; no fake live news is supplied.
-- Source-directory sample cards remain accessible with **Show source directory** but are not live news.
+---
 
-## Enabling live news
+## Version 1.0 RC3 — 24 October 2026
 
-The ZIP includes an empty RSS snapshot because the build environment cannot reach publisher feeds. **Live news does not appear until collection runs successfully.**
+### Specialist Podcast Sources
 
-For GitHub hosting: push the repository, enable GitHub Actions with workflow write permissions, and run **Collect public RSS headlines** manually once. It will subsequently run approximately every three hours (GitHub scheduled jobs can be delayed). Download a fresh ZIP from the repository for an updated local snapshot. GitHub Pages can serve the static site and JSON data, subject to repository Pages configuration.
+This update expands the podcast collection system, with a particular focus on Middle East reporting and analysis.
 
-For a maintainer with Python installed, run `python scripts/collect_feeds.py` and then reopen `index.html`. Python is required **only for collecting**, not for viewing.
+**Changes**
 
-Feeds configured: BBC World, BBC regional news, The Guardian World and Middle East, and UN News. Feed endpoints may change or restrict access. Collector failures are logged; if all fail, it preserves the last snapshot. Publisher access and reuse terms should be reviewed before public distribution. Podcast RSS and specialist research feeds are planned, not yet live.
+* Added support for collecting podcast episodes from specialist foreign-policy and security organisations.
+* Expanded the source catalogue to include programmes from the Middle East Institute, CSIS, International Crisis Group, Chatham House and the Council on Foreign Relations.
+* Improved the way podcast episodes are associated with regional workspaces.
+* Added collection diagnostics to help identify feeds that are unavailable or not returning episodes.
+* Retained audio playback where publishers provide accessible audio files.
 
-## Limitations
+Podcast availability depends on the individual publishers' feeds. Not every programme will necessarily return episodes during each collection.
 
-- Workspaces have arrow-based reordering and preset widget widths; freeform drag-and-drop is not implemented yet.
-- Map uses bundled Natural Earth geometry; news headlines are not geotagged unless their records contain coordinates.
-- Local `file://` browsers cannot refresh feeds over HTTP. Re-download an updated bundle instead.
-- No automatic factual corroboration, AI analysis, paywall bypass, article scraping or tracking.
-- Browser localStorage saves layouts and imported records; clear site data to reset.
+## Version 1.0 RC2 — 24 October 2026
 
-## Imported record JSON
+### Podcast Collection Improvements
 
-Import an array of records with fields `title`, `source`, `description`, `category`, `region`, `kind`, `url`, `published`, and optional `lat` / `lon`. Export downloads the dashboard configuration.
+This release addresses problems with podcast episodes not appearing in the dashboard.
 
-## v0.3 map and weekly briefings
+**Changes**
 
-The global map automatically focuses on the selected workspace's region, or the region selected under Global Filters. The map uses Natural Earth sovereign boundaries: disconnected overseas territories (for example French Guiana) are separate clickable map shapes, though they retain the sovereign name in the dataset. Geographic focus boxes are approximate and are not geopolitical boundaries.
+* Improved identification of podcast episodes in RSS feeds.
+* Added support for audio attachments supplied by podcast publishers.
+* Corrected filtering between podcasts and research publications.
+* Added podcast collection information to Data Health.
+* Improved messages displayed when no podcast episodes are available.
 
-The **Weekly Intelligence Brief** widget provides a workspace-specific, source-linked, rules-based headline digest. Click **Read aloud** to use the browser's built-in speech synthesis; it is **not** ChatGPT's Read Aloud voice and quality varies by browser/OS. Use **Stop** to interrupt or **Save text** to export the digest. Weekly scheduled briefs are generated by `.github/workflows/weekly-brief.yml` each Monday at 07:15 UTC, provided the repository has GitHub Actions enabled and RSS feeds are accessible. The weekly job runs Python on GitHub's servers, not on viewers' laptops. `data/weekly-briefs.js` is included for direct `file://` use, while `data/weekly-briefs.json` is the portable structured version. Before the first successful collection, the widget correctly reports that no briefing is available.
+The underlying intelligence collection and local Ollama integration remain unchanged.
 
-These briefings are summaries of source *headlines*, not full article analysis. They cannot claim to verify reports or offer the analytical quality of a human-authored or LLM-assisted CMI/CIMIC brief. A future release can support higher-quality optional analysis with explicitly attributed source material.
+## Version 1.0 RC1 — 24 October 2026
+
+### Dashboard and AI Improvements
+
+This release brings together the main dashboard features and introduces several usability improvements ahead of the first stable release.
+
+**Changes**
+
+* Reorganised Podcasts & Research into three tabs: Podcasts, Research and Directory.
+* Retained the original directory of specialist publishers and research organisations.
+* Shortened publication descriptions to make browsing easier.
+* Added indicators for older publications.
+* Introduced configurable source limits for AI-generated assessments.
+* Added elapsed-time information while Ollama processes an assessment.
+* Improved the Windows launch process without requiring Python.
+
+AI assessments continue to use the selected workspace's collected reporting, with references to the original sources.
+
+## Version 0.8.1 — 24 October 2026
+
+### Simplified Windows Setup
+
+This update removes the need to install Python when running CoreForge with Ollama on Windows.
+
+**Changes**
+
+* Replaced the Python-based local connector with a PowerShell-based alternative.
+* Added a Windows launcher that starts the local dashboard and connects to Ollama.
+* Updated the setup instructions.
+* Retained the existing dashboard and local AI features.
+
+Ollama must still be installed separately to use AI analysis.
+
+## Version 0.8.0 — 24 October 2026
+
+### Local AI Integration
+
+This release introduces optional AI analysis using Ollama.
+
+**Changes**
+
+* Added a Local AI Analyst widget.
+* Introduced AI-generated intelligence assessments based on collected reporting.
+* Added the ability to ask questions about reporting within a selected workspace.
+* Included civil-environment and CMI/CIMIC considerations in assessment prompts.
+* Added source references to AI-generated outputs.
+* Introduced assessment export.
+* Added a local connection between the dashboard and Ollama.
+
+AI analysis runs on the user's computer. The standard dashboard remains usable without Ollama.
+
+Assessments are generated from collected headlines, descriptions and metadata, rather than the full text of every publication.
+
+## Version 0.7.0 — 24 October 2026
+
+### Intelligence Sources and Data Monitoring
+
+This release expands the intelligence collection system and improves source management.
+
+**Changes**
+
+* Fixed an issue where opening the Source Directory replaced live intelligence records.
+* Added controls for enabling and disabling publishers within individual workspaces.
+* Introduced podcast and research feed collection.
+* Added audio playback support for podcast episodes where available.
+* Improved the structure of automated weekly briefings.
+* Added a Data Health widget showing collection status, feed errors and data freshness.
+* Improved interaction with geographic references on the map.
+* Added collector version information to assist troubleshooting.
+
+Publisher preferences are stored locally in the browser.
+
+## Version 0.6.1
+
+### Intelligence Collector Improvements
+
+This update focuses on the reliability of the intelligence collection process.
+
+**Changes**
+
+* Updated the RSS collector to improve regional classification.
+* Improved identification of geographic references in reporting.
+* Expanded intelligence categories beyond general geopolitics.
+* Added collector version information to the generated data.
+* Improved compatibility between collected records and dashboard widgets.
+
+Geographic references indicate places mentioned in reporting. They should not be treated as confirmed incident locations.
+
+## Version 0.6.0
+
+### Regional Intelligence and Mapping
+
+This release develops the dashboard's regional intelligence capabilities.
+
+**Changes**
+
+* Improved regional workspace handling.
+* Expanded geographic reference detection.
+* Refined the interactive map and regional framing.
+* Improved integration between collected reporting and map references.
+* Continued development of intelligence categorisation and filtering.
+
+## Version 0.5.0
+
+### Automated Intelligence Collection
+
+This release develops the use of automatically collected intelligence reporting.
+
+**Changes**
+
+* Expanded RSS-based intelligence collection.
+* Improved integration with GitHub Actions.
+* Continued development of automatically generated intelligence data.
+* Improved handling of source information and publication metadata.
+
+## Version 0.4.0
+
+### Intelligence Briefings
+
+This release introduces and develops briefing functionality.
+
+**Changes**
+
+* Added automated intelligence briefing features.
+* Improved the presentation of collected reporting.
+* Introduced source-linked briefing content.
+* Added support for reading briefings aloud through the browser.
+
+## Version 0.3.3
+
+### Intelligence Feed Controls
+
+**Changes**
+
+* Added pagination options for the Intelligence Feed.
+* Expanded filtering by category, publisher, date and region.
+* Added saved articles.
+* Introduced CSV export.
+* Improved handling of map references and watchlist filtering.
+
+## Version 0.3.2
+
+### Dashboard Layout Improvements
+
+**Changes**
+
+* Improved Intelligence Feed sizing and scrolling.
+* Added more consistent widget resizing.
+* Improved expand and collapse behaviour.
+* Refined the dashboard layout for different screen sizes.
+
+## Version 0.3.0
+
+### Interactive Dashboard Development
+
+**Changes**
+
+* Expanded configurable dashboard widgets.
+* Developed regional workspaces.
+* Improved the presentation of intelligence sources.
+* Continued development of the interactive map and reporting views.
+
+## Version 0.2.0
+
+### Dashboard Expansion
+
+**Changes**
+
+* Expanded the initial dashboard layout.
+* Added further intelligence widgets and controls.
+* Improved navigation and workspace organisation.
+* Developed the visual design and user interface.
+
+## Version 0.1.0
+
+### Initial Release
+
+The first version of CoreForge Global OSINT Dashboard established the foundation for a browser-based intelligence dashboard.
+
+**Initial features**
+
+* Dark-themed dashboard interface.
+* Configurable intelligence widgets.
+* Regional intelligence workspaces.
+* Initial source directory.
+* Early intelligence feed and mapping functionality.
+* CoreForge branding.
+
+---
 
 
-### v0.3.1 map controls
-- Middle East default extent includes Afghanistan and Pakistan, with surrounding context.
-- Zoom using +/- buttons or the mouse wheel; drag the map to pan.
-- Region view resets the current map extent.
-- Map views are retained while navigating widgets and reset on a page reload.
-
-### v0.3.2 — Intelligence feed sizing
-The Intelligence Feed is initially limited to a 440px internal scrolling area. Scroll inside the feed to browse articles without extending the entire page. Drag the bottom-right corner of the feed content area to resize its height (180–1600px); the chosen height is stored separately for each workspace. Use **Expand** to show the full list, and **Collapse** to return to the saved bounded height. Existing browser-saved layouts are preserved.
-
-### v0.3.3 — feed pagination and spoken briefing
-The Intelligence Feed now displays 10 articles per page by default (select 5, 10, 20, or 50), with Previous/Next controls. Its independent scroll/resize behaviour remains. The browser's Read Aloud button reads a grouped, publisher-attributed weekly news digest derived from the current seven-day feed rather than a numbered list of headlines. This is **not** an independently verified analytical intelligence assessment; source links are supplied for checking claims.
-
-
-## v0.4.0 — Workspace intelligence controls
-- Publisher dropdown changes with selected region; select a publisher to narrow records.
-- Time window: all, 24 hours, 3, 7 or 30 days.
-- Save/unsave articles with the star button; filter to saved articles (browser-local).
-- Expanded workspace-aware research/podcast source directory. Links are directories, not ingested episodes.
-- Collector now assigns `regions` using conservative keyword matching and retains the source feed's region. This is **relevance tagging, not geolocation or verified event location**. Unclassified global articles remain in the Global workspace, rather than flooding every regional view. Multi-region reporting may appear in multiple workspaces.
-- Spoken briefing now incorporates short publisher feed descriptions when present. This remains an automated source-attributed digest, not a human intelligence assessment.
-- Re-run the collection workflow after deploying `scripts/collect_feeds.py` to populate the new region tags.
-
-
-## v0.5.0 — Intelligence mapping and export
-- Conservative **headline-only** location matching supplies approximate map references (cities or country centroids). These are **not verified incident geolocations** and are omitted for ambiguous multi-place headlines. Do not use for operational targeting, incident counts, or precise geographic analysis.
-- Click or keyboard-activate map pins to open the original reporting. Map markers and counts reflect matching article records, not independent events.
-- CSV export of the currently filtered intelligence records, including provenance and approximate location labels.
-- Additional BBC and Guardian category feeds, independently error-tolerant.
-- Source directory now reports collection health when the refreshed snapshot includes it.
-
-**Deployment:** Replace `app.js`, `index.html`, `styles.css`, `scripts/collect_feeds.py`, and `README.md`. Keep existing `data/live-feed.*` and workflow files on GitHub. Manually rerun the collector workflow to populate approximate map references. The bundled snapshot is intentionally not fabricated or regenerated.
-
-
-## v0.6.0 — Deployment and verification (important)
-
-**To see changes on GitHub Pages, commit the new root `index.html`, `app.js`, `styles.css`, and `scripts/collect_feeds.py` to `main`.** The ZIP does not automatically update your published site. Do not upload the enclosing project folder as a subfolder. Do not overwrite `data/live-feed.js` or `data/live-feed.json` with older bundled snapshots.
-
-The dashboard footer and header explicitly display `v0.6.0-alpha`. If your live site still displays `v0.5.0-alpha`, the new code has not been deployed. Allow Pages to finish and hard-refresh (Ctrl+F5). `index.html` includes cache-busting query strings for CSS and JS.
-
-After updating the Python collector, run **Actions → Collect Intelligence Feeds → Run workflow**. Existing published records cannot gain approximate location references retroactively until a new collection completes. Inspect `data/live-feed.json` for `lat`, `lon`, `place` and `location_verified: false`. Not every headline can be mapped, intentionally.
-
-### What's new
-- Map marker click opens an **in-map source preview**, instead of sending you immediately away. Open the publisher's original reporting from the preview.
-- **Map references only** filter for auditing mapped records.
-- **Watchlist keywords** (comma separated) filter headlines, descriptions and publishers, saved in local browser preferences.
-- Wider headline location vocabulary including Afghanistan, Pakistan, the Levant and Central Asia; additional regional RSS sources (publisher availability not guaranteed).
-- Briefing text organised by topic and explicitly stating coverage limitations.
-- Visible release version and CSS/JS cache busting to make deployment issues easier to diagnose.
-
-### What is not implemented yet
-The map references are approximate keyword-derived mentions, **not incident geocoding**. Research and podcast directory entries are links, **not episode ingestion**. Briefings are deterministic summaries of collected publisher metadata, **not independent intelligence assessments**. The GitHub workflow must run to populate newly supported location references.
-
-
-## v0.6.1 data diagnostics and topic/map fixes
-
-This release updates the collector and adds an explicit **Collector version** diagnostic in the sidebar.
-If it says **legacy/unknown**, the browser is reading an older RSS snapshot: upload
-`scripts/collect_feeds.py` to GitHub, commit, manually run **Collect Intelligence Feeds**,
-then use **Check for updated feed**. Updating only HTML/JS cannot retroactively
-add coordinates or change categories in an existing RSS snapshot.
-
-Categories are approximate keyword-based article topics (not verified intelligence assessments).
-Locations are approximate place mentions in titles or opening description sentences;
-they are not verified incident coordinates. No map reference is invented when multiple
-places match. Some snapshots may legitimately have few references.
-
-The collector records `collector_version`, `classification_method` and `location_method`
-in the snapshot for troubleshooting.
-
-
-## v0.7.0 — Non-AI intelligence improvements
-- The **Open source directory** button scrolls to the Source Directory widget; it never overwrites RSS records. Older stored directory-as-feed data is discarded automatically.
-- Source Directory has workspace-specific publisher toggles (stored in browser localStorage). Source exclusions affect display only, not GitHub collection.
-- Data Health widget reports collector version, freshness, map references, responding feeds and errors.
-- Podcast/research RSS metadata collection is attempted for four additional public feeds; failures are reported, and availability is not guaranteed. Where a podcast feed supplies an HTTPS audio enclosure, the widget offers browser playback. No full-text article scraping.
-- The podcast/research widget prioritises collected publication entries and falls back to the curated directory when none are available.
-- The map marker preview is retained without automatically opening the article on the same click.
-
-**Deploy:** Replace `app.js`, `index.html`, `styles.css`, `scripts/collect_feeds.py`, and `README.md` in their exact paths. Keep `.github/` workflows and the existing `data/` snapshot. Manually run the RSS collector once after deployment. GitHub Pages then serves the updated generated data.
-- Weekly briefing generator now caps repeated publishers, groups items by category, and includes short publisher-provided descriptions where available. It remains a rule-based digest, not AI analysis.
-
-
-## v0.8 local Ollama analyst
-
-Use the complete release ZIP and read `LOCAL-AI-SETUP.md` for Windows and Mac instructions. The GitHub Pages deployment retains its non-AI dashboard; the AI widget runs only when the app is served from the local-only Python launcher. This release is beta and source-grounded to RSS metadata, not verified full-text intelligence.
-
-
-See RELEASE-NOTES-v1.0-RC1.md for changes and known limitations.
-
-
-## RC2 podcast fix
-See `RELEASE-NOTES-v1.0-RC2.md`. Publish `scripts/collect_feeds.py` and run the collector before expecting new podcast episodes in the local dashboard.
+Development is focused on improving source coverage, checking platform compatibility and resolving remaining issues before the first stable release.
