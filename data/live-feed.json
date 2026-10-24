@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T18:06:39.608135Z",
+  "updated": "2026-10-24T18:16:22.390126Z",
   "records": [
     {
       "title": "Thousands march in Paris and other French cities as protests take place across Europe – Europe live",
@@ -8620,7 +8620,7 @@
   "errors": [
     {
       "source": "UN News Middle East",
-      "message": "no element found: line 1, column 0"
+      "message": "not well-formed (invalid token): line 1, column 0"
     }
   ],
   "sources_checked": 27,
