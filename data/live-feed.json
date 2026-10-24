@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-24T18:42:59.196313Z",
+  "updated": "2026-10-24T20:45:02.832890Z",
   "records": [
     {
-      "title": "Total of 410,000 march across France as protests take place across Europe – Europe live",
+      "title": "Hundreds of thousands march in France as protests take place across Europe – as it happened",
       "source": "The Guardian World",
-      "description": "French police have made 135 arrests, while Italian officers have raided homes in Milan, with protests also taking place in Spain and Albania Jesse, 40, a charity worker from the north of Paris, had turned out for the street march. She said: “I’m so angry. I’m here to support schoolchildren’s demands for better conditions. I’m so proud of them and we have to stand together.” Continue reading...",
+      "description": "French police have made 1,000 arrests and Italian officers have raided homes in Milan, with protests also taking place in Spain and Albania Jesse, 40, a charity worker from the north of Paris, had turned out for the street march. She said: “I’m so angry. I’m here to support schoolchildren’s demands for better conditions. I’m so proud of them and we have to stand together.” Continue reading...",
       "category": "Geopolitics",
       "region": "Europe",
       "regions": [
@@ -12,13 +12,54 @@
       ],
       "kind": "news",
       "url": "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news",
-      "published": "2026-10-24T18:26:30Z",
+      "published": "2026-10-24T20:22:18Z",
       "lat": 46.6,
       "lon": 2.21,
       "place": "France",
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
+    },
+    {
+      "title": "Fireworks and tear gas as protesters and riot police clash in Paris",
+      "source": "BBC World",
+      "description": "Europe correspondent Nick Beake reports from Paris where mostly peaceful protests turned into unrest after nightfall.",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/cm89zqw9lx1do?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-24T19:37:35Z",
+      "lat": 48.86,
+      "lon": 2.35,
+      "place": "Paris",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
+      "source": "BBC World",
+      "description": "The ex-wife of Donald Trump Jr, with whom she shares five children, announced in May that she had been diagnosed with breast cancer.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cm1dwzvn6227o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-24T19:12:51Z"
+    },
+    {
+      "title": "The BoM’s temperature record keeping is under attack – again. What’s going on? | Temperature Check",
+      "source": "The Guardian Environment",
+      "description": "An ‘audit’ of the Bureau of Meteorology main dataset for measuring climate change claims it contains ‘widespread errors’. It doesn’t stack up Want to get this in your inbox when it publishes? Sign up for the Clear Air Australia newsletter here Australia’s climate has warmed by more than 1.5C since 1910, according to the Bureau of Meteorology’s main long-term temperature data. If you were so motivated, you might think if you could discredit this data, then you would undermine the whole climate ch",
+      "category": "Disasters",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/environment/2026/oct/25/bom-temperature-record-keeping-under-attack-again",
+      "published": "2026-10-24T19:00:41Z"
     },
     {
       "title": "Tens of thousands of Lula supporters rally on eve of Brazilian election runoff",
@@ -76,7 +117,7 @@
       "location_verified": false
     },
     {
-      "title": "Palestinian families displaced as Israeli forces demolish Hebron homes, local officials say",
+      "title": "Palestinian families displaced as Israeli forces demolish Hebron homes",
       "source": "BBC World",
       "description": "The crackdown follows the killing of two Israeli soldiers by two Palestinian gunmen on Friday - and comes just days ahead of Israel's election.",
       "category": "Humanitarian",
@@ -140,7 +181,7 @@
       "location_verified": false
     },
     {
-      "title": "Watch as fire engulfs Hitler's mountaintop Eagle's Nest retreat",
+      "title": "Fire engulfs Hitler's mountaintop Eagle's Nest retreat",
       "source": "BBC World",
       "description": "Police in the southern German state of Bavaria have detained a 33-year-old German man following the fire.",
       "category": "Geopolitics",
@@ -189,17 +230,6 @@
       "location_precision": "country-centroid",
       "location_method": "description-lead-keyword",
       "location_verified": false
-    },
-    {
-      "title": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
-      "source": "BBC World",
-      "description": "The ex-wife of Donald Trump Jr, with whom she shares five children, announced in May that she had been diagnosed with breast cancer.",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cm1dwzvn6227o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-24T14:45:30Z"
     },
     {
       "title": "Suspect arrested over fire at Hitler’s ‘Eagle’s Nest’ retreat in Bavaria",
@@ -1193,25 +1223,6 @@
       "published": "2026-10-23T12:00:25Z"
     },
     {
-      "title": "World News in Brief: Iran nuclear inspections, deadly church attack in Jordan, El Fasher – one year on",
-      "source": "UN News Middle East",
-      "description": "The head of the International Atomic Energy Agency (IAEA), Rafael Grossi, called on Friday for a swift return of inspectors to Iran, warning of growing fragility in the global nuclear non-proliferation regime.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168664",
-      "published": "2026-10-23T12:00:00Z",
-      "lat": 32.43,
-      "lon": 53.69,
-      "place": "Iran",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "West Bank: Guterres alarmed as Israel imposes sweeping closures after deadly Hebron attack",
       "source": "UN News Middle East",
       "description": "The UN said on Friday it was “extremely alarmed” by intensifying violence in the occupied West Bank, as Israel moved to seal off the territory following a deadly attack on its soldiers in Hebron.",
@@ -1245,6 +1256,25 @@
       "lat": 15.55,
       "lon": 48.52,
       "place": "Yemen",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "World News in Brief: Iran nuclear inspections, deadly church attack in Jordan, El Fasher – one year on",
+      "source": "UN News",
+      "description": "The head of the International Atomic Energy Agency (IAEA), Rafael Grossi, called on Friday for a swift return of inspectors to Iran, warning of growing fragility in the global nuclear non-proliferation regime.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168664",
+      "published": "2026-10-23T12:00:00Z",
+      "lat": 32.43,
+      "lon": 53.69,
+      "place": "Iran",
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
@@ -1842,12 +1872,14 @@
       "published": "2026-10-22T21:53:28Z"
     },
     {
-      "title": "'It's part of the culture' - New York bans horse-drawn carriages after more than 160 years",
-      "source": "BBC World",
+      "title": "Watch: 'It's part of the culture' - New York bans horse-drawn carriages after more than 160 years",
+      "source": "BBC Americas",
       "description": "The BBC's Madeline Halpert spoke to city tourists, residents and horse carriage workers about the industry and their opinion on the ban.",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/videos/ck5yn9dqnqj7o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-22T20:48:56Z",
@@ -2222,7 +2254,7 @@
     },
     {
       "title": "World News in Brief: Russian attacks intensify, UN team tours West Bank, ‘unlawful’ elderly deaths",
-      "source": "UN News Middle East",
+      "source": "UN News",
       "description": "Long-range Russian attacks across Ukraine are intensifying, including in Kyiv, causing at least 14 civilian deaths and 78 injuries overnight into Thursday, as UN agencies continue to provide aid.",
       "category": "Humanitarian",
       "region": "Middle East",
@@ -2843,17 +2875,6 @@
       "kind": "news",
       "url": "https://www.theguardian.com/world/2026/oct/21/us-vaccine-trial-african-newborns-hepatitis-b",
       "published": "2026-10-21T17:18:56Z"
-    },
-    {
-      "title": "Burnham approves Jackdaw – and Labour’s unity on climate action is imperilled with the stroke of a pen | Zoe Williams",
-      "source": "The Guardian Environment",
-      "description": "This foolish decision undermines hopes that this government will take the necessary steps the climate crisis demands When the news broke that the UK government had approved the Jackdaw gasfield , I was at a Guardian climate event at the Royal Geographical Society. Appropriately, the theme suggested by readers was what can the public actually do in the face of what feels like paralysing climate doom? There is so much going on that is hopeful: biodiversity tracking, river protection, rewilding. Sh",
-      "category": "Disasters",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/commentisfree/2026/oct/21/andy-burnham-approve-jackdaw-labour-climate-action",
-      "published": "2026-10-21T17:14:42Z"
     },
     {
       "title": "Burnham proposes plan to cut standing charges from gas bills",
@@ -3555,25 +3576,6 @@
       "published": "2026-10-20T13:54:35Z"
     },
     {
-      "title": "‘One step away from famine’: Inside Afghanistan’s hunger crisis",
-      "source": "UN News Middle East",
-      "description": "Following extreme hunger warnings, a bitter reality is unfolding across Afghanistan: food is available, but remains inaccessible for millions of people.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168631",
-      "published": "2026-10-20T12:00:00Z",
-      "lat": 33.94,
-      "lon": 67.71,
-      "place": "Afghanistan",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "Yemen war continues to force families from homes amid hunger and disease",
       "source": "UN News Middle East",
       "description": "More than 250,000 people have now fled renewed fighting in Yemen, the UN said on Tuesday, citing particular concern for those sheltering in the southwestern city of Taiz and the wider governorate, where access is “essentially blocked”.",
@@ -3632,6 +3634,25 @@
       "kind": "news",
       "url": "https://news.un.org/feed/view/en/story/2026/10/1168632",
       "published": "2026-10-20T12:00:00Z"
+    },
+    {
+      "title": "‘One step away from famine’: Inside Afghanistan’s hunger crisis",
+      "source": "UN News",
+      "description": "Following extreme hunger warnings, a bitter reality is unfolding across Afghanistan: food is available, but remains inaccessible for millions of people.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168631",
+      "published": "2026-10-20T12:00:00Z",
+      "lat": 33.94,
+      "lon": 67.71,
+      "place": "Afghanistan",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
     },
     {
       "title": "North Korea publishes photos of Kim Jong Un - why do rumours of his death keep coming back?",
@@ -3889,6 +3910,44 @@
       "published": "2026-10-19T12:51:44Z"
     },
     {
+      "title": "‘Season of fear’: Escalating Israeli attacks on West Bank olive farmers, deadly strikes on Gaza",
+      "source": "UN News Middle East",
+      "description": "Israeli attacks on war-torn Gaza over the weekend killed at least six Palestinians, including children, despite a year-old ceasefire agreement. Meanwhile, in the occupied West Bank, settler violence continued through the ongoing olive harvest, with UN independent experts on Monday urging Israel to protect Palestinian farmers.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168625",
+      "published": "2026-10-19T12:00:00Z",
+      "lat": 31.5,
+      "lon": 34.47,
+      "place": "Gaza",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Gaza: Funding cuts leave half a million without food assistance",
+      "source": "UN News Middle East",
+      "description": "Funding shortages have forced the World Food Programme (WFP) to slash assistance to hungry families in the Gaza Strip by roughly one third – a move that will affect some 500,000 people as winter approaches, the UN agency announced on Monday.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168622",
+      "published": "2026-10-19T12:00:00Z",
+      "lat": 31.5,
+      "lon": 34.47,
+      "place": "Gaza",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
       "title": "UN condemns deadly wave of drone strikes in war-torn Sudan",
       "source": "UN News",
       "description": "Drone strikes killed and injured dozens across Sudan on Monday as the ongoing war continues to cause soaring displacement and hunger.",
@@ -4125,6 +4184,25 @@
       "location_verified": false
     },
     {
+      "title": "Flour sacks turned flood barriers: Gaza faces another winter without safe shelter",
+      "source": "UN News Middle East",
+      "description": "Like many people in the war-ravaged Gaza Strip, Ahmed Al-Omari is preparing for another winter of bitter cold and rain that threatens to cause flooding as families struggle to survive in tattered tents and damaged buildings.",
+      "category": "Disasters",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168619",
+      "published": "2026-10-17T12:00:00Z",
+      "lat": 31.5,
+      "lon": 34.47,
+      "place": "Gaza",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
       "title": "As King Charles heads to the Caribbean, he should know that Winston Churchill admitted to imperial plunder 90 years ago | Kenneth Mohammed",
       "source": "The Guardian Global Development",
       "description": "Modern politicians play on tales of empire to exaggerate what Britain left behind, but the monarch should consider a historical speech on imperial plunder For us in the Caribbean, there is something surreal about Britain’s renewed nostalgia over empire. As Britain’s monarch prepares to visit the Caribbean , and at a time when we in the former colonies are demanding to have a serious reckoning with slavery and reparations , UK politicians are invoking a dumbed-down distortion of history. Rewritin",
@@ -4189,6 +4267,25 @@
       "kind": "news",
       "url": "https://www.theguardian.com/environment/2026/oct/16/restaurant-pandemic-loans",
       "published": "2026-10-16T13:00:11Z"
+    },
+    {
+      "title": "Gaza: 340 children killed despite ceasefire agreement - UNICEF",
+      "source": "UN News Middle East",
+      "description": "A little over one year since a ceasefire agreement was announced between Hamas fighters and Israel, more than 340 children have been reported killed and hundreds more injured, the UN Children’s Fund (UNICEF) said on Friday.",
+      "category": "Defence",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168611",
+      "published": "2026-10-16T12:00:00Z",
+      "lat": 31.5,
+      "lon": 34.47,
+      "place": "Gaza",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
     },
     {
       "title": "How will Ukraine get through winter after the Trump-Putin diesel deal?",
@@ -4284,6 +4381,25 @@
       "audio_url": "https://traffic.libsyn.com/secure/middleeastinst/Middle_East_Focus_10.15.26_edited_mixdown.mp3?dest-id=531685",
       "url": "https://middleeastinst.libsyn.com/deadlock-in-gaza-and-the-west-bank-at-a-breaking-point",
       "published": "2026-10-15T19:20:00Z",
+      "lat": 31.5,
+      "lon": 34.47,
+      "place": "Gaza",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Security Council LIVE: Deaths, demolitions spike in Gaza, West Bank",
+      "source": "UN News Middle East",
+      "description": "Amid a rise in lethal Israeli strikes, demolitions and violence in Gaza and the West Bank, the Security Council held an open debate on Thursday focusing on the current situation in the Occupied Palestinian Territory.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168599",
+      "published": "2026-10-15T12:00:00Z",
       "lat": 31.5,
       "lon": 34.47,
       "place": "Gaza",
@@ -4457,6 +4573,39 @@
       "published": "2026-10-14T14:16:04Z"
     },
     {
+      "title": "Yemen: WFP warns of potential ‘humanitarian catastrophe’ as fighting blocks aid delivery",
+      "source": "UN News Middle East",
+      "description": "Intensifying fighting in Yemen has cut off life-saving assistance to 800,000 people as shifting frontlines, blocked roads and growing insecurity severely restrict access to the city of Taiz and other conflict zones, the UN World Food Programme (WFP) said on Wednesday.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168591",
+      "published": "2026-10-14T12:00:00Z",
+      "lat": 15.55,
+      "lon": 48.52,
+      "place": "Yemen",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "WHO calls for urgent health action across the Eastern Mediterranean",
+      "source": "UN News Middle East",
+      "description": "The head of the World Health Organization (WHO) has called for promoting, providing and protecting health in the Eastern Mediterranean region, home to some of the world’s top humanitarian crises such as Sudan, Yemen and the Occupied Palestinian Territory.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East",
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168590",
+      "published": "2026-10-14T12:00:00Z"
+    },
+    {
       "title": "From black soldier flies to mealworms: farming insects for food, fodder and fertiliser in Uganda",
       "source": "The Guardian Global Development",
       "description": "Cultivating the nutritious bugs means families can raise livestock and enrich their own food, while lowering pressures on the land Just a few minutes’ walk from his home in the Kyaka II refugee settlement, Kanane Bikanyale keeps a small flock of chickens. From a modified jerrycan, he pours out black soldier fly larvae into the coup where they disappear in a scrum of pecking chickens. Kanane Bikanyale tends to his black soldier fly larvae in a rearing unit in the Kyaka II refugee camp in Uganda C",
@@ -4559,6 +4708,25 @@
       "published": "2026-10-13T15:01:17Z"
     },
     {
+      "title": "Yemen: Houthi siege, cholera outbreak and aid cuts put civilians in the crosshairs",
+      "source": "UN News Middle East",
+      "description": "Yemen’s southwestern city of Taiz is facing a “devastating” humanitarian crisis as escalating tensions are dramatically driving up food prices and causing shortages of supplies, the UN Spokesperson said on Tuesday.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168589",
+      "published": "2026-10-13T12:00:00Z",
+      "lat": 15.55,
+      "lon": 48.52,
+      "place": "Yemen",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
       "title": "Latin American organised crime ‘may operate in 16 European countries’",
       "source": "The Guardian Global Development",
       "description": "Cocaine seizures in Europe are up more than fivefold in 10 years as a host of cartels take root. A four-month Guardian investigation reveals the true scale of a continent-wide shift A four-month investigation by the Guardian has revealed that the surge in cocaine trafficking to Europe is directly linked to the expanding presence of Latin American criminal networks in Europe, where they have forged close ties with local mafia organisations. The investigation, utilising databases, police and intel",
@@ -4635,6 +4803,25 @@
       "location_verified": false
     },
     {
+      "title": "Security Council LIVE: Syria’s fragile transition – economic strain, Israeli incursions and progress towards elections",
+      "source": "UN News Middle East",
+      "description": "The Security Council met to debate Syria's thorny transition Monday as it faces pressure on several fronts. Economic hardship is fuelling unrest, Israeli incursions continue in the south and sectarian tensions persist in Sweida, even as Damascus reports progress on its chemical weapons programme and talks about future elections. Millions, meanwhile, remain displaced. Follow live below and go here for full meetings coverage.",
+      "category": "Economics",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168578",
+      "published": "2026-10-12T12:00:00Z",
+      "lat": 34.8,
+      "lon": 38.99,
+      "place": "Syria",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
       "title": "Watch: CCTV shows people take cover as missile hits Riyadh airport",
       "source": "BBC Middle East",
       "description": "Footage from inside the airport shows the moment the strike hit on Saturday.",
@@ -4678,6 +4865,38 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c962y4ld1d7do?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-11T23:13:20Z"
+    },
+    {
+      "title": "Djibouti shipwreck: Death toll rises to 139 as 84 remain missing",
+      "source": "UN News Middle East",
+      "description": "At least 139 migrants have died after their boat capsized off Djibouti, with a further 84 people still missing, the UN migration agency (IOM) said on Sunday.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168573",
+      "published": "2026-10-11T12:00:00Z"
+    },
+    {
+      "title": "Sustaining livelihoods amid crisis in Gaza",
+      "source": "UN News Middle East",
+      "description": "Nidaa, Hanaa and Hanin have different stories, but share a common thread: the determination to build something of their own and keep it going despite extraordinary challenges facing them in war-ravaged Gaza.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168569",
+      "published": "2026-10-11T12:00:00Z",
+      "lat": 31.5,
+      "lon": 34.47,
+      "place": "Gaza",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
     },
     {
       "title": "Tech Now",
@@ -4740,6 +4959,38 @@
       "lat": 9.15,
       "lon": 40.49,
       "place": "Ethiopia",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Amid heartache of Nepal flooding disaster, fear remains",
+      "source": "UN News Middle East",
+      "description": "Six weeks after Nepal’s deadly flooding disaster, communities are still struggling to rebuild their lives, but they will need sustained help as global warming increases the risk of another Himalayan catastrophe, the UN Children’s Fund (UNICEF) said on Friday.",
+      "category": "Disasters",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168561",
+      "published": "2026-10-09T12:00:00Z"
+    },
+    {
+      "title": "Security Council LIVE: Yemen has fallen back into full-scale war, warns UN envoy",
+      "source": "UN News Middle East",
+      "description": "The Security Council met to discuss the crisis in Yemen Friday, where a Houthi offensive launched in September has sharply escalated the 12-year-long war for control of the country and spillover from the US-Iran war has provoked a new displacement crisis. Live coverage below and for full meetings updates, go here.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168559",
+      "published": "2026-10-09T12:00:00Z",
+      "lat": 15.55,
+      "lon": 48.52,
+      "place": "Yemen",
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
@@ -4927,6 +5178,25 @@
       "published": "2026-10-07T16:00:18Z"
     },
     {
+      "title": "Critical funding gap threatens health response in Yemen",
+      "source": "UN News Middle East",
+      "description": "The World Health Organization (WHO) warned that significantly more resources are required to scale up its response in Yemen amid escalating conflict and rising needs.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168541",
+      "published": "2026-10-07T12:00:00Z",
+      "lat": 15.55,
+      "lon": 48.52,
+      "place": "Yemen",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
       "title": "Heatstroke ruined his health. Years before, it took the life of another farm worker at the same company",
       "source": "The Guardian Environment",
       "description": "A farm labor contractor exposed laborers on H-2A agricultural visas to heat-related health hazards, but is still bringing hundreds of migrant farm workers to North Carolina It was 4pm and 90F (32C) when Carlos Vargas Moreno and other farm workers set out to weed a watermelon field in Goldsboro, North Carolina , on 19 July 2022. The work day had begun at 7am and included two 15-minute breaks and a one-hour lunch eaten outdoors. The heat index – what the temperature feels like to the human body wh",
@@ -4982,6 +5252,25 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/sounds/play/w3ct8jyj?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-06T19:30:00Z"
+    },
+    {
+      "title": "Israeli demolition in East Jerusalem displaces 69 Palestinians",
+      "source": "UN News Middle East",
+      "description": "Sixty-nine Palestinians – more than half of them children – were displaced on Tuesday after Israeli authorities green lit the demolition of their residential building in the At Tur area of East Jerusalem, the UN aid coordination office (OCHA) has reported.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168539",
+      "published": "2026-10-06T12:00:00Z",
+      "lat": 31.77,
+      "lon": 35.21,
+      "place": "Jerusalem",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
     },
     {
       "title": "‘There’s always been a belittling of African women’: honouring history’s invisible heroines",
@@ -5040,6 +5329,44 @@
       "audio_url": "https://traffic.libsyn.com/secure/0f51b9e6-e899-4fce-b775-b7c45b08605d/Brian_and_Andrew_FINAL2_mixdown.mp3?dest-id=4928180",
       "url": "https://0f51b9e6-e899-4fce-b775-b7c45b08605d.libsyn.com/from-the-middle-east-to-middle-america-engineering-better-policy-with-andrew-j-tabler",
       "published": "2026-10-05T18:17:00Z"
+    },
+    {
+      "title": "‘Nothing can justify these atrocities,’ says Guterres three years on from 7 October attacks",
+      "source": "UN News Middle East",
+      "description": "Three years after Hamas and other Palestinian armed groups attacked Israel, UN Secretary-General António Guterres has said nothing can justify the atrocities of 7 October – calling for an end to the suffering of Israelis and Palestinians alike.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168530",
+      "published": "2026-10-05T12:00:00Z",
+      "lat": 31.05,
+      "lon": 34.85,
+      "place": "Israel",
+      "location_precision": "country-centroid",
+      "location_method": "description-lead-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "More than 184,000 displaced as fighting intensifies in Yemen",
+      "source": "UN News Middle East",
+      "description": "Intense fighting in Yemen has forced more than 184,000 people from their homes since the start of August, most of them since early September, the UN migration agency (IOM) said on Monday.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168528",
+      "published": "2026-10-05T12:00:00Z",
+      "lat": 15.55,
+      "lon": 48.52,
+      "place": "Yemen",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
     },
     {
       "title": "‘Defend our men!’: fears for women’s rights in Latin America over plans to counter gender violence laws",
@@ -5125,6 +5452,44 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/sport/football/videos/cm0ld8wwenw6o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-02T12:48:56Z"
+    },
+    {
+      "title": "Escalating fighting in Yemen deepens food security crisis",
+      "source": "UN News Middle East",
+      "description": "Renewed conflict in Yemen has triggered a surge in hunger that could have consequences in the wider region and beyond, the World Food Programme (WFP) warned on Friday.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168509",
+      "published": "2026-10-02T12:00:00Z",
+      "lat": 15.55,
+      "lon": 48.52,
+      "place": "Yemen",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Gaza: WHO appeals for massive aid influx ahead of winter",
+      "source": "UN News Middle East",
+      "description": "Repeated delays in bringing lifesaving medicines, prosthetics and more from Israel into Gaza risk having devastating consequences on Palestinians who urgently need them in the war-torn enclave, the UN World Health Organization (WHO) said on Friday.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168508",
+      "published": "2026-10-02T12:00:00Z",
+      "lat": 31.5,
+      "lon": 34.47,
+      "place": "Gaza",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
     },
     {
       "title": "Why the Houthis' Red Sea power play makes Iran even stronger",
@@ -5281,6 +5646,64 @@
       "published": "2026-09-30T23:02:21Z"
     },
     {
+      "title": "Palestinians yearn for ‘a return to normal life’, says top Middle East peace envoy",
+      "source": "UN News Middle East",
+      "description": "The UN is continuing efforts to support Palestinians in Gaza amid major challenges to humanitarian access, reconstruction and the restoration of essential services, according to Ramiz Alakbarov, Acting UN Special Coordinator for the Middle East Peace Process.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168497",
+      "published": "2026-09-30T12:00:00Z",
+      "lat": 31.5,
+      "lon": 34.47,
+      "place": "Gaza",
+      "location_precision": "city-reference",
+      "location_method": "description-lead-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "World News in Brief: Storm clouds over Gaza, deadly obstacles face Mexican women rights defenders, Latvia booze ban proves lifesaver",
+      "source": "UN News Middle East",
+      "description": "UN teams are racing to protect families in Gaza from the coming rainy season, but restricted access to land and shortages of critical supplies are hampering the effort, UN Spokesperson Stéphane Dujarric said on Wednesday.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East",
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168496",
+      "published": "2026-09-30T12:00:00Z",
+      "lat": 31.5,
+      "lon": 34.47,
+      "place": "Gaza",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Lebanon: One in five children goes to bed hungry, says UNICEF",
+      "source": "UN News Middle East",
+      "description": "Four in five households in Lebanon struggle to afford basic necessities today, with children increasingly going without food, missing school and being pushed into work as conflict compounds years of economic crisis. \"I wanted to buy clothes for my children, but I could not. I also wanted to enrol them in school, but I could not afford that either,\" said one father of four, cited on Wednesday by the UN Children's Fund (UNICEF).",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168490",
+      "published": "2026-09-30T12:00:00Z",
+      "lat": 33.85,
+      "lon": 35.86,
+      "place": "Lebanon",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
       "title": "From the archive: How Facebook and Instagram became marketplaces for child sex trafficking – podcast",
       "source": "The Guardian Long Read",
       "description": "We are raiding the Guardian long read archives to bring you some classic pieces from years past, with new introductions from the authors. This week, from 2023: Our two-year investigation suggests that the tech giant Meta is struggling to prevent criminals from using its platforms to buy and sell children for sex. By Katie McQue and Mei-Ling McNamara . Read by Jeanette Robinson More from this series: Rights and freedom Content warning – the following article contains descriptions of child sexual ",
@@ -5342,6 +5765,25 @@
       "published": "2026-09-29T16:03:05Z"
     },
     {
+      "title": "Yemen escalation fuels fears of further cholera, measles spread",
+      "source": "UN News Middle East",
+      "description": "Heavy fighting in Yemen is fuelling concerns of an uptick in cholera, measles and other preventable diseases, as overcrowding at displacement sites threatens to overwhelm the limited healthcare services still open.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168480",
+      "published": "2026-09-29T12:00:00Z",
+      "lat": 15.55,
+      "lon": 48.52,
+      "place": "Yemen",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
       "title": "Back to War in Ethiopia?",
       "source": "Crisis Group Hold Your Fire",
       "description": "This week on Hold Your Fire! , Richard speaks with Crisis Group’s Africa director Murithi Mutiga about renewed fighting in northern Ethiopia. They examine why the Pretoria agreement, which ended the devastating 2020–2022 war between Tigrayan rebels and the federal government, failed to deliver lasting peace. They assess the fragile new alliance of Tigrayan, Amhara and other rebel groups, Eritrea’s alleged backing, and the threat it poses to the federal government. They also discuss how war-weary",
@@ -5392,6 +5834,25 @@
       "location_verified": false
     },
     {
+      "title": "Security Council LIVE: Ambassadors meet as West Bank tensions rise, Gaza plan stalls",
+      "source": "UN News Middle East",
+      "description": "The Security Council met Monday morning with prospects for peace in the Middle East under strain on two fronts. In the West Bank, settler violence and settlement expansion are raising fears for a two-State solution. In Gaza, a year-old peace plan has stalled while civilian suffering continues. The meeting comes as the plan’s remaining phases, including Hamas’ disarmament and Israel’s full withdrawal, remain unimplemented, and as the illegality of settlements under international law remains a key",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168464",
+      "published": "2026-09-28T12:00:00Z",
+      "lat": 31.5,
+      "lon": 34.47,
+      "place": "Gaza",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
       "title": "Exile has not broken young Rohingya people. But survival cost us more than our homes | Ajas Khan",
       "source": "The Guardian Global Development",
       "description": "Nine years growing up in a tent robbed me of my freedom and childhood. But my generation is determined to fight for a better future – one that we must be involved in shaping Nine years ago, I was forced to flee my home in Maungdaw township, Rakhine state, Myanmar. I was 13 years old. I remember how quickly an average day turned into a day when life felt extinguished, leaving behind the place where I grew up with my family. Even now, when I go to sleep, what comes into my mind is the memory of th",
@@ -5414,6 +5875,19 @@
       "published": "2026-09-28T04:00:24Z"
     },
     {
+      "title": "Saudi Arabia warns Gulf security inseparable from global stability amid regional tensions",
+      "source": "UN News Middle East",
+      "description": "Saudi Arabia’s Foreign Minister warned on Saturday that escalating threats across the Middle East risked international peace, energy security and global trade, calling for stronger international cooperation to protect Gulf States and vital shipping routes.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168459",
+      "published": "2026-09-26T12:00:00Z"
+    },
+    {
       "title": "Tech Now",
       "source": "BBC Technology",
       "description": "Ammie Sekhon explores tech used to identify and remove counterfeit products online.",
@@ -5423,6 +5897,25 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/iplayer/episode/m0032d9k?at_medium=RSS&at_campaign=rss",
       "published": "2026-09-26T01:00:13Z"
+    },
+    {
+      "title": "‘No one speaks on behalf of Lebanon’: PM Salam asserts State authority at UN",
+      "source": "UN News Middle East",
+      "description": "Lebanon’s Prime Minister, Nawaf Salam, has stressed that decisions over war and peace, and control of weapons, must rest solely with the State and its constitutional institutions.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168444",
+      "published": "2026-09-25T12:00:00Z",
+      "lat": 33.85,
+      "lon": 35.86,
+      "place": "Lebanon",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
     },
     {
       "title": "China rising, America in decline? The Trump-Xi summit",
@@ -8611,7 +9104,7 @@
   "classification_method": "keyword-heuristic",
   "location_method": "headline-or-lead-reference",
   "content_counts": {
-    "news": 361,
+    "news": 388,
     "podcast": 193,
     "research": 16
   },
@@ -8647,11 +9140,6 @@
       "episodes": 35
     }
   ],
-  "warnings": [
-    {
-      "source": "UN News Middle East",
-      "message": "Regional RSS unavailable; using 7 region-matched articles from UN News global RSS."
-    }
-  ],
+  "warnings": [],
   "feed_health": "See errors for failed source names"
 }
