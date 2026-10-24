@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T17:53:41.086482Z",
+  "updated": "2026-10-24T18:04:37.001524Z",
   "records": [
     {
       "title": "Thousands march in Paris and other French cities as protests take place across Europe – Europe live",
@@ -12,11 +12,30 @@
       ],
       "kind": "news",
       "url": "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news",
-      "published": "2026-10-24T17:41:05Z",
+      "published": "2026-10-24T17:56:29Z",
       "lat": 48.86,
       "lon": 2.35,
       "place": "Paris",
       "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Hundreds of thousands march across France in protests over schools and policing",
+      "source": "The Guardian World",
+      "description": "Government estimates at least 400,000 people took part, but trade unions say the number is double that Hundreds of thousands marched in cities across France on Saturday in largely peaceful protests to support schoolchildren’s demands for more teachers and repairs to dilapidated buildings, as Emmanuel Macron faces a social and political crisis in his final months as president. In Paris, at least 110,000 people marched along the eastern edge of the city, according to government estimates. They sup",
+      "category": "Economics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/24/hundreds-of-thousands-march-across-france-in-protests-over-schools-and-policing",
+      "published": "2026-10-24T17:54:41Z",
+      "lat": 46.6,
+      "lon": 2.21,
+      "place": "France",
+      "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
     },
@@ -35,6 +54,25 @@
       "place": "Nairobi",
       "location_precision": "city-reference",
       "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Palestinian families displaced as Israeli forces demolish Hebron homes, local officials say",
+      "source": "BBC Middle East",
+      "description": "The crackdown follows the killing of two Israeli soldiers by two Palestinian gunmen on Friday - and comes just days ahead of Israel's election.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cqd09k1k7532o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-24T17:21:42Z",
+      "lat": 31.05,
+      "lon": 34.85,
+      "place": "Israel",
+      "location_precision": "country-centroid",
+      "location_method": "description-lead-keyword",
       "location_verified": false
     },
     {
@@ -397,7 +435,7 @@
     },
     {
       "title": "Opposition deepfake video of Spanish PM’s wife sparks outrage before election",
-      "source": "The Guardian World",
+      "source": "The Guardian Europe",
       "description": "Video shows AI likenesses of people linked to Pedro Sánchez’s Socialist party appearing to admit to wrongdoing A political ad from Spain’s main opposition party that used a deepfake video of the prime minister’s wife has sparked outrage and set off a wider debate on AI, as the deeply polarised country gears up for general elections next month. Launched this week across the social media channels of the conservative People’s party (PP), the video used artificial intelligence to manipulate the like",
       "category": "Geopolitics",
       "region": "Europe",
@@ -480,25 +518,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/videos/cm62y59zw8zko?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-24T05:03:44Z"
-    },
-    {
-      "title": "Violence, intimidation and fear: 10 years on from the ‘Jungle’, life in Calais migrant camps is harsher than ever",
-      "source": "The Guardian Europe",
-      "description": "People living in tents in northern France hoping to find asylum in England face increasing intimidation from police and far-right agitators In the decade since the demolition of the “Jungle ”, an area of Calais where thousands of asylum seekers set up makeshift shelters before embarking on Channel crossings to the UK, everything and nothing has changed. This week, in a woodland clearing not far from one of Calais’s busy main roads, several brightly coloured tents are pitched. A jacket hanging fr",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/24/violence-intimidation-and-fear-10-years-on-from-the-jungle-life-in-calais-migrant-camps-is-harsher-than-ever",
-      "published": "2026-10-24T05:00:26Z",
-      "lat": 46.6,
-      "lon": 2.21,
-      "place": "France",
-      "location_precision": "country-centroid",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
     },
     {
       "title": "As a divided Israel prepares to go to the polls, can Netanyahu pull off his greatest political trick yet?",
@@ -8610,7 +8629,7 @@
   "classification_method": "keyword-heuristic",
   "location_method": "headline-or-lead-reference",
   "content_counts": {
-    "news": 361,
+    "news": 362,
     "podcast": 193,
     "research": 16
   },
