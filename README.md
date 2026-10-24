@@ -90,3 +90,13 @@ Established the initial browser-based dashboard, dark theme, configurable widget
 ### UN News Middle East RSS correction
 
 The dedicated UN News Middle East source has been retained and its feed URL corrected to the regional RSS endpoint (`/news/region/middle-east/feed/rss.xml`). The main UN News feed remains enabled separately. The revised URL is listed by an independent feed monitor as working; a successful GitHub Actions collection is still required to confirm access from the runner.
+
+### UN News Middle East feed resilience (24 October 2026)
+
+The dedicated UN News Middle East RSS source remains configured. Some collection
+requests return an empty or non-XML response even though RSS directories report
+the URL as active. The collector now detects that response, attempts the UN News
+global RSS feed, and retains only articles classified as Middle East-related.
+When fallback is used, `warnings` in the generated JSON explains this. If both
+UN feeds fail, Data Health continues to report an error. This is a fallback,
+not proof that the dedicated regional endpoint is reliably accessible.

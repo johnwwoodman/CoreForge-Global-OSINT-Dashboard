@@ -21,8 +21,8 @@ FEEDS = [
     ('BBC Americas', 'https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml', 'Geopolitics', 'Americas'),
     ('The Guardian World', 'https://www.theguardian.com/world/rss', 'Geopolitics', 'all'),
     ('The Guardian Middle East', 'https://www.theguardian.com/world/middleeast/rss', 'Geopolitics', 'Middle East'),
-    ('UN News', 'https://news.un.org/feed/subscribe/en/news/all/rss.xml', 'Humanitarian', 'all'),
     ('UN News Middle East', 'https://news.un.org/feed/subscribe/en/news/region/middle-east/feed/rss.xml', 'Humanitarian', 'Middle East'),
+    ('UN News', 'https://news.un.org/feed/subscribe/en/news/all/rss.xml', 'Humanitarian', 'all'),
 ]
 # Additional publisher feeds; failures are isolated and reported in source health.
 FEEDS.extend([
@@ -257,21 +257,61 @@ def parse_feed(raw, source, category, region, kind, seen):
         seen.add(clean_link)
     return output
 
+def fetch_xml(url):
+    """Fetch RSS with a browser-like identity and reject empty/non-XML responses."""
+    req = urllib.request.Request(url, headers={
+        'User-Agent': 'Mozilla/5.0 (compatible; CoreForgeRSS/1.0)',
+        'Accept': 'application/rss+xml, application/atom+xml, application/xml, text/xml, */*;q=0.5',
+    })
+    with urllib.request.urlopen(req, timeout=18) as response:
+        raw = response.read(2_000_001)
+    if len(raw) > 2_000_000:
+        raise ValueError('Feed exceeds 2 MB limit')
+    if not raw.strip():
+        raise ValueError('Publisher returned an empty response')
+    if not raw.lstrip().startswith((b'<?xml', b'<rss', b'<feed', b'<rdf:RDF')):
+        raise ValueError('Publisher returned non-XML content')
+    return raw
+
+
+def un_middle_east_fallback(raw, seen):
+    """Use only region-relevant items from the UN global feed when regional RSS fails."""
+    candidates = parse_feed(raw, 'UN News Middle East', 'Humanitarian', 'all', 'news', set())
+    selected = []
+    for item in candidates:
+        if 'Middle East' in item.get('regions', []):
+            if item['url'] not in seen:
+                selected.append(item)
+                seen.add(item['url'])
+    return selected
+
+
 def collect():
     records, errors, seen = [], [], set()
+    warnings = []
+    un_regional_failed = False
     for source, url, category, region, kind in [(s,u,c,r,'news') for s,u,c,r in FEEDS]+SPECIAL_FEEDS:
         try:
-            req = urllib.request.Request(url, headers={'User-Agent': 'CoreForgeOSINT/0.2 (+open-source RSS metadata collector)', 'Accept': 'application/rss+xml, application/atom+xml, application/xml, text/xml'})
-            with urllib.request.urlopen(req, timeout=18) as response:
-                raw = response.read(2_000_001)
-            if len(raw) > 2_000_000:
-                raise ValueError('Feed exceeds 2 MB limit')
+            raw = fetch_xml(url)
+            if source == 'UN News' and un_regional_failed:
+                fallback = un_middle_east_fallback(raw, seen)
+                records.extend(fallback)
+                warnings.append({'source':'UN News Middle East',
+                                 'message':f'Regional RSS unavailable; using {len(fallback)} region-matched articles from UN News global RSS.'})
+                print(f'UN News Middle East: fallback supplied {len(fallback)} records')
             added = parse_feed(raw, source, category, region, kind, seen)
             records.extend(added)
             print(f'{source}: {len(added)} records ({sum(x["kind"] == "podcast" for x in added)} podcasts)')
         except Exception as exc:
-            errors.append({'source': source, 'message': str(exc)[:200]})
-            print(f'{source}: ERROR {exc}')
+            if source == 'UN News Middle East':
+                un_regional_failed = True
+                print(f'{source}: regional RSS unavailable ({exc}); attempting UN News global fallback')
+            else:
+                errors.append({'source': source, 'message': str(exc)[:200]})
+                print(f'{source}: ERROR {exc}')
+    if un_regional_failed and not any(w['source'] == 'UN News Middle East' for w in warnings):
+        errors.append({'source':'UN News Middle East',
+                       'message':'Regional feed unavailable and global UN News fallback also unavailable.'})
     # Keep specialist discovery failures isolated from existing news collection.
     # Deduplication is shared with ordinary feeds, so one episode is only stored once.
     podcast_diagnostics = []
@@ -292,7 +332,7 @@ def collect():
             podcast_diagnostics.append({'source':source,'status':'error','episodes':0})
             print(f'{source}: ERROR {exc}')
     records.sort(key=lambda x: x['published'], reverse=True)
-    return {'updated': dt.datetime.now(dt.timezone.utc).isoformat().replace('+00:00','Z'), 'records': records, 'errors': errors, 'sources_checked': len(FEEDS)+len(SPECIAL_FEEDS)+len(PODCAST_CATALOGUE), 'sources_ok': len(FEEDS)+len(SPECIAL_FEEDS)+len(PODCAST_CATALOGUE)-len(errors), 'collector_version':'1.0.0-rc3', 'classification_method':'keyword-heuristic', 'location_method':'headline-or-lead-reference', 'content_counts': {kind: sum(r['kind'] == kind for r in records) for kind in ('news','podcast','research')}, 'podcast_sources': podcast_diagnostics, 'feed_health': 'See errors for failed source names'}
+    return {'updated': dt.datetime.now(dt.timezone.utc).isoformat().replace('+00:00','Z'), 'records': records, 'errors': errors, 'sources_checked': len(FEEDS)+len(SPECIAL_FEEDS)+len(PODCAST_CATALOGUE), 'sources_ok': len(FEEDS)+len(SPECIAL_FEEDS)+len(PODCAST_CATALOGUE)-len(errors), 'collector_version':'1.0.0-rc3-un-resilience', 'classification_method':'keyword-heuristic', 'location_method':'headline-or-lead-reference', 'content_counts': {kind: sum(r['kind'] == kind for r in records) for kind in ('news','podcast','research')}, 'podcast_sources': podcast_diagnostics, 'warnings': warnings, 'feed_health': 'See errors for failed source names'}
 
 if __name__ == '__main__':
     payload = collect()
