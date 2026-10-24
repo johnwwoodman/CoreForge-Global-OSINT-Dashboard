@@ -30,6 +30,9 @@ FEEDS.extend([
     ('BBC Technology', 'https://feeds.bbci.co.uk/news/technology/rss.xml', 'Cyber', 'all'),
     ('The Guardian Environment', 'https://www.theguardian.com/environment/rss', 'Disasters', 'all'),
     ('The Guardian Global Development', 'https://www.theguardian.com/global-development/rss', 'Humanitarian', 'all'),
+    ('The Guardian Europe', 'https://www.theguardian.com/world/europe-news/rss', 'Geopolitics', 'Europe'),
+    ('The Guardian Africa', 'https://www.theguardian.com/world/africa/rss', 'Geopolitics', 'Africa'),
+    ('The Guardian Asia', 'https://www.theguardian.com/world/asia/rss', 'Geopolitics', 'Asia-Pacific'),
 ])
 
 # Approximate reference points, NOT verified incident coordinates. Only title matches
@@ -47,6 +50,13 @@ PLACE_POINTS = {
     'seoul': (37.57, 126.98), 'delhi': (28.61, 77.21),
     'nairobi': (-1.29, 36.82), 'khartoum': (15.50, 32.56),
     'addis ababa': (9.03, 38.74), 'cairo': (30.04, 31.24),
+    'tripoli': (32.89, 13.19), 'aleppo': (36.20, 37.16), 'mosul': (36.34, 43.13),
+    'ramallah': (31.90, 35.20), 'rafah': (31.30, 34.25), 'doha': (25.29, 51.53),
+    'dubai': (25.20, 55.27), 'abu dhabi': (24.45, 54.38), 'karachi': (24.86, 67.01),
+    'lahore': (31.55, 74.34), 'peshawar': (34.01, 71.58), 'herat': (34.35, 62.20),
+    'kandahar': (31.63, 65.74), 'odessa': (46.48, 30.73), 'odesa': (46.48, 30.73),
+    'kharkiv': (49.99, 36.23), 'tbilisi': (41.72, 44.79), 'baku': (40.41, 49.87),
+    'tashkent': (41.30, 69.24), 'astana': (51.17, 71.43),
     'iran': (32.43, 53.69), 'iraq': (33.22, 43.68), 'israel': (31.05, 34.85),
     'lebanon': (33.85, 35.86), 'syria': (34.80, 38.99), 'yemen': (15.55, 48.52),
     'afghanistan': (33.94, 67.71), 'pakistan': (30.38, 69.35),
@@ -58,7 +68,7 @@ PLACE_POINTS = {
     'egypt': (26.82, 30.80), 'brazil': (-14.24, -51.93),
     'canada': (56.13, -106.35), 'mexico': (23.63, -102.55),
 }
-CITY_NAMES = {'tehran','beirut','gaza','jerusalem','damascus','baghdad','riyadh','sanaa','kabul','islamabad','paris','london','berlin','kyiv','moscow','brussels','rome','madrid','washington','new york','beijing','tokyo','taipei','seoul','delhi','nairobi','khartoum','addis ababa','cairo'}
+CITY_NAMES = {'tehran','beirut','gaza','jerusalem','damascus','baghdad','riyadh','sanaa','kabul','islamabad','paris','london','berlin','kyiv','moscow','brussels','rome','madrid','washington','new york','beijing','tokyo','taipei','seoul','delhi','nairobi','khartoum','addis ababa','cairo','tripoli','aleppo','mosul','ramallah','rafah','doha','dubai','abu dhabi','karachi','lahore','peshawar','herat','kandahar','odessa','odesa','kharkiv','tbilisi','baku','tashkent','astana'}
 def approximate_place(title):
     lower = title.lower()
     matches = [(name,point) for name,point in PLACE_POINTS.items()
@@ -72,7 +82,7 @@ def approximate_place(title):
     if len(selected) != 1:
         return {}
     name, (lat,lon) = selected[0]
-    return {'lat':lat,'lon':lon,'place':name.title(),'location_precision':'city-reference' if name in CITY_NAMES else 'country-centroid', 'location_method':'headline-keyword'}
+    return {'lat':lat,'lon':lon,'place':name.title(),'location_precision':'city-reference' if name in CITY_NAMES else 'country-centroid', 'location_method':'headline-keyword', 'location_verified':False}
 
 MAX_PER_FEED = 35
 MAX_DESC = 500
@@ -102,10 +112,10 @@ def date_iso(raw):
 
 # Conservative keyword matching: regional relevance, NOT event geolocation.
 REGION_TERMS = {
-    'Middle East': ['iran','iraq','israel','gaza','west bank','palestin','lebanon','syria','jordan','yemen','saudi','qatar','bahrain','oman','kuwait','uae','emirates','turkey','türkiye','afghanistan','pakistan','tehran','beirut','riyadh','jerusalem','kabul','islamabad'],
-    'Europe': ['france','french','paris','germany','german','berlin','ukraine','ukrainian','russia','russian','moscow','britain','british','london','europe','eu ','nato','italy','italian','spain','spanish','poland','polish','brussels','sweden','swedish'],
+    'Middle East': ['iran','iraq','israel','gaza','west bank','palestin','lebanon','kurdish','kurds','houthi','hezbollah','hamas','taliban','kabul','karachi','lahore','peshawar','herat','kandahar','rafah','ramallah','aleppo','mosul','doha','dubai','abu dhabi','syria','jordan','yemen','saudi','qatar','bahrain','oman','kuwait','uae','emirates','turkey','türkiye','afghanistan','pakistan','tehran','beirut','riyadh','jerusalem','kabul','islamabad'],
+    'Europe': ['france','french','paris','germany','german','berlin','ukraine','ukrainian','russia','russian','moscow','britain','british','london','europe','eu ','nato','italy','italian','spain','spanish','poland','polish','brussels','kharkiv','odesa','odessa','georgia','tbilisi','azerbaijan','baku','sweden','swedish'],
     'Americas': ['united states','u.s.','american','washington','canada','canadian','mexico','mexican','brazil','brazilian','argentina','venezuela','colombia','cuba','peru','chile'],
-    'Asia-Pacific': ['china','chinese','beijing','taiwan','japan','japanese','tokyo','korea','korean','india','indian','new delhi','indonesia','philippines','vietnam','australia','australian','myanmar','thailand','pacific'],
+    'Asia-Pacific': ['china','chinese','beijing','taiwan','japan','japanese','tokyo','korea','korean','india','indian','new delhi','indonesia','philippines','vietnam','australia','australian','myanmar','thailand','pacific','north korea','south korea','kashmir','kazakhstan','uzbekistan','astana','tashkent'],
     'Africa': ['africa','african','sudan','sudanese','somalia','somali','ethiopia','ethiopian','kenya','kenyan','nigeria','nigerian','egypt','egyptian','libya','libyan','morocco','moroccan','congo','mali','sahel','tunisia','algeria'],
 }
 def infer_regions(title, description, feed_region):

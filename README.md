@@ -77,3 +77,23 @@ The Intelligence Feed now displays 10 articles per page by default (select 5, 10
 - Source directory now reports collection health when the refreshed snapshot includes it.
 
 **Deployment:** Replace `app.js`, `index.html`, `styles.css`, `scripts/collect_feeds.py`, and `README.md`. Keep existing `data/live-feed.*` and workflow files on GitHub. Manually rerun the collector workflow to populate approximate map references. The bundled snapshot is intentionally not fabricated or regenerated.
+
+
+## v0.6.0 — Deployment and verification (important)
+
+**To see changes on GitHub Pages, commit the new root `index.html`, `app.js`, `styles.css`, and `scripts/collect_feeds.py` to `main`.** The ZIP does not automatically update your published site. Do not upload the enclosing project folder as a subfolder. Do not overwrite `data/live-feed.js` or `data/live-feed.json` with older bundled snapshots.
+
+The dashboard footer and header explicitly display `v0.6.0-alpha`. If your live site still displays `v0.5.0-alpha`, the new code has not been deployed. Allow Pages to finish and hard-refresh (Ctrl+F5). `index.html` includes cache-busting query strings for CSS and JS.
+
+After updating the Python collector, run **Actions → Collect Intelligence Feeds → Run workflow**. Existing published records cannot gain approximate location references retroactively until a new collection completes. Inspect `data/live-feed.json` for `lat`, `lon`, `place` and `location_verified: false`. Not every headline can be mapped, intentionally.
+
+### What's new
+- Map marker click opens an **in-map source preview**, instead of sending you immediately away. Open the publisher's original reporting from the preview.
+- **Map references only** filter for auditing mapped records.
+- **Watchlist keywords** (comma separated) filter headlines, descriptions and publishers, saved in local browser preferences.
+- Wider headline location vocabulary including Afghanistan, Pakistan, the Levant and Central Asia; additional regional RSS sources (publisher availability not guaranteed).
+- Briefing text organised by topic and explicitly stating coverage limitations.
+- Visible release version and CSS/JS cache busting to make deployment issues easier to diagnose.
+
+### What is not implemented yet
+The map references are approximate keyword-derived mentions, **not incident geocoding**. Research and podcast directory entries are links, **not episode ingestion**. Briefings are deterministic summaries of collected publisher metadata, **not independent intelligence assessments**. The GitHub workflow must run to populate newly supported location references.

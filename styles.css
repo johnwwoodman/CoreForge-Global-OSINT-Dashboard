@@ -48,3 +48,9 @@ button:disabled{opacity:.42;cursor:not-allowed}
 
 /* v0.5: accessible clickable headline-derived map references */
 .pin{cursor:pointer;stroke:#102338;stroke-width:1.2}.pin:hover,.pin:focus{stroke:#fff;stroke-width:2.8;outline:none}.feed-pagination{flex-wrap:wrap}
+
+/* v0.6: map source-inspection overlay and watchlist controls */
+.map-detail{position:absolute;bottom:40px;left:10px;right:10px;max-width:560px;background:#102338ee;color:#edf5f8;border:1px solid #4e7186;border-radius:8px;padding:9px 12px;font-size:12px;line-height:1.6;pointer-events:auto;z-index:3}
+.map-detail a{color:#69d8d0;font-weight:700}.pin.active{stroke:#ffda78;stroke-width:3;fill:#ffd56c}
+.light .map-detail{background:#f8fbfdef;color:#15283a}.light .map-detail a{color:#087f75}
+#clear-watch{margin:0 0 10px}.sidebar input[type=search]{width:100%}
