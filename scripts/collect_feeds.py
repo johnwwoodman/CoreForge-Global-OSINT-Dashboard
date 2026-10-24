@@ -22,7 +22,7 @@ FEEDS = [
     ('The Guardian World', 'https://www.theguardian.com/world/rss', 'Geopolitics', 'all'),
     ('The Guardian Middle East', 'https://www.theguardian.com/world/middleeast/rss', 'Geopolitics', 'Middle East'),
     ('UN News', 'https://news.un.org/feed/subscribe/en/news/all/rss.xml', 'Humanitarian', 'all'),
-    ('UN News Middle East', 'https://news.un.org/feed/subscribe/en/news/region/middle-east/rss.xml', 'Humanitarian', 'Middle East'),
+    ('UN News Middle East', 'https://news.un.org/feed/subscribe/en/news/region/middle-east/feed/rss.xml', 'Humanitarian', 'Middle East'),
 ]
 # Additional publisher feeds; failures are isolated and reported in source health.
 FEEDS.extend([

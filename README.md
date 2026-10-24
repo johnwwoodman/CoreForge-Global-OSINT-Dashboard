@@ -1,242 +1,92 @@
-# CoreForge Global OSINT Dashboard — Release Notes
+# CoreForge Global OSINT Dashboard
 
-This document records the development of CoreForge Global OSINT Dashboard, from the initial dashboard through to the introduction of local AI analysis.
+CoreForge is a browser-based, open-source dashboard for public reporting, approximate geographic references, research publications and podcasts. Optional local analysis uses Ollama; the public dashboard does not require AI or an installation.
 
-CoreForge is an open-source intelligence dashboard designed to bring together publicly available reporting, regional analysis, research publications and podcasts in one place.
+## Using CoreForge
 
-The dashboard can be accessed through a web browser, with optional local AI analysis using Ollama.
+Open the GitHub Pages dashboard for live reporting, regional workspaces, the map, source controls, podcasts and research. The collector runs on GitHub Actions, not on visitors' computers. The dashboard reads the published `data/live-feed.json` snapshot. Source availability varies and may change without notice.
 
-## Version 1.0 RC3 — Podcast and publication pagination
+For local AI on Windows, install Ollama, download the Windows package, extract it and run `START-COREFORGE-WINDOWS.bat`. The local launcher uses PowerShell and does not require Python. Keep the launcher window open while using the local AI analyst. Qwen3 8B works on a 16 GB CPU-only machine but longer assessments can take several minutes. AI results are based on collected titles, summaries and metadata, not independently verified full articles.
 
-The Podcasts, Research and Directory tabs now display a manageable number of entries at a time, with Previous and Next controls. Choose 5, 10, 20 or 50 items per page; the default is 10. Each tab keeps its own page selection and item limit while the dashboard is open.
+## Updating the repository
 
-The intelligence feed, podcast collection, regional workspaces and local Ollama analysis are unchanged.
+Place `app.js`, `index.html`, `styles.css` and `README.md` in the repository root. Place `collect_feeds.py` and `build_weekly_briefs.py` inside `scripts/`. Keep the existing `.github/workflows/` and `data/` directories. Run the intelligence collection workflow after changing the collector. Avoid uploading duplicate scripts at the root.
 
-## Version 1.0 RC3 — 24 October 2026
+## Data and limitations
 
-### Specialist Podcast Sources
-
-This update expands the podcast collection system, with a particular focus on Middle East reporting and analysis.
-
-**Changes**
-
-* Added support for collecting podcast episodes from specialist foreign-policy and security organisations.
-* Expanded the source catalogue to include programmes from the Middle East Institute, CSIS, International Crisis Group, Chatham House and the Council on Foreign Relations.
-* Improved the way podcast episodes are associated with regional workspaces.
-* Added collection diagnostics to help identify feeds that are unavailable or not returning episodes.
-* Retained audio playback where publishers provide accessible audio files.
-
-Podcast availability depends on the individual publishers' feeds. Not every programme will necessarily return episodes during each collection.
-
-## Version 1.0 RC2 — 24 October 2026
-
-### Podcast Collection Improvements
-
-This release addresses problems with podcast episodes not appearing in the dashboard.
-
-**Changes**
-
-* Improved identification of podcast episodes in RSS feeds.
-* Added support for audio attachments supplied by podcast publishers.
-* Corrected filtering between podcasts and research publications.
-* Added podcast collection information to Data Health.
-* Improved messages displayed when no podcast episodes are available.
-
-The underlying intelligence collection and local Ollama integration remain unchanged.
-
-## Version 1.0 RC1 — 24 October 2026
-
-### Dashboard and AI Improvements
-
-This release brings together the main dashboard features and introduces several usability improvements ahead of the first stable release.
-
-**Changes**
-
-* Reorganised Podcasts & Research into three tabs: Podcasts, Research and Directory.
-* Retained the original directory of specialist publishers and research organisations.
-* Shortened publication descriptions to make browsing easier.
-* Added indicators for older publications.
-* Introduced configurable source limits for AI-generated assessments.
-* Added elapsed-time information while Ollama processes an assessment.
-* Improved the Windows launch process without requiring Python.
-
-AI assessments continue to use the selected workspace's collected reporting, with references to the original sources.
-
-## Version 0.8.1 — 24 October 2026
-
-### Simplified Windows Setup
-
-This update removes the need to install Python when running CoreForge with Ollama on Windows.
-
-**Changes**
-
-* Replaced the Python-based local connector with a PowerShell-based alternative.
-* Added a Windows launcher that starts the local dashboard and connects to Ollama.
-* Updated the setup instructions.
-* Retained the existing dashboard and local AI features.
-
-Ollama must still be installed separately to use AI analysis.
-
-## Version 0.8.0 — 24 October 2026
-
-### Local AI Integration
-
-This release introduces optional AI analysis using Ollama.
-
-**Changes**
-
-* Added a Local AI Analyst widget.
-* Introduced AI-generated intelligence assessments based on collected reporting.
-* Added the ability to ask questions about reporting within a selected workspace.
-* Included civil-environment and CMI/CIMIC considerations in assessment prompts.
-* Added source references to AI-generated outputs.
-* Introduced assessment export.
-* Added a local connection between the dashboard and Ollama.
-
-AI analysis runs on the user's computer. The standard dashboard remains usable without Ollama.
-
-Assessments are generated from collected headlines, descriptions and metadata, rather than the full text of every publication.
-
-## Version 0.7.0 — 24 October 2026
-
-### Intelligence Sources and Data Monitoring
-
-This release expands the intelligence collection system and improves source management.
-
-**Changes**
-
-* Fixed an issue where opening the Source Directory replaced live intelligence records.
-* Added controls for enabling and disabling publishers within individual workspaces.
-* Introduced podcast and research feed collection.
-* Added audio playback support for podcast episodes where available.
-* Improved the structure of automated weekly briefings.
-* Added a Data Health widget showing collection status, feed errors and data freshness.
-* Improved interaction with geographic references on the map.
-* Added collector version information to assist troubleshooting.
-
-Publisher preferences are stored locally in the browser.
-
-## Version 0.6.1
-
-### Intelligence Collector Improvements
-
-This update focuses on the reliability of the intelligence collection process.
-
-**Changes**
-
-* Updated the RSS collector to improve regional classification.
-* Improved identification of geographic references in reporting.
-* Expanded intelligence categories beyond general geopolitics.
-* Added collector version information to the generated data.
-* Improved compatibility between collected records and dashboard widgets.
-
-Geographic references indicate places mentioned in reporting. They should not be treated as confirmed incident locations.
-
-## Version 0.6.0
-
-### Regional Intelligence and Mapping
-
-This release develops the dashboard's regional intelligence capabilities.
-
-**Changes**
-
-* Improved regional workspace handling.
-* Expanded geographic reference detection.
-* Refined the interactive map and regional framing.
-* Improved integration between collected reporting and map references.
-* Continued development of intelligence categorisation and filtering.
-
-## Version 0.5.0
-
-### Automated Intelligence Collection
-
-This release develops the use of automatically collected intelligence reporting.
-
-**Changes**
-
-* Expanded RSS-based intelligence collection.
-* Improved integration with GitHub Actions.
-* Continued development of automatically generated intelligence data.
-* Improved handling of source information and publication metadata.
-
-## Version 0.4.0
-
-### Intelligence Briefings
-
-This release introduces and develops briefing functionality.
-
-**Changes**
-
-* Added automated intelligence briefing features.
-* Improved the presentation of collected reporting.
-* Introduced source-linked briefing content.
-* Added support for reading briefings aloud through the browser.
-
-## Version 0.3.3
-
-### Intelligence Feed Controls
-
-**Changes**
-
-* Added pagination options for the Intelligence Feed.
-* Expanded filtering by category, publisher, date and region.
-* Added saved articles.
-* Introduced CSV export.
-* Improved handling of map references and watchlist filtering.
-
-## Version 0.3.2
-
-### Dashboard Layout Improvements
-
-**Changes**
-
-* Improved Intelligence Feed sizing and scrolling.
-* Added more consistent widget resizing.
-* Improved expand and collapse behaviour.
-* Refined the dashboard layout for different screen sizes.
-
-## Version 0.3.0
-
-### Interactive Dashboard Development
-
-**Changes**
-
-* Expanded configurable dashboard widgets.
-* Developed regional workspaces.
-* Improved the presentation of intelligence sources.
-* Continued development of the interactive map and reporting views.
-
-## Version 0.2.0
-
-### Dashboard Expansion
-
-**Changes**
-
-* Expanded the initial dashboard layout.
-* Added further intelligence widgets and controls.
-* Improved navigation and workspace organisation.
-* Developed the visual design and user interface.
-
-## Version 0.1.0
-
-### Initial Release
-
-The first version of CoreForge Global OSINT Dashboard established the foundation for a browser-based intelligence dashboard.
-
-**Initial features**
-
-* Dark-themed dashboard interface.
-* Configurable intelligence widgets.
-* Regional intelligence workspaces.
-* Initial source directory.
-* Early intelligence feed and mapping functionality.
-* CoreForge branding.
+Sources are linked to their original publishers. Approximate map references identify locations mentioned in headlines; they are not verified incident locations. RSS feeds can fail or return no records. Publisher preferences and layout settings are saved in the browser. Local AI analysis should be checked against original sources and must not be treated as corroborated intelligence.
 
 ---
 
-## Development Status
+# Release history
 
-The main dashboard, automated intelligence collection and optional local Ollama analysis are operational.
+All release notes are kept in this README. No separate `RELEASE-NOTES*.md` files are needed.
 
-Development is focused on improving source coverage, checking platform compatibility and resolving remaining issues before the first stable release.
+## v1.0 RC3 — 24 October 2026
 
+Expanded podcast discovery to specialist international-affairs programmes, including Middle East Institute, CSIS, International Crisis Group, Chatham House and Council on Foreign Relations. Added source-level diagnostics for discovered feeds and their episode counts. Added pagination to the Podcasts, Research and Directory tabs: 5, 10, 20 or 50 entries per page, with 10 as the default.
+
+**Maintenance update:** Removed the non-working dedicated UN News Middle East RSS endpoint after it returned an empty or invalid XML response. The collector continues to use the UN News global feed and classifies relevant articles by region. This removes the repeated parser error without claiming the retired endpoint is operational. Regional coverage depends on articles present in the global feed.
+
+## v1.0 RC2 — 24 October 2026
+
+Improved podcast detection, audio-enclosure handling and filtering between podcasts and research publications. Added podcast counts and collection diagnostics to help distinguish empty feeds from display problems.
+
+## v1.0 RC1 — 24 October 2026
+
+Split Podcasts & Research into Podcasts, Research and Directory tabs. Kept the specialist publisher directory, shortened descriptions and marked older publications. Added selectable source limits and elapsed-time feedback for Ollama assessments. The Windows launcher remained Python-free.
+
+## v0.8.1 — 24 October 2026
+
+Replaced the Windows Python-based local connector with a PowerShell-based launcher. Ollama still needs to be installed separately for AI analysis.
+
+## v0.8.0 — 24 October 2026
+
+Introduced the optional local AI Analyst, workspace-specific questions and assessments, source references, CMI/CIMIC prompts and export. AI analysis runs locally and the online dashboard remains available without it.
+
+## v0.7.0 — 24 October 2026
+
+Improved source management and the Source Directory behaviour, added podcast and research collection, expanded weekly briefings and introduced the Data Health widget with collection status, errors and freshness information.
+
+## v0.6.1
+
+Improved RSS classification, approximate geographic references and collector version metadata. Geographic references are not confirmed incident coordinates.
+
+## v0.6.0
+
+Developed regional workspaces, geographic reference handling and interactive map framing.
+
+## v0.5.0
+
+Expanded automated RSS collection, GitHub Actions integration and publication metadata handling.
+
+## v0.4.0
+
+Developed source-linked weekly briefings and browser read-aloud support.
+
+## v0.3.3
+
+Added Intelligence Feed pagination, more filters, saved articles and CSV export.
+
+## v0.3.2
+
+Improved Intelligence Feed sizing, scrolling and widget expand/collapse behaviour.
+
+## v0.3.0
+
+Expanded configurable widgets, regional workspaces, reporting views and map interaction.
+
+## v0.2.0
+
+Expanded the dashboard layout, navigation, intelligence widgets and initial automated collection support.
+
+## v0.1.0
+
+Established the initial browser-based dashboard, dark theme, configurable widgets, regional views, source directory and CoreForge branding.
+
+*Earlier entries summarise the development history rather than reproduce every historical commit.*
+
+
+### UN News Middle East RSS correction
+
+The dedicated UN News Middle East source has been retained and its feed URL corrected to the regional RSS endpoint (`/news/region/middle-east/feed/rss.xml`). The main UN News feed remains enabled separately. The revised URL is listed by an independent feed monitor as working; a successful GitHub Actions collection is still required to confirm access from the runner.
