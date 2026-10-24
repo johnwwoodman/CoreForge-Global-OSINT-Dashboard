@@ -57,3 +57,13 @@ The Intelligence Feed is initially limited to a 440px internal scrolling area. S
 
 ### v0.3.3 — feed pagination and spoken briefing
 The Intelligence Feed now displays 10 articles per page by default (select 5, 10, 20, or 50), with Previous/Next controls. Its independent scroll/resize behaviour remains. The browser's Read Aloud button reads a grouped, publisher-attributed weekly news digest derived from the current seven-day feed rather than a numbered list of headlines. This is **not** an independently verified analytical intelligence assessment; source links are supplied for checking claims.
+
+
+## v0.4.0 — Workspace intelligence controls
+- Publisher dropdown changes with selected region; select a publisher to narrow records.
+- Time window: all, 24 hours, 3, 7 or 30 days.
+- Save/unsave articles with the star button; filter to saved articles (browser-local).
+- Expanded workspace-aware research/podcast source directory. Links are directories, not ingested episodes.
+- Collector now assigns `regions` using conservative keyword matching and retains the source feed's region. This is **relevance tagging, not geolocation or verified event location**. Unclassified global articles remain in the Global workspace, rather than flooding every regional view. Multi-region reporting may appear in multiple workspaces.
+- Spoken briefing now incorporates short publisher feed descriptions when present. This remains an automated source-attributed digest, not a human intelligence assessment.
+- Re-run the collection workflow after deploying `scripts/collect_feeds.py` to populate the new region tags.

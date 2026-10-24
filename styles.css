@@ -38,3 +38,10 @@ button:disabled{opacity:.42;cursor:not-allowed}
 .feed-pagination select,.feed-pagination button{background:var(--panel,#1a2b3d);color:inherit;border:1px solid var(--line,#40556b);border-radius:6px;padding:7px 9px;cursor:pointer}
 .feed-pagination button:disabled{opacity:.45;cursor:not-allowed}
 .feed-pagination span{margin-left:auto}
+
+/* v0.4: saved items and workspace source filters */
+.record{position:relative;padding-right:38px}
+.save-article{position:absolute;right:7px;top:8px;min-width:30px;min-height:30px;border:1px solid var(--line);border-radius:7px;color:var(--muted);background:var(--panel);cursor:pointer;font-size:21px;line-height:1}
+.save-article.saved{color:#dba847}
+.saved-filter{display:flex!important;align-items:center;gap:10px;margin:12px 0;color:var(--text)}
+.saved-filter input{width:18px;height:18px;accent-color:#42c7ba}
