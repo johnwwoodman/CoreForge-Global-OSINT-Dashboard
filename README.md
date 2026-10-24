@@ -67,3 +67,13 @@ The Intelligence Feed now displays 10 articles per page by default (select 5, 10
 - Collector now assigns `regions` using conservative keyword matching and retains the source feed's region. This is **relevance tagging, not geolocation or verified event location**. Unclassified global articles remain in the Global workspace, rather than flooding every regional view. Multi-region reporting may appear in multiple workspaces.
 - Spoken briefing now incorporates short publisher feed descriptions when present. This remains an automated source-attributed digest, not a human intelligence assessment.
 - Re-run the collection workflow after deploying `scripts/collect_feeds.py` to populate the new region tags.
+
+
+## v0.5.0 — Intelligence mapping and export
+- Conservative **headline-only** location matching supplies approximate map references (cities or country centroids). These are **not verified incident geolocations** and are omitted for ambiguous multi-place headlines. Do not use for operational targeting, incident counts, or precise geographic analysis.
+- Click or keyboard-activate map pins to open the original reporting. Map markers and counts reflect matching article records, not independent events.
+- CSV export of the currently filtered intelligence records, including provenance and approximate location labels.
+- Additional BBC and Guardian category feeds, independently error-tolerant.
+- Source directory now reports collection health when the refreshed snapshot includes it.
+
+**Deployment:** Replace `app.js`, `index.html`, `styles.css`, `scripts/collect_feeds.py`, and `README.md`. Keep existing `data/live-feed.*` and workflow files on GitHub. Manually rerun the collector workflow to populate approximate map references. The bundled snapshot is intentionally not fabricated or regenerated.

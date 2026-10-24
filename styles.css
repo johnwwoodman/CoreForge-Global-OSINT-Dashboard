@@ -45,3 +45,6 @@ button:disabled{opacity:.42;cursor:not-allowed}
 .save-article.saved{color:#dba847}
 .saved-filter{display:flex!important;align-items:center;gap:10px;margin:12px 0;color:var(--text)}
 .saved-filter input{width:18px;height:18px;accent-color:#42c7ba}
+
+/* v0.5: accessible clickable headline-derived map references */
+.pin{cursor:pointer;stroke:#102338;stroke-width:1.2}.pin:hover,.pin:focus{stroke:#fff;stroke-width:2.8;outline:none}.feed-pagination{flex-wrap:wrap}
