@@ -114,3 +114,15 @@ places match. Some snapshots may legitimately have few references.
 
 The collector records `collector_version`, `classification_method` and `location_method`
 in the snapshot for troubleshooting.
+
+
+## v0.7.0 — Non-AI intelligence improvements
+- The **Open source directory** button scrolls to the Source Directory widget; it never overwrites RSS records. Older stored directory-as-feed data is discarded automatically.
+- Source Directory has workspace-specific publisher toggles (stored in browser localStorage). Source exclusions affect display only, not GitHub collection.
+- Data Health widget reports collector version, freshness, map references, responding feeds and errors.
+- Podcast/research RSS metadata collection is attempted for four additional public feeds; failures are reported, and availability is not guaranteed. Where a podcast feed supplies an HTTPS audio enclosure, the widget offers browser playback. No full-text article scraping.
+- The podcast/research widget prioritises collected publication entries and falls back to the curated directory when none are available.
+- The map marker preview is retained without automatically opening the article on the same click.
+
+**Deploy:** Replace `app.js`, `index.html`, `styles.css`, `scripts/collect_feeds.py`, and `README.md` in their exact paths. Keep `.github/` workflows and the existing `data/` snapshot. Manually run the RSS collector once after deployment. GitHub Pages then serves the updated generated data.
+- Weekly briefing generator now caps repeated publishers, groups items by category, and includes short publisher-provided descriptions where available. It remains a rule-based digest, not AI analysis.

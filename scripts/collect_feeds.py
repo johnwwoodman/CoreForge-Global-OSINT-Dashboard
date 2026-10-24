@@ -35,6 +35,14 @@ FEEDS.extend([
     ('The Guardian Asia', 'https://www.theguardian.com/world/asia/rss', 'Geopolitics', 'Asia-Pacific'),
 ])
 
+# Specialist source endpoints are best-effort. Invalid/unavailable feeds are reported,
+# not silently treated as successful collection. Entries remain linked to publishers.
+SPECIAL_FEEDS = [
+    ('BBC Global News Podcast', 'https://podcasts.files.bbci.co.uk/p02nq0gn.rss', 'Geopolitics', 'all', 'podcast'),
+    ('BBC Newshour Podcast', 'https://podcasts.files.bbci.co.uk/p002vsnk.rss', 'Geopolitics', 'all', 'podcast'),
+    ('The Guardian Long Read', 'https://www.theguardian.com/news/series/the-long-read/rss', 'Geopolitics', 'all', 'research'),
+    ('The Guardian Global Development Analysis', 'https://www.theguardian.com/global-development/rss', 'Humanitarian', 'all', 'research'),
+]
 # Approximate reference points, NOT verified incident coordinates. Only title matches
 # are mapped; descriptions can mention a place in unrelated background context.
 # Country markers represent the country, not a precise incident location.
@@ -160,7 +168,7 @@ def infer_regions(title, description, feed_region):
 
 def collect():
     records, errors, seen = [], [], set()
-    for source, url, category, region in FEEDS:
+    for source, url, category, region, kind in [(s,u,c,r,'news') for s,u,c,r in FEEDS]+SPECIAL_FEEDS:
         try:
             req = urllib.request.Request(url, headers={'User-Agent': 'CoreForgeOSINT/0.2 (+open-source RSS metadata collector)', 'Accept': 'application/rss+xml, application/atom+xml, application/xml, text/xml'})
             with urllib.request.urlopen(req, timeout=18) as response:
@@ -196,17 +204,24 @@ def collect():
                 if clean_link in seen:
                     continue
                 seen.add(clean_link)
+                audio_url = ''
+                if not atom and kind == 'podcast':
+                    enclosure = item.find('enclosure')
+                    if enclosure is not None and (enclosure.get('type','').startswith('audio/') or enclosure.get('url','').lower().endswith('.mp3')):
+                        audio_url = enclosure.get('url','')
+                    if not audio_url.startswith('https://'):
+                        audio_url = ''
                 clean_title=strip_markup(title)[:300]
                 clean_description=strip_markup(description)[:MAX_DESC]
                 regions=infer_regions(clean_title,clean_description,region)
-                records.append({'title': clean_title, 'source': source, 'description': clean_description, 'category': infer_category(clean_title,clean_description,category), 'region': regions[0] if regions else 'all', 'regions': regions, 'kind': 'news', 'url': clean_link, 'published': date_iso(published), **approximate_reference(clean_title,clean_description)})
+                records.append({'title': clean_title, 'source': source, 'description': clean_description, 'category': infer_category(clean_title,clean_description,category), 'region': regions[0] if regions else 'all', 'regions': regions, 'kind': kind, **({'audio_url': audio_url} if audio_url else {}), 'url': clean_link, 'published': date_iso(published), **approximate_reference(clean_title,clean_description)})
                 count += 1
             print(f'{source}: {count} articles')
         except Exception as exc:
             errors.append({'source': source, 'message': str(exc)[:200]})
             print(f'{source}: ERROR {exc}')
     records.sort(key=lambda x: x['published'], reverse=True)
-    return {'updated': dt.datetime.now(dt.timezone.utc).isoformat().replace('+00:00','Z'), 'records': records, 'errors': errors, 'sources_checked': len(FEEDS), 'sources_ok': len(FEEDS)-len(errors), 'collector_version':'0.6.1', 'classification_method':'keyword-heuristic', 'location_method':'headline-or-lead-reference'}
+    return {'updated': dt.datetime.now(dt.timezone.utc).isoformat().replace('+00:00','Z'), 'records': records, 'errors': errors, 'sources_checked': len(FEEDS)+len(SPECIAL_FEEDS), 'sources_ok': len(FEEDS)+len(SPECIAL_FEEDS)-len(errors), 'collector_version':'0.7.0', 'classification_method':'keyword-heuristic', 'location_method':'headline-or-lead-reference'}
 
 if __name__ == '__main__':
     payload = collect()
