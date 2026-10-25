@@ -1,6 +1,19 @@
 {
-  "updated": "2026-10-25T17:34:12.846355Z",
+  "updated": "2026-10-25T17:45:13.217617Z",
   "records": [
+    {
+      "title": "The Guardian view on Oxford Street’s pedestrianisation: cities should be designed around people, not cars | Editorial",
+      "source": "The Guardian Environment",
+      "description": "The transformation of Europe’s busiest shopping street should be a case study in making cities greener, less congested and more inviting places to live Sadiq Khan has been trying to pedestrianise Oxford Street since he first became the mayor of London in 2016. On Monday, after numerous setbacks, his plan will finally come to fruition. The busiest stretch of the nation’s famous shopping street will be closed to traffic in a scheme designed to improve the area and make it more attractive to pedest",
+      "category": "Disasters",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/25/the-guardian-view-on-oxford-streets-pedestrianisation-cities-should-be-designed-around-people-not-cars",
+      "published": "2026-10-25T17:25:07Z"
+    },
     {
       "title": "Exiled opposition leader María Corina Machado returns to Venezuela",
       "source": "The Guardian World",
@@ -2881,25 +2894,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cm9qzgg5z89no?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-22T05:01:31Z"
-    },
-    {
-      "title": "Strongmen like Trump would destroy the planet out of pure spite – and Brazil shows we’re all in peril | George Monbiot",
-      "source": "The Guardian Environment",
-      "description": "If Flávio Bolsonaro is elected, Brazil’s ecosystems will face collapse. The ruling class would rather burn the world than share it with the poor However grim the trajectory might seem, I’ve always believed that sense will ultimately prevail. As the great perils of dismantling the living world become increasingly obvious, even the most rapacious exploiters must come round. Nobody wants to live on a dead planet, do they? There are – or were – signs that this wasn’t just wishful thinking. Since 201",
-      "category": "Disasters",
-      "region": "Americas",
-      "regions": [
-        "Americas"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/commentisfree/2026/oct/22/strongmen-donald-trump-destroy-planet-brazil-flavio-bolsonaro",
-      "published": "2026-10-22T05:00:07Z",
-      "lat": -14.24,
-      "lon": -51.93,
-      "place": "Brazil",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "No order, no seat: Starbucks China rolls out new store policy",
@@ -9153,9 +9147,14 @@
       "published": "2019-12-10T20:27:00Z"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "UN News",
+      "message": "Publisher RSS unavailable after 4 endpoints; https://news.un.org/feed/subscribe/en/news/all/rss.xml: Publisher returned non-XML content; https://news.un.org/en/rss: HTTP Error 406: Not Acceptable; htt"
+    }
+  ],
   "sources_checked": 27,
-  "sources_ok": 27,
+  "sources_ok": 26,
   "collector_version": "1.1.2-un-diagnostics",
   "classification_method": "keyword-heuristic",
   "location_method": "headline-or-lead-reference",
@@ -9200,6 +9199,110 @@
     {
       "source": "UN News Middle East",
       "message": "Using alternate publisher-hosted RSS endpoint: https://news.un.org/feed/subscribe/en/news/region/middle-east/feed/rss.xml?output=rss"
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
     }
   ],
   "feed_health": "See errors for failed source names"
