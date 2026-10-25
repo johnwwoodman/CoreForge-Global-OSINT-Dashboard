@@ -23,7 +23,7 @@ def rest_countries():
    result=get(url)
    if isinstance(result,dict):
     result=result.get('data',{}).get('objects',[]) if isinstance(result.get('data'),dict) else result.get('data',[])
-   if not isinstance(result,list):raise ValueError('Unexpected response shape; cached data retained')
+   if not isinstance(result,list):raise ValueError('Publisher returned a non-list response; cached data retained')
    rows=[r for r in result if valid_country(r)]
    if len(rows)<50:raise ValueError('Only '+str(len(rows))+' valid records')
    return rows

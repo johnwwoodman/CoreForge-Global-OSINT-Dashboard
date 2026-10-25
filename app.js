@@ -52,11 +52,34 @@ function layerGeometry(){const line=(pts,cls)=>`<polyline class="${cls}" points=
  return `${GEO_LAYERS.shipping?SHIPPING.map(r=>line(r,'geo-shipping')).join(''):''}${GEO_LAYERS.airRoutes?AIR_ROUTES.map(r=>line(r,'geo-airroute')).join(''):''}${GEO_LAYERS.seas?labels:''}${GEO_LAYERS.chokepoints?dots(CHOKEPOINTS,'geo-chokepoint'):''}${GEO_LAYERS.ports?dots(PORTS,'geo-port'):''}${GEO_LAYERS.airports?dots(AIRPORTS,'geo-airport'):''}`;
 }
 function layerControls(){const categories=[['intelligence','Intelligence markers'],['chokepoints','Maritime chokepoints'],['shipping','Shipping corridors'],['ports','Major ports'],['seas','Seas & oceans'],['airports','Major airports'],['airRoutes','Indicative air corridors']];return `<details class="geo-layer-menu" open><summary>☷ Map layers — show / hide</summary><div class="geo-layer-presets">${Object.keys(GEO_PRESETS).map(name=>`<button type="button" data-geo-preset="${name}">${name}</button>`).join('')}</div><div class="geo-layer-options">${categories.map(([key,label])=>`<label><input type="checkbox" data-geo-layer="${key}" ${GEO_LAYERS[key]?'checked':''}> ${label}</label>`).join('')}<small>Selections are saved on this device. Routes are indicative, not live tracking.</small></div></details>`}
-function countryProfile(){return `<div class="country-profile" aria-live="polite"><p class="small muted">Select a country on the map or search below. Reference facts are cached locally; political leadership is not presented without verification.</p><label>Country search <input type="search" data-country-search placeholder="e.g. Fiji" value="${safe(selectedCountry)}" list="cf-country-list"></label><datalist id="cf-country-list">${(world?.features||[]).map(f=>`<option value="${safe(f.properties?.name)}"></option>`).join('')}</datalist><button type="button" data-country-go>View profile</button><div class="country-profile-content">${selectedCountry?'<p>Loading country facts…</p>':'Choose a country to view its profile and related reporting.'}</div></div>`}
+function countryProfile(){return `<div class="country-profile" aria-live="polite"><p class="small muted">Select a country on the map or search below. Reference facts are cached locally; political leadership is not presented without verification.</p><div class="country-search-row"><label>Country search <input type="search" data-country-search placeholder="e.g. Fiji" value="${safe(selectedCountry)}" list="cf-country-list"></label><datalist id="cf-country-list">${(world?.features||[]).map(f=>`<option value="${safe(f.properties?.name)}"></option>`).join('')}</datalist><button type="button" data-country-go>View profile</button></div><div class="country-profile-content">${selectedCountry?'<p>Loading country facts…</p>':'Choose a country to view its profile and related reporting.'}</div></div>`}
 const COUNTRY_ALIASES={'united states of america':'united states','usa':'united states','uk':'united kingdom','russia':'russian federation','syria':'syrian arab republic','iran':'iran (islamic republic of)','turkey':'turkey','türkiye':'turkey','south korea':'korea (republic of)','north korea':'korea (democratic people\'s republic of)','vietnam':'viet nam','laos':'lao people\'s democratic republic','bolivia':'bolivia (plurinational state of)','venezuela':'venezuela (bolivarian republic of)','tanzania':'tanzania, united republic of','brunei':'brunei darussalam','moldova':'moldova (republic of)','czech republic':'czechia'};
 let countryDataset=null,countryLoad=null;
+const COUNTRY_REMOTE='https://raw.githubusercontent.com/johnwwoodman/CoreForge-Global-OSINT-Dashboard/main/data/country-facts.json';
+const COUNTRY_CACHE_KEY='cf-country-snapshot-v1';
 function normCountry(s){return String(s||'').toLocaleLowerCase('en').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,' ').trim()}
-function getCountryData(){if(countryDataset)return Promise.resolve(countryDataset);if(!countryLoad)countryLoad=fetch('data/country-facts.json?v=1.4.0').then(r=>{if(!r.ok)throw Error('country snapshot missing');return r.json()}).then(d=>{countryDataset=d;return d}).catch(()=>({countries:{}}));return countryLoad}
+function validCountrySnapshot(d){return d&&typeof d==='object'&&d.countries&&Object.keys(d.countries).length>=200}
+async function getCountryData(){
+ if(countryDataset)return countryDataset;
+ if(countryLoad)return countryLoad;
+ countryLoad=(async()=>{
+  let bundled=null,cached=null;
+  try{const r=await fetch('data/country-facts.json?version=1.5.0',{cache:'no-store'});if(r.ok){const d=await r.json();if(validCountrySnapshot(d))bundled=d}}catch{}
+  try{const d=JSON.parse(localStorage.getItem(COUNTRY_CACHE_KEY)||'null');if(validCountrySnapshot(d))cached=d}catch{}
+  const localEdition=['127.0.0.1','localhost'].includes(location.hostname)||location.protocol==='file:';
+  // On Windows always prefer the latest published snapshot; never replace a good cached snapshot with an old bundle.
+  let remote=null;
+  if(localEdition){try{const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),12000);
+   try{const r=await fetch(COUNTRY_REMOTE+'?t='+Date.now(),{cache:'no-store',signal:controller.signal});if(r.ok){const d=await r.json();if(validCountrySnapshot(d))remote=d}}finally{clearTimeout(timer)}
+  }catch{}}
+  const pick=(remote&&(!cached||String(remote.updated||'')>=String(cached.updated||'')))?remote:
+   (cached&&(!bundled||String(cached.updated||'')>=String(bundled.updated||'')))?cached:bundled;
+  countryDataset=pick||{countries:{}};
+  countryDataset._syncStatus=remote&&countryDataset===remote?'Live GitHub snapshot':cached&&countryDataset===cached?'Offline cached snapshot':'Bundled snapshot';
+  if(remote){try{localStorage.setItem(COUNTRY_CACHE_KEY,JSON.stringify(remote))}catch{}}
+  return countryDataset;
+ })();return countryLoad;
+}
 function matchCountry(name,d){const n=normCountry(name);const alias=normCountry(COUNTRY_ALIASES[n]||name);const vals=Object.values(d?.countries||{});return vals.find(x=>[x.name,...(x.aliases||[])].some(v=>normCountry(v)===n||normCountry(v)===alias))||null}
 function relatedCountryArticles(name){const n=normCountry(name);if(!n)return[];const aliases=[n];if(n==='united states of america')aliases.push('united states');if(n==='united kingdom')aliases.push('britain');const rx=new RegExp('(^|[^a-z])('+aliases.map(x=>x.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|')+')([^a-z]|$)','i');return (Array.isArray(records)?records:[]).filter(a=>rx.test([a.title,a.description,a.summary,a.country,a.region].filter(Boolean).join(' '))).slice(0,8)}
 function renderCountryFacts(node,name){
@@ -74,14 +97,14 @@ function renderCountryFacts(node,name){
   const wiki='https://www.wikidata.org/w/index.php?search='+encodeURIComponent(token);
   const bbc='https://www.bbc.com/news/world';
   const articles=relatedCountryArticles(token);
-  const status=snapshot?.sourcesSucceeded?.length?'Automated data available':'Bundled reference snapshot';
+  const status=snapshot?._syncStatus||(snapshot?.sourcesSucceeded?.length?'Automated data available':'Bundled reference snapshot');
   const urls=[['Population (World Bank)',d?.populationSource],['GDP (World Bank)',d?.gdpUsdSource],['Political data (Wikidata)',d?.leadershipSource||wiki],['BBC World reporting',bbc]];
   const link=(url,label)=>{try{const u=new URL(url);return u.protocol==='https:'?`<a href="${safe(u.href)}" target="_blank" rel="noopener noreferrer">${safe(label)} ↗</a>`:''}catch{return ''}};
   const primaryCurrency=String(d?.currency||'Not available').split(', ')[0];
   fields[2][1]=primaryCurrency;
   const lastChecked=d?.leadershipChecked||'Not checked';
   const coverage=snapshot?.leadershipCoverage;
-  const coverageText=coverage?` · Worldwide leadership coverage: ${coverage.countriesWithAnyLeader}/${coverage.countriesTotal}`:'';
+  const coverageText=coverage?` · Worldwide leadership coverage: ${coverage.countriesWithAnyLeader}/${coverage.countriesTotal} · Both fields: ${coverage.countriesWithBothLeaders??'—'}`:'';
   const sources=(snapshot?.sourcesSucceeded||[]).map(x=>`<li>${safe(x)}</li>`).join('');
   const errors=(snapshot?.sourceErrors||[]).map(x=>`<li>${safe(x)}</li>`).join('');
   const savedNote=localStorage.getItem('cf-country-note-'+normCountry(token))||'';

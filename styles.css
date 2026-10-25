@@ -105,3 +105,11 @@ button:disabled{opacity:.42;cursor:not-allowed}
 .country-note-label textarea{width:100%;box-sizing:border-box;min-height:72px;resize:vertical;padding:10px;border-radius:7px;border:1px solid var(--line);background:var(--panel2);color:var(--text);font:inherit}
 .country-links,.country-related{overflow-wrap:anywhere}
 @media(max-width:540px){.country-facts{grid-template-columns:1fr}.country-facts dt{margin-top:8px}}
+
+/* v1.5: keep search input and action aligned at every widget width */
+.country-profile .country-search-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:end;gap:12px;width:100%;margin:12px 0 22px}
+.country-profile .country-search-row label{display:flex;flex-wrap:nowrap;align-items:center;gap:12px;min-width:0}
+.country-profile .country-search-row input[data-country-search]{flex:1;min-width:0;width:100%;max-width:none;margin:0}
+.country-profile .country-search-row button[data-country-go]{margin:0;white-space:nowrap;align-self:stretch}
+@container (max-width:560px){.country-profile .country-search-row{grid-template-columns:1fr}.country-profile .country-search-row label{flex-wrap:wrap}}
+@media(max-width:650px){.country-profile .country-search-row{grid-template-columns:1fr}.country-profile .country-search-row label{flex-wrap:wrap}}

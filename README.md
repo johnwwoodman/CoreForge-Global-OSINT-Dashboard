@@ -1,3 +1,14 @@
+## v1.5.0 — Worldwide coverage and Windows synchronisation (25 October 2026)
+
+- Leadership refresh attempts all country records each scheduled run (instead of 42), subject to publisher availability and rate limits; coverage metrics distinguish one vs both names. A missing name remains missing rather than guessed.
+- Windows edition retrieves the published GitHub country snapshot and stores a local browser cache, with offline fallback. Internet is required for the first successful synchronisation. The bundled snapshot remains a fallback, not a live feed.
+- Country Profile search/button layout corrected for variable widget widths.
+- UN News publisher access failures are labelled clearly and previously collected UN reporting is retained when available. This does not circumvent publisher restrictions or guarantee a live UN News feed.
+- RSS GitHub Action now retries non-force pushes after concurrent commits.
+- No change to World Bank indicators, existing map layers, RSS sources, or local Ollama bridge.
+
+**Important:** Leadership names are structured-data candidates, not independently verified. Coverage is not guaranteed until the live GitHub Actions run completes. If GitHub or Wikipedia/Wikidata cannot be reached, cached values remain in place. The Windows edition needs to be served using START-COREFORGE-WINDOWS.bat, not opened as file://, for best compatibility.
+
 ## v1.3.3 — Reliability and country intelligence (2026-10-25)
 
 - Country Profile layout now wraps long values and collapses provider diagnostics.

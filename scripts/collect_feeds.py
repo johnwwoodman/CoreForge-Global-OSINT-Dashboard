@@ -344,11 +344,11 @@ def collect():
                 un_regional_failed = True
                 print(f'{source}: regional RSS unavailable ({exc}); attempting UN News global fallback')
             else:
-                errors.append({'source': source, 'message': str(exc)[:200]})
+                errors.append({'source': source, 'message': ('Publisher RSS blocked or unavailable; cached articles retained where available' if source in ('UN News','UN News Middle East') else str(exc)[:200])})
                 print(f'{source}: ERROR {exc}')
     if un_regional_failed and not any(w['source'] == 'UN News Middle East' for w in warnings):
         errors.append({'source':'UN News Middle East',
-                       'message':'Regional feed unavailable and global UN News fallback also unavailable.'})
+                       'message':'Regional and global publisher RSS unavailable; retaining previously collected articles where available.'})
     # Preserve only previously collected genuine UN News articles if the publisher blocks this run.
     # Do not fabricate items or present retained reporting as newly collected.
     if failed_un_sources:

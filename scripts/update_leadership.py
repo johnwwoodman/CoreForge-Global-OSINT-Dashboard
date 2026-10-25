@@ -52,7 +52,7 @@ def pick(entity,prop):
  if len(chosen)!=1:return None
  return chosen[0][0]
 
-def select(records,limit=42):
+def select(records,limit=300):
  all_codes=sorted(c for c in records if len(c)==2)
  day=datetime.date.fromisoformat(TODAY).toordinal()
  # Priority countries are always checked, remainder rotates deterministically.
@@ -69,6 +69,12 @@ def main():
  titles={code:rec.get('name','') for code,rec in records.items() if code in codes}
  # Wikipedia redirects resolve common country names and expose Wikidata IDs.
  ids={};errors=[]; updated=0
+ # Reuse already resolved country entities; avoids redundant Wikipedia calls.
+ for code in list(titles):
+  source=records[code].get('leadershipSource','')
+  if source.startswith('https://www.wikidata.org/wiki/Q'):
+   ids[code]=source.rsplit('/',1)[-1]
+   del titles[code]
  try:
   for batch in chunks(list(titles.items()),25):
    res=fetch(API,{'action':'query','format':'json','redirects':'1','prop':'pageprops','ppprop':'wikibase_item','titles':'|'.join(name for _,name in batch)})
@@ -84,7 +90,7 @@ def main():
    for batch in chunks(list(set(ids.values())),40):
     response=fetch(WD,{'action':'wbgetentities','format':'json','ids':'|'.join(batch),'props':'claims|labels','languages':'en','maxlag':'5'})
     entity_map.update(response.get('entities',{}))
-    time.sleep(1.5)
+    time.sleep(2.0)
    leaders=set()
    for qid in ids.values():
     entity=entity_map.get(qid,{})
@@ -97,7 +103,7 @@ def main():
     for lid,item in res.get('entities',{}).items():
      label=item.get('labels',{}).get('en',{}).get('value')
      if label:labels[lid]=label
-    time.sleep(1.5)
+    time.sleep(2.0)
    for code,qid in ids.items():
     rec=records[code];entity=entity_map.get(qid,{})
     patch={}
@@ -115,7 +121,7 @@ def main():
  data.setdefault('sourcesSucceeded',[]).append('Leadership entity refresh ('+str(updated)+' countries)') if updated else None
  data.setdefault('sourceErrors',[]).extend(errors)
  data['leadershipRun']=TODAY
- data['leadershipCoverage']={'countriesWithAnyLeader':sum(bool(r.get('headOfState') or r.get('headOfGovernment')) for r in records.values()),'countriesTotal':len(records),'countriesCheckedThisRun':len(ids),'countriesUpdatedThisRun':updated}
+ data['leadershipCoverage']={'countriesWithAnyLeader':sum(bool(r.get('headOfState') or r.get('headOfGovernment')) for r in records.values()),'countriesTotal':len(records),'countriesCheckedThisRun':len(ids),'countriesUpdatedThisRun':updated,'countriesWithBothLeaders':sum(bool(r.get('headOfState') and r.get('headOfGovernment')) for r in records.values()),'countriesMissingBoth':sum(not (r.get('headOfState') or r.get('headOfGovernment')) for r in records.values())}
  PATH.write_text(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
  print('Leadership:',data['leadershipCoverage'],'errors:',errors)
  return 0
