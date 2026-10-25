@@ -187,3 +187,10 @@ not proof that the dedicated regional endpoint is reliably accessible.
 - Adds country aliases and ISO alpha-2/alpha-3 search, including St Helena / Saint Helena / SH / SHN and Samoa / WS / WSM. Country search suggestions use the full country database rather than only map features.
 - Publishes `data/country-coverage-audit.json` on country refresh, reporting missing ISO entries, leadership gaps, population and GDP gaps. Territories may legitimately lack independent heads of state or government.
 - An ISO catalogue record does not imply population, GDP or leadership is known; missing facts remain explicitly unavailable.
+
+### v1.5.2 — Strategic territories and political-status profiles (25 October 2026)
+- Added `data/territory-profiles.json` with contextual classifications for strategic, disputed, overseas and uninhabited territories. Includes Chagos Archipelago, Diego Garcia, Johnston Atoll, Saint Helena, Gibraltar and other selected locations.
+- Corrected internal identifiers such as `johnston_atoll` to human-readable names; territory search supports curated aliases.
+- Profiles display administering authority, sovereign state/claims and strategic relevance where curated context exists. Political status is contextual and requires independent verification; no live officeholders are invented.
+- Diego Garcia, Chagos and Johnston Atoll can be selected via the maritime chokepoints map layer.
+- ISO leadership coverage remains measured separately from additional geographic records. Existing workflows, feeds, country collector and Windows sync remain unchanged.

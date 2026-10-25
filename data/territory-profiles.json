@@ -1,0 +1,174 @@
+{
+  "version": "1.5.2",
+  "description": "Contextual territorial profiles. Political arrangements must be independently checked before operational use.",
+  "profiles": {
+    "johnston_atoll": {
+      "name": "Johnston Atoll",
+      "profileType": "Strategic territory",
+      "politicalStatus": "Unincorporated United States territory; no permanent civilian population",
+      "administeringAuthority": "United States federal authorities",
+      "sovereignState": "United States",
+      "strategicRelevance": "Remote central Pacific atoll with historic defence and environmental significance",
+      "capital": "Not applicable",
+      "populationStatus": "No permanent civilian residents",
+      "gdpStatus": "Not separately reported",
+      "currency": "US dollar (USD)",
+      "aliases": [
+        "Johnston Island",
+        "Johnston Atoll"
+      ]
+    },
+    "diego_garcia": {
+      "name": "Diego Garcia",
+      "profileType": "Strategic location",
+      "politicalStatus": "Island within the Chagos Archipelago; sovereignty and administration require current-source verification",
+      "administeringAuthority": "UK–US defence facility arrangements; consult current official sources",
+      "sovereignState": "Contested / subject to international agreements",
+      "strategicRelevance": "Major Indian Ocean military logistics and aviation facility",
+      "capital": "Not applicable",
+      "gdpStatus": "Not separately reported",
+      "aliases": [
+        "Diego Garcia Island"
+      ]
+    },
+    "chagos_archipelago": {
+      "name": "Chagos Archipelago",
+      "profileType": "Disputed / strategic territory",
+      "politicalStatus": "Sovereignty and administration have been subject to UK–Mauritius agreements and legal dispute; verify current status",
+      "administeringAuthority": "See current UK and Mauritius government statements",
+      "sovereignState": "Subject to UK–Mauritius sovereignty arrangements and dispute history",
+      "strategicRelevance": "Diego Garcia defence facility; Indian Ocean maritime and air access; Chagossian rights and resettlement",
+      "capital": "Not applicable",
+      "gdpStatus": "Not separately reported",
+      "aliases": [
+        "Chagos Islands",
+        "British Indian Ocean Territory",
+        "BIOT"
+      ]
+    },
+    "west_bank": {
+      "name": "West Bank",
+      "profileType": "Territory with disputed status",
+      "politicalStatus": "Occupied Palestinian territory; complex and varying administrative control",
+      "sovereignState": "Palestinian territorial claim; international legal status contested",
+      "strategicRelevance": "Governance, access, humanitarian conditions and infrastructure",
+      "gdpStatus": "Not separately reported for this profile"
+    },
+    "gaza_strip": {
+      "name": "Gaza Strip",
+      "profileType": "Territory with disputed status",
+      "politicalStatus": "Palestinian territory; verify current governance and security arrangements",
+      "strategicRelevance": "Humanitarian access, civilian infrastructure and regional security"
+    },
+    "virgin_islands": {
+      "name": "Virgin Islands (unspecified)",
+      "profileType": "Ambiguous geographic record",
+      "politicalStatus": "Choose British Virgin Islands or U.S. Virgin Islands for an authoritative territorial profile",
+      "aliases": [
+        "Virgin Islands (unspecified)"
+      ]
+    },
+    "saint helena": {
+      "name": "Saint Helena",
+      "profileType": "British Overseas Territory",
+      "politicalStatus": "Part of Saint Helena, Ascension and Tristan da Cunha, a British Overseas Territory",
+      "administeringAuthority": "Governor and local elected government; verify current officeholders",
+      "sovereignState": "United Kingdom",
+      "strategicRelevance": "South Atlantic access, communications and transport",
+      "aliases": [
+        "St Helena",
+        "St. Helena"
+      ]
+    },
+    "ascension_island": {
+      "name": "Ascension Island",
+      "profileType": "British Overseas Territory",
+      "politicalStatus": "Part of Saint Helena, Ascension and Tristan da Cunha",
+      "administeringAuthority": "Territorial administrator under the Governor",
+      "sovereignState": "United Kingdom",
+      "strategicRelevance": "South Atlantic air, communications and tracking facilities"
+    },
+    "gibraltar": {
+      "name": "Gibraltar",
+      "profileType": "British Overseas Territory",
+      "politicalStatus": "British Overseas Territory; sovereignty claimed by Spain",
+      "administeringAuthority": "Governor and elected Gibraltar government",
+      "sovereignState": "United Kingdom (administers); Spain claims sovereignty",
+      "strategicRelevance": "Strait of Gibraltar and Mediterranean maritime access"
+    },
+    "western sahara": {
+      "name": "Western Sahara",
+      "profileType": "Disputed territory",
+      "politicalStatus": "Non-self-governing territory; competing Moroccan and Sahrawi claims",
+      "strategicRelevance": "Sovereignty dispute, humanitarian conditions and regional diplomacy"
+    },
+    "greenland": {
+      "name": "Greenland",
+      "profileType": "Autonomous territory",
+      "politicalStatus": "Self-governing territory within the Kingdom of Denmark",
+      "sovereignState": "Kingdom of Denmark",
+      "strategicRelevance": "Arctic security, shipping routes and critical infrastructure"
+    },
+    "faroe islands": {
+      "name": "Faroe Islands",
+      "profileType": "Autonomous territory",
+      "politicalStatus": "Self-governing territory within the Kingdom of Denmark",
+      "sovereignState": "Kingdom of Denmark",
+      "strategicRelevance": "North Atlantic maritime routes and fisheries"
+    },
+    "guam": {
+      "name": "Guam",
+      "profileType": "United States territory",
+      "politicalStatus": "Organised unincorporated United States territory",
+      "sovereignState": "United States",
+      "strategicRelevance": "Western Pacific military and logistics hub"
+    },
+    "american samoa": {
+      "name": "American Samoa",
+      "profileType": "United States territory",
+      "politicalStatus": "Unincorporated United States territory",
+      "sovereignState": "United States",
+      "strategicRelevance": "South Pacific maritime geography"
+    },
+    "hong kong": {
+      "name": "Hong Kong",
+      "profileType": "Special administrative region",
+      "politicalStatus": "Special Administrative Region of China",
+      "sovereignState": "China",
+      "strategicRelevance": "Global finance, port infrastructure and trade"
+    },
+    "macao": {
+      "name": "Macao",
+      "profileType": "Special administrative region",
+      "politicalStatus": "Special Administrative Region of China",
+      "sovereignState": "China"
+    },
+    "bouvet island": {
+      "name": "Bouvet Island",
+      "profileType": "Uninhabited dependent territory",
+      "politicalStatus": "Norwegian dependent territory",
+      "sovereignState": "Norway",
+      "capital": "Not applicable",
+      "populationStatus": "Uninhabited",
+      "gdpStatus": "Not separately reported"
+    },
+    "baker island": {
+      "name": "Baker Island",
+      "profileType": "Uninhabited United States territory",
+      "politicalStatus": "United States Minor Outlying Island",
+      "sovereignState": "United States",
+      "capital": "Not applicable",
+      "populationStatus": "Uninhabited",
+      "gdpStatus": "Not separately reported"
+    },
+    "howland island": {
+      "name": "Howland Island",
+      "profileType": "Uninhabited United States territory",
+      "politicalStatus": "United States Minor Outlying Island",
+      "sovereignState": "United States",
+      "capital": "Not applicable",
+      "populationStatus": "Uninhabited",
+      "gdpStatus": "Not separately reported"
+    }
+  }
+}
