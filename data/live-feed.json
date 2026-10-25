@@ -1,6 +1,17 @@
 {
-  "updated": "2026-10-25T18:23:42.754243Z",
+  "updated": "2026-10-25T18:42:29.585964Z",
   "records": [
+    {
+      "title": "Venezuelan opposition leader María Machado returns after months in exile",
+      "source": "BBC World",
+      "description": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-25T18:29:00Z"
+    },
     {
       "title": "Serbia votes as strongman Vučić faces grassroots challenge to 12-year rule – Europe live",
       "source": "The Guardian World",
@@ -12,7 +23,7 @@
       ],
       "kind": "news",
       "url": "https://www.theguardian.com/world/live/2026/oct/25/europe-serbia-elections-aleksander-vucic-student-list-protests-bulgaria-latest-news-updates",
-      "published": "2026-10-25T18:11:44Z"
+      "published": "2026-10-25T18:23:03Z"
     },
     {
       "title": "US south-west braces for more flooding after stretch of heavy rain and storms",
@@ -69,17 +80,6 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
-    },
-    {
-      "title": "Venezuelan opposition leader María Machado returns after months in exile",
-      "source": "BBC World",
-      "description": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-25T16:21:40Z"
     },
     {
       "title": "Early reports suggest record high turnout in Serbia elections",
@@ -9150,7 +9150,7 @@
   "errors": [
     {
       "source": "UN News",
-      "message": "Publisher RSS unavailable after 4 endpoints (publisher may block automated requests); https://news.un.org/feed/subscribe/en/news/all/rss.xml: Publisher returned non-XML content; https://news.un.org/en"
+      "message": "Publisher RSS blocked or unavailable; cached articles retained where available"
     }
   ],
   "sources_checked": 27,
