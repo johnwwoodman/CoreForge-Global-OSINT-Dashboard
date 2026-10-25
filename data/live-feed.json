@@ -1,6 +1,132 @@
 {
-  "updated": "2026-10-25T19:18:54.823598Z",
+  "updated": "2026-10-25T21:02:57.182373Z",
   "records": [
+    {
+      "title": "British Columbia's new premier lucks into the job in unexpected political turn",
+      "source": "BBC Americas",
+      "description": "An electoral gamble by the Canadian province's outgoing premier, David Eby, backfired as the provincial Conservatives take power for the first time since 1928.",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe",
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cxj0ln19j3jvo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-25T20:58:39Z"
+    },
+    {
+      "title": "Australia politics live: MPs to pay tribute to Helen Haines as parliament resumes; Hanson says One Nation cartoons ‘not going anywhere’",
+      "source": "The Guardian World",
+      "description": "Follow live updates Get our daily political email , free app or daily news podcast Politicians to sign ‘civility pledge’ following alleged attack on Haines The speaker of the house, Milton Dick , will call for civility in parliament today, and some politicians are expected to sign a “civility pledge”. I think there’s something really symbolic about the fact that Helen was [the first] federal MP to have signed this. It is a very simple thing. It just says in my political life. I pledge to act wit",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/australia-news/live/2026/oct/26/australia-politics-live-helen-haines-tribute-anthony-albanese-labor-liberal-one-nation-pauline-hanson-angus-taylor-question-time-senate-estimates-ntwnfb",
+      "published": "2026-10-25T20:43:34Z"
+    },
+    {
+      "title": "Vučić concedes Serbian election, says Student List will be the largest party – Europe live",
+      "source": "The Guardian World",
+      "description": "The Student List movement is taking on authoritarian leader following nearly two years of protests against government and institutional corruption What is at stake in Serbia’s election? The latest turnout projection by Ipsos/Cesid suggests a turnout of 60.8% by 5pm local time (4pm UK), with three hours still to go until the polling stations close. That’s more than 13 percentage points higher than in 2023, and would be the highest turnout since mid-2000s. “ What hasn’t motivated me? There isn’t a",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/live/2026/oct/25/europe-serbia-elections-aleksander-vucic-student-list-protests-bulgaria-latest-news-updates",
+      "published": "2026-10-25T20:43:06Z"
+    },
+    {
+      "title": "Cabinet split emerges over controversial Rosebank oilfield decision",
+      "source": "The Guardian Environment",
+      "description": "Chancellor is in favour the North Sea project, but energy secretary has said she is leaning towards rejecting it A cabinet split has emerged over whether to approve drilling at the Rosebank oilfield, with the chancellor, John Healey, in favour of the controversial North Sea project. The energy secretary, Miatta Fahnbulleh, is ultimately in charge of the decision and the Guardian reported last week that she was leaning towards rejecting it after granting permission for the smaller Jackdaw gasfiel",
+      "category": "Disasters",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/environment/2026/oct/25/cabinet-split-emerges-over-controversial-rosebank-oilfield-decision",
+      "published": "2026-10-25T20:29:25Z"
+    },
+    {
+      "title": "Macron accused of putting France’s right to protest at risk with ‘vandal’s law’",
+      "source": "The Guardian World",
+      "description": "Making innocent protesters liable for damage would be bad for rule of law and play into far-right hands, say opponents Emmanuel Macron has been accused by trade unions of trying to curb the fundamental French right to protest as the government fast-tracks a bill to make protesters pay for damage caused by vandalism at street demonstrations even if they did not directly cause it themselves. The French president, who leaves office next spring, has faced more than a month of protests in which high-",
+      "category": "Economics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/25/macrons-vandals-pay-bill-puts-right-to-protest-at-risk",
+      "published": "2026-10-25T19:57:40Z",
+      "lat": 46.6,
+      "lon": 2.21,
+      "place": "France",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Cabinet ministers back Burnham’s call for debate on return to free movement with EU",
+      "source": "The Guardian Europe",
+      "description": "PM’s plea supported by Angela Rayner, Ed Miliband and business leaders, while some ‘red wall’ MPs voice concern Andy Burnham’s call for the UK to consider a return to free movement with Europe has been backed by senior cabinet ministers but risked a rift with “red wall” Labour MPs, who say it could jeopardise Brexit-voting seats. The prime minister made his plea for an “honest discussion” about freedom of movement in an interview with the Sunday Times, making clear that staying out of it would n",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/politics/2026/oct/25/burnham-rayner-labour-eu-free-movement-brexit",
+      "published": "2026-10-25T19:57:13Z"
+    },
+    {
+      "title": "Exiled opposition leader María Corina Machado returns to Venezuela",
+      "source": "The Guardian World",
+      "description": "Nobel peace prize winner’s return after almost a year in exile is unlikely to please interim president Delcy Rodríguez The Venezuelan opposition leader, María Corina Machado, has announced she has returned to Venezuela almost a year after she left the country to receive the Nobel peace prize. “I’m here. With you,” she wrote on X on Sunday lunchtime. Continue reading...",
+      "category": "Geopolitics",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return",
+      "published": "2026-10-25T19:56:56Z"
+    },
+    {
+      "title": "Early reports suggest record high turnout in Serbia elections",
+      "source": "BBC World",
+      "description": "Polls are closing in Serbia as a student movement attempts to oust longtime populist leader Aleksandar Vučić.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c6jdmj1ej715o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-25T19:55:15Z"
+    },
+    {
+      "title": "Brazil election 2026: Live second round results",
+      "source": "The Guardian World",
+      "description": "After a shock defeat in the first round, the incumbent Brazilian president, Luiz Inácio Lula da Silva, is seeking a new term in a runoff with Flávio Bolsonaro, the son of his convicted predecessor Polls were originally due to close at 17.00BRT, 20.00GMT, but voting has been extended for two hours; some districts had already counted. Full coverage here Continue reading...",
+      "category": "Geopolitics",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/ng-interactive/2026/oct/25/brazil-election-2026-live-second-round-results",
+      "published": "2026-10-25T19:37:49Z",
+      "lat": -14.24,
+      "lon": -51.93,
+      "place": "Brazil",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
     {
       "title": "Death toll in Nigeria village raided by gunmen rises to 48, police say",
       "source": "BBC World",
@@ -13,19 +139,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cq1kdlm1ze7do?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-25T19:14:27Z"
-    },
-    {
-      "title": "Serbia votes as strongman Vučić faces grassroots challenge to 12-year rule – Europe live",
-      "source": "The Guardian World",
-      "description": "The Student List movement is taking on authoritarian leader following nearly two years of protests against government and institutional corruption What is at stake in Serbia’s election? The latest turnout projection by Ipsos/Cesid suggests a turnout of 60.8% by 5pm local time (4pm UK), with three hours still to go until the polling stations close. That’s more than 13 percentage points higher than in 2023, and would be the highest turnout since mid-2000s. “ What hasn’t motivated me? There isn’t a",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/live/2026/oct/25/europe-serbia-elections-aleksander-vucic-student-list-protests-bulgaria-latest-news-updates",
-      "published": "2026-10-25T19:14:25Z"
     },
     {
       "title": "US south-west braces for more storms after enduring days of rain and flooding",
@@ -41,7 +154,7 @@
     {
       "title": "Emirati diplomat who helped deliver aid to Gaza enters UN secretary general race",
       "source": "The Guardian World",
-      "description": "Lana Nusseibeh has Palestine’s endorsement but faces criticism over the UAE’s human rights record and alleged funding of the RSF in Sudan An Emirati diplomat who as UAE ambassador to the UN helped secure the delivery of humanitarian aid to Gaza has entered the race as a late contender to succeed António Guterres as the world body’s secretary general. Lana Nusseibeh, who is of Palestinian heritage, is widely noted for her advocacy of the Palestinian cause and the two state solution and has won th",
+      "description": "Lana Nusseibeh has Palestine’s endorsement but faces criticism over UAE’s record on human rights and Sudan An Emirati diplomat who as UAE ambassador to the UN helped secure the delivery of humanitarian aid to Gaza has entered the race as a late contender to succeed António Guterres as the world body’s secretary general. Lana Nusseibeh, who is of Palestinian heritage, is widely noted for her advocacy of the Palestinian cause and the two-state solution and has won the endorsement of the state of P",
       "category": "Humanitarian",
       "region": "Middle East",
       "regions": [
@@ -96,19 +209,6 @@
       "published": "2026-10-25T17:25:07Z"
     },
     {
-      "title": "Exiled opposition leader María Corina Machado returns to Venezuela",
-      "source": "The Guardian World",
-      "description": "Nobel peace prize winner’s return after almost a year in exile is unlikely to please interim president Delcy Rodríguez The Venezuelan opposition leader María Corina Machado has announced she has returned to Venezuela almost a year after she left the country to receive the Nobel peace prize. “I’m here. With you,” she wrote on X on Sunday lunchtime. Continue reading...",
-      "category": "Geopolitics",
-      "region": "Americas",
-      "regions": [
-        "Americas"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return",
-      "published": "2026-10-25T17:18:28Z"
-    },
-    {
       "title": "How do Israel's elections work and who are the main contenders?",
       "source": "BBC Middle East",
       "description": "Israel heads to the polls on Tuesday for what many view as one of the most pivotal elections in the country's history.",
@@ -128,15 +228,16 @@
       "location_verified": false
     },
     {
-      "title": "Early reports suggest record high turnout in Serbia elections",
-      "source": "BBC World",
-      "description": "Serbia is heading to the polls as a student movement attempts to oust longtime populist leader Aleksandar Vučić.",
-      "category": "Geopolitics",
+      "title": "Why do planes keep circling before landing? UN has a plan to fix it - UN News",
+      "source": "UN News (news index)",
+      "description": "Why do planes keep circling before landing? UN has a plan to fix it UN News",
+      "category": "Humanitarian",
       "region": "all",
       "regions": [],
       "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/c6jdmj1ej715o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-25T16:05:15Z"
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9qZmRlY1RzbS1vQjVMR045NTEzb0E0OU9yR0JaM0FKbW02QnZuWFJnMDRNSFl1eWdSNXhQYVhMaW1sbUFiU2wzY2p1MGEtS0kzU0JyRzQ4dw?oc=5",
+      "published": "2026-10-25T16:00:00Z",
+      "collection_method": "Third-party news index; not direct UN RSS"
     },
     {
       "title": "Thousands rally against Netanyahu in Tel Aviv ahead of Israeli elections – video",
@@ -217,7 +318,7 @@
     {
       "title": "Almost two-thirds of Australians bulk-billed for all GP care amid extra incentives for doctors",
       "source": "The Guardian World",
-      "description": "Exclusive: RACGP survey reflects Medicare investments, but experts caution quality of care and outcomes also matter Get our new political email , free app or daily news podcast The proportion of general practitioners bulk-billing all of their patients has more than doubled in a year, a report has found, after the government introduced financial incentives for doctors and practices. And almost two-thirds (63%) of Australians are now bulk-billed for all their GP care, up from 56% in both 2024 and ",
+      "description": "Exclusive: RACGP says results likely reflect Medicare investments, but experts caution quality of care and outcomes also matter Get our new political email , free app or daily news podcast The proportion of general practitioners bulk-billing all of their patients has more than doubled in a year, a report has found, after the government introduced financial incentives for doctors and practices. And almost two-thirds (63%) of Australians are now bulk-billed for all their GP care, up from 56% in bo",
       "category": "Geopolitics",
       "region": "all",
       "regions": [],
@@ -238,19 +339,6 @@
       "kind": "news",
       "url": "https://www.theguardian.com/business/2026/oct/25/volkswagen-to-build-4bn-audi-suv-factory-in-us-despite-job-cuts-at-home",
       "published": "2026-10-25T13:43:19Z"
-    },
-    {
-      "title": "Rayner backs Burnham call for debate on return to free movement with EU",
-      "source": "The Guardian Europe",
-      "description": "Cabinet minister says PM’s plea is ‘pragmatism’ but comments risk causing concern among some ‘red wall’ MPs Andy Burnham’s call for the UK to consider a return to free movement with Europe has been backed by senior cabinet ministers including Angela Rayner but risks causing concern among fellow red wall MPs. The prime minister made his plea for an “honest discussion” about free movement in an interview with the Sunday Times, making clear that staying out of it would no longer be a red line in ta",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/politics/2026/oct/25/burnham-rayner-labour-eu-free-movement-brexit",
-      "published": "2026-10-25T13:31:05Z"
     },
     {
       "title": "Hundreds of thousands march across France in protests over schools and policing",
@@ -629,25 +717,6 @@
       "published": "2026-10-25T01:41:37Z"
     },
     {
-      "title": "Andy Burnham says he wants ‘honest discussion’ about freedom of movement with EU",
-      "source": "The Guardian World",
-      "description": "Prime minister is considering different options for new relationship with Brussels ahead of summit in November Andy Burnham says he wants an “honest discussion” with the British public about the possibility of a return to free movement between the UK and the EU as part of his plans for a new relationship with the bloc. The prime minister has been open about his desire to revisit the relationship between Britain and Brussels. He has said a new deal could mean the UK goes “all the way” and rejoins",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/politics/2026/oct/25/andy-burnham-says-he-wants-honest-discussion-about-freedom-of-movement-with-eu",
-      "published": "2026-10-24T23:07:12Z",
-      "lat": 50.85,
-      "lon": 4.35,
-      "place": "Brussels",
-      "location_precision": "city-reference",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
-    },
-    {
       "title": "The bitter row over military service that could shape Israel's future",
       "source": "BBC World",
       "description": "The ultra-Orthodox community is resisting being drafted into the Israeli army. But will they now bring down the Netanyahu government?",
@@ -849,6 +918,26 @@
       "published": "2026-10-24T16:29:31Z"
     },
     {
+      "title": "Women ‘first to suffer’ under siege, first to step up as frontline responders in Sudan - UN News",
+      "source": "UN News (news index)",
+      "description": "Women ‘first to suffer’ under siege, first to step up as frontline responders in Sudan UN News",
+      "category": "Humanitarian",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE83VG1KREE2a1hQT3Q3cDg1Wk1QNkQyTTkxZzFwNXVDb1JiLVJBRW9IMWw4VXlhdHhWRjVkYkZ4cHlJSmxDNWdjN2U3aHBwOFRFTnJaLUZXMA?oc=5",
+      "published": "2026-10-24T16:01:00Z",
+      "lat": 12.86,
+      "lon": 30.22,
+      "place": "Sudan",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false,
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
       "title": "Fire engulfs Hitler's mountaintop Eagle's Nest retreat",
       "source": "BBC World",
       "description": "Police in the southern German state of Bavaria have detained a 33-year-old German man following the fire.",
@@ -937,25 +1026,6 @@
       "published": "2026-10-24T12:00:32Z"
     },
     {
-      "title": "Women ‘first to suffer’ under siege, first to step up as frontline responders in Sudan",
-      "source": "UN News",
-      "description": "When Tahani Al-Numeiri heard the first explosions in Khartoum, her hometown, war seemed so remote that she assumed they were celebrations from a nearby wedding. It was the morning of 15 April 2023, and the paramilitary Rapid Support Forces had just turned their guns on the army.",
-      "category": "Humanitarian",
-      "region": "Africa",
-      "regions": [
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168663",
-      "published": "2026-10-24T12:00:00Z",
-      "lat": 12.86,
-      "lon": 30.22,
-      "place": "Sudan",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "New Trump rule allows hunters to bait bears in Alaska with doughnuts, bacon and more",
       "source": "The Guardian Environment",
       "description": "Critics decry Trump administration rule that lets hunters lure bears with human foods on federal lands in Alaska A new Trump administration rule allows hunters to bait bears on federal lands in Alaska with bacon, doughnuts, meat scraps or other human foods typically used to help kill the trophy animals at close range. Opponents say the practice will cause bears to be more aggressive around humans, and allege that the rule change is a political gift to largely rightwing trophy hunters. The rule r",
@@ -1005,19 +1075,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-24T09:46:53Z"
-    },
-    {
-      "title": "British woman dies trying to save sons on Bahamas snorkelling trip",
-      "source": "The Guardian World",
-      "description": "Mother, 36, died after current off North Bimini reportedly swept away two boys, who were later rescued, police say A British woman has died in the Bahamas while trying to rescue her two sons after a current swept them away as they were snorkelling. The Royal Bahamas police force said it had launched an investigation after the death of a 36-year-old woman on Tuesday. Continue reading...",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/24/british-woman-dies-trying-to-save-sons-on-bahamas-snorkelling-trip",
-      "published": "2026-10-24T09:43:09Z"
     },
     {
       "title": "Three released without charge after fatal arson attack in Ireland",
@@ -1079,17 +1136,6 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
-    },
-    {
-      "title": "‘You need persistence’: the Norfolk couple who took on environmental regulators three times – and won",
-      "source": "The Guardian Environment",
-      "description": "Tim and Geli Harris have spent more than a decade fighting to protect Catfield Fen, a rare wetland in the Norfolk Broads Polluters and regulators who fail to stop pollution must quake in their boots when they receive a letter from the lawyers for Tim and Geli Harris. The couple, who farm 460 acres in the Norfolk Broads, have now scored a hat-trick of landmark legal victories to save an internationally important wetland after they won again in the high court this month. Lady Justice Lieven found ",
-      "category": "Disasters",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/environment/2026/oct/24/norfolk-couple-who-took-on-environmental-regulators-three-times-and-won",
-      "published": "2026-10-24T07:00:27Z"
     },
     {
       "title": "Minneapolis withdrawal was 'surrender', Trump's ex-border patrol chief tells BBC",
@@ -1156,6 +1202,18 @@
       "location_verified": false
     },
     {
+      "title": "UN marks 81 years of global cooperation - UN News",
+      "source": "UN News (news index)",
+      "description": "UN marks 81 years of global cooperation UN News",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBoWkxtRS0tRjl6YlRXUzVCaGxGZ21zMC1lNHZLUUEzeTdZTGlDaXpsN1VURmQtU3lKMm1ZbC1HamVZcjZzeFcwUVhvTWNCaE44NmZuVXJEOA?oc=5",
+      "published": "2026-10-24T02:00:00Z",
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
       "title": "Australian MP's condition improves after alleged car attack",
       "source": "BBC World",
       "description": "The independent MP is now in a serious but stable condition, according to the Melbourne hospital.",
@@ -1167,17 +1225,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c670pr1ryxyno?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-24T01:55:15Z"
-    },
-    {
-      "title": "Embattled Greens senator Jordon Steele-John confirms leave from parliament after allegations against him made public",
-      "source": "The Guardian World",
-      "description": "WA politician says he considered attending Senate estimates virtually but was told it would be ‘unacceptable’ Get our new political email , free app or daily news podcast Jordon Steele-John has confirmed he will not attend parliament next week as the embattled Greens senator apologises for publicly releasing the letter outlining the claims against him. On Saturday afternoon, Steele-John removed a social media post containing a three-page letter marked as “confidential” sent to the Greens leader,",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/24/greens-senator-jordon-steele-john-confirms-leave-from-parliament-ntwnfb",
-      "published": "2026-10-24T00:52:33Z"
     },
     {
       "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
@@ -1318,6 +1365,26 @@
       "location_verified": false
     },
     {
+      "title": "World News in Brief: Iran nuclear inspections, deadly church attack in Jordan, El Fasher – one year on - UN News",
+      "source": "UN News (news index)",
+      "description": "World News in Brief: Iran nuclear inspections, deadly church attack in Jordan, El Fasher – one year on UN News",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE90UjZEMHJTSmRjVzFrQWQ4SE9ad1FGYTB3ckJzTENRaWZYdUtJcWJta2I2X3p4MlhPUkNUamUxVkJGVFBya1Z0ZzlKQTFnWklpY1g2d3cyVQ?oc=5",
+      "published": "2026-10-23T20:22:37Z",
+      "lat": 32.43,
+      "lon": 53.69,
+      "place": "Iran",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false,
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
       "title": "Freed US citizen was tortured in Russian jail, former Ukrainian prisoners say",
       "source": "BBC Europe",
       "description": "Ukrainians held alongside the American say they witnessed beatings and sexual humiliation by Russian guards during his detention.",
@@ -1446,6 +1513,26 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/ck1wv9p0p9e3o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-23T18:45:47Z"
+    },
+    {
+      "title": "West Bank: Guterres alarmed as Israel imposes sweeping closures after deadly Hebron attack - UN News",
+      "source": "UN News (news index)",
+      "description": "West Bank: Guterres alarmed as Israel imposes sweeping closures after deadly Hebron attack UN News",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE45SktoUXVFM25KOFd2M3F5Mk45NE83dF9VdzRTQmljU0ZySjRlZnlfbXcxMmdUa1ZvZW50Tk40UmI5WEp0RDA2UWgtbUZycHpDaFQ3YjVIWQ?oc=5",
+      "published": "2026-10-23T18:03:25Z",
+      "lat": 31.05,
+      "lon": 34.85,
+      "place": "Israel",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false,
+      "collection_method": "Third-party news index; not direct UN RSS"
     },
     {
       "title": "Israel launches collective punishment campaign in Hebron after two soldiers killed",
@@ -1626,6 +1713,26 @@
       "published": "2026-10-23T13:52:33Z"
     },
     {
+      "title": "Yemen: Deepening concerns for Taiz City as aid is blocked from entering - UN News",
+      "source": "UN News (news index)",
+      "description": "Yemen: Deepening concerns for Taiz City as aid is blocked from entering UN News",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1kUUtYTW0zVS13YnAwbWkwS2s3ZncwcVBJblVTMDhQZGlZY2ZXSXdHcTRRRTFDTEN3SmcxUjZ0bkFobEh6YzdmNlpjbEFHdWFKWkxEVkpMdw?oc=5",
+      "published": "2026-10-23T12:45:15Z",
+      "lat": 15.55,
+      "lon": 48.52,
+      "place": "Yemen",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false,
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
       "title": "What is PHP and why did it spark a global cyber-security scramble?",
       "source": "BBC Business",
       "description": "AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.",
@@ -1650,17 +1757,6 @@
       "published": "2026-10-23T12:17:45Z"
     },
     {
-      "title": "EPA has failed to tackle cancer-linked pesticide pollution, lawsuit alleges",
-      "source": "The Guardian Environment",
-      "description": "Suit alleges EPA has for decades failed under the Clean Water Act to address surface-water atrazine pollution A new lawsuit asks a federal judge to order the Trump administration to address widespread pollution from the hormone-disrupting pesticide atrazine – which has regularly been found at levels that threaten wildlife and human health. The cancer-linked chemical is now contaminating nearly 25%, or about 860,000 miles, of all continental US rivers, according to a recent review of federal reco",
-      "category": "Disasters",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/us-news/2026/oct/23/lawsuit-atrazine-pesticide-cancer-epa",
-      "published": "2026-10-23T12:00:26Z"
-    },
-    {
       "title": "The US west has lost nearly 300 glaciers since the 1960s. Climate crisis is drastically shrinking what’s left",
       "source": "The Guardian Environment",
       "description": "At the midpoint of the last century the region had 1,450 glaciers and a new study reveals the extent of losses Continue reading...",
@@ -1669,6 +1765,17 @@
       "regions": [],
       "kind": "news",
       "url": "https://www.theguardian.com/environment/ng-interactive/2026/oct/23/glacier-loss-climate-crisis-west",
+      "published": "2026-10-23T12:00:26Z"
+    },
+    {
+      "title": "EPA has failed to tackle cancer-linked pesticide pollution, lawsuit alleges",
+      "source": "The Guardian Environment",
+      "description": "Suit alleges EPA has for decades failed under the Clean Water Act to address surface-water atrazine pollution A new lawsuit asks a federal judge to order the Trump administration to address widespread pollution from the hormone-disrupting pesticide atrazine – which has regularly been found at levels that threaten wildlife and human health. The cancer-linked chemical is now contaminating nearly 25%, or about 860,000 miles, of all continental US rivers, according to a recent review of federal reco",
+      "category": "Disasters",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/us-news/2026/oct/23/lawsuit-atrazine-pesticide-cancer-epa",
       "published": "2026-10-23T12:00:26Z"
     },
     {
@@ -1719,92 +1826,6 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
-    },
-    {
-      "title": "UN marks 81 years of global cooperation",
-      "source": "UN News",
-      "description": "The United Nations celebrates its 81st anniversary on Saturday, highlighting more than eight decades of work to advance peace, human rights and development around the world.",
-      "category": "Humanitarian",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168665",
-      "published": "2026-10-23T12:00:00Z"
-    },
-    {
-      "title": "World News in Brief: Iran nuclear inspections, deadly church attack in Jordan, El Fasher – one year on",
-      "source": "UN News",
-      "description": "The head of the International Atomic Energy Agency (IAEA), Rafael Grossi, called on Friday for a swift return of inspectors to Iran, warning of growing fragility in the global nuclear non-proliferation regime.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168664",
-      "published": "2026-10-23T12:00:00Z",
-      "lat": 32.43,
-      "lon": 53.69,
-      "place": "Iran",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Blood brothers: WHO chief joins ENHYPEN to celebrate drive success",
-      "source": "UN News",
-      "description": "The head of the World Health Organization (WHO) is a self-confessed fan of K-pop sensation ENHYPEN and this week, he got the chance to tell them so in person.",
-      "category": "Humanitarian",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168662",
-      "published": "2026-10-23T12:00:00Z"
-    },
-    {
-      "title": "Sudan: Drone strikes killed at least 306 people in three weeks",
-      "source": "UN News",
-      "description": "UN human rights chief Volker Türk on Friday strongly condemned an escalation in drone strikes across Sudan this month, which killed at least 306 people and injured hundreds more in the first three weeks of October alone.",
-      "category": "Defence",
-      "region": "Africa",
-      "regions": [
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168661",
-      "published": "2026-10-23T12:00:00Z",
-      "lat": 12.86,
-      "lon": 30.22,
-      "place": "Sudan",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Soil mapping aims to boost agricultural production in Kenya",
-      "source": "UN News",
-      "description": "A new Kenyan initiative is helping farmers better understand their soils in a bid to improve crop yields amid intensifying climate shocks.",
-      "category": "Humanitarian",
-      "region": "Africa",
-      "regions": [
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168657",
-      "published": "2026-10-23T12:00:00Z"
-    },
-    {
-      "title": "‘Burden and loss’ builds in DR Congo, as Kenya strengthens Ebola containment",
-      "source": "UN News",
-      "description": "As Ebola continues to spread in the Democratic Republic of the Congo (DRC), more resources are needed to fight the disease and feed patients and families, UN agencies said on Friday.",
-      "category": "Humanitarian",
-      "region": "Africa",
-      "regions": [
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168655",
-      "published": "2026-10-23T12:00:00Z"
     },
     {
       "title": "Earnings limit of up to £140K for first-time buyers loan scheme",
@@ -2299,6 +2320,26 @@
       "location_verified": false
     },
     {
+      "title": "First human case of Shamonda virus reported in France as patient dies - UN News",
+      "source": "UN News (news index)",
+      "description": "First human case of Shamonda virus reported in France as patient dies UN News",
+      "category": "Humanitarian",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBzVlZLREdOWEszc09yNy1TVGliS0kwelNpdExzOHpxTnN3d0VkbUNYaGZPcElCM25WLTdBMXZhb3B6QjRuT0kxcmVrN1JOREFPcEZYdDRhcw?oc=5",
+      "published": "2026-10-22T20:32:39Z",
+      "lat": 46.6,
+      "lon": 2.21,
+      "place": "France",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false,
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
       "title": "Paris extends curfew as Marseille and Lyon ban protests after riots",
       "source": "BBC Europe",
       "description": "Protests will only be allowed in some towns and cities if organised by unions, and top museums will be closed on Saturday.",
@@ -2316,6 +2357,18 @@
       "location_precision": "city-reference",
       "location_method": "headline-keyword",
       "location_verified": false
+    },
+    {
+      "title": "Mothers get nearly eight times more paid leave than fathers – and women pay the price - UN News",
+      "source": "UN News (news index)",
+      "description": "Mothers get nearly eight times more paid leave than fathers – and women pay the price UN News",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1iNHE4SFhob0Zjc2ROLUdkdEZIS09UNVRmZmhuT2xzNEpDa3EtVnNYRnF1VEdtTzFrV2MzNG5UN3JzcDB2MWJuWHZMci1hWnJNYW9lVmhMTQ?oc=5",
+      "published": "2026-10-22T19:06:57Z",
+      "collection_method": "Third-party news index; not direct UN RSS"
     },
     {
       "title": "Zuckerberg wins Meta deal to help him foot bill for possible California billionaire tax",
@@ -2475,6 +2528,20 @@
       "published": "2026-10-22T15:05:47Z"
     },
     {
+      "title": "DR Congo: Ebola responders under pressure as outbreak expands - UN News",
+      "source": "UN News (news index)",
+      "description": "DR Congo: Ebola responders under pressure as outbreak expands UN News",
+      "category": "Humanitarian",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5XU0ZtbkZyVkNBOG5qcFhvTTgydEUyeDJ1ZWpNTVNqQkFnOS1Ed3MwUlF2UzRyT0tjNDhCNHA4RDU4R01acGhFQmN5X3N5SEx2Zm9ucF9uUQ?oc=5",
+      "published": "2026-10-22T15:05:03Z",
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
       "title": "Iran threatens to strike oil and AI facilities across Gulf if US and Israel renew attacks",
       "source": "The Guardian Middle East",
       "description": "Iran’s security chiefs say there will be ‘zero red lines’ if Trump and Netanyahu attack again Iran will strike oil facilities, undersea cables, datacentres and AI facilities across as many as seven countries in the Gulf in the event of a fresh US-Israeli attack, Mohsen Rezaei, the secretary of Iran’s supreme national security council, has said. Mehdi Mohammadi, an adviser to Mohammad Ghalibaf, the hardliner who led Iran’s negotiations with the US to end the conflict between the two countries, sa",
@@ -2516,6 +2583,18 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/ckx2d0ej7w7do?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-22T14:08:10Z"
+    },
+    {
+      "title": "‘Connect the dots’ between street protests and global turmoil, urges Guterres - UN News",
+      "source": "UN News (news index)",
+      "description": "‘Connect the dots’ between street protests and global turmoil, urges Guterres UN News",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ianZpdHRQeEJIaVNza1hoUEZWeG1xQzUyeW42alkzR3FZbXl0aG1CUHowc25KbnZKR0hGTGh0ejltOXRJcGdwd3RtQjE1RmhUVUR4ODZ4Yw?oc=5",
+      "published": "2026-10-22T13:53:36Z",
+      "collection_method": "Third-party news index; not direct UN RSS"
     },
     {
       "title": "First human case of Shamonda virus detected in France, officials say",
@@ -2640,91 +2719,6 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
-    },
-    {
-      "title": "World News in Brief: Russian attacks intensify, UN team tours West Bank, ‘unlawful’ elderly deaths",
-      "source": "UN News",
-      "description": "Long-range Russian attacks across Ukraine are intensifying, including in Kyiv, causing at least 14 civilian deaths and 78 injuries overnight into Thursday, as UN agencies continue to provide aid.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East",
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168648",
-      "published": "2026-10-22T12:00:00Z",
-      "lat": 50.45,
-      "lon": 30.52,
-      "place": "Kyiv",
-      "location_precision": "city-reference",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "First human case of Shamonda virus reported in France as patient dies",
-      "source": "UN News",
-      "description": "A patient in France has died after being infected with Shamonda virus, the first recorded human case of the disease.",
-      "category": "Humanitarian",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168652",
-      "published": "2026-10-22T12:00:00Z",
-      "lat": 46.6,
-      "lon": 2.21,
-      "place": "France",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Nepal’s deadly glacier flood a ‘defining moment’ for the international community",
-      "source": "UN News",
-      "description": "The deadly flash flood that tore through Nepal in August is a “defining moment” for both the country and the international community, according to the head of the UN field agency which builds roads, schools and clinics in crisis zones.",
-      "category": "Disasters",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168651",
-      "published": "2026-10-22T12:00:00Z"
-    },
-    {
-      "title": "Mothers get nearly eight times more paid leave than fathers – and women pay the price",
-      "source": "UN News",
-      "description": "Mothers around the world get nearly eight times as much paid leave as fathers, leaving women to shoulder most of the care burden – at a cost to families, children and economies, according to new UN data published on Thursday.",
-      "category": "Humanitarian",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168650",
-      "published": "2026-10-22T12:00:00Z"
-    },
-    {
-      "title": "DR Congo: Ebola responders under pressure as outbreak expands",
-      "source": "UN News",
-      "description": "As the deadly Ebola disease outbreak reached an eighth province of the Democratic Republic of the Congo (DRC), investigators pursued all leads on Thursday to assess the risk of the disease spreading in Nigeria.",
-      "category": "Humanitarian",
-      "region": "Africa",
-      "regions": [
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168647",
-      "published": "2026-10-22T12:00:00Z"
-    },
-    {
-      "title": "‘Connect the dots’ between street protests and global turmoil, urges Guterres",
-      "source": "UN News",
-      "description": "The international community must combat inequality and stop wars from expanding to ensure a safer world for all, the UN Secretary-General said on Thursday.",
-      "category": "Humanitarian",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168646",
-      "published": "2026-10-22T12:00:00Z"
     },
     {
       "title": "Oil prices jump to five-month high as attacks threaten global supply",
@@ -3139,6 +3133,26 @@
       "published": "2026-10-21T18:51:39Z"
     },
     {
+      "title": "World News in Brief: Aid for Ethiopia, Abyei drone strikes condemned, extreme heat and newborn health - UN News",
+      "source": "UN News (news index)",
+      "description": "World News in Brief: Aid for Ethiopia, Abyei drone strikes condemned, extreme heat and newborn health UN News",
+      "category": "Humanitarian",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5mX2NXUUJNLW4zdVRQcjhzWklXRlpoY2NNckV5QXVHZ2JnQkg0dGJPdjdlRkxSTGtLeFlKQVdFSnFxLXhxa0hWQUc1RmUzVk9TZXNUTGpBdw?oc=5",
+      "published": "2026-10-21T17:42:15Z",
+      "lat": 9.15,
+      "lon": 40.49,
+      "place": "Ethiopia",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false,
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
       "title": "John Staley obituary",
       "source": "The Guardian Asia",
       "description": "My father, John Staley, who has died aged 88, was field director for Oxfam in south India and Sri Lanka during the late 1960s and early 70s, when he was responsible for Oxfam’s funding of several hundred local, national and international voluntary agencies. His role included aid administration, policy formulation, project appraisal, recommendations for funding, disaster relief and liaison with government and non-government organisations. He led Oxfam’s response in India to a drought in Maharasht",
@@ -3165,6 +3179,18 @@
       "published": "2026-10-21T17:18:56Z"
     },
     {
+      "title": "Migrants paid up to $500 million in smuggling fees on European sea routes - UN News",
+      "source": "UN News (news index)",
+      "description": "Migrants paid up to $500 million in smuggling fees on European sea routes UN News",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAzcDRpX1FhdFI3cTNKbGFDZUpSUlJrR0VTRGw2Wjd6VVVJSkt0aUtQVDZnVWh1am1xZjdzX1NqNmJOYy1pV1JpOEN3WS10U09TVmpDdUViVQ?oc=5",
+      "published": "2026-10-21T17:10:10Z",
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
       "title": "Taiwan charges five men over plot to run over comedian for his Xi Jinping jokes",
       "source": "The Guardian Asia",
       "description": "Person named ‘K’ from China paid five defendants to injure Huang Yi-hao, New Taipei prosecutors say Taiwanese prosecutors have charged five men over a plot to ram a car into a comedian who made fun of the Chinese Communist party and Xi Jinping. Taiwan has repeatedly accused China of transnational repression to silence critics on the self-governed island, which Beijing claims as its territory and has vowed to take by force if necessary. Continue reading...",
@@ -3182,6 +3208,18 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
+    },
+    {
+      "title": "Summit in Samarkand, a boon for child wellbeing and health - UN News",
+      "source": "UN News (news index)",
+      "description": "Summit in Samarkand, a boon for child wellbeing and health UN News",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1CMk5GMFpkeGhJTzBBMzUzeEtUNTQ4TTdJdlk5dVhmaml0bVJkaHhoVXpiSVBJQWdBbFdSc2Y4ZmUtczZ3NG1hTDRhRzNGVERmZ1pDY2M5TQ?oc=5",
+      "published": "2026-10-21T16:08:01Z",
+      "collection_method": "Third-party news index; not direct UN RSS"
     },
     {
       "title": "Indian court orders release of two leaders of Cockroach movement",
@@ -3275,6 +3313,26 @@
       "location_verified": false
     },
     {
+      "title": "Sudan conflict: Peace efforts resume to end ‘drone war’ fuelling humanitarian crisis - UN News",
+      "source": "UN News (news index)",
+      "description": "Sudan conflict: Peace efforts resume to end ‘drone war’ fuelling humanitarian crisis UN News",
+      "category": "Humanitarian",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9aRTVjQUVHb19FQkhJUU54dTBXNi0yMEtFSlhWck1qU1I0TlU2Rk00eHNhRTFmdWhucWhjMXRLd25rcE5kRnJCOE5LcmNPT0laQVl5M0pBUQ?oc=5",
+      "published": "2026-10-21T12:08:05Z",
+      "lat": 12.86,
+      "lon": 30.22,
+      "place": "Sudan",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false,
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
       "title": "‘Ominous start’ to West Bank olive harvest amid settler attacks",
       "source": "UN News Middle East",
       "description": "The use of live ammunition, arson and the destruction of centuries-old olive trees have marked the opening weeks of this year’s harvest in the occupied West Bank.",
@@ -3285,122 +3343,6 @@
       ],
       "kind": "news",
       "url": "https://news.un.org/feed/view/en/story/2026/10/1168644",
-      "published": "2026-10-21T12:00:00Z"
-    },
-    {
-      "title": "Fate unknown of many returned to DPR Korea from China: UN independent experts",
-      "source": "UN News",
-      "description": "Three years on from the reported resumption of large-scale forcible returns of nationals of the Democratic People’s Republic of Korea (DPRK) from China, serious concerns persist about their fate, according to a group of Human Rights Council-appointed independent experts.",
-      "category": "Humanitarian",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168645",
-      "published": "2026-10-21T12:00:00Z",
-      "lat": 35.86,
-      "lon": 104.2,
-      "place": "China",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "World News in Brief: Aid for Ethiopia, Abyei drone strikes condemned, extreme heat and newborn health",
-      "source": "UN News",
-      "description": "The World Health Organization (WHO) is scaling up emergency health response operations across Afar, Amhara and Tigray in Ethiopia to address growing humanitarian and health needs resulting from ongoing hostilities.",
-      "category": "Humanitarian",
-      "region": "Africa",
-      "regions": [
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168643",
-      "published": "2026-10-21T12:00:00Z",
-      "lat": 9.15,
-      "lon": 40.49,
-      "place": "Ethiopia",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Migrants paid up to $500 million in smuggling fees on European sea routes",
-      "source": "UN News",
-      "description": "The price tag for smuggling on European sea routes reached up to half a billion dollars last year, the UN Office on Drugs and Crime (UNODC) and the UN migration office, IOM, reported on Wednesday.",
-      "category": "Humanitarian",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168642",
-      "published": "2026-10-21T12:00:00Z"
-    },
-    {
-      "title": "Summit in Samarkand, a boon for child wellbeing and health",
-      "source": "UN News",
-      "description": "Representatives from across the international community are meeting in Samarkand, Uzbekistan, to ensure that children everywhere can thrive in a world marred by war, climate chaos and other fundamental challenges.",
-      "category": "Humanitarian",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168640",
-      "published": "2026-10-21T12:00:00Z"
-    },
-    {
-      "title": "UN agencies appeal for help to protect weakest from unprecedented El Niño",
-      "source": "UN News",
-      "description": "Two UN agencies issued a powerful appeal on Wednesday for immediate assistance to help communities already being impacted by the strongest El Niño weather pattern on record.",
-      "category": "Humanitarian",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168639",
-      "published": "2026-10-21T12:00:00Z"
-    },
-    {
-      "title": "Sudan conflict: Peace efforts resume to end ‘drone war’ fuelling humanitarian crisis",
-      "source": "UN News",
-      "description": "Talks to halt the fighting in Sudan and alleviate the humanitarian crisis there continued in Geneva on Wednesday, where nearly two dozen countries convened to discuss a pathway to a ceasefire and transition to peaceful governance that represents all Sudanese people.",
-      "category": "Humanitarian",
-      "region": "Africa",
-      "regions": [
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168638",
-      "published": "2026-10-21T12:00:00Z",
-      "lat": 12.86,
-      "lon": 30.22,
-      "place": "Sudan",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "WHO supports Nigeria after first Ebola case confirmed",
-      "source": "UN News",
-      "description": "The World Health Organization (WHO) is assisting Nigeria following confirmation of the first case of Ebola Bundibugyo virus disease in the country.",
-      "category": "Humanitarian",
-      "region": "Africa",
-      "regions": [
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168637",
-      "published": "2026-10-21T12:00:00Z"
-    },
-    {
-      "title": "Global warming will breach 1.5°C – but deep, fast cuts can still bring it back",
-      "source": "UN News",
-      "description": "With global temperature rise set to exceed 1.5°C above pre-industrial levels, countries “must pull out all the stops” and urgently cut emissions to minimize the overshoot and return to the internationally agreed threshold by the end of this century.",
-      "category": "Humanitarian",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168634",
       "published": "2026-10-21T12:00:00Z"
     },
     {
@@ -3452,6 +3394,20 @@
       "published": "2026-10-21T09:55:15Z"
     },
     {
+      "title": "WHO supports Nigeria after first Ebola case confirmed - UN News",
+      "source": "UN News (news index)",
+      "description": "WHO supports Nigeria after first Ebola case confirmed UN News",
+      "category": "Humanitarian",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9WbUhXQkxNSXY3bERzdHpTNGdPV1E5UkN0UjMxdHBLY2N6blp1SEVJQVlIZWFObHBuZjRmcVFWbDJud0ZzWE1zcjdDeU5aOENheHZJUkpEQQ?oc=5",
+      "published": "2026-10-21T08:57:28Z",
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
       "title": "Katya Adler: France divided over who to blame for riots and what to learn from them",
       "source": "BBC Europe",
       "description": "In France and beyond there is widespread disagreement over what led to some of the worst unrest seen in French cities in modern history.",
@@ -3493,6 +3449,18 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/ck7vp17z7jv3o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-21T05:16:44Z"
+    },
+    {
+      "title": "Global warming will breach 1.5°C – but deep, fast cuts can still bring it back - UN News",
+      "source": "UN News (news index)",
+      "description": "Global warming will breach 1.5°C – but deep, fast cuts can still bring it back UN News",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9VV2V0Zk1CNHhUMDFWWldubnZqd1BlSUNudWdkU24wLXFWS3Rfb0tOZUlKUEFVQ0RCVm5FdXU0UmFxc2tGb3Z3RmlxdElHOUNIc3ZVUmxlWQ?oc=5",
+      "published": "2026-10-21T05:15:00Z",
+      "collection_method": "Third-party news index; not direct UN RSS"
     },
     {
       "title": "‘This petrol station is my home now’: Malawi’s fuel crisis forces desperate drivers to queue for days",
@@ -3683,6 +3651,70 @@
       "published": "2026-10-20T19:18:03Z"
     },
     {
+      "title": "As Sudan war spills into Central African Republic, UN warns against early peacekeeper exit - UN News",
+      "source": "UN News (news index)",
+      "description": "As Sudan war spills into Central African Republic, UN warns against early peacekeeper exit UN News",
+      "category": "Humanitarian",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE01NENUci02cmo0cVl6Tkd4OGVMd0w5ZUw0RTNoeFNhR3ZOaFV6MVcxSWZlMXNERkFidkFHUXJIVHg0aE9hV1RobjdJYnZxSUNQYlBJQ3ZJdw?oc=5",
+      "published": "2026-10-20T19:12:06Z",
+      "lat": 12.86,
+      "lon": 30.22,
+      "place": "Sudan",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false,
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
+      "title": "Bangladesh: UNICEF chief calls for an end to child marriage - UN News",
+      "source": "UN News (news index)",
+      "description": "Bangladesh: UNICEF chief calls for an end to child marriage UN News",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE96QW1teS14eVZPOTd0UWt3X0FxODFtUTFyQU00alRjTU12ZTBMNmZfeWtNQmhTcFVWemdTbjZVME5vNGhONTVHUzZVSXVEdEQ5cEVYcFp3aw?oc=5",
+      "published": "2026-10-20T18:10:05Z",
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
+      "title": "UN News Today 20 October 2026 - UN News",
+      "source": "UN News (news index)",
+      "description": "UN News Today 20 October 2026 UN News",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1tN1V6cVhRdU95VVQ5SndwODJVUGk4a1NpSWJITk9PNHQ3Vm9ZQl9icVd0RDAxVVRyRS1iaUFNX0VSVktDaUxNUjJfVlhnN1pZaThlSW1HQQ?oc=5",
+      "published": "2026-10-20T18:06:51Z",
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
+      "title": "‘One step away from famine’: Inside Afghanistan’s hunger crisis - UN News",
+      "source": "UN News (news index)",
+      "description": "‘One step away from famine’: Inside Afghanistan’s hunger crisis UN News",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9nUU4tb2IxUEZSdkdmM1B5WmFzQ3pFejczVDJhVFpsSVZ3ZG83VTd1XzI1S3MzZ0pIcUh0X1FnUmhCU0Y0RUEybWttb0dUQjdrZm5oMTlnRQ?oc=5",
+      "published": "2026-10-20T17:44:28Z",
+      "lat": 33.94,
+      "lon": 67.71,
+      "place": "Afghanistan",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false,
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
       "title": "Bavuma epic drags SA back into Test - have they time to beat Australia?",
       "source": "BBC Africa",
       "description": "Captain Temba Bavuma drags South Africa back into their Test series against Australia but did his side bat on too long on day three?",
@@ -3755,6 +3787,26 @@
       "published": "2026-10-20T13:54:35Z"
     },
     {
+      "title": "Yemen war continues to force families from homes amid hunger and disease - UN News",
+      "source": "UN News (news index)",
+      "description": "Yemen war continues to force families from homes amid hunger and disease UN News",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB3bWVxWEdsTk55QTN6SjFjTWlVWi1aRUU3dlVmZHhVSWNOTnRPNkpoWlZibWRGRnpDX2FVMGdqOEs0ZDh0b3NPZGhrTlJ0OWhSbl9FZENQNA?oc=5",
+      "published": "2026-10-20T12:00:40Z",
+      "lat": 15.55,
+      "lon": 48.52,
+      "place": "Yemen",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false,
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
       "title": "Yemen war continues to force families from homes amid hunger and disease",
       "source": "UN News Middle East",
       "description": "More than 250,000 people have now fled renewed fighting in Yemen, the UN said on Tuesday, citing particular concern for those sheltering in the southwestern city of Taiz and the wider governorate, where access is “essentially blocked”.",
@@ -3769,66 +3821,6 @@
       "lat": 15.55,
       "lon": 48.52,
       "place": "Yemen",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "AI on track to ‘crowd out’ human decision-making in warfare",
-      "source": "UN News",
-      "description": "Artificial intelligence is already being widely used on the battlefield, and the role of human judgment in military operations is shrinking rapidly, the head of the UN’s independent disarmament research institute warned on Tuesday.",
-      "category": "Humanitarian",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168636",
-      "published": "2026-10-20T12:00:00Z"
-    },
-    {
-      "title": "As Sudan war spills into Central African Republic, UN warns against early peacekeeper exit",
-      "source": "UN News",
-      "description": "The UN warned on Tuesday against a premature withdrawal of its peacekeepers as the war in Sudan spills over into the Central African Republic (CAR).",
-      "category": "Humanitarian",
-      "region": "Africa",
-      "regions": [
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168630",
-      "published": "2026-10-20T12:00:00Z",
-      "lat": 12.86,
-      "lon": 30.22,
-      "place": "Sudan",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Bangladesh: UNICEF chief calls for an end to child marriage",
-      "source": "UN News",
-      "description": "At 14, Bushra faced being married off – until community leaders at a UNICEF-supported child protection hub worked with her father to prevent her from being given away against her will.",
-      "category": "Humanitarian",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168632",
-      "published": "2026-10-20T12:00:00Z"
-    },
-    {
-      "title": "‘One step away from famine’: Inside Afghanistan’s hunger crisis",
-      "source": "UN News",
-      "description": "Following extreme hunger warnings, a bitter reality is unfolding across Afghanistan: food is available, but remains inaccessible for millions of people.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168631",
-      "published": "2026-10-20T12:00:00Z",
-      "lat": 33.94,
-      "lon": 67.71,
-      "place": "Afghanistan",
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
@@ -3999,6 +3991,26 @@
       "published": "2026-10-19T22:34:43Z"
     },
     {
+      "title": "UN condemns deadly wave of drone strikes in war-torn Sudan - UN News",
+      "source": "UN News (news index)",
+      "description": "UN condemns deadly wave of drone strikes in war-torn Sudan UN News",
+      "category": "Defence",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBzZzcyUzRkTzRDQmVoMzRubDI1T19wakJySDZmejIxeHhhRGJyZC1RYVZ2MUVGYnJzWURzSjJLNTU5cTF3V2lXZVNoUEEyMlFqYTYtcm1RWQ?oc=5",
+      "published": "2026-10-19T20:17:40Z",
+      "lat": 12.86,
+      "lon": 30.22,
+      "place": "Sudan",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false,
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
       "title": "Kenyan starvation cult leader guilty of murder of 190 children and one adult",
       "source": "The Guardian Africa",
       "description": "Paul Mackenzie and his church set up sect that ordered followers to starve themselves and their children, say prosecutors A Kenyan court has found the starvation cult leader Paul Mackenzie and about 30 others guilty of murder over the deaths of ⁠190 children and one adult in one of the world’s worst cult-related disasters in recent history. Mackenzie was arrested in 2023 after police received a tipoff, and weeks later authorities began uncovering bodies in shallow graves in the Shakahola forest ",
@@ -4076,6 +4088,26 @@
       "published": "2026-10-19T12:51:44Z"
     },
     {
+      "title": "Gaza: Funding cuts leave half a million without food assistance - UN News",
+      "source": "UN News (news index)",
+      "description": "Gaza: Funding cuts leave half a million without food assistance UN News",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBfQ2s4blRSTkV2Y2hUbTFFdUkxTHRUMFd0dno3alNjZmhjNmJGb2JORmlCMm9hR284dGZwR3B4VE1wYmFMYVlSck9xdDdOczExV3lYQkFXVQ?oc=5",
+      "published": "2026-10-19T12:10:49Z",
+      "lat": 31.5,
+      "lon": 34.47,
+      "place": "Gaza",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false,
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
       "title": "‘Season of fear’: Escalating Israeli attacks on West Bank olive farmers, deadly strikes on Gaza",
       "source": "UN News Middle East",
       "description": "Israeli attacks on war-torn Gaza over the weekend killed at least six Palestinians, including children, despite a year-old ceasefire agreement. Meanwhile, in the occupied West Bank, settler violence continued through the ongoing olive harvest, with UN independent experts on Monday urging Israel to protect Palestinian farmers.",
@@ -4114,25 +4146,6 @@
       "location_verified": false
     },
     {
-      "title": "UN condemns deadly wave of drone strikes in war-torn Sudan",
-      "source": "UN News",
-      "description": "Drone strikes killed and injured dozens across Sudan on Monday as the ongoing war continues to cause soaring displacement and hunger.",
-      "category": "Defence",
-      "region": "Africa",
-      "regions": [
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168628",
-      "published": "2026-10-19T12:00:00Z",
-      "lat": 12.86,
-      "lon": 30.22,
-      "place": "Sudan",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "Israeli police arrest 10 over settler attacks on journalist and diplomats in West Bank",
       "source": "BBC Middle East",
       "description": "It comes after masked settlers attacked Palestinians and European officials visiting the West Bank during olive harvesting season.",
@@ -4155,6 +4168,18 @@
       "kind": "news",
       "url": "https://www.theguardian.com/environment/2026/oct/19/can-countries-deliver-on-a-deal-to-save-the-worlds-plants-and-animals",
       "published": "2026-10-19T10:16:09Z"
+    },
+    {
+      "title": "Protecting Earth’s fragile biodiversity takes spotlight at Armenia talks - UN News",
+      "source": "UN News (news index)",
+      "description": "Protecting Earth’s fragile biodiversity takes spotlight at Armenia talks UN News",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1sZXBaVUw1UmQ4WUhCbVgxUXVvRXA4NnZLWjBrNWdTNl9yUEdUVTFjVlVCTnc1WFAwbFZXc2xfWmN2M3ZMY0ptR29NbTNqSURlR2Y3QnBkUQ?oc=5",
+      "published": "2026-10-19T09:53:24Z",
+      "collection_method": "Third-party news index; not direct UN RSS"
     },
     {
       "title": "Bangladesh says it was not informed of its citizens' execution by Saudi Arabia",
@@ -4302,6 +4327,18 @@
       "location_verified": false
     },
     {
+      "title": "COP17: The world has a plan to save nature. Is it working? - UN News",
+      "source": "UN News (news index)",
+      "description": "COP17: The world has a plan to save nature. Is it working? UN News",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9IZVA4VExBZ3J1eWE5bi1EbkEzQmVndXNlWDlZbTJRd3FxRmN3XzFyZzNDSWk4ZGRZd1p3ckxWVnNIT1RzTjFmQjNkUDFLTEtvRjFyam5fcw?oc=5",
+      "published": "2026-10-17T07:00:00Z",
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
       "title": "As King Charles heads to the Caribbean, he should know that Winston Churchill admitted to imperial plunder 90 years ago | Kenneth Mohammed",
       "source": "The Guardian Global Development",
       "description": "Modern politicians play on tales of empire to exaggerate what Britain left behind, but the monarch should consider a historical speech on imperial plunder For us in the Caribbean, there is something surreal about Britain’s renewed nostalgia over empire. As Britain’s monarch prepares to visit the Caribbean , and at a time when we in the former colonies are demanding to have a serious reckoning with slavery and reparations , UK politicians are invoking a dumbed-down distortion of history. Rewritin",
@@ -4405,6 +4442,26 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
+    },
+    {
+      "title": "Ukraine: Civilian casualty rates among ‘deadliest’ in years, as energy attacks intensify - UN News",
+      "source": "UN News (news index)",
+      "description": "Ukraine: Civilian casualty rates among ‘deadliest’ in years, as energy attacks intensify UN News",
+      "category": "Humanitarian",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE16UlpxYm9rWHhrQjZUZ0hSNkNTRU1HTmF1S2ZlNmN2Y21KS193andQME90aVZjaUZMVFNpUGZaZDZ0bkwxcVRnbWNHMnBMVEEwS1AydWZPcw?oc=5",
+      "published": "2026-10-16T07:00:00Z",
+      "lat": 48.38,
+      "lon": 31.17,
+      "place": "Ukraine",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false,
+      "collection_method": "Third-party news index; not direct UN RSS"
     },
     {
       "title": "Saudi Arabia to execute man for being at protests and funerals when he was 15",
@@ -4575,6 +4632,20 @@
       "published": "2026-10-15T08:00:25Z"
     },
     {
+      "title": "WHO urges vigilance after Kenya confirms second Ebola case - UN News",
+      "source": "UN News (news index)",
+      "description": "WHO urges vigilance after Kenya confirms second Ebola case UN News",
+      "category": "Humanitarian",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB1TkJzTHlpdzdVQjJXOFlLNl9EVlVJbmJNMUdDSk9mLVdpVGhWYUdPZlpPbl8wRTR5YlJnUlF0NjFlWjVlX01uZlpYNF9XZlNFOGlDZVY2bw?oc=5",
+      "published": "2026-10-15T07:00:00Z",
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
       "title": "Hundreds of IDF investigations into killings still have no public outcome, BBC Verify finds",
       "source": "BBC Middle East",
       "description": "BBC Verify has identified 254 incidents from the past three years the Israeli military said it is reviewing after being accused of harm.",
@@ -4729,6 +4800,26 @@
       "published": "2026-10-14T09:50:11Z"
     },
     {
+      "title": "Yemen: WFP warns of potential ‘humanitarian catastrophe’ as fighting blocks aid delivery - UN News",
+      "source": "UN News (news index)",
+      "description": "Yemen: WFP warns of potential ‘humanitarian catastrophe’ as fighting blocks aid delivery UN News",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9pNXRxQW0xUkN2SnBCUDlBZ1llWXF5S1l3cS1sVHJsMmtldHhING04LVRuN0I5QkZxMVpNcDRzMU5DNlA3VGlocHZla2pHWFFvRGlNejZjdw?oc=5",
+      "published": "2026-10-14T07:00:00Z",
+      "lat": 15.55,
+      "lon": 48.52,
+      "place": "Yemen",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false,
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
       "title": "What is state capture and why does it matter?",
       "source": "The Guardian Global Development",
       "description": "Different forms are distinguished by who exercises control and which institutions they target Read more: How Europe’s most wanted cocaine trafficker turned Sierra Leone into the world’s first true narco state Two crypto-billionaires pour millions into a political party and its wannabe prime minister in return for legislation that favours their businesses. A drug trafficker’s bribe to a senior official buys a cocaine shipment safe passage across a border. Human traffickers installing loyalists in",
@@ -4806,6 +4897,38 @@
       "kind": "news",
       "url": "https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe",
       "published": "2026-10-13T07:00:18Z"
+    },
+    {
+      "title": "800 million young people face a future without jobs - UN News",
+      "source": "UN News (news index)",
+      "description": "800 million young people face a future without jobs UN News",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1SaTBKRHRLWDFla0VNWXE3OHJ1STFkOE45ekdpRFQ0U1pRYnJMZkQxbXpXQVowdFhKeUcwWEU4eXBkcG8yZlA1ZnhHS0JYam9OaWdiMC03MA?oc=5",
+      "published": "2026-10-13T07:00:00Z",
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
+      "title": "Yemen: Houthi siege, cholera outbreak and aid cuts put civilians in the crosshairs - UN News",
+      "source": "UN News (news index)",
+      "description": "Yemen: Houthi siege, cholera outbreak and aid cuts put civilians in the crosshairs UN News",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBaaHIzYUV1X3BrNEdmMW1LZ1czSF9kWlp6c010eS1iUW1WOXk2NnFvMXZqdDE3Ym1WX1JUamtuZjNiM3lIa3ZxaURvTUdva0gxZlE5WDFVaw?oc=5",
+      "published": "2026-10-13T07:00:00Z",
+      "lat": 15.55,
+      "lon": 48.52,
+      "place": "Yemen",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false,
+      "collection_method": "Third-party news index; not direct UN RSS"
     },
     {
       "title": "BBC's Orla Guerin travels with Yemen's southern national security forces through desert battlefield",
@@ -5084,6 +5207,30 @@
       "location_verified": false
     },
     {
+      "title": "Livestreaming US execution would breach prohibition of torture, UN rights office warns - UN News",
+      "source": "UN News (news index)",
+      "description": "Livestreaming US execution would breach prohibition of torture, UN rights office warns UN News",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4wRnlrZzBqLWlVZXpPRFNvZzN1aWo5T1ZmQVJUMEdxSlNjNFZ3dWtmQ2xjZGx6ckRXX1J3RldMR0FZWWgtRFV0Y3BMZ19QR0JTbXZERXM2MA?oc=5",
+      "published": "2026-10-09T07:00:00Z",
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
+      "title": "Former UN human rights chief Navi Pillay awarded Nobel Peace Prize - UN News",
+      "source": "UN News (news index)",
+      "description": "Former UN human rights chief Navi Pillay awarded Nobel Peace Prize UN News",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE55N1F5NElCZGp4OGx3Mlk5LUVPNzFoYlo2bmVOT3JxNnZQeGZVb0NZVllFX0R0dXRBbFJmbERxQWFGZEozdWJDaE5VX1VaNlFVT2tnc3NBcw?oc=5",
+      "published": "2026-10-09T07:00:00Z",
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
       "title": "Labour’s last chance? The people shaping Andy Burnham’s grand plans for Britain – podcast",
       "source": "The Guardian Long Read",
       "description": "The new prime minister has declared he wants to end 40 years of neoliberalism. But is he really prepared to be that radical? By Hettie O’Brien. Read by Philip Whitchurch Read the text version here Support the Guardian today: theguardian.com/longreadpod Continue reading...",
@@ -5146,6 +5293,26 @@
       "location_precision": "city-reference",
       "location_method": "headline-keyword",
       "location_verified": false
+    },
+    {
+      "title": "Afghanistan: Women face fresh dress code arrests amid record refugee returns - UN News",
+      "source": "UN News (news index)",
+      "description": "Afghanistan: Women face fresh dress code arrests amid record refugee returns UN News",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1Wa3dIaHZNLWtBZmZRUmRoRkRLeV96VXQ3Ty1IOEQzQjBhMm9UMklqMFhVMXFKZmtLYnpIQzA2YXVMM3pGdFBEbEdHWWY0MlhSbUU5dVgwNA?oc=5",
+      "published": "2026-10-08T07:00:00Z",
+      "lat": 33.94,
+      "lon": 67.71,
+      "place": "Afghanistan",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false,
+      "collection_method": "Third-party news index; not direct UN RSS"
     },
     {
       "title": "'Every day there is killing': Gazans face Israeli strikes despite ceasefire as peace deal stalls",
@@ -7099,6 +7266,18 @@
       "audio_url": "https://traffic.libsyn.com/secure/middleeastinst/Middle_East_Focus_6.4.26_3_mixdown.mp3?dest-id=531685",
       "url": "https://middleeastinst.libsyn.com/can-the-latest-us-plan-bridge-libyas-divide",
       "published": "2026-06-04T19:26:00Z"
+    },
+    {
+      "title": "AI’s environmental costs threaten water, land and climate - UN News",
+      "source": "UN News (news index)",
+      "description": "AI’s environmental costs threaten water, land and climate UN News",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBBeHFtNUx2SEN0Ni1lYXFrSmllU1YtRk1QdlM0VTZNUWFRdy11NXVDSzJ2aHhpc2hZRzFUTndqOVNNWWJWc3U4ZnVVaXZpcWZwUmlFSEZuNA?oc=5",
+      "published": "2026-06-04T07:00:00Z",
+      "collection_method": "Third-party news index; not direct UN RSS"
     },
     {
       "title": "America at 250: The Marshall Plan, With Benn Steil",
@@ -9142,19 +9321,14 @@
       "published": "2019-12-10T20:27:00Z"
     }
   ],
-  "errors": [
-    {
-      "source": "UN News",
-      "message": "Publisher RSS blocked or unavailable; cached articles retained where available"
-    }
-  ],
+  "errors": [],
   "sources_checked": 27,
-  "sources_ok": 26,
+  "sources_ok": 27,
   "collector_version": "1.1.2-un-diagnostics",
   "classification_method": "keyword-heuristic",
   "location_method": "headline-or-lead-reference",
   "content_counts": {
-    "news": 394,
+    "news": 403,
     "podcast": 192,
     "research": 17
   },
@@ -9192,108 +9366,12 @@
   ],
   "warnings": [
     {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+      "source": "UN News Middle East",
+      "message": "Using alternate publisher-hosted RSS endpoint: https://news.un.org/feed/subscribe/en/news/region/middle-east/feed/rss.xml?output=rss"
     },
     {
       "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+      "message": "Direct UN RSS unavailable; 34 attributed headlines collected from a third-party news index, not publisher RSS."
     }
   ],
   "feed_health": "See errors for failed source names"
