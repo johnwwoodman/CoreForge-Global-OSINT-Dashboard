@@ -1,3 +1,9 @@
+## v1.3.2 — Leadership coverage and concurrent updates
+
+- Daily Wikidata batch includes one rotating priority country (Middle East and major global countries) plus worldwide rotation; candidate names remain unverified.
+- Country update workflow fetches and rebases against the latest main branch before publishing, with bounded retries and no force pushes.
+- Existing data remains cached if an upstream service is unavailable.
+
 ## v1.3.1 — Country collector reliability fix
 
 - REST Countries: validate usable records instead of requiring a fixed country count; retry without field filtering.

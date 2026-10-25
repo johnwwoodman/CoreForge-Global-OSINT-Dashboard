@@ -47,14 +47,29 @@ def merge(existing,patch):
  for k,v in patch.items():
   if v is not None and v!='' and v!=[]:existing[k]=v
  return existing
+# Prioritise frequently consulted regions and countries with missing leadership.
+# The remainder rotates daily, keeping one Wikidata request per run.
+PRIORITY_CODES=('SY','GB','FJ','JO','IL','PS','LB','IQ','IR','SA','AE','QA','KW','BH','OM','YE','EG','TR','US','RU','CN','IN','UA')
+def choose_wikidata_batch(countries, today, size=15):
+ codes=sorted({r.get('code') for r in countries.values() if len(r.get('code') or '')==2})
+ by_code={r.get('code'):r for r in countries.values() if r.get('code')}
+ # One priority slot rotates every day; 14 slots provide worldwide coverage.
+ priority=[c for c in PRIORITY_CODES if c in codes]
+ day=datetime.date.fromisoformat(today).toordinal()
+ selected=[priority[day%len(priority)]] if priority else []
+ remaining=[c for c in codes if c not in selected]
+ start=(day*(size-1))%len(remaining) if remaining else 0
+ selected += (remaining[start:]+remaining[:start])[:size-len(selected)]
+ return selected
+
 def wikidata_once(codes):
  # Only one request per run. Respect 429 and never retry immediately.
  values=' '.join('"'+c+'"' for c in codes)
  query="""SELECT ?code ?country ?stateLabel ?govLabel ?systemLabel WHERE {
  VALUES ?code { %s }
  ?country wdt:P297 ?code.
- OPTIONAL { ?country p:P35 ?s. ?s ps:P35 ?state. FILTER NOT EXISTS { ?s pq:P582 ?end. FILTER(?end < NOW()) } }
- OPTIONAL { ?country p:P6 ?g. ?g ps:P6 ?gov. FILTER NOT EXISTS { ?g pq:P582 ?end2. FILTER(?end2 < NOW()) } }
+ OPTIONAL { ?country p:P35 ?s. ?s ps:P35 ?state. FILTER NOT EXISTS { ?s pq:P582 ?end. FILTER(?end < NOW()) } FILTER NOT EXISTS { ?s pq:P580 ?start. FILTER(?start > NOW()) } }
+ OPTIONAL { ?country p:P6 ?g. ?g ps:P6 ?gov. FILTER NOT EXISTS { ?g pq:P582 ?end2. FILTER(?end2 < NOW()) } FILTER NOT EXISTS { ?g pq:P580 ?start2. FILTER(?start2 > NOW()) } }
  OPTIONAL { ?country wdt:P122 ?system. }
  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }"""%values
@@ -108,18 +123,15 @@ def main():
    if not count:raise ValueError('No matching ISO3 codes in '+str(len(values))+' World Bank records')
    success.append('World Bank '+indicator+' ('+str(count)+')')
   except Exception as e:errors.append('World Bank '+indicator+': '+str(e)[:220])
- # Wikidata's public SPARQL endpoint can be rate-limited to 1 request/minute.
- # Rotate 15-country batches across days instead of submitting 10 rapid requests.
- codes=sorted({rec.get('code') for rec in countries.values() if len(rec.get('code') or '')==2})
- if codes:
-  batch_size=15;batch_number=datetime.date.fromisoformat(TODAY).toordinal()%((len(codes)+batch_size-1)//batch_size)
-  batch=codes[batch_number*batch_size:(batch_number+1)*batch_size]
+ # One query per day, prioritising high-interest countries while rotating globally.
+ batch=choose_wikidata_batch(countries,TODAY)
+ if batch:
   try:
    result=wikidata_once(batch)
    for rec in countries.values():
     patch=result.get(rec.get('code'))
     if patch:merge(rec,patch)
-   success.append('Wikidata batch '+str(batch_number+1)+' ('+str(len(result))+' candidates)')
+   success.append('Wikidata ('+str(len(result))+' candidates; '+','.join(batch)+')')
   except urllib.error.HTTPError as e:
    errors.append('Wikidata: HTTP '+str(e.code)+'; skipped further requests (rate limit/outage)')
   except Exception as e:errors.append('Wikidata: '+str(e)[:220])
