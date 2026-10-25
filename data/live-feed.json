@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T17:59:36.315045Z",
+  "updated": "2026-10-25T18:23:42.754243Z",
   "records": [
     {
       "title": "Serbia votes as strongman Vučić faces grassroots challenge to 12-year rule – Europe live",
@@ -12,7 +12,18 @@
       ],
       "kind": "news",
       "url": "https://www.theguardian.com/world/live/2026/oct/25/europe-serbia-elections-aleksander-vucic-student-list-protests-bulgaria-latest-news-updates",
-      "published": "2026-10-25T17:42:48Z"
+      "published": "2026-10-25T18:11:44Z"
+    },
+    {
+      "title": "US south-west braces for more flooding after stretch of heavy rain and storms",
+      "source": "The Guardian Environment",
+      "description": "More inclement weather forecast in rain-soaked Four Corners region after evacuations and rescues last week A rain-soaked swath of the south-west US braced on Sunday for another round of potentially heavy showers and thunderstorms after days of rain forced evacuations and water rescues. The National Weather Service issued a flood watch for much of the Four Corners – the meeting point of Arizona, Colorado, New Mexico and Utah – even as local officials forecast further receding of swollen rivers th",
+      "category": "Disasters",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/us-news/2026/oct/25/four-corners-southwest-rain-flooding-thunderstorms",
+      "published": "2026-10-25T17:46:48Z"
     },
     {
       "title": "The Guardian view on Oxford Street’s pedestrianisation: cities should be designed around people, not cars | Editorial",
@@ -2972,17 +2983,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cmde8rr2d6eno?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-21T23:52:12Z"
-    },
-    {
-      "title": "Officials confirm flesh-eating New World screwworm parasite found in US wildlife",
-      "source": "The Guardian Environment",
-      "description": "USDA says screwworm found in elk in Texas, and warns hunters and ranchers to be vigilant to help stop spread The US Department of Agriculture (USDA) said on Wednesday it had ⁠confirmed the ⁠first detection ​of the flesh-eating parasite the New World screwworm in US wildlife in an ⁠elk in Pecos county, Texas. The elk was located on a game ⁠ranch and was reported after being killed by ​a hunter, the ‌USDA said ‌in a statement. Continue reading...",
-      "category": "Disasters",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/us-news/2026/oct/21/new-world-screwworm-texas",
-      "published": "2026-10-21T23:36:31Z"
     },
     {
       "title": "The 'trillion pound' oil fund the government believes Britain could have built",
@@ -9147,9 +9147,14 @@
       "published": "2019-12-10T20:27:00Z"
     }
   ],
-  "errors": [],
+  "errors": [
+    {
+      "source": "UN News",
+      "message": "Publisher RSS unavailable after 4 endpoints (publisher may block automated requests); https://news.un.org/feed/subscribe/en/news/all/rss.xml: Publisher returned non-XML content; https://news.un.org/en"
+    }
+  ],
   "sources_checked": 27,
-  "sources_ok": 27,
+  "sources_ok": 26,
   "collector_version": "1.1.2-un-diagnostics",
   "classification_method": "keyword-heuristic",
   "location_method": "headline-or-lead-reference",
@@ -9194,6 +9199,110 @@
     {
       "source": "UN News Middle East",
       "message": "Using alternate publisher-hosted RSS endpoint: https://news.un.org/feed/subscribe/en/news/region/middle-east/feed/rss.xml?output=rss"
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
+    },
+    {
+      "source": "UN News",
+      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
     }
   ],
   "feed_health": "See errors for failed source names"
