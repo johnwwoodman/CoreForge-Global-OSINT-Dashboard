@@ -52,7 +52,7 @@ function layerGeometry(){const line=(pts,cls)=>`<polyline class="${cls}" points=
  return `${GEO_LAYERS.shipping?SHIPPING.map(r=>line(r,'geo-shipping')).join(''):''}${GEO_LAYERS.airRoutes?AIR_ROUTES.map(r=>line(r,'geo-airroute')).join(''):''}${GEO_LAYERS.seas?labels:''}${GEO_LAYERS.chokepoints?dots(CHOKEPOINTS,'geo-chokepoint'):''}${GEO_LAYERS.ports?dots(PORTS,'geo-port'):''}${GEO_LAYERS.airports?dots(AIRPORTS,'geo-airport'):''}`;
 }
 function layerControls(){const categories=[['intelligence','Intelligence markers'],['chokepoints','Maritime chokepoints'],['shipping','Shipping corridors'],['ports','Major ports'],['seas','Seas & oceans'],['airports','Major airports'],['airRoutes','Indicative air corridors']];return `<details class="geo-layer-menu" open><summary>☷ Map layers — show / hide</summary><div class="geo-layer-presets">${Object.keys(GEO_PRESETS).map(name=>`<button type="button" data-geo-preset="${name}">${name}</button>`).join('')}</div><div class="geo-layer-options">${categories.map(([key,label])=>`<label><input type="checkbox" data-geo-layer="${key}" ${GEO_LAYERS[key]?'checked':''}> ${label}</label>`).join('')}<small>Selections are saved on this device. Routes are indicative, not live tracking.</small></div></details>`}
-function countryProfile(){return `<div class="country-profile" aria-live="polite"><p class="small muted">${selectedCountry?'Selected country: '+safe(selectedCountry):'Select a country on the map to see its profile, or search below.'}</p><label>Country search <input type="search" data-country-search placeholder="e.g. Jordan" value="${safe(selectedCountry)}" list="cf-country-list"></label><datalist id="cf-country-list">${(world?.features||[]).map(f=>`<option value="${safe(f.properties?.name)}"></option>`).join('')}</datalist><button type="button" data-country-go>View profile</button><div class="country-profile-content">${selectedCountry?'Loading country information…':'Country profiles include population, capital, currencies, languages and links to current leadership information.'}</div></div>`}
+function countryProfile(){return `<div class="country-profile" aria-live="polite"><p class="small muted">${selectedCountry?'Selected country: '+safe(selectedCountry):'Select a country on the map to see its profile, or search below.'}</p><label>Country search <input type="search" data-country-search placeholder="e.g. Jordan" value="${safe(selectedCountry)}" list="cf-country-list"></label><datalist id="cf-country-list">${(world?.features||[]).map(f=>`<option value="${safe(f.properties?.name)}"></option>`).join('')}</datalist><button type="button" data-country-go>View profile</button><div class="country-profile-content">${selectedCountry?offlineCountryHTML(selectedCountry):'Country profiles include population, capital, currencies, languages and links to current leadership information.'}</div></div>`}
 // Offline reference facts for priority regional countries; estimates are approximate and dated.
 // Online REST Countries facts take precedence when accessible. Political officeholders are never guessed.
 const COUNTRY_OFFLINE={
@@ -86,6 +86,12 @@ const COUNTRY_OFFLINE={
  'sudan':['Khartoum',50000000,'Sudanese pound (SDG)','Arabic, English','Africa / Northern Africa','Transitional / contested governance'],
  'somalia':['Mogadishu',19000000,'Somali shilling (SOS)','Somali, Arabic','Africa / Eastern Africa','Federal parliamentary republic']
 };
+function offlineCountryHTML(name){
+ const facts=COUNTRY_OFFLINE[String(name||'').toLocaleLowerCase('en').trim()];
+ if(!facts)return `<h3>${safe(name)}</h3><p class="small muted">No bundled reference for this country. Attempting online lookup…</p>`;
+ const rows=[['Capital',facts[0]],['Population',Number(facts[1]).toLocaleString('en-GB')+' (approximate reference)'],['Currency',facts[2]],['Languages',facts[3]],['Region',facts[4]],['Government type',facts[5]]];
+ return `<h3>${safe(name)}</h3><p class="small muted">Bundled reference information. Population is approximate, not a live estimate.</p><dl class="country-facts">${rows.map(([k,v])=>`<dt>${safe(k)}</dt><dd>${safe(v)}</dd>`).join('')}<dt>Current leadership</dt><dd>Requires verification from a current source.</dd></dl>`;
+}
 function renderCountryFacts(node,name){if(!node||!name)return;const target=node.querySelector('.country-profile-content');if(!target)return;
  const normalized=name.toLocaleLowerCase('en').trim();const offline=COUNTRY_OFFLINE[normalized];
  const apply=(c,origin)=>{if(!node.isConnected||node.querySelector('[data-country-search]')?.value.trim()!==name)return;
@@ -101,7 +107,7 @@ function renderCountryFacts(node,name){if(!node||!name)return;const target=node.
  if(countryCache.has(normalized)){const cached=countryCache.get(normalized);apply(cached,cached?'online':'offline');return}
  if(offline)apply(null,'offline');else target.textContent='Looking up country facts…';
  const url='https://restcountries.com/v3.1/name/'+encodeURIComponent(name)+'?fields=name,capital,population,currencies,languages,region,subregion';
- fetch(url,{signal:AbortSignal.timeout(7500)}).then(r=>{if(!r.ok)throw Error('Country API unavailable');return r.json()}).then(a=>{const data=Array.isArray(a)?a[0]:a;if(!data?.name)throw Error('Invalid country data');countryCache.set(normalized,data);apply(data,'online')}).catch(()=>{countryCache.set(normalized,null);apply(null,'offline')});
+ fetch(url,{signal:AbortSignal.timeout(7500)}).then(r=>{if(!r.ok)throw Error('Country API unavailable');return r.json()}).then(a=>{const data=Array.isArray(a)?a[0]:a;if(!data?.name)throw Error('Invalid country data');countryCache.set(normalized,data);apply(data,'online')}).catch(()=>{countryCache.set(normalized,null);if(!offline)apply(null,'offline')});
 }
 const mapStates={};
 const viewForRegion=()=>MAP_VIEWS[prefs.region]||MAP_VIEWS.all;

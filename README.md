@@ -115,3 +115,10 @@ When fallback is used, `warnings` in the generated JSON explains this. If both
 UN feeds fail, Data Health continues to report an error. This is a fallback,
 not proof that the dedicated regional endpoint is reliably accessible.
 
+
+
+### v1.1.2 — Country profile and UN News diagnostics
+- Country profiles now show bundled reference facts immediately for supported countries, even when the country API is blocked.
+- Country facts remain clearly marked as approximate; political officeholders require current verification.
+- UN News collector now reports failures without falsely marking feeds healthy and preserves previously collected genuine UN News articles when available (not labelled as fresh).
+- UN News RSS availability remains dependent on publisher access from GitHub Actions.

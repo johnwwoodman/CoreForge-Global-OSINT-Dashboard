@@ -260,7 +260,7 @@ def parse_feed(raw, source, category, region, kind, seen):
 def fetch_xml(url):
     """Fetch RSS with a browser-like identity and reject empty/non-XML responses."""
     req = urllib.request.Request(url, headers={
-        'User-Agent': 'Mozilla/5.0 (compatible; CoreForgeRSS/1.0)',
+        'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/131.0.0.0 Safari/537.36',
         'Accept': 'application/rss+xml, application/atom+xml, application/xml, text/xml, */*;q=0.5',
     })
     with urllib.request.urlopen(req, timeout=18) as response:
@@ -280,10 +280,12 @@ UN_RSS_ALTERNATES = {
     'UN News Middle East': [
         'https://news.un.org/en/rss/region/middle-east',
         'https://news.un.org/en/rss/region/middle-east.xml',
+        'https://news.un.org/feed/subscribe/en/news/region/middle-east/feed/rss.xml?output=rss',
     ],
     'UN News': [
         'https://news.un.org/en/rss',
         'https://news.un.org/en/rss/news',
+        'https://news.un.org/feed/subscribe/en/news/all/rss.xml?output=rss',
     ],
 }
 def fetch_publisher_xml(source, primary):
@@ -319,6 +321,7 @@ def un_middle_east_fallback(raw, seen):
 def collect():
     records, errors, seen = [], [], set()
     warnings = []
+    failed_un_sources = set()
     un_regional_failed = False
     for source, url, category, region, kind in [(s,u,c,r,'news') for s,u,c,r in FEEDS]+SPECIAL_FEEDS:
         try:
@@ -335,6 +338,8 @@ def collect():
             records.extend(added)
             print(f'{source}: {len(added)} records ({sum(x["kind"] == "podcast" for x in added)} podcasts)')
         except Exception as exc:
+            if source in ('UN News Middle East', 'UN News'):
+                failed_un_sources.add(source)
             if source == 'UN News Middle East':
                 un_regional_failed = True
                 print(f'{source}: regional RSS unavailable ({exc}); attempting UN News global fallback')
@@ -344,6 +349,19 @@ def collect():
     if un_regional_failed and not any(w['source'] == 'UN News Middle East' for w in warnings):
         errors.append({'source':'UN News Middle East',
                        'message':'Regional feed unavailable and global UN News fallback also unavailable.'})
+    # Preserve only previously collected genuine UN News articles if the publisher blocks this run.
+    # Do not fabricate items or present retained reporting as newly collected.
+    if failed_un_sources:
+        old_path = ROOT / 'data' / 'live-feed.json'
+        try:
+            previous = json.loads(old_path.read_text(encoding='utf-8'))
+            for item in previous.get('records', []):
+                if item.get('source') in failed_un_sources and item.get('url') and item['url'] not in seen:
+                    records.append(item)
+                    seen.add(item['url'])
+                    warnings.append({'source':item['source'], 'message':'Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results.'})
+        except (OSError, ValueError, TypeError):
+            pass
     # Keep specialist discovery failures isolated from existing news collection.
     # Deduplication is shared with ordinary feeds, so one episode is only stored once.
     podcast_diagnostics = []
@@ -364,7 +382,7 @@ def collect():
             podcast_diagnostics.append({'source':source,'status':'error','episodes':0})
             print(f'{source}: ERROR {exc}')
     records.sort(key=lambda x: x['published'], reverse=True)
-    return {'updated': dt.datetime.now(dt.timezone.utc).isoformat().replace('+00:00','Z'), 'records': records, 'errors': errors, 'sources_checked': len(FEEDS)+len(SPECIAL_FEEDS)+len(PODCAST_CATALOGUE), 'sources_ok': len(FEEDS)+len(SPECIAL_FEEDS)+len(PODCAST_CATALOGUE)-len(errors), 'collector_version':'1.1.1-un-retry', 'classification_method':'keyword-heuristic', 'location_method':'headline-or-lead-reference', 'content_counts': {kind: sum(r['kind'] == kind for r in records) for kind in ('news','podcast','research')}, 'podcast_sources': podcast_diagnostics, 'warnings': warnings, 'feed_health': 'See errors for failed source names'}
+    return {'updated': dt.datetime.now(dt.timezone.utc).isoformat().replace('+00:00','Z'), 'records': records, 'errors': errors, 'sources_checked': len(FEEDS)+len(SPECIAL_FEEDS)+len(PODCAST_CATALOGUE), 'sources_ok': len(FEEDS)+len(SPECIAL_FEEDS)+len(PODCAST_CATALOGUE)-len(errors), 'collector_version':'1.1.2-un-diagnostics', 'classification_method':'keyword-heuristic', 'location_method':'headline-or-lead-reference', 'content_counts': {kind: sum(r['kind'] == kind for r in records) for kind in ('news','podcast','research')}, 'podcast_sources': podcast_diagnostics, 'warnings': warnings, 'feed_health': 'See errors for failed source names'}
 
 if __name__ == '__main__':
     payload = collect()
