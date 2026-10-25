@@ -1,6 +1,130 @@
 {
-  "updated": "2026-10-25T21:02:57.182373Z",
+  "updated": "2026-10-25T23:16:58.948038Z",
   "records": [
+    {
+      "title": "Brazil runoff live updates: ballot count resumes after two-hour voting extension",
+      "source": "The Guardian World",
+      "description": "Polls officially close after Brazilian ⁠supreme court ordered the extension Sunday as Flávio Bolsonaro and Luiz Inácio Lula da Silva await results The local electoral court ordered the immediate restoration of 100% of the bus fleet and ordered the arrest of the municipal transport secretary, Pablo Souza, on suspicion of an electoral offence and disobeying court orders. The arrest warrant could not be carried out, however, because he is in Paris on what the city government described as an “offici",
+      "category": "Geopolitics",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula",
+      "published": "2026-10-25T22:59:30Z",
+      "lat": -14.24,
+      "lon": -51.93,
+      "place": "Brazil",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Australia politics live: MPs to honour Haines with ‘civility pledge’ and orange cockatoos; access to contraception and UTI treatment to become cheaper and easier",
+      "source": "The Guardian World",
+      "description": "Follow live updates Get our daily political email , free app or daily news podcast Steggall calls for civility and respect Independent MP Zali Steggall has called for more respect in times of disagreement, telling ABC that leadership and words matter. We absolutely need to make sure there is more civility and respect. Social media is a platform where they can send abuse and threats through direct messages, call my electorate office, or send pretty revolting stuff It’s just quite shocking how dis",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/australia-news/live/2026/oct/26/australia-politics-live-helen-haines-tribute-anthony-albanese-labor-liberal-one-nation-pauline-hanson-angus-taylor-question-time-senate-estimates-ntwnfb",
+      "published": "2026-10-25T22:57:38Z"
+    },
+    {
+      "title": "Serbia's veteran ruler Vučić concedes election to student-led protest movement",
+      "source": "BBC World",
+      "description": "The populist right-wing leader of 12 years says it is \"clear\" his party has lost the vote billed as a referendum on the country's future.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-25T22:54:57Z"
+    },
+    {
+      "title": "Wild scenes of celebration in Belgrade as Vučić concedes Serbian election – Europe live",
+      "source": "The Guardian World",
+      "description": "Student List movement projected to have 138 seats in the new parliament, well clear of the 126 required for majority, to Vučić’s 104 Serbian leader Aleksandar Vučić concedes defeat in fiercely contested parliamentary election The latest turnout projection by Ipsos/Cesid suggests a turnout of 60.8% by 5pm local time (4pm UK), with three hours still to go until the polling stations close. That’s more than 13 percentage points higher than in 2023, and would be the highest turnout since mid-2000s. “",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/live/2026/oct/25/europe-serbia-elections-aleksander-vucic-student-list-protests-bulgaria-latest-news-updates",
+      "published": "2026-10-25T22:54:21Z"
+    },
+    {
+      "title": "Serbian leader Aleksandar Vučić concedes defeat in fiercely contested parliamentary election",
+      "source": "The Guardian World",
+      "description": "Vučić’s 12-year reign looks to have been ended by record turnout of voters in election provoked by student-led protests Follow the reaction to the result with our liveblog The long-serving leader of Serbia, Aleksandar Vučić, has conceded defeat, ushering in a seismic political shift after a historic election that saw ​the increasingly authoritarian leader pitted against a student-led movement that had spent two years protesting against his government. Vučić pointed to preliminary results that su",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/25/serbian-leader-aleksandar-vucic-concedes-defeat-in-fiercely-contested-parliamentary-election",
+      "published": "2026-10-25T22:30:22Z"
+    },
+    {
+      "title": "Brazil election 2026: Live second round results",
+      "source": "The Guardian World",
+      "description": "After a shock defeat in the first round, the incumbent Brazilian president, Luiz Inácio Lula da Silva, is seeking a new term in a runoff with Flávio Bolsonaro, the son of his convicted predecessor Polls were originally due to close at 17.00BRT, 20.00GMT, but voting was extended for two hours; the full count is now under way. Full coverage here Continue reading...",
+      "category": "Geopolitics",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/ng-interactive/2026/oct/25/brazil-election-2026-live-second-round-results",
+      "published": "2026-10-25T22:11:16Z",
+      "lat": -14.24,
+      "lon": -51.93,
+      "place": "Brazil",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Deeply divided Israel braces for pivotal election",
+      "source": "BBC World",
+      "description": "After three years of regional war, this is a battle Israel always knew was coming, writes Lucy Williamson.",
+      "category": "Geopolitics",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ckpdgy6pl7xlo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-25T22:11:13Z",
+      "lat": 31.05,
+      "lon": 34.85,
+      "place": "Israel",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Why Israel's election is one of the most important in its history",
+      "source": "BBC World",
+      "description": "Security and democracy emerge as central issues in Israel's highly anticipated general election, as Middle East correspondent Lucy Williamson reports.",
+      "category": "Geopolitics",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/c64g1wje3jjwo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-25T22:05:30Z",
+      "lat": 31.05,
+      "lon": 34.85,
+      "place": "Israel",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
     {
       "title": "British Columbia's new premier lucks into the job in unexpected political turn",
       "source": "BBC Americas",
@@ -16,35 +140,9 @@
       "published": "2026-10-25T20:58:39Z"
     },
     {
-      "title": "Australia politics live: MPs to pay tribute to Helen Haines as parliament resumes; Hanson says One Nation cartoons ‘not going anywhere’",
-      "source": "The Guardian World",
-      "description": "Follow live updates Get our daily political email , free app or daily news podcast Politicians to sign ‘civility pledge’ following alleged attack on Haines The speaker of the house, Milton Dick , will call for civility in parliament today, and some politicians are expected to sign a “civility pledge”. I think there’s something really symbolic about the fact that Helen was [the first] federal MP to have signed this. It is a very simple thing. It just says in my political life. I pledge to act wit",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/australia-news/live/2026/oct/26/australia-politics-live-helen-haines-tribute-anthony-albanese-labor-liberal-one-nation-pauline-hanson-angus-taylor-question-time-senate-estimates-ntwnfb",
-      "published": "2026-10-25T20:43:34Z"
-    },
-    {
-      "title": "Vučić concedes Serbian election, says Student List will be the largest party – Europe live",
-      "source": "The Guardian World",
-      "description": "The Student List movement is taking on authoritarian leader following nearly two years of protests against government and institutional corruption What is at stake in Serbia’s election? The latest turnout projection by Ipsos/Cesid suggests a turnout of 60.8% by 5pm local time (4pm UK), with three hours still to go until the polling stations close. That’s more than 13 percentage points higher than in 2023, and would be the highest turnout since mid-2000s. “ What hasn’t motivated me? There isn’t a",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/live/2026/oct/25/europe-serbia-elections-aleksander-vucic-student-list-protests-bulgaria-latest-news-updates",
-      "published": "2026-10-25T20:43:06Z"
-    },
-    {
       "title": "Cabinet split emerges over controversial Rosebank oilfield decision",
       "source": "The Guardian Environment",
-      "description": "Chancellor is in favour the North Sea project, but energy secretary has said she is leaning towards rejecting it A cabinet split has emerged over whether to approve drilling at the Rosebank oilfield, with the chancellor, John Healey, in favour of the controversial North Sea project. The energy secretary, Miatta Fahnbulleh, is ultimately in charge of the decision and the Guardian reported last week that she was leaning towards rejecting it after granting permission for the smaller Jackdaw gasfiel",
+      "description": "Chancellor is in favour of North Sea project, but energy secretary has said she is leaning towards rejecting it A cabinet split has emerged over whether to approve drilling at the Rosebank oilfield, with the chancellor, John Healey, in favour of the controversial North Sea project. The energy secretary, Miatta Fahnbulleh, is ultimately in charge of the decision, and the Guardian reported last week that she was leaning towards rejecting it after granting permission for the smaller Jackdaw gasfiel",
       "category": "Disasters",
       "region": "all",
       "regions": [],
@@ -96,36 +194,6 @@
       "kind": "news",
       "url": "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return",
       "published": "2026-10-25T19:56:56Z"
-    },
-    {
-      "title": "Early reports suggest record high turnout in Serbia elections",
-      "source": "BBC World",
-      "description": "Polls are closing in Serbia as a student movement attempts to oust longtime populist leader Aleksandar Vučić.",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/c6jdmj1ej715o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-25T19:55:15Z"
-    },
-    {
-      "title": "Brazil election 2026: Live second round results",
-      "source": "The Guardian World",
-      "description": "After a shock defeat in the first round, the incumbent Brazilian president, Luiz Inácio Lula da Silva, is seeking a new term in a runoff with Flávio Bolsonaro, the son of his convicted predecessor Polls were originally due to close at 17.00BRT, 20.00GMT, but voting has been extended for two hours; some districts had already counted. Full coverage here Continue reading...",
-      "category": "Geopolitics",
-      "region": "Americas",
-      "regions": [
-        "Americas"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/ng-interactive/2026/oct/25/brazil-election-2026-live-second-round-results",
-      "published": "2026-10-25T19:37:49Z",
-      "lat": -14.24,
-      "lon": -51.93,
-      "place": "Brazil",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "Death toll in Nigeria village raided by gunmen rises to 48, police say",
@@ -316,12 +384,27 @@
       "published": "2026-10-25T14:39:47Z"
     },
     {
+      "title": "‘Extremely disappointed’: WA government seeks reimbursement from Deloitte over flawed university report",
+      "source": "The Guardian World",
+      "description": "State paid consultancy firm $166,000 for feasibility study on merging the three tertiary institutions Get our breaking news email , free app or daily news podcast The Western Australian government has said it is “extremely disappointed” and is seeking an “expedited” cost recovery from Deloitte after errors were discovered in a report about a potential university merger, including AI-hallucinated references and hundreds of millions of dollars in cost discrepancies. The government paid Deloitte $1",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/26/deloitte-report-wa-university-mergers-260m-discrepancy-ai",
+      "published": "2026-10-25T14:00:06Z"
+    },
+    {
       "title": "Almost two-thirds of Australians bulk-billed for all GP care amid extra incentives for doctors",
       "source": "The Guardian World",
-      "description": "Exclusive: RACGP says results likely reflect Medicare investments, but experts caution quality of care and outcomes also matter Get our new political email , free app or daily news podcast The proportion of general practitioners bulk-billing all of their patients has more than doubled in a year, a report has found, after the government introduced financial incentives for doctors and practices. And almost two-thirds (63%) of Australians are now bulk-billed for all their GP care, up from 56% in bo",
+      "description": "Exclusive: RACGP says results probably reflect Medicare investments but experts caution quality of care and outcomes also matter Follow our Australian politics live blog for latest updates Get our daily political email , free app or daily news podcast The proportion of general practitioners bulk-billing all of their patients has more than doubled in a year, a report has found, after the government introduced financial incentives for doctors and practices. And almost two-thirds (63%) of Australia",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
       "kind": "news",
       "url": "https://www.theguardian.com/australia-news/2026/oct/26/almost-two-thirds-of-australians-bulk-billed-for-all-gp-care-amid-extra-incentives-for-doctors",
       "published": "2026-10-25T14:00:06Z"
@@ -342,7 +425,7 @@
     },
     {
       "title": "Hundreds of thousands march across France in protests over schools and policing",
-      "source": "The Guardian World",
+      "source": "The Guardian Europe",
       "description": "Almost 1,000 arrested as police charge crowd in Paris and teargas used to stop protesters reaching other city centres Hundreds of thousands marched in cities across France on Saturday in largely peaceful protests to support schoolchildren’s demands for more teachers and repairs to dilapidated buildings, as Emmanuel Macron faces a social and political crisis in his final months as president. The prosecutor’s office in the southern city of Nice said on Sunday that 59 people had been taken into pol",
       "category": "Geopolitics",
       "region": "Europe",
@@ -479,21 +562,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cqm24j9y9zn7o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-25T10:03:17Z"
-    },
-    {
-      "title": "US seized American heir’s cellphone in violation of treaty agreement, lawyer says",
-      "source": "The Guardian Europe",
-      "description": "James ‘Fergie’ Chambers, in prison in Spain, has applied for asylum as US seeks extradition over alleged Hamas support US authorities seized wealthy activist James “Fergie” Chambers’s cellphone at some point after Spanish police arrested him in July without notifying him or his attorneys, the Guardian has learned. Chambers, a US citizen and wealthy donor to leftwing and humanitarian projects, is imprisoned in Madrid. His case is the first known instance of the US seeking to extradite a citizen o",
-      "category": "Geopolitics",
-      "region": "Middle East",
-      "regions": [
-        "Middle East",
-        "Europe",
-        "Americas"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/us-news/2026/oct/25/fbi-spain-james-fergie-chambers-cox",
-      "published": "2026-10-25T09:00:58Z"
     },
     {
       "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
@@ -706,17 +774,6 @@
       "published": "2026-10-25T02:00:49Z"
     },
     {
-      "title": "‘Horrific’: woman, 19, shot in head in drive-by shooting outside boxing event near Brisbane",
-      "source": "The Guardian World",
-      "description": "Offenders still at large after shots fired from vehicle outside licensed premises in Loganholme Get our breaking news email , free app or daily news podcast Four people have been injured after a drive-by shooting outside a venue hosting a boxing event, including a 19-year-old woman who was shot in the head. Queensland police Detective Inspector Ian Galpin said a group of people were gathered at the passenger drop-off zone outside Fitzy’s Loganholme, south of Brisbane, about 8.18pm on Saturday wh",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/25/drive-by-shooting-loganholme-four-injured-ntwnfb",
-      "published": "2026-10-25T01:41:37Z"
-    },
-    {
       "title": "The bitter row over military service that could shape Israel's future",
       "source": "BBC World",
       "description": "The ultra-Orthodox community is resisting being drafted into the Israeli army. But will they now bring down the Netanyahu government?",
@@ -828,25 +885,6 @@
       "location_verified": false
     },
     {
-      "title": "More than one million Lula supporters rally on eve of Brazilian election runoff",
-      "source": "The Guardian World",
-      "description": "Nearly 159 million people to head to polls on Sunday in battle between leftwing incumbent and Flávio Bolsonaro More than one million supporters of Brazil’s leftwing president, Luiz Inácio Lula da Silva, have streamed on to Rio’s most famous beach for a giant protest they hope will propel him towards a historic election fightback against his far-right rival, Flávio Bolsonaro . Nearly 159m Brazilians will vote in the election’s runoff on Sunday, with the pair tied in the polls after Bolsonaro won ",
-      "category": "Geopolitics",
-      "region": "Americas",
-      "regions": [
-        "Americas"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/24/lula-da-silva-supporters-rally-eve-brazil-election-runoff-bolsonaro",
-      "published": "2026-10-24T21:10:23Z",
-      "lat": -14.24,
-      "lon": -51.93,
-      "place": "Brazil",
-      "location_precision": "country-centroid",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
-    },
-    {
       "title": "Fireworks and tear gas as protesters and riot police clash in Paris",
       "source": "BBC World",
       "description": "The BBC's Europe correspondent reports from Paris where mostly peaceful protests turned into unrest after nightfall.",
@@ -916,6 +954,25 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c60rl9r59g0do?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-24T16:29:31Z"
+    },
+    {
+      "title": "Major protests in Paris and other French cities in challenge to Macron – in pictures",
+      "source": "The Guardian Europe",
+      "description": "Paris march drew 110,000 people, according to police, amid fresh nationwide demonstrations over school funding and cost of living Continue reading...",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/gallery/2026/oct/24/major-protests-in-paris-and-other-french-cities-in-challenge-to-emmanuel-macron",
+      "published": "2026-10-24T16:21:25Z",
+      "lat": 48.86,
+      "lon": 2.35,
+      "place": "Paris",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
     },
     {
       "title": "Women ‘first to suffer’ under siege, first to step up as frontline responders in Sudan - UN News",
@@ -1365,6 +1422,19 @@
       "location_verified": false
     },
     {
+      "title": "Why is John Travolta's old luxury jet in a small Australian town?",
+      "source": "BBC Asia",
+      "description": "The BBC goes on board Travolta’s old Boeing 707 which is being reassembled in a small coastal town.",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/cmze483zj1zlo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-23T21:19:17Z"
+    },
+    {
       "title": "World News in Brief: Iran nuclear inspections, deadly church attack in Jordan, El Fasher – one year on - UN News",
       "source": "UN News (news index)",
       "description": "World News in Brief: Iran nuclear inspections, deadly church attack in Jordan, El Fasher – one year on UN News",
@@ -1757,17 +1827,6 @@
       "published": "2026-10-23T12:17:45Z"
     },
     {
-      "title": "The US west has lost nearly 300 glaciers since the 1960s. Climate crisis is drastically shrinking what’s left",
-      "source": "The Guardian Environment",
-      "description": "At the midpoint of the last century the region had 1,450 glaciers and a new study reveals the extent of losses Continue reading...",
-      "category": "Disasters",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/environment/ng-interactive/2026/oct/23/glacier-loss-climate-crisis-west",
-      "published": "2026-10-23T12:00:26Z"
-    },
-    {
       "title": "EPA has failed to tackle cancer-linked pesticide pollution, lawsuit alleges",
       "source": "The Guardian Environment",
       "description": "Suit alleges EPA has for decades failed under the Clean Water Act to address surface-water atrazine pollution A new lawsuit asks a federal judge to order the Trump administration to address widespread pollution from the hormone-disrupting pesticide atrazine – which has regularly been found at levels that threaten wildlife and human health. The cancer-linked chemical is now contaminating nearly 25%, or about 860,000 miles, of all continental US rivers, according to a recent review of federal reco",
@@ -1776,6 +1835,17 @@
       "regions": [],
       "kind": "news",
       "url": "https://www.theguardian.com/us-news/2026/oct/23/lawsuit-atrazine-pesticide-cancer-epa",
+      "published": "2026-10-23T12:00:26Z"
+    },
+    {
+      "title": "The US west has lost nearly 300 glaciers since the 1960s. Climate crisis is drastically shrinking what’s left",
+      "source": "The Guardian Environment",
+      "description": "At the midpoint of the last century the region had 1,450 glaciers and a new study reveals the extent of losses Continue reading...",
+      "category": "Disasters",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/environment/ng-interactive/2026/oct/23/glacier-loss-climate-crisis-west",
       "published": "2026-10-23T12:00:26Z"
     },
     {
@@ -1840,7 +1910,7 @@
     },
     {
       "title": "Doctors tell the BBC about the targeting of Sudanese hospitals by paramilitary fighters",
-      "source": "BBC World",
+      "source": "BBC Africa",
       "description": "A BBC investigation has found evidence that Sudanese paramilitary fighters systematically destroyed el-Fasher's healthcare system.",
       "category": "Geopolitics",
       "region": "Africa",
@@ -2320,6 +2390,18 @@
       "location_verified": false
     },
     {
+      "title": "Hormuz and Red Sea disruption squeezes food supplies, UN warns - UN News",
+      "source": "UN News (news index)",
+      "description": "Hormuz and Red Sea disruption squeezes food supplies, UN warns UN News",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE56bXJ6Mm9aYjRTTWcwbjZzRTdhYWNsRElPRmNnYTlueUc1WXpzNmFOd1lPR3VkMVVUSzc5bWQ2YVZNRmhGempSUGp5S3k2a2cyWUlNWjdIbw?oc=5",
+      "published": "2026-10-22T20:40:26Z",
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
       "title": "First human case of Shamonda virus reported in France as patient dies - UN News",
       "source": "UN News (news index)",
       "description": "First human case of Shamonda virus reported in France as patient dies UN News",
@@ -2417,6 +2499,18 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-22T17:12:51Z"
+    },
+    {
+      "title": "UN News Today 22 October 2026 - UN News",
+      "source": "UN News (news index)",
+      "description": "UN News Today 22 October 2026 UN News",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4xQXowOTE1YldyQ0REYW1aWUh3VnNjcnpFR04wYXNuSTRxYWotQVV0cVlGdTN3c1owZTQwSVFUdjdZeUFpaWZaWnhteGRFWDRud0p4ZndtNA?oc=5",
+      "published": "2026-10-22T17:12:31Z",
+      "collection_method": "Third-party news index; not direct UN RSS"
     },
     {
       "title": "Germany target of 'intensive' espionage, Merz says after suspected Russian spy arrest",
@@ -2815,19 +2909,6 @@
       "published": "2026-10-22T10:17:26Z"
     },
     {
-      "title": "Celebrity shark guided out of South Korea canal refuses to swim out to sea",
-      "source": "BBC Asia",
-      "description": "Bukangi the shark became an unlikely sensation after it was spotted in a canal in Busan weeks ago.",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cr3wv99614deo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-22T10:16:35Z"
-    },
-    {
       "title": "'500 new vulnerabilities' found in government, says AI minister",
       "source": "BBC Technology",
       "description": "'500 new vulnerabilities' found in government, says AI minister",
@@ -2897,9 +2978,9 @@
     },
     {
       "title": "No order, no seat: Starbucks China rolls out new store policy",
-      "source": "BBC Asia",
+      "source": "BBC Business",
       "description": "Starbucks says it is improving customers' in-store experience as it competes with homegrown rivals.",
-      "category": "Geopolitics",
+      "category": "Economics",
       "region": "Asia-Pacific",
       "regions": [
         "Asia-Pacific"
@@ -3177,18 +3258,6 @@
       "kind": "news",
       "url": "https://www.theguardian.com/world/2026/oct/21/us-vaccine-trial-african-newborns-hepatitis-b",
       "published": "2026-10-21T17:18:56Z"
-    },
-    {
-      "title": "Migrants paid up to $500 million in smuggling fees on European sea routes - UN News",
-      "source": "UN News (news index)",
-      "description": "Migrants paid up to $500 million in smuggling fees on European sea routes UN News",
-      "category": "Humanitarian",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAzcDRpX1FhdFI3cTNKbGFDZUpSUlJrR0VTRGw2Wjd6VVVJSkt0aUtQVDZnVWh1am1xZjdzX1NqNmJOYy1pV1JpOEN3WS10U09TVmpDdUViVQ?oc=5",
-      "published": "2026-10-21T17:10:10Z",
-      "collection_method": "Third-party news index; not direct UN RSS"
     },
     {
       "title": "Taiwan charges five men over plot to run over comedian for his Xi Jinping jokes",
@@ -3761,19 +3830,6 @@
       "location_verified": false
     },
     {
-      "title": "People and pets rescued by helicopter from floods in Spain – video",
-      "source": "The Guardian Europe",
-      "description": "Helicopters rescued people stranded on rooftops as torrential rain swept across eastern Spain on Monday. Floods and storms killed at least four people, and shelter-in-place orders remained in force for more than 80,000 people. The downpour from Storm Adam cut off several towns along the Mediterranean coast as rivers overflowed their banks and streets turned into rivers. More than 2,000 people were evacuated, mainly in Oliva, and authorities carried out nearly 496 rescues in Valencia and Alicante",
-      "category": "Disasters",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/video/2026/oct/20/people-and-pets-rescued-by-helicopter-from-floods-in-spain-video",
-      "published": "2026-10-20T14:09:02Z"
-    },
-    {
       "title": "UK to deploy jets to defend Saudi Arabia from Houthi attacks",
       "source": "BBC Middle East",
       "description": "The UK announces it will provide additional defensive military support to Saudi Arabia as Houthi attacks escalate in the region.",
@@ -4011,6 +4067,18 @@
       "collection_method": "Third-party news index; not direct UN RSS"
     },
     {
+      "title": "Haiti: Elections on hold as gangs adapt to security crackdown, Security Council hears - UN News",
+      "source": "UN News (news index)",
+      "description": "Haiti: Elections on hold as gangs adapt to security crackdown, Security Council hears UN News",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE43S3V4VVdnclB2TkVjVnNQcjJJeG1DVkc5bjZzTTc4bmFTRTdhQ05hU0NhVS0tN2R4aHprRkpsR096Z1JZUXdCeFBfREZ2XzNqc3JUZkwwbw?oc=5",
+      "published": "2026-10-19T19:21:06Z",
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
       "title": "Kenyan starvation cult leader guilty of murder of 190 children and one adult",
       "source": "The Guardian Africa",
       "description": "Paul Mackenzie and his church set up sect that ordered followers to starve themselves and their children, say prosecutors A Kenyan court has found the starvation cult leader Paul Mackenzie and about 30 others guilty of murder over the deaths of ⁠190 children and one adult in one of the world’s worst cult-related disasters in recent history. Mackenzie was arrested in 2023 after police received a tipoff, and weeks later authorities began uncovering bodies in shallow graves in the Shakahola forest ",
@@ -4022,6 +4090,18 @@
       "kind": "news",
       "url": "https://www.theguardian.com/world/2026/oct/19/kenya-starvation-cult-leader-guilty-murder-190-children",
       "published": "2026-10-19T16:08:14Z"
+    },
+    {
+      "title": "UN News Today 19 October 2026 - UN News",
+      "source": "UN News (news index)",
+      "description": "UN News Today 19 October 2026 UN News",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9fdGRXQjlUc1dMb0FmcmxRMFI4cFFKQ2lSam5iSU1JYjJ1N3Y4czUxclF0NHJ1YzliUzUtWUVISjdGVm02dWVVbUZQQVRKVzY4NGxRRzROZw?oc=5",
+      "published": "2026-10-19T15:54:18Z",
+      "collection_method": "Third-party news index; not direct UN RSS"
     },
     {
       "title": "Drone attack near market kills 80 in Sudan",
@@ -4464,6 +4544,38 @@
       "collection_method": "Third-party news index; not direct UN RSS"
     },
     {
+      "title": "WHO scales up Ebola readiness in 22 countries across three continents - UN News",
+      "source": "UN News (news index)",
+      "description": "WHO scales up Ebola readiness in 22 countries across three continents UN News",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5aanBTRkhTcmktcWdUaVlLTW5rX05xSlEyT2puMFBfMkFHZV9iRHZOVHZjMkNMSjQ1SVFWMDU4Vk42bm5BUk1DREpLWXdNcWxldjZkTTdsWQ?oc=5",
+      "published": "2026-10-16T07:00:00Z",
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
+      "title": "Gaza: 340 children killed despite ceasefire agreement - UNICEF - UN News",
+      "source": "UN News (news index)",
+      "description": "Gaza: 340 children killed despite ceasefire agreement - UNICEF UN News",
+      "category": "Defence",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE94N19hcVhoa1F6QW9pZ3R2eEZBWnpJN1RHTjczS28yZFIyQ183VnI5RlBxZFk2a0tTVkszOWNXOG11dVZDZEhhd3JYUjh3dUI0Mk85eEpTNA?oc=5",
+      "published": "2026-10-16T07:00:00Z",
+      "lat": 31.5,
+      "lon": 34.47,
+      "place": "Gaza",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false,
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
       "title": "Saudi Arabia to execute man for being at protests and funerals when he was 15",
       "source": "The Guardian Global Development",
       "description": "Use of death penalty against people for crimes committed when they were children a ‘new low’, say rights groups A young man faces imminent execution in Saudi Arabia for attending protests and funerals when he was aged 15 to 17, say human rights groups, in the latest example of the kingdom’s surging use of the death penalty for non-violent crimes. Youssef al-Manasif was arrested in 2017 and accused of crimes including joining demonstrations for religious freedom by the Shia minority and attending",
@@ -4632,17 +4744,23 @@
       "published": "2026-10-15T08:00:25Z"
     },
     {
-      "title": "WHO urges vigilance after Kenya confirms second Ebola case - UN News",
+      "title": "Afghanistan faces record hunger levels amid rampant rights violations - UN News",
       "source": "UN News (news index)",
-      "description": "WHO urges vigilance after Kenya confirms second Ebola case UN News",
+      "description": "Afghanistan faces record hunger levels amid rampant rights violations UN News",
       "category": "Humanitarian",
-      "region": "Africa",
+      "region": "Middle East",
       "regions": [
-        "Africa"
+        "Middle East"
       ],
       "kind": "news",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB1TkJzTHlpdzdVQjJXOFlLNl9EVlVJbmJNMUdDSk9mLVdpVGhWYUdPZlpPbl8wRTR5YlJnUlF0NjFlWjVlX01uZlpYNF9XZlNFOGlDZVY2bw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5VNjVEUjVFRE10elc2cXhYd0oyeGU5bnI1UlNMMXo1cE9jUi1BWUNTSHYxSGdjWm5laTd2MzlaQ3A5OHlSNEpuZ21DSk8ybjJqRkY2eWdJYw?oc=5",
       "published": "2026-10-15T07:00:00Z",
+      "lat": 33.94,
+      "lon": 67.71,
+      "place": "Afghanistan",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false,
       "collection_method": "Third-party news index; not direct UN RSS"
     },
     {
@@ -4800,26 +4918,6 @@
       "published": "2026-10-14T09:50:11Z"
     },
     {
-      "title": "Yemen: WFP warns of potential ‘humanitarian catastrophe’ as fighting blocks aid delivery - UN News",
-      "source": "UN News (news index)",
-      "description": "Yemen: WFP warns of potential ‘humanitarian catastrophe’ as fighting blocks aid delivery UN News",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9pNXRxQW0xUkN2SnBCUDlBZ1llWXF5S1l3cS1sVHJsMmtldHhING04LVRuN0I5QkZxMVpNcDRzMU5DNlA3VGlocHZla2pHWFFvRGlNejZjdw?oc=5",
-      "published": "2026-10-14T07:00:00Z",
-      "lat": 15.55,
-      "lon": 48.52,
-      "place": "Yemen",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false,
-      "collection_method": "Third-party news index; not direct UN RSS"
-    },
-    {
       "title": "What is state capture and why does it matter?",
       "source": "The Guardian Global Development",
       "description": "Different forms are distinguished by who exercises control and which institutions they target Read more: How Europe’s most wanted cocaine trafficker turned Sierra Leone into the world’s first true narco state Two crypto-billionaires pour millions into a political party and its wannabe prime minister in return for legislation that favours their businesses. A drug trafficker’s bribe to a senior official buys a cocaine shipment safe passage across a border. Human traffickers installing loyalists in",
@@ -4897,38 +4995,6 @@
       "kind": "news",
       "url": "https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe",
       "published": "2026-10-13T07:00:18Z"
-    },
-    {
-      "title": "800 million young people face a future without jobs - UN News",
-      "source": "UN News (news index)",
-      "description": "800 million young people face a future without jobs UN News",
-      "category": "Humanitarian",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1SaTBKRHRLWDFla0VNWXE3OHJ1STFkOE45ekdpRFQ0U1pRYnJMZkQxbXpXQVowdFhKeUcwWEU4eXBkcG8yZlA1ZnhHS0JYam9OaWdiMC03MA?oc=5",
-      "published": "2026-10-13T07:00:00Z",
-      "collection_method": "Third-party news index; not direct UN RSS"
-    },
-    {
-      "title": "Yemen: Houthi siege, cholera outbreak and aid cuts put civilians in the crosshairs - UN News",
-      "source": "UN News (news index)",
-      "description": "Yemen: Houthi siege, cholera outbreak and aid cuts put civilians in the crosshairs UN News",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBaaHIzYUV1X3BrNEdmMW1LZ1czSF9kWlp6c010eS1iUW1WOXk2NnFvMXZqdDE3Ym1WX1JUamtuZjNiM3lIa3ZxaURvTUdva0gxZlE5WDFVaw?oc=5",
-      "published": "2026-10-13T07:00:00Z",
-      "lat": 15.55,
-      "lon": 48.52,
-      "place": "Yemen",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false,
-      "collection_method": "Third-party news index; not direct UN RSS"
     },
     {
       "title": "BBC's Orla Guerin travels with Yemen's southern national security forces through desert battlefield",
@@ -5207,18 +5273,6 @@
       "location_verified": false
     },
     {
-      "title": "Livestreaming US execution would breach prohibition of torture, UN rights office warns - UN News",
-      "source": "UN News (news index)",
-      "description": "Livestreaming US execution would breach prohibition of torture, UN rights office warns UN News",
-      "category": "Humanitarian",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4wRnlrZzBqLWlVZXpPRFNvZzN1aWo5T1ZmQVJUMEdxSlNjNFZ3dWtmQ2xjZGx6ckRXX1J3RldMR0FZWWgtRFV0Y3BMZ19QR0JTbXZERXM2MA?oc=5",
-      "published": "2026-10-09T07:00:00Z",
-      "collection_method": "Third-party news index; not direct UN RSS"
-    },
-    {
       "title": "Former UN human rights chief Navi Pillay awarded Nobel Peace Prize - UN News",
       "source": "UN News (news index)",
       "description": "Former UN human rights chief Navi Pillay awarded Nobel Peace Prize UN News",
@@ -5273,46 +5327,6 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
-    },
-    {
-      "title": "Watch: Why was the sign at the British consulate in East Jerusalem removed?",
-      "source": "BBC Middle East",
-      "description": "The consulate, first established in 1838, was set to be closed by the Israeli government in retaliation for UK sanctions.",
-      "category": "Geopolitics",
-      "region": "Middle East",
-      "regions": [
-        "Middle East",
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/videos/c962yz01l7mmo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-08T12:01:55Z",
-      "lat": 31.77,
-      "lon": 35.21,
-      "place": "Jerusalem",
-      "location_precision": "city-reference",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Afghanistan: Women face fresh dress code arrests amid record refugee returns - UN News",
-      "source": "UN News (news index)",
-      "description": "Afghanistan: Women face fresh dress code arrests amid record refugee returns UN News",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1Wa3dIaHZNLWtBZmZRUmRoRkRLeV96VXQ3Ty1IOEQzQjBhMm9UMklqMFhVMXFKZmtLYnpIQzA2YXVMM3pGdFBEbEdHWWY0MlhSbUU5dVgwNA?oc=5",
-      "published": "2026-10-08T07:00:00Z",
-      "lat": 33.94,
-      "lon": 67.71,
-      "place": "Afghanistan",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false,
-      "collection_method": "Third-party news index; not direct UN RSS"
     },
     {
       "title": "'Every day there is killing': Gazans face Israeli strikes despite ceasefire as peace deal stalls",
@@ -6333,17 +6347,6 @@
       "published": "2026-09-18T09:45:00Z"
     },
     {
-      "title": "The virtual worlds where robots are trained",
-      "source": "BBC Business",
-      "description": "Training systems that allow robots to negotiate the real world are getting more sophisticated.",
-      "category": "Economics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/c79g0j3d4q9o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-17T23:00:47Z"
-    },
-    {
       "title": "How Far Can the Houthis Go?",
       "source": "MEI Middle East Focus",
       "description": "Over the past several weeks, the Houthis have seized the port city of Mokha, Yemen's western coastline, and several islands in the Bab el-Mandeb Strait, and they are now massing around Marib and Taiz in the first major frontline shift since 2022. MEI Associate Fellow Nadwa Al-Dawsari joins host Matthew Czekaj to unpack the latest developments. Together, they discuss what has allowed the Houthis to advance against Yemeni government forces, the role the militant group plays in Iran's regional stra",
@@ -7081,6 +7084,26 @@
       "location_verified": false
     },
     {
+      "title": "Israel continues to commit genocide, atrocity crimes by deliberately targeting Palestinian children, UN independent commission finds - UN News",
+      "source": "UN News (news index)",
+      "description": "Israel continues to commit genocide, atrocity crimes by deliberately targeting Palestinian children, UN independent commission finds UN News",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1JMjZhREpqOVVrbjR2azJvdjV6SHBJZVBHd3VVQ2lTcFZHOU5DYnpSTmZVRHdFRUpoWUpUaDF4V1p3T2JEVTRRUkNxb2pBeEFveVpTZGoyVQ?oc=5",
+      "published": "2026-06-23T07:00:00Z",
+      "lat": 31.05,
+      "lon": 34.85,
+      "place": "Israel",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false,
+      "collection_method": "Third-party news index; not direct UN RSS"
+    },
+    {
       "title": "What’s Happening in Afghanistan",
       "source": "Crisis Group Hold Your Fire",
       "description": "In this episode of Hold Your Fire! , Richard is joined by Ibraheem Bahiss, Crisis Group’s Afghanistan expert based in Kabul, to assess where the country stands nearly five years after the Taliban’s return to power. They discuss the improved security across much of Afghanistan, even as many remain uncertain about the durability of Taliban rule. They examine the Taliban’s sweeping restrictions on women’s and girls’ rights, particularly education, work and public life, and how these have undercut e",
@@ -7266,18 +7289,6 @@
       "audio_url": "https://traffic.libsyn.com/secure/middleeastinst/Middle_East_Focus_6.4.26_3_mixdown.mp3?dest-id=531685",
       "url": "https://middleeastinst.libsyn.com/can-the-latest-us-plan-bridge-libyas-divide",
       "published": "2026-06-04T19:26:00Z"
-    },
-    {
-      "title": "AI’s environmental costs threaten water, land and climate - UN News",
-      "source": "UN News (news index)",
-      "description": "AI’s environmental costs threaten water, land and climate UN News",
-      "category": "Humanitarian",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBBeHFtNUx2SEN0Ni1lYXFrSmllU1YtRk1QdlM0VTZNUWFRdy11NXVDSzJ2aHhpc2hZRzFUTndqOVNNWWJWc3U4ZnVVaXZpcWZwUmlFSEZuNA?oc=5",
-      "published": "2026-06-04T07:00:00Z",
-      "collection_method": "Third-party news index; not direct UN RSS"
     },
     {
       "title": "America at 250: The Marshall Plan, With Benn Steil",
