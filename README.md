@@ -101,3 +101,14 @@ When fallback is used, `warnings` in the generated JSON explains this. If both
 UN feeds fail, Data Health continues to report an error. This is a fallback,
 not proof that the dedicated regional endpoint is reliably accessible.
 
+
+## Release Notes
+
+## Version 1.1 — Geospatial layers and country profiles (25 October 2026)
+
+- Added optional map layers for strategic maritime chokepoints, indicative shipping corridors, ports, major airports, schematic air corridors and named seas and oceans.
+- Added a Country Profile widget, populated when a country is selected on the map or entered in the country search. It shows capital, population, currency, languages and region when the public REST Countries service responds.
+- Added links to country and leadership reference material. Current presidents, prime ministers, monarchs and government classifications are **not automatically verified** in this release; CoreForge does not invent these fields when a reliable live source is unavailable.
+- Saved map-layer preferences in the browser and retained existing dashboard layouts, feeds, podcasts and local AI functionality.
+- Reference corridors and map labels are illustrative; they are not live shipping, aircraft or navigation data.
+
