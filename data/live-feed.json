@@ -1,17 +1,6 @@
 {
-  "updated": "2026-10-25T18:42:29.585964Z",
+  "updated": "2026-10-25T18:55:57.795791Z",
   "records": [
-    {
-      "title": "Venezuelan opposition leader María Machado returns after months in exile",
-      "source": "BBC World",
-      "description": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-25T18:29:00Z"
-    },
     {
       "title": "Serbia votes as strongman Vučić faces grassroots challenge to 12-year rule – Europe live",
       "source": "The Guardian World",
@@ -23,7 +12,18 @@
       ],
       "kind": "news",
       "url": "https://www.theguardian.com/world/live/2026/oct/25/europe-serbia-elections-aleksander-vucic-student-list-protests-bulgaria-latest-news-updates",
-      "published": "2026-10-25T18:23:03Z"
+      "published": "2026-10-25T18:37:37Z"
+    },
+    {
+      "title": "Venezuelan opposition leader María Machado returns after months in exile",
+      "source": "BBC World",
+      "description": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-25T18:29:00Z"
     },
     {
       "title": "US south-west braces for more flooding after stretch of heavy rain and storms",
@@ -9196,10 +9196,6 @@
     }
   ],
   "warnings": [
-    {
-      "source": "UN News Middle East",
-      "message": "Using alternate publisher-hosted RSS endpoint: https://news.un.org/feed/subscribe/en/news/region/middle-east/feed/rss.xml?output=rss"
-    },
     {
       "source": "UN News",
       "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
