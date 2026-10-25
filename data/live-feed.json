@@ -1,6 +1,19 @@
 {
-  "updated": "2026-10-25T17:45:13.217617Z",
+  "updated": "2026-10-25T17:59:36.315045Z",
   "records": [
+    {
+      "title": "Serbia votes as strongman Vučić faces grassroots challenge to 12-year rule – Europe live",
+      "source": "The Guardian World",
+      "description": "The Student List movement is taking on authoritarian leader following nearly two years of protests against government and institutional corruption What is at stake in Serbia’s election? The latest turnout projection by Ipsos/Cesid suggests a turnout of 60.8% by 5pm local time (4pm UK), with three hours still to go until the polling stations close. That’s more than 13 percentage points higher than in 2023, and would be the highest turnout since mid-2000s. “ What hasn’t motivated me? There isn’t a",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/live/2026/oct/25/europe-serbia-elections-aleksander-vucic-student-list-protests-bulgaria-latest-news-updates",
+      "published": "2026-10-25T17:42:48Z"
+    },
     {
       "title": "The Guardian view on Oxford Street’s pedestrianisation: cities should be designed around people, not cars | Editorial",
       "source": "The Guardian Environment",
@@ -17,7 +30,7 @@
     {
       "title": "Exiled opposition leader María Corina Machado returns to Venezuela",
       "source": "The Guardian World",
-      "description": "Nobel peace prize winner’s return after almost a year in exile is unlikely to please interim president Delcy Rodríguez The Venezuelan opposition leader, María Corina Machado, has announced she has returned to Venezuela almost a year after she left the country to receive the Nobel peace prize. “I’m here. With you,” she wrote on X on Sunday lunchtime. Continue reading...",
+      "description": "Nobel peace prize winner’s return after almost a year in exile is unlikely to please interim president Delcy Rodríguez The Venezuelan opposition leader María Corina Machado has announced she has returned to Venezuela almost a year after she left the country to receive the Nobel peace prize. “I’m here. With you,” she wrote on X on Sunday lunchtime. Continue reading...",
       "category": "Geopolitics",
       "region": "Americas",
       "regions": [
@@ -26,19 +39,6 @@
       "kind": "news",
       "url": "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return",
       "published": "2026-10-25T17:18:28Z"
-    },
-    {
-      "title": "Serbia votes as strongman Vučić faces grassroots challenge to 12-year rule – Europe live",
-      "source": "The Guardian World",
-      "description": "The Student List movement is taking on authoritarian leader following nearly two years of protests against government and institutional corruption What is at stake in Serbia’s election? Ana Milosavljevic in Belgrade Tired eyes and smiles adorned the faces of thousands of Serbians who woke up early this morning to cast their vote , breaking all turnout records of early voting. “ What hasn’t motivated me? There isn’t a single reason I could give that would keep me from showing up at my polling sta",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/live/2026/oct/25/europe-serbia-elections-aleksander-vucic-student-list-protests-bulgaria-latest-news-updates",
-      "published": "2026-10-25T17:16:41Z"
     },
     {
       "title": "How do Israel's elections work and who are the main contenders?",
@@ -2205,7 +2205,7 @@
       "location_verified": false
     },
     {
-      "title": "A possible three tornados wallop Arizona, bringing golf-ball sized hail",
+      "title": "A possible three tornadoes wallop Arizona, bringing golf-ball sized hail",
       "source": "The Guardian Environment",
       "description": "Violent storms overnight knocked over utility poles and trees and carried thunder and heavy winds through state Yet more severe weather struck Thursday in the US south-west as the Four Corners region surveyed blown-away roofs, trees knocked on to homes and power lines downed from overnight tornadoes that injured one person. The injuries weren’t life-threatening but rare for an area better known for scalding heat. But this fall has been unusually soggy in the south-west with El Niño conditions th",
       "category": "Disasters",
@@ -9147,14 +9147,9 @@
       "published": "2019-12-10T20:27:00Z"
     }
   ],
-  "errors": [
-    {
-      "source": "UN News",
-      "message": "Publisher RSS unavailable after 4 endpoints; https://news.un.org/feed/subscribe/en/news/all/rss.xml: Publisher returned non-XML content; https://news.un.org/en/rss: HTTP Error 406: Not Acceptable; htt"
-    }
-  ],
+  "errors": [],
   "sources_checked": 27,
-  "sources_ok": 26,
+  "sources_ok": 27,
   "collector_version": "1.1.2-un-diagnostics",
   "classification_method": "keyword-heuristic",
   "location_method": "headline-or-lead-reference",
@@ -9199,110 +9194,6 @@
     {
       "source": "UN News Middle East",
       "message": "Using alternate publisher-hosted RSS endpoint: https://news.un.org/feed/subscribe/en/news/region/middle-east/feed/rss.xml?output=rss"
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
-    },
-    {
-      "source": "UN News",
-      "message": "Retained previously collected UN News records because the publisher RSS was inaccessible; these are not fresh results."
     }
   ],
   "feed_health": "See errors for failed source names"
