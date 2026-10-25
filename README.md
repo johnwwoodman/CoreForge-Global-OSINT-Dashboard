@@ -22,6 +22,12 @@ Sources are linked to their original publishers. Approximate map references iden
 
 All release notes are kept in this README. No separate `RELEASE-NOTES*.md` files are needed.
 
+## v1.2.0 — 25 October 2026
+
+**Worldwide country profiles:** Bundled country reference data for worldwide offline lookup, including Fiji and Syria. Historical populations in the bundled fallback are explicitly labelled as undated and must not be treated as current. When the online REST Countries API is available, it can update the displayed basic facts. Added related reporting from the current intelligence snapshot and direct reference links. Political leadership and government type are not automatically verified and are intentionally linked rather than guessed. BBC World coverage is a reference link, not a scraped or licensed BBC dataset.
+
+**Automated updates:** Added `scripts/update_country_facts.py` and a weekly GitHub Actions workflow to refresh the country snapshot. A failed refresh leaves the existing snapshot untouched. Map layers, podcasts, local AI and the now-working UN feeds are unchanged.
+
 ## v1.1.1 — 25 October 2026
 
 **Map layers and country profiles:** Moved the layer controls below the map so they are always visible rather than clipped by the map viewport. Added Standard, Maritime, Aviation and Clear presets, plus individual layer switches. Choices persist in the browser. Switching layers no longer redraws the entire dashboard or closes the layer controls.
