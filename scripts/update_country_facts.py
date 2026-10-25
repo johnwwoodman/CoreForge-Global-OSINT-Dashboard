@@ -45,6 +45,42 @@ def iso3_lookup():
   import pycountry
   return {x.alpha_2:x.alpha_3 for x in pycountry.countries}
  except ImportError:return {}
+def ensure_iso_catalogue(countries):
+ """Add missing ISO 3166-1 entries without overwriting collected intelligence."""
+ try:
+  import pycountry
+ except ImportError:
+  raise RuntimeError('pycountry is required for ISO coverage')
+ by_code={v.get('code'):v for v in countries.values() if v.get('code')}
+ for item in pycountry.countries:
+  if item.alpha_2 not in by_code:
+   import re
+   key=re.sub(r'[^a-z0-9]+',' ',item.name.lower()).strip()
+   countries[key]={'name':item.name,'code':item.alpha_2,'iso3':item.alpha_3,'aliases':[item.alpha_2,item.alpha_3],'referenceStatus':'ISO 3166-1 catalogue; additional facts not yet collected'}
+  else:
+   rec=by_code[item.alpha_2]
+   rec.setdefault('iso3',item.alpha_3)
+   rec['aliases']=list(dict.fromkeys([*(rec.get('aliases') or []),item.alpha_2,item.alpha_3]))
+ return countries
+
+def write_coverage_audit(countries):
+ """Report separate catalogue, leadership and missing-fact metrics."""
+ try:
+  import pycountry
+  baseline={c.alpha_2 for c in pycountry.countries}
+ except ImportError:
+  baseline=set()
+ records={r.get('code'):r for r in countries.values() if r.get('code')}
+ missing=sorted(baseline-set(records))
+ audit={'generated':TODAY,'isoEntries':len(baseline),'countryRecords':len(countries),'missingIsoCodes':missing,
+  'withAnyLeadership':sum(bool(r.get('headOfState') or r.get('headOfGovernment')) for r in records.values()),
+  'withBothLeadership':sum(bool(r.get('headOfState') and r.get('headOfGovernment')) for r in records.values()),
+  'missingBothLeadership':sorted(k for k,r in records.items() if not (r.get('headOfState') or r.get('headOfGovernment'))),
+  'missingPopulation':sorted(k for k,r in records.items() if r.get('population') is None),
+  'missingGDP':sorted(k for k,r in records.items() if r.get('gdpUsd') is None)}
+ (ROOT/'data/country-coverage-audit.json').write_text(json.dumps(audit,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+ return audit
+
 def merge(existing,patch):
  for k,v in patch.items():
   if v is not None and v!='' and v!=[]:existing[k]=v
@@ -100,7 +136,7 @@ def wikidata_once(codes):
 def main():
  try:old=json.loads(OUT.read_text(encoding='utf-8'))
  except Exception:old={'countries':{}}
- countries=dict(old.get('countries',{})); errors=[]; success=[]; mapping=iso3_lookup()
+ countries=ensure_iso_catalogue(dict(old.get('countries',{}))); errors=[]; success=[]; mapping=iso3_lookup()
  bycode={v.get('code'):k for k,v in countries.items() if v.get('code')}
  for record in countries.values():
   code=record.get('code','')
@@ -133,6 +169,8 @@ def main():
   for err in errors:print(err,file=sys.stderr)
   return 1
  payload=dict(old);payload.update(source='REST Countries / World Bank / Wikidata; BBC reference links only',updated=TODAY,sourcesSucceeded=success,sourceErrors=errors,countries=countries)
+ audit=write_coverage_audit(countries)
+ payload['coverageAudit']={'isoEntries':audit['isoEntries'],'missingIsoCodes':audit['missingIsoCodes'],'countryRecords':audit['countryRecords']}
  OUT.write_text(json.dumps(payload,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
  print('Country refresh:',len(countries),'records; successes:',success)
  for err in errors:print('Provider warning:',err)

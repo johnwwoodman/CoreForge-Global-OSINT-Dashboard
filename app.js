@@ -80,8 +80,9 @@ async function getCountryData(){
   return countryDataset;
  })();return countryLoad;
 }
-function matchCountry(name,d){const n=normCountry(name);const alias=normCountry(COUNTRY_ALIASES[n]||name);const vals=Object.values(d?.countries||{});return vals.find(x=>[x.name,...(x.aliases||[])].some(v=>normCountry(v)===n||normCountry(v)===alias))||null}
+function matchCountry(name,d){const n=normCountry(name);const alias=normCountry(COUNTRY_ALIASES[n]||name);const vals=Object.values(d?.countries||{});const names=x=>[x.name,x.code,x.iso3,...(x.aliases||[])].filter(Boolean).map(normCountry);return vals.find(x=>names(x).includes(n)||names(x).includes(alias))||null}
 function relatedCountryArticles(name){const n=normCountry(name);if(!n)return[];const aliases=[n];if(n==='united states of america')aliases.push('united states');if(n==='united kingdom')aliases.push('britain');const rx=new RegExp('(^|[^a-z])('+aliases.map(x=>x.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|')+')([^a-z]|$)','i');return (Array.isArray(records)?records:[]).filter(a=>rx.test([a.title,a.description,a.summary,a.country,a.region].filter(Boolean).join(' '))).slice(0,8)}
+function fillCountrySearchList(node){getCountryData().then(d=>{if(!node.isConnected)return;const list=node.querySelector('#cf-country-list');if(!list)return;const names=Object.values(d.countries||{}).map(r=>r.name).filter(Boolean).sort((a,b)=>a.localeCompare(b));list.replaceChildren(...names.map(n=>{const opt=document.createElement('option');opt.value=n;return opt}));}).catch(()=>{});}
 function renderCountryFacts(node,name){
  if(!node||!name)return;const target=node.querySelector('.country-profile-content');if(!target)return;
  const token=name.trim();target.innerHTML='<p class="small muted">Loading country intelligence…</p>';
@@ -268,3 +269,6 @@ const originalRender=render;render=function(){originalRender();feedInfo()};
 drawDirectory();render();fetch('data/world.geojson').then(r=>{if(!r.ok)throw Error('Map unavailable');return r.json()}).then(d=>{world=d;render()}).catch(()=>{if(window.COREFORGE_WORLD){world=window.COREFORGE_WORLD;render()}else $('status').textContent='Map data unavailable'});
 
 if(['127.0.0.1','localhost'].includes(location.hostname)&&location.port==='8765'){fetch('data/live-feed.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(d=>{if(d&&Array.isArray(d.records)){records=d.records;feedUpdated=d.updated||null;feedErrors=d.errors||[];sourceHealth={checked:d.sources_checked,ok:d.sources_ok,version:d.collector_version||null};imported=false;render()}}).catch(()=>{})}
+
+// Country search uses the full ISO catalogue, not the smaller map feature list.
+(function initCountrySearchCatalog(){const update=()=>document.querySelectorAll('.country-profile').forEach(node=>{if(node.dataset.catalogReady)return;node.dataset.catalogReady='1';fillCountrySearchList(node)});if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>{update();new MutationObserver(update).observe(document.body,{childList:true,subtree:true})});else{update();new MutationObserver(update).observe(document.body,{childList:true,subtree:true})}})();

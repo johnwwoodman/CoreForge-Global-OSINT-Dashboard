@@ -181,3 +181,9 @@ not proof that the dedicated regional endpoint is reliably accessible.
 - The collector only accepts unambiguous current claims based on recorded start/end qualifiers, and retains cached data when a provider fails. Incomplete Wikidata claims can still leave countries without names; coverage is not guaranteed.
 - REST Countries parser handles structured JSON error envelopes without treating them as country records. The legacy v3 endpoint is deprecated; when it fails, previously cached geographic facts remain.
 - The local Windows bundle contains a snapshot and does not automatically inherit new GitHub Actions results. For latest leadership, use the GitHub Pages edition after the daily workflow completes.
+
+### v1.5.1 — ISO country and territory coverage audit (25 October 2026)
+- Ensures all 249 ISO 3166-1 entries exist in the country dataset, preserving existing country facts and leadership names. Existing non-ISO entries are retained.
+- Adds country aliases and ISO alpha-2/alpha-3 search, including St Helena / Saint Helena / SH / SHN and Samoa / WS / WSM. Country search suggestions use the full country database rather than only map features.
+- Publishes `data/country-coverage-audit.json` on country refresh, reporting missing ISO entries, leadership gaps, population and GDP gaps. Territories may legitimately lack independent heads of state or government.
+- An ISO catalogue record does not imply population, GDP or leadership is known; missing facts remain explicitly unavailable.
