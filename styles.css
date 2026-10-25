@@ -81,3 +81,10 @@ button:disabled{opacity:.42;cursor:not-allowed}
 .country-profile button{padding:8px 12px;margin:5px}
 .country-facts{display:grid;grid-template-columns:minmax(100px,1fr) 2fr;gap:8px 14px;margin:12px 0}
 .country-facts dt{font-weight:700}.country-facts dd{margin:0;overflow-wrap:anywhere}
+
+/* v1.1.1 visible layer control and presets */
+.geo-layer-menu{border:1px solid var(--border,#345);border-radius:8px;margin:8px;padding:12px;background:var(--card,#172739)}
+.geo-layer-menu summary{font-size:15px;padding:4px 0}
+.geo-layer-presets{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+.geo-layer-presets button{padding:6px 10px;min-height:34px}
+.geo-layer-options input{width:18px;height:18px;flex-shrink:0}

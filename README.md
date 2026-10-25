@@ -22,6 +22,20 @@ Sources are linked to their original publishers. Approximate map references iden
 
 All release notes are kept in this README. No separate `RELEASE-NOTES*.md` files are needed.
 
+## v1.1.1 — 25 October 2026
+
+**Map layers and country profiles:** Moved the layer controls below the map so they are always visible rather than clipped by the map viewport. Added Standard, Maritime, Aviation and Clear presets, plus individual layer switches. Choices persist in the browser. Switching layers no longer redraws the entire dashboard or closes the layer controls.
+
+**Country profiles:** Corrected the REST Countries request to specify fields, and added offline reference facts for 27 commonly used country names so basic profiles still display when the external service is unavailable. Offline population figures are approximate and not live; leadership information is deliberately not invented. Other countries continue to use REST Countries when reachable.
+
+**UN News:** Added publisher-hosted alternate RSS endpoint attempts and clearer collection diagnostics. The dedicated UN News Middle East feed and global UN News feed remain configured. These endpoints must be verified by a successful GitHub Actions run; if the publisher serves invalid content at every endpoint, Data Health will continue to report the failure.
+
+The maritime and aviation routes remain indicative geographic reference lines, not live vessel or aircraft positions.
+
+## v1.1.0 — 25 October 2026
+
+Introduced maritime and aviation reference layers, selectable strategic chokepoints, major ports, airports, sea labels and a country profile widget. Existing intelligence collection, podcasts, research and optional Ollama analysis were retained.
+
 ## v1.0 Stable — 24 October 2026
 
 Expanded podcast discovery to specialist international-affairs programmes, including Middle East Institute, CSIS, International Crisis Group, Chatham House and Council on Foreign Relations. Added source-level diagnostics for discovered feeds and their episode counts. Added pagination to the Podcasts, Research and Directory tabs: 5, 10, 20 or 50 entries per page, with 10 as the default.
@@ -100,15 +114,4 @@ global RSS feed, and retains only articles classified as Middle East-related.
 When fallback is used, `warnings` in the generated JSON explains this. If both
 UN feeds fail, Data Health continues to report an error. This is a fallback,
 not proof that the dedicated regional endpoint is reliably accessible.
-
-
-## Release Notes
-
-## Version 1.1 — Geospatial layers and country profiles (25 October 2026)
-
-- Added optional map layers for strategic maritime chokepoints, indicative shipping corridors, ports, major airports, schematic air corridors and named seas and oceans.
-- Added a Country Profile widget, populated when a country is selected on the map or entered in the country search. It shows capital, population, currency, languages and region when the public REST Countries service responds.
-- Added links to country and leadership reference material. Current presidents, prime ministers, monarchs and government classifications are **not automatically verified** in this release; CoreForge does not invent these fields when a reliable live source is unavailable.
-- Saved map-layer preferences in the browser and retained existing dashboard layouts, feeds, podcasts and local AI functionality.
-- Reference corridors and map labels are illustrative; they are not live shipping, aircraft or navigation data.
 

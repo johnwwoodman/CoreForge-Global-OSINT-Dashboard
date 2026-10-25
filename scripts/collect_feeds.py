@@ -274,6 +274,36 @@ def fetch_xml(url):
     return raw
 
 
+# Try the publisher's canonical feeds first, then alternate publisher-hosted RSS paths.
+# No third-party article is silently relabelled as UN reporting.
+UN_RSS_ALTERNATES = {
+    'UN News Middle East': [
+        'https://news.un.org/en/rss/region/middle-east',
+        'https://news.un.org/en/rss/region/middle-east.xml',
+    ],
+    'UN News': [
+        'https://news.un.org/en/rss',
+        'https://news.un.org/en/rss/news',
+    ],
+}
+def fetch_publisher_xml(source, primary):
+    candidates = [primary] + UN_RSS_ALTERNATES.get(source, [])
+    failures = []
+    for candidate in candidates:
+        try:
+            raw = fetch_xml(candidate)
+            # Check actual XML and RSS/Atom root before accepting HTML/XML error pages.
+            root = ET.fromstring(raw)
+            tag = root.tag.lower().split('}')[-1]
+            if tag not in ('rss', 'feed', 'rdf'):
+                raise ValueError(f'Unexpected XML document: {tag}')
+            if candidate != primary:
+                print(f'{source}: alternate publisher RSS used: {candidate}')
+            return raw, candidate
+        except Exception as exc:
+            failures.append(f'{candidate}: {str(exc)[:85]}')
+    raise ValueError('Publisher RSS unavailable after '+str(len(candidates))+' endpoints; '+ '; '.join(failures)[:260])
+
 def un_middle_east_fallback(raw, seen):
     """Use only region-relevant items from the UN global feed when regional RSS fails."""
     candidates = parse_feed(raw, 'UN News Middle East', 'Humanitarian', 'all', 'news', set())
@@ -292,7 +322,9 @@ def collect():
     un_regional_failed = False
     for source, url, category, region, kind in [(s,u,c,r,'news') for s,u,c,r in FEEDS]+SPECIAL_FEEDS:
         try:
-            raw = fetch_xml(url)
+            raw, actual_url = fetch_publisher_xml(source,url) if source in UN_RSS_ALTERNATES else (fetch_xml(url),url)
+            if actual_url != url:
+                warnings.append({'source':source,'message':'Using alternate publisher-hosted RSS endpoint: '+actual_url})
             if source == 'UN News' and un_regional_failed:
                 fallback = un_middle_east_fallback(raw, seen)
                 records.extend(fallback)
@@ -332,7 +364,7 @@ def collect():
             podcast_diagnostics.append({'source':source,'status':'error','episodes':0})
             print(f'{source}: ERROR {exc}')
     records.sort(key=lambda x: x['published'], reverse=True)
-    return {'updated': dt.datetime.now(dt.timezone.utc).isoformat().replace('+00:00','Z'), 'records': records, 'errors': errors, 'sources_checked': len(FEEDS)+len(SPECIAL_FEEDS)+len(PODCAST_CATALOGUE), 'sources_ok': len(FEEDS)+len(SPECIAL_FEEDS)+len(PODCAST_CATALOGUE)-len(errors), 'collector_version':'1.0.0-rc3-un-resilience', 'classification_method':'keyword-heuristic', 'location_method':'headline-or-lead-reference', 'content_counts': {kind: sum(r['kind'] == kind for r in records) for kind in ('news','podcast','research')}, 'podcast_sources': podcast_diagnostics, 'warnings': warnings, 'feed_health': 'See errors for failed source names'}
+    return {'updated': dt.datetime.now(dt.timezone.utc).isoformat().replace('+00:00','Z'), 'records': records, 'errors': errors, 'sources_checked': len(FEEDS)+len(SPECIAL_FEEDS)+len(PODCAST_CATALOGUE), 'sources_ok': len(FEEDS)+len(SPECIAL_FEEDS)+len(PODCAST_CATALOGUE)-len(errors), 'collector_version':'1.1.1-un-retry', 'classification_method':'keyword-heuristic', 'location_method':'headline-or-lead-reference', 'content_counts': {kind: sum(r['kind'] == kind for r in records) for kind in ('news','podcast','research')}, 'podcast_sources': podcast_diagnostics, 'warnings': warnings, 'feed_health': 'See errors for failed source names'}
 
 if __name__ == '__main__':
     payload = collect()
