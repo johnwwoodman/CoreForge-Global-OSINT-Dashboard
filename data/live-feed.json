@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-25T16:20:02.975748Z",
+  "updated": "2026-10-25T16:48:57.398530Z",
   "records": [
     {
       "title": "Serbia votes as strongman Vučić faces grassroots challenge to 12-year rule – Europe live",
       "source": "The Guardian World",
-      "description": "The Student List movement is taking on authoritarian leader following nearly two years of protests against government and institutional corruption What is at stake in Serbia’s election? Serbia’s former president and now prime ministerial candidate (again) Aleksandar Vučić rose to prominence in the 1990s as a radical nationalist, who supported the policies of Serbian expansion and ethnic cleansing led by Slobodan Milošević, who died of a heart attack in detention in The Hague during his trial on ",
+      "description": "The Student List movement is taking on authoritarian leader following nearly two years of protests against government and institutional corruption What is at stake in Serbia’s election? The roots of the student movement trace back to the 2024 Novi Sad disaster, where 16 people were killed after an outdoor concrete canopy collapsed at a train station in Serbia’s second largest city. Inquiries into the causes of the incident revealed slipshod construction along with allegations of fraud and corrup",
       "category": "Geopolitics",
       "region": "Europe",
       "regions": [
@@ -12,7 +12,18 @@
       ],
       "kind": "news",
       "url": "https://www.theguardian.com/world/live/2026/oct/25/europe-serbia-elections-aleksander-vucic-student-list-protests-bulgaria-latest-news-updates",
-      "published": "2026-10-25T16:14:37Z"
+      "published": "2026-10-25T16:42:34Z"
+    },
+    {
+      "title": "Venezuelan opposition leader María Machado returns after months in exile",
+      "source": "BBC World",
+      "description": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-25T16:21:40Z"
     },
     {
       "title": "Early reports suggest record high turnout in Serbia elections",
@@ -159,7 +170,7 @@
       "location_verified": false
     },
     {
-      "title": "This comedian jokes about deportation from Ireland … but it is happening for real",
+      "title": "This comedian jokes about deportation … but it is happening for real",
       "source": "The Guardian Europe",
       "description": "Despite job offers, Jaishree Malik has had visa renewal and extension requests delayed and denied, and she is not alone Jaishree Malik bounds on to the Cheeky Monkey comedy club stage and brandishes an envelope – it is a letter from the Irish government. Would the audience like to hear what’s in the letter? “Yeah,” the first rows reply. She repeats the question, prompting a louder response. “Yeah!” Continue reading...",
       "category": "Geopolitics",
@@ -854,6 +865,25 @@
       "kind": "news",
       "url": "https://www.theguardian.com/commentisfree/2026/oct/24/lamelo-ball-avoiding-diaper-duty",
       "published": "2026-10-24T12:00:32Z"
+    },
+    {
+      "title": "Women ‘first to suffer’ under siege, first to step up as frontline responders in Sudan",
+      "source": "UN News",
+      "description": "When Tahani Al-Numeiri heard the first explosions in Khartoum, her hometown, war seemed so remote that she assumed they were celebrations from a nearby wedding. It was the morning of 15 April 2023, and the paramilitary Rapid Support Forces had just turned their guns on the army.",
+      "category": "Humanitarian",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168663",
+      "published": "2026-10-24T12:00:00Z",
+      "lat": 12.86,
+      "lon": 30.22,
+      "place": "Sudan",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
     },
     {
       "title": "New Trump rule allows hunters to bait bears in Alaska with doughnuts, bacon and more",
@@ -1600,6 +1630,130 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cxnv025d8qpmo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-23T12:00:25Z"
+    },
+    {
+      "title": "World News in Brief: Iran nuclear inspections, deadly church attack in Jordan, El Fasher – one year on",
+      "source": "UN News Middle East",
+      "description": "The head of the International Atomic Energy Agency (IAEA), Rafael Grossi, called on Friday for a swift return of inspectors to Iran, warning of growing fragility in the global nuclear non-proliferation regime.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168664",
+      "published": "2026-10-23T12:00:00Z",
+      "lat": 32.43,
+      "lon": 53.69,
+      "place": "Iran",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "West Bank: Guterres alarmed as Israel imposes sweeping closures after deadly Hebron attack",
+      "source": "UN News Middle East",
+      "description": "The UN said on Friday it was “extremely alarmed” by intensifying violence in the occupied West Bank, as Israel moved to seal off the territory following a deadly attack on its soldiers in Hebron.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168660",
+      "published": "2026-10-23T12:00:00Z",
+      "lat": 31.05,
+      "lon": 34.85,
+      "place": "Israel",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Yemen: Deepening concerns for Taiz City as aid is blocked from entering",
+      "source": "UN News Middle East",
+      "description": "Aid agencies warned on Friday of the fast-developing humanitarian emergency inside Taiz City in Yemen, which has been encircled by de facto Houthi forces fighting government troops along the country’s west coast.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168654",
+      "published": "2026-10-23T12:00:00Z",
+      "lat": 15.55,
+      "lon": 48.52,
+      "place": "Yemen",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "UN marks 81 years of global cooperation",
+      "source": "UN News",
+      "description": "The United Nations celebrates its 81st anniversary on Saturday, highlighting more than eight decades of work to advance peace, human rights and development around the world.",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168665",
+      "published": "2026-10-23T12:00:00Z"
+    },
+    {
+      "title": "Blood brothers: WHO chief joins ENHYPEN to celebrate drive success",
+      "source": "UN News",
+      "description": "The head of the World Health Organization (WHO) is a self-confessed fan of K-pop sensation ENHYPEN and this week, he got the chance to tell them so in person.",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168662",
+      "published": "2026-10-23T12:00:00Z"
+    },
+    {
+      "title": "Sudan: Drone strikes killed at least 306 people in three weeks",
+      "source": "UN News",
+      "description": "UN human rights chief Volker Türk on Friday strongly condemned an escalation in drone strikes across Sudan this month, which killed at least 306 people and injured hundreds more in the first three weeks of October alone.",
+      "category": "Defence",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168661",
+      "published": "2026-10-23T12:00:00Z",
+      "lat": 12.86,
+      "lon": 30.22,
+      "place": "Sudan",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Soil mapping aims to boost agricultural production in Kenya",
+      "source": "UN News",
+      "description": "A new Kenyan initiative is helping farmers better understand their soils in a bid to improve crop yields amid intensifying climate shocks.",
+      "category": "Humanitarian",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168657",
+      "published": "2026-10-23T12:00:00Z"
+    },
+    {
+      "title": "‘Burden and loss’ builds in DR Congo, as Kenya strengthens Ebola containment",
+      "source": "UN News",
+      "description": "As Ebola continues to spread in the Democratic Republic of the Congo (DRC), more resources are needed to fight the disease and feed patients and families, UN agencies said on Friday.",
+      "category": "Humanitarian",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168655",
+      "published": "2026-10-23T12:00:00Z"
     },
     {
       "title": "Earnings limit of up to £140K for first-time buyers loan scheme",
@@ -2437,6 +2591,91 @@
       "location_verified": false
     },
     {
+      "title": "World News in Brief: Russian attacks intensify, UN team tours West Bank, ‘unlawful’ elderly deaths",
+      "source": "UN News Middle East",
+      "description": "Long-range Russian attacks across Ukraine are intensifying, including in Kyiv, causing at least 14 civilian deaths and 78 injuries overnight into Thursday, as UN agencies continue to provide aid.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East",
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168648",
+      "published": "2026-10-22T12:00:00Z",
+      "lat": 50.45,
+      "lon": 30.52,
+      "place": "Kyiv",
+      "location_precision": "city-reference",
+      "location_method": "description-lead-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "First human case of Shamonda virus reported in France as patient dies",
+      "source": "UN News",
+      "description": "A patient in France has died after being infected with Shamonda virus, the first recorded human case of the disease.",
+      "category": "Humanitarian",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168652",
+      "published": "2026-10-22T12:00:00Z",
+      "lat": 46.6,
+      "lon": 2.21,
+      "place": "France",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Nepal’s deadly glacier flood a ‘defining moment’ for the international community",
+      "source": "UN News",
+      "description": "The deadly flash flood that tore through Nepal in August is a “defining moment” for both the country and the international community, according to the head of the UN field agency which builds roads, schools and clinics in crisis zones.",
+      "category": "Disasters",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168651",
+      "published": "2026-10-22T12:00:00Z"
+    },
+    {
+      "title": "Mothers get nearly eight times more paid leave than fathers – and women pay the price",
+      "source": "UN News",
+      "description": "Mothers around the world get nearly eight times as much paid leave as fathers, leaving women to shoulder most of the care burden – at a cost to families, children and economies, according to new UN data published on Thursday.",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168650",
+      "published": "2026-10-22T12:00:00Z"
+    },
+    {
+      "title": "DR Congo: Ebola responders under pressure as outbreak expands",
+      "source": "UN News",
+      "description": "As the deadly Ebola disease outbreak reached an eighth province of the Democratic Republic of the Congo (DRC), investigators pursued all leads on Thursday to assess the risk of the disease spreading in Nigeria.",
+      "category": "Humanitarian",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168647",
+      "published": "2026-10-22T12:00:00Z"
+    },
+    {
+      "title": "‘Connect the dots’ between street protests and global turmoil, urges Guterres",
+      "source": "UN News",
+      "description": "The international community must combat inequality and stop wars from expanding to ensure a safer world for all, the UN Secretary-General said on Thursday.",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168646",
+      "published": "2026-10-22T12:00:00Z"
+    },
+    {
       "title": "Oil prices jump to five-month high as attacks threaten global supply",
       "source": "The Guardian Middle East",
       "description": "Iran’s IRGC says it hit four vessels in the northern Gulf and three more struck mines near the strait of Hormuz Shipping workers: how is the Middle East conflict affecting you? Oil prices jumped to a five-month high on Thursday after ​attacks in Saudi Arabia and hits to tankers in the strait of Hormuz threatened further disruptions to the world’s crude supply. Brent crude, the international benchmark for oil prices, rose by 3% to hit $112 a barrel for first time since 18 May. Continue reading...",
@@ -3053,6 +3292,135 @@
       "location_verified": false
     },
     {
+      "title": "‘Ominous start’ to West Bank olive harvest amid settler attacks",
+      "source": "UN News Middle East",
+      "description": "The use of live ammunition, arson and the destruction of centuries-old olive trees have marked the opening weeks of this year’s harvest in the occupied West Bank.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168644",
+      "published": "2026-10-21T12:00:00Z"
+    },
+    {
+      "title": "Fate unknown of many returned to DPR Korea from China: UN independent experts",
+      "source": "UN News",
+      "description": "Three years on from the reported resumption of large-scale forcible returns of nationals of the Democratic People’s Republic of Korea (DPRK) from China, serious concerns persist about their fate, according to a group of Human Rights Council-appointed independent experts.",
+      "category": "Humanitarian",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168645",
+      "published": "2026-10-21T12:00:00Z",
+      "lat": 35.86,
+      "lon": 104.2,
+      "place": "China",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "World News in Brief: Aid for Ethiopia, Abyei drone strikes condemned, extreme heat and newborn health",
+      "source": "UN News",
+      "description": "The World Health Organization (WHO) is scaling up emergency health response operations across Afar, Amhara and Tigray in Ethiopia to address growing humanitarian and health needs resulting from ongoing hostilities.",
+      "category": "Humanitarian",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168643",
+      "published": "2026-10-21T12:00:00Z",
+      "lat": 9.15,
+      "lon": 40.49,
+      "place": "Ethiopia",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Migrants paid up to $500 million in smuggling fees on European sea routes",
+      "source": "UN News",
+      "description": "The price tag for smuggling on European sea routes reached up to half a billion dollars last year, the UN Office on Drugs and Crime (UNODC) and the UN migration office, IOM, reported on Wednesday.",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168642",
+      "published": "2026-10-21T12:00:00Z"
+    },
+    {
+      "title": "Summit in Samarkand, a boon for child wellbeing and health",
+      "source": "UN News",
+      "description": "Representatives from across the international community are meeting in Samarkand, Uzbekistan, to ensure that children everywhere can thrive in a world marred by war, climate chaos and other fundamental challenges.",
+      "category": "Humanitarian",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168640",
+      "published": "2026-10-21T12:00:00Z"
+    },
+    {
+      "title": "UN agencies appeal for help to protect weakest from unprecedented El Niño",
+      "source": "UN News",
+      "description": "Two UN agencies issued a powerful appeal on Wednesday for immediate assistance to help communities already being impacted by the strongest El Niño weather pattern on record.",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168639",
+      "published": "2026-10-21T12:00:00Z"
+    },
+    {
+      "title": "Sudan conflict: Peace efforts resume to end ‘drone war’ fuelling humanitarian crisis",
+      "source": "UN News",
+      "description": "Talks to halt the fighting in Sudan and alleviate the humanitarian crisis there continued in Geneva on Wednesday, where nearly two dozen countries convened to discuss a pathway to a ceasefire and transition to peaceful governance that represents all Sudanese people.",
+      "category": "Humanitarian",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168638",
+      "published": "2026-10-21T12:00:00Z",
+      "lat": 12.86,
+      "lon": 30.22,
+      "place": "Sudan",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "WHO supports Nigeria after first Ebola case confirmed",
+      "source": "UN News",
+      "description": "The World Health Organization (WHO) is assisting Nigeria following confirmation of the first case of Ebola Bundibugyo virus disease in the country.",
+      "category": "Humanitarian",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168637",
+      "published": "2026-10-21T12:00:00Z"
+    },
+    {
+      "title": "Global warming will breach 1.5°C – but deep, fast cuts can still bring it back",
+      "source": "UN News",
+      "description": "With global temperature rise set to exceed 1.5°C above pre-industrial levels, countries “must pull out all the stops” and urgently cut emissions to minimize the overshoot and return to the internationally agreed threshold by the end of this century.",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168634",
+      "published": "2026-10-21T12:00:00Z"
+    },
+    {
       "title": "The night watch: the YouTubers who are guardians of a shark stuck in a South Korean canal",
       "source": "The Guardian Asia",
       "description": "A group of self-appointed guardians wearing hi-vis and carrying selfie sticks watch over the animal that has been trapped for a month, drawing more than 1.6 million visitors In South Korea , they call them jagyeongdan , a word whose meaning sits somewhere between vigilante group and neighbourhood watch. Each night they put on hi-vis vests, picked up their selfie sticks and gathered around the harbour in Busan to keep watch over an unlikely charge: a stranded shark affectionately known as Bukang-",
@@ -3404,6 +3772,85 @@
       "published": "2026-10-20T13:54:35Z"
     },
     {
+      "title": "‘One step away from famine’: Inside Afghanistan’s hunger crisis",
+      "source": "UN News Middle East",
+      "description": "Following extreme hunger warnings, a bitter reality is unfolding across Afghanistan: food is available, but remains inaccessible for millions of people.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168631",
+      "published": "2026-10-20T12:00:00Z",
+      "lat": 33.94,
+      "lon": 67.71,
+      "place": "Afghanistan",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Yemen war continues to force families from homes amid hunger and disease",
+      "source": "UN News Middle East",
+      "description": "More than 250,000 people have now fled renewed fighting in Yemen, the UN said on Tuesday, citing particular concern for those sheltering in the southwestern city of Taiz and the wider governorate, where access is “essentially blocked”.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168629",
+      "published": "2026-10-20T12:00:00Z",
+      "lat": 15.55,
+      "lon": 48.52,
+      "place": "Yemen",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "AI on track to ‘crowd out’ human decision-making in warfare",
+      "source": "UN News",
+      "description": "Artificial intelligence is already being widely used on the battlefield, and the role of human judgment in military operations is shrinking rapidly, the head of the UN’s independent disarmament research institute warned on Tuesday.",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168636",
+      "published": "2026-10-20T12:00:00Z"
+    },
+    {
+      "title": "As Sudan war spills into Central African Republic, UN warns against early peacekeeper exit",
+      "source": "UN News",
+      "description": "The UN warned on Tuesday against a premature withdrawal of its peacekeepers as the war in Sudan spills over into the Central African Republic (CAR).",
+      "category": "Humanitarian",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168630",
+      "published": "2026-10-20T12:00:00Z",
+      "lat": 12.86,
+      "lon": 30.22,
+      "place": "Sudan",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Bangladesh: UNICEF chief calls for an end to child marriage",
+      "source": "UN News",
+      "description": "At 14, Bushra faced being married off – until community leaders at a UNICEF-supported child protection hub worked with her father to prevent her from being given away against her will.",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168632",
+      "published": "2026-10-20T12:00:00Z"
+    },
+    {
       "title": "North Korea publishes photos of Kim Jong Un - why do rumours of his death keep coming back?",
       "source": "BBC Asia",
       "description": "North Korean state media has published photos of the dictator with his daughter after the unsubstantiated rumour spread.",
@@ -3644,6 +4091,25 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqrkyzgre7neo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-19T12:51:44Z"
+    },
+    {
+      "title": "UN condemns deadly wave of drone strikes in war-torn Sudan",
+      "source": "UN News",
+      "description": "Drone strikes killed and injured dozens across Sudan on Monday as the ongoing war continues to cause soaring displacement and hunger.",
+      "category": "Defence",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168628",
+      "published": "2026-10-19T12:00:00Z",
+      "lat": 12.86,
+      "lon": 30.22,
+      "place": "Sudan",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
     },
     {
       "title": "Israeli police arrest 10 over settler attacks on journalist and diplomats in West Bank",
@@ -8221,23 +8687,14 @@
       "published": "2019-12-10T20:27:00Z"
     }
   ],
-  "errors": [
-    {
-      "source": "UN News",
-      "message": "Publisher returned non-XML content"
-    },
-    {
-      "source": "UN News Middle East",
-      "message": "Regional feed unavailable and global UN News fallback also unavailable."
-    }
-  ],
+  "errors": [],
   "sources_checked": 27,
-  "sources_ok": 25,
-  "collector_version": "1.0.0-rc3-un-resilience",
+  "sources_ok": 27,
+  "collector_version": "1.1.1-un-retry",
   "classification_method": "keyword-heuristic",
   "location_method": "headline-or-lead-reference",
   "content_counts": {
-    "news": 338,
+    "news": 369,
     "podcast": 192,
     "research": 16
   },
@@ -8273,6 +8730,11 @@
       "episodes": 35
     }
   ],
-  "warnings": [],
+  "warnings": [
+    {
+      "source": "UN News Middle East",
+      "message": "Regional RSS unavailable; using 7 region-matched articles from UN News global RSS."
+    }
+  ],
   "feed_health": "See errors for failed source names"
 }
