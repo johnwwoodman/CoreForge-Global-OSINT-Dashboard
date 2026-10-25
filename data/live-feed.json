@@ -1,6 +1,32 @@
 {
-  "updated": "2026-10-25T17:25:33.506297Z",
+  "updated": "2026-10-25T17:34:12.846355Z",
   "records": [
+    {
+      "title": "Exiled opposition leader María Corina Machado returns to Venezuela",
+      "source": "The Guardian World",
+      "description": "Nobel peace prize winner’s return after almost a year in exile is unlikely to please interim president Delcy Rodríguez The Venezuelan opposition leader, María Corina Machado, has announced she has returned to Venezuela almost a year after she left the country to receive the Nobel peace prize. “I’m here. With you,” she wrote on X on Sunday lunchtime. Continue reading...",
+      "category": "Geopolitics",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return",
+      "published": "2026-10-25T17:18:28Z"
+    },
+    {
+      "title": "Serbia votes as strongman Vučić faces grassroots challenge to 12-year rule – Europe live",
+      "source": "The Guardian World",
+      "description": "The Student List movement is taking on authoritarian leader following nearly two years of protests against government and institutional corruption What is at stake in Serbia’s election? Ana Milosavljevic in Belgrade Tired eyes and smiles adorned the faces of thousands of Serbians who woke up early this morning to cast their vote , breaking all turnout records of early voting. “ What hasn’t motivated me? There isn’t a single reason I could give that would keep me from showing up at my polling sta",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/live/2026/oct/25/europe-serbia-elections-aleksander-vucic-student-list-protests-bulgaria-latest-news-updates",
+      "published": "2026-10-25T17:16:41Z"
+    },
     {
       "title": "How do Israel's elections work and who are the main contenders?",
       "source": "BBC Middle East",
@@ -19,30 +45,6 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
-    },
-    {
-      "title": "Serbia votes as strongman Vučić faces grassroots challenge to 12-year rule – Europe live",
-      "source": "The Guardian World",
-      "description": "The Student List movement is taking on authoritarian leader following nearly two years of protests against government and institutional corruption What is at stake in Serbia’s election? Since the early morning, we have seen Serbian voters turning out to vote in unprecedented numbers, with projected turnout already at 56.4% by 4pm, just over 14 percentage points higher than at this point in 2023. In fact, it’s already just marginally below the 2023 turnout with another four hours to go, so we are",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/live/2026/oct/25/europe-serbia-elections-aleksander-vucic-student-list-protests-bulgaria-latest-news-updates",
-      "published": "2026-10-25T17:06:07Z"
-    },
-    {
-      "title": "Exiled Venezuelan opposition leader announces her return",
-      "source": "The Guardian World",
-      "description": "Nobel laureate María Corina Machado’s return after almost a year in exile is unlikely to please interim president Delcy Rodríguez The Venezuelan opposition leader, María Corina Machado, has announced she has returned to Venezuela almost a year after she left the country to receive the Nobel peace prize. “I’m here. With you,” she wrote on X on Sunday lunchtime. Continue reading...",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return",
-      "published": "2026-10-25T17:00:12Z"
     },
     {
       "title": "Venezuelan opposition leader María Machado returns after months in exile",
