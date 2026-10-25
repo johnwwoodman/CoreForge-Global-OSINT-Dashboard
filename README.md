@@ -1,3 +1,11 @@
+## v1.3.1 — Country collector reliability fix
+
+- REST Countries: validate usable records instead of requiring a fixed country count; retry without field filtering.
+- World Bank: populate missing ISO3 identifiers, select latest dated population/GDP records, and allow partial successes.
+- Wikidata: limit to one small rotating batch per daily run, stop on HTTP 429, and retain previously cached leadership. Full global leadership coverage is gradual and depends on Wikidata availability and accuracy.
+- Preserve previous snapshot if every source fails. Existing map, feeds and UI are unchanged.
+- Workflow installs `pycountry` to map ISO2 to ISO3.
+
 ## v1.3 — Automated Country Intelligence (25 October 2026)
 
 - Daily GitHub Actions refresh for geography (REST Countries), dated population and GDP (World Bank), and candidate political leadership/government descriptions (Wikidata).

@@ -1,99 +1,135 @@
 #!/usr/bin/env python3
-"""Refresh CoreForge country facts; preserve last good values on partial outages.
-REST Countries supplies geography; World Bank supplies dated population/GDP;
-Wikidata supplies candidate current leadership and government descriptions.
-"""
-import datetime,json,pathlib,sys,time,urllib.request,urllib.parse
+"""Incremental country refresh. Provider failures never erase valid cached data."""
+import datetime, json, pathlib, sys, urllib.request, urllib.parse, urllib.error, time
 ROOT=pathlib.Path(__file__).resolve().parents[1]
-OUT=ROOT/'data'/'country-facts.json'
+OUT=ROOT/'data/country-facts.json'
 TODAY=datetime.datetime.now(datetime.timezone.utc).date().isoformat()
-FIELDS='name,cca2,cca3,capital,population,currencies,languages,region,subregion,altSpellings,independent'
-URL='https://restcountries.com/v3.1/all?fields='+FIELDS
-WB='https://api.worldbank.org/v2/country/all/indicator/{indicator}?format=json&per_page=20000&mrnev=1'
+FIELDS='name,cca2,cca3,capital,population,currencies,languages,region,subregion,altSpellings'
+REST_URLS=['https://restcountries.com/v3.1/all?fields='+FIELDS,'https://restcountries.com/v3.1/all']
+WB='https://api.worldbank.org/v2/country/all/indicator/{code}?format=json&per_page=20000'
 WD='https://query.wikidata.org/sparql'
-def get(url,accept='application/json',timeout=45):
- req=urllib.request.Request(url,headers={'User-Agent':'CoreForgeDashboard/1.3 (public country intelligence; contact via GitHub project)','Accept':accept})
- with urllib.request.urlopen(req,timeout=timeout) as r:return json.load(r)
-def previous():
- try:return json.loads(OUT.read_text())
- except Exception:return {'countries':{}}
-def merge(old,new):
- result=dict(old)
- for k,v in new.items():
-  if v is not None and v!='' and v!=[]:result[k]=v
- return result
+HEADERS={'User-Agent':'CoreForge-Global-OSINT-Dashboard/1.3.1 (public research; GitHub project johnwwoodman/CoreForge-Global-OSINT-Dashboard)','Accept':'application/json'}
+def get(url,accept=None,timeout=40):
+ headers=dict(HEADERS)
+ if accept:headers['Accept']=accept
+ req=urllib.request.Request(url,headers=headers)
+ with urllib.request.urlopen(req,timeout=timeout) as resp:return json.load(resp)
+def valid_country(row):
+ return isinstance(row,dict) and isinstance(row.get('name'),dict) and bool(row.get('cca2')) and bool(row['name'].get('common'))
+def rest_countries():
+ errors=[]
+ for url in REST_URLS:
+  try:
+   result=get(url)
+   if not isinstance(result,list):raise ValueError('Expected a list, received '+type(result).__name__)
+   rows=[r for r in result if valid_country(r)]
+   if len(rows)<50:raise ValueError('Only '+str(len(rows))+' valid records')
+   return rows
+  except Exception as e:errors.append(str(e)[:160])
+ raise RuntimeError('; '.join(errors))
 def wb_indicator(code):
- raw=get(WB.format(indicator=code));rows=raw[1] if isinstance(raw,list) and len(raw)>1 else []
- values={}
- for r in rows:
-  iso=r.get('countryiso3code');value=r.get('value')
-  if iso and value is not None and iso not in values:values[iso]={'value':value,'year':str(r.get('date',''))}
- return values
-# Query in small batches; Wikidata may throttle or have missing/ambiguous records.
-# Truthy P6/P35 statements are only accepted when the statement has no past end-date.
-def wikidata_batch(codes):
- vals=' '.join('"'+c+'"' for c in codes)
- q="""SELECT ?code ?country ?countryLabel ?state ?stateLabel ?gov ?govLabel ?systemLabel WHERE {
+ raw=get(WB.format(code=code))
+ if not isinstance(raw,list) or len(raw)<2 or not isinstance(raw[1],list):raise ValueError('Unexpected World Bank response')
+ result={}
+ for row in raw[1]:
+  if not isinstance(row,dict):continue
+  iso=(row.get('countryiso3code') or '').upper();val=row.get('value')
+  if len(iso)!=3 or val is None:continue
+  year=str(row.get('date') or '')
+  if iso not in result or year>result[iso]['year']:result[iso]={'value':val,'year':year}
+ return result
+def iso3_lookup():
+ try:
+  import pycountry
+  return {x.alpha_2:x.alpha_3 for x in pycountry.countries}
+ except ImportError:return {}
+def merge(existing,patch):
+ for k,v in patch.items():
+  if v is not None and v!='' and v!=[]:existing[k]=v
+ return existing
+def wikidata_once(codes):
+ # Only one request per run. Respect 429 and never retry immediately.
+ values=' '.join('"'+c+'"' for c in codes)
+ query="""SELECT ?code ?country ?stateLabel ?govLabel ?systemLabel WHERE {
  VALUES ?code { %s }
  ?country wdt:P297 ?code.
- OPTIONAL { ?country p:P35 ?ss. ?ss ps:P35 ?state. FILTER NOT EXISTS { ?ss pq:P582 ?ended. FILTER(?ended < NOW()) } }
- OPTIONAL { ?country p:P6 ?gs. ?gs ps:P6 ?gov. FILTER NOT EXISTS { ?gs pq:P582 ?ended2. FILTER(?ended2 < NOW()) } }
+ OPTIONAL { ?country p:P35 ?s. ?s ps:P35 ?state. FILTER NOT EXISTS { ?s pq:P582 ?end. FILTER(?end < NOW()) } }
+ OPTIONAL { ?country p:P6 ?g. ?g ps:P6 ?gov. FILTER NOT EXISTS { ?g pq:P582 ?end2. FILTER(?end2 < NOW()) } }
  OPTIONAL { ?country wdt:P122 ?system. }
  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
-}"""%vals
- url=WD+'?'+urllib.parse.urlencode({'query':q,'format':'json'})
- data=get(url,'application/sparql-results+json',75)
- out={}
+}"""%values
+ url=WD+'?'+urllib.parse.urlencode({'query':query,'format':'json'})
+ data=get(url,'application/sparql-results+json',timeout=65)
+ collected={}
  for row in data.get('results',{}).get('bindings',[]):
-  def v(key):return row.get(key,{}).get('value','')
-  code=v('code'); rec=out.setdefault(code,{'headOfState':[],'headOfGovernment':[],'governmentTypes':[],'leadershipSource':'https://www.wikidata.org/wiki/'+v('country').split('/')[-1],'leadershipChecked':TODAY})
-  for key,val in [('headOfState',v('stateLabel')),('headOfGovernment',v('govLabel')),('governmentTypes',v('systemLabel'))]:
-   if val and val not in rec[key] and not val.startswith('Q'):rec[key].append(val)
- return {code:{'headOfState':', '.join(r['headOfState']) if len(r['headOfState'])==1 else '', 'headOfGovernment':', '.join(r['headOfGovernment']) if len(r['headOfGovernment'])==1 else '', 'governmentType':', '.join(r['governmentTypes'][:2]),'leadershipSource':r['leadershipSource'],'leadershipChecked':TODAY,'leadershipStatus':'Wikidata candidate; not independently verified'} for code,r in out.items()}
+  def value(key):return row.get(key,{}).get('value','')
+  code=value('code');
+  if not code:continue
+  rec=collected.setdefault(code,{'headOfState':set(),'headOfGovernment':set(),'governmentType':set(),'source':value('country')})
+  for key,field in [('headOfState','stateLabel'),('headOfGovernment','govLabel'),('governmentType','systemLabel')]:
+   v=value(field)
+   if v and not v.startswith('Q'):rec[key].add(v)
+ result={}
+ for code,rec in collected.items():
+  patch={}
+  for field in ('headOfState','headOfGovernment','governmentType'):
+   if len(rec[field])==1:patch[field]=next(iter(rec[field]))
+  if any(k in patch for k in ('headOfState','headOfGovernment')):
+   patch.update(leadershipChecked=TODAY,leadershipStatus='Wikidata candidate; not independently verified',leadershipSource=rec['source'])
+  if patch:result[code]=patch
+ return result
 def main():
- old=previous();countries=dict(old.get('countries',{}));errors=[];success=[]
+ try:old=json.loads(OUT.read_text(encoding='utf-8'))
+ except Exception:old={'countries':{}}
+ countries=dict(old.get('countries',{})); errors=[]; success=[]; mapping=iso3_lookup()
+ bycode={v.get('code'):k for k,v in countries.items() if v.get('code')}
+ for record in countries.values():
+  code=record.get('code','')
+  if not record.get('iso3') and code in mapping:record['iso3']=mapping[code]
  try:
-  raw=get(URL)
-  if not isinstance(raw,list) or len(raw)<190:raise ValueError('Unexpected country count')
-  bycode={v.get('code'):k for k,v in countries.items() if v.get('code')}
-  for c in raw:
-   name=c.get('name',{}).get('common','');code=c.get('cca2','');iso3=c.get('cca3','')
-   if not name or not code:continue
-   key=bycode.get(code,name.lower());prior=countries.get(key,{})
-   fresh={'name':name,'code':code,'iso3':iso3,'capital':', '.join(c.get('capital') or []),'currency':', '.join((v.get('name','')+' ('+k+')') for k,v in (c.get('currencies') or {}).items()),'languages':', '.join((c.get('languages') or {}).values()),'region':' / '.join(filter(None,[c.get('region'),c.get('subregion')])), 'aliases':c.get('altSpellings',[])[:8], 'geographySource':'https://restcountries.com/v3.1/alpha/'+code,'geographyUpdated':TODAY}
-   # REST Countries population is only a fallback; no dated year is supplied.
-   if not prior.get('populationYear'):fresh.update(population=c.get('population'),populationNote='REST Countries estimate; reference year unspecified')
-   countries[key]=merge(prior,fresh)
-  success.append('REST Countries')
- except Exception as e:errors.append('REST Countries: '+str(e))
+  rows=rest_countries();changed=0
+  for row in rows:
+   code=row['cca2'];key=bycode.get(code,row['name']['common'].lower());prior=dict(countries.get(key,{}))
+   patch={'name':row['name']['common'],'code':code,'iso3':row.get('cca3') or mapping.get(code),'capital':', '.join(row.get('capital') or []),'currency':', '.join((x.get('name','')+' ('+k+')') for k,x in (row.get('currencies') or {}).items()),'languages':', '.join((row.get('languages') or {}).values()),'region':' / '.join(filter(None,[row.get('region'),row.get('subregion')])), 'aliases':row.get('altSpellings',[])[:8], 'geographySource':'https://restcountries.com/v3.1/alpha/'+code,'geographyUpdated':TODAY}
+   if not prior.get('populationYear') and row.get('population') is not None:patch.update(population=row['population'],populationNote='REST Countries estimate; year unspecified')
+   countries[key]=merge(prior,patch);changed+=1
+  success.append('REST Countries ('+str(changed)+')')
+ except Exception as e:errors.append('REST Countries: '+str(e)[:220])
  for indicator,field in [('SP.POP.TOTL','population'),('NY.GDP.MKTP.CD','gdpUsd')]:
   try:
-   data=wb_indicator(indicator);count=0
-   for record in countries.values():
-    item=data.get(record.get('iso3',''))
-    if item:
-     record[field]=item['value'];record[field+'Year']=item['year'];record[field+'Source']='https://data.worldbank.org/indicator/'+indicator+'?locations='+record.get('code','');count+=1
-   if count<100:raise ValueError('Only '+str(count)+' country matches')
+   values=wb_indicator(indicator);count=0
+   for rec in countries.values():
+    iso=rec.get('iso3') or mapping.get(rec.get('code',''))
+    if not iso:continue
+    rec['iso3']=iso
+    item=values.get(iso)
+    if not item:continue
+    rec[field]=item['value'];rec[field+'Year']=item['year'];rec[field+'Source']='https://data.worldbank.org/indicator/'+indicator+'?locations='+rec.get('code','');count+=1
+   if not count:raise ValueError('No matching ISO3 codes in '+str(len(values))+' World Bank records')
    success.append('World Bank '+indicator+' ('+str(count)+')')
-  except Exception as e:errors.append('World Bank '+indicator+': '+str(e))
- codes=sorted({r.get('code') for r in countries.values() if r.get('code') and len(r.get('code'))==2})
- wd={};worked=0
- for i in range(0,len(codes),25):
-  try:wd.update(wikidata_batch(codes[i:i+25]));worked+=1
-  except Exception as e:errors.append('Wikidata batch '+str(i//25+1)+': '+str(e)[:180])
-  time.sleep(1)
- for record in countries.values():
-  candidate=wd.get(record.get('code'))
-  if candidate:
-   # Never overwrite previously known leaders with an empty response.
-   record.update(merge({k:record.get(k) for k in candidate},candidate))
- if worked:success.append('Wikidata leadership ('+str(len(wd))+' country matches)')
+  except Exception as e:errors.append('World Bank '+indicator+': '+str(e)[:220])
+ # Wikidata's public SPARQL endpoint can be rate-limited to 1 request/minute.
+ # Rotate 15-country batches across days instead of submitting 10 rapid requests.
+ codes=sorted({rec.get('code') for rec in countries.values() if len(rec.get('code') or '')==2})
+ if codes:
+  batch_size=15;batch_number=datetime.date.fromisoformat(TODAY).toordinal()%((len(codes)+batch_size-1)//batch_size)
+  batch=codes[batch_number*batch_size:(batch_number+1)*batch_size]
+  try:
+   result=wikidata_once(batch)
+   for rec in countries.values():
+    patch=result.get(rec.get('code'))
+    if patch:merge(rec,patch)
+   success.append('Wikidata batch '+str(batch_number+1)+' ('+str(len(result))+' candidates)')
+  except urllib.error.HTTPError as e:
+   errors.append('Wikidata: HTTP '+str(e.code)+'; skipped further requests (rate limit/outage)')
+  except Exception as e:errors.append('Wikidata: '+str(e)[:220])
  if not success:
   print('All providers failed; retaining last valid snapshot',file=sys.stderr)
   for err in errors:print(err,file=sys.stderr)
   return 1
- payload={'source':'REST Countries / World Bank / Wikidata; BBC links are references, not scraped content','updated':TODAY,'sourcesSucceeded':success,'sourceErrors':errors,'countries':countries}
- OUT.write_text(json.dumps(payload,ensure_ascii=False,separators=(',',':'))+'\n')
- print('Country refresh:',len(countries),'records; successes:',success,'errors:',errors)
+ payload=dict(old);payload.update(source='REST Countries / World Bank / Wikidata; BBC reference links only',updated=TODAY,sourcesSucceeded=success,sourceErrors=errors,countries=countries)
+ OUT.write_text(json.dumps(payload,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
+ print('Country refresh:',len(countries),'records; successes:',success)
+ for err in errors:print('Provider warning:',err)
  return 0
 if __name__=='__main__':sys.exit(main())
