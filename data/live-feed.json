@@ -1,6 +1,19 @@
 {
-  "updated": "2026-10-25T16:12:39.664712Z",
+  "updated": "2026-10-25T16:20:02.975748Z",
   "records": [
+    {
+      "title": "Serbia votes as strongman Vučić faces grassroots challenge to 12-year rule – Europe live",
+      "source": "The Guardian World",
+      "description": "The Student List movement is taking on authoritarian leader following nearly two years of protests against government and institutional corruption What is at stake in Serbia’s election? Serbia’s former president and now prime ministerial candidate (again) Aleksandar Vučić rose to prominence in the 1990s as a radical nationalist, who supported the policies of Serbian expansion and ethnic cleansing led by Slobodan Milošević, who died of a heart attack in detention in The Hague during his trial on ",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/live/2026/oct/25/europe-serbia-elections-aleksander-vucic-student-list-protests-bulgaria-latest-news-updates",
+      "published": "2026-10-25T16:14:37Z"
+    },
     {
       "title": "Early reports suggest record high turnout in Serbia elections",
       "source": "BBC World",
@@ -11,19 +24,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c6jdmj1ej715o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-25T16:05:15Z"
-    },
-    {
-      "title": "Serbia votes as strongman Vučić faces grassroots challenge to 12-year rule – Europe live",
-      "source": "The Guardian Europe",
-      "description": "The Student List movement is taking on authoritarian leader following nearly two years of protests against government and institutional corruption What is at stake in Serbia’s election? Dobro veče , or good evening, and welcome to our live coverage of Serbian election night. The grassroots protest movement, the Student List, is taking on the country’s increasingly authoritarian leader, Aleksandar Vučić , in what is shaping up to be the sternest test of his 12-year grip on power. Continue reading",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/live/2026/oct/25/europe-serbia-elections-aleksander-vucic-student-list-protests-bulgaria-latest-news-updates",
-      "published": "2026-10-25T16:02:30Z"
     },
     {
       "title": "Thousands rally against Netanyahu in Tel Aviv ahead of Israeli elections – video",
@@ -673,25 +673,6 @@
       "lat": -14.24,
       "lon": -51.93,
       "place": "Brazil",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Ukraine’s military says Starlink satellite connection stable after recent restrictions",
-      "source": "The Guardian World",
-      "description": "But Elon Musk, whose company SpaceX owns Starlink, accuses Ukrainian military of violating ⁠the company’s terms Ukraine’s military has a “stable connection to Starlink”, the Ukrainian government said, 10 days after its ability to use the satellite communications system was suddenly restricted . But hours after the announcement, SpaceX CEO Elon Musk, whose company owns Starlink, accused the Ukrainian military of violating ⁠the company’s terms. Neither Musk nor the US government, which operates St",
-      "category": "Defence",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/24/ukraine-zelenskyy-military-starlink-satellite-connection-stable-after-restrictions",
-      "published": "2026-10-24T21:25:58Z",
-      "lat": 48.38,
-      "lon": 31.17,
-      "place": "Ukraine",
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
@@ -8256,7 +8237,7 @@
   "classification_method": "keyword-heuristic",
   "location_method": "headline-or-lead-reference",
   "content_counts": {
-    "news": 339,
+    "news": 338,
     "podcast": 192,
     "research": 16
   },
