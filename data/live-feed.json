@@ -1,10 +1,29 @@
 {
-  "updated": "2026-10-25T17:09:06.503300Z",
+  "updated": "2026-10-25T17:22:25.674275Z",
   "records": [
+    {
+      "title": "How do Israel's elections work and who are the main contenders?",
+      "source": "BBC Middle East",
+      "description": "Israel heads to the polls on Tuesday for what many view as one of the most pivotal elections in the country's history.",
+      "category": "Geopolitics",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cx8dz75633vjo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-25T17:13:51Z",
+      "lat": 31.05,
+      "lon": 34.85,
+      "place": "Israel",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
     {
       "title": "Serbia votes as strongman Vučić faces grassroots challenge to 12-year rule – Europe live",
       "source": "The Guardian World",
-      "description": "The Student List movement is taking on authoritarian leader following nearly two years of protests against government and institutional corruption What is at stake in Serbia’s election? Not necessarily that much in substance, but definitely a change in optics. Unlike most European leaders – with the exception of ousted Hungarian prime minister Viktor Orbán and his loyal Slovak ally Robert Fico – Vučić has maintained closed ties with Russia, despite the full-scale invasion of Ukraine. Last year, ",
+      "description": "The Student List movement is taking on authoritarian leader following nearly two years of protests against government and institutional corruption What is at stake in Serbia’s election? Since the early morning, we have seen Serbian voters turning out to vote in unprecedented numbers, with projected turnout already at 56.4% by 4pm, just over 14 percentage points higher than at this point in 2023. In fact, it’s already just marginally below the 2023 turnout with another four hours to go, so we are",
       "category": "Geopolitics",
       "region": "Europe",
       "regions": [
@@ -12,7 +31,18 @@
       ],
       "kind": "news",
       "url": "https://www.theguardian.com/world/live/2026/oct/25/europe-serbia-elections-aleksander-vucic-student-list-protests-bulgaria-latest-news-updates",
-      "published": "2026-10-25T16:54:21Z"
+      "published": "2026-10-25T17:06:07Z"
+    },
+    {
+      "title": "Exiled Venezuelan opposition leader announces her return",
+      "source": "The Guardian World",
+      "description": "Nobel laureate María Corina Machado’s return after almost a year in exile is unlikely to please interim president Delcy Rodríguez The Venezuelan opposition leader, María Corina Machado, has announced she has returned to Venezuela almost a year after she left the country to receive the Nobel peace prize. “I’m here. With you,” she wrote on X on Sunday lunchtime. Continue reading...",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return",
+      "published": "2026-10-25T17:00:12Z"
     },
     {
       "title": "Venezuelan opposition leader María Machado returns after months in exile",
@@ -1121,25 +1151,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-24T00:36:47Z"
-    },
-    {
-      "title": "Rubio tells Cubans ‘now is the time’ to act to see political change",
-      "source": "The Guardian World",
-      "description": "US secretary of state makes comments after Trump tells US rally warships could intervene on return from Iran Marco Rubio urged Cubans seeking political change in their country to act, saying “now is the time” moments after Donald Trump told a Friday rally for candidates in south Florida that US warships could intervene in Cuba on their way back from the Iran war. The US secretary of state, in his social media post addressed “to those who seek to create positive change”, urged Cubans to capitaliz",
-      "category": "Geopolitics",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/us-news/2026/oct/23/marco-rubio-cuba-trump",
-      "published": "2026-10-24T00:30:02Z",
-      "lat": 32.43,
-      "lon": 53.69,
-      "place": "Iran",
-      "location_precision": "country-centroid",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
     },
     {
       "title": "How does the UK state pension compare with other countries?",
@@ -2811,25 +2822,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/videos/c6y8lvg2p50po?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-22T10:08:44Z"
-    },
-    {
-      "title": "How do Israel's elections work and who are the main contenders?",
-      "source": "BBC Middle East",
-      "description": "Many view it as one of the most pivotal elections in Israel's history, with global implications.",
-      "category": "Geopolitics",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cx8dz75633vjo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-22T09:27:10Z",
-      "lat": 31.05,
-      "lon": 34.85,
-      "place": "Israel",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "Big pharma accused of ‘free-riding on nature’ as global fund attracts just $7,000",
