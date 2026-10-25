@@ -23,6 +23,10 @@ jobs:
         run: python scripts/update_country_facts.py
       - name: Refresh political leadership candidates
         run: python scripts/update_leadership.py
+      - name: Refresh historical World Bank indicators
+        run: python scripts/update_country_history.py
+      - name: Detect leadership changes
+        run: python scripts/record_leadership_changes.py
       - name: Commit updated snapshot
         run: |
           git config user.name 'github-actions[bot]'
