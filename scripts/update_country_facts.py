@@ -22,7 +22,9 @@ def rest_countries():
   try:
    result=get(url)
    if isinstance(result,dict):
-    result=result.get('data',{}).get('objects',[]) if isinstance(result.get('data'),dict) else result.get('data',[])
+    # A v3.1 /all response is a list. Dicts usually carry API errors or a changed contract.
+    detail=str(result.get('message') or result.get('error') or result.get('status') or sorted(result.keys()))[:140]
+    raise ValueError('Unexpected API object: '+detail)
    if not isinstance(result,list):raise ValueError('Publisher returned a non-list response; cached data retained')
    rows=[r for r in result if valid_country(r)]
    if len(rows)<50:raise ValueError('Only '+str(len(rows))+' valid records')

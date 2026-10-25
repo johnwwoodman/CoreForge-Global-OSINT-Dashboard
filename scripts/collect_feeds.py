@@ -318,6 +318,26 @@ def un_middle_east_fallback(raw, seen):
     return selected
 
 
+def un_syndicated_fallback(source, seen):
+    """Search-index fallback, never claim this is publisher RSS or independently verified.
+
+    The intermediary links may lead through Google News; original UN attribution is
+    retained in source metadata and the headline must identify news.un.org.
+    """
+    import urllib.parse
+    q = 'site:news.un.org/en/' + (' (Syria OR Gaza OR Lebanon OR Yemen OR Middle East)' if source == 'UN News Middle East' else '')
+    url = 'https://news.google.com/rss/search?' + urllib.parse.urlencode({'q':q,'hl':'en-GB','gl':'GB','ceid':'GB:en'})
+    raw = fetch_xml(url)
+    root = ET.fromstring(raw)
+    if root.tag.lower().split('}')[-1] not in ('rss','feed'):
+        raise ValueError('Syndication index did not return RSS')
+    # The index is not the publisher: label this explicitly in the interface.
+    indexed = parse_feed(raw, source+' (news index)', 'Humanitarian', 'Middle East' if source.endswith('Middle East') else 'all', 'news', seen)
+    selected = [r for r in indexed if 'UN News' in r.get('title','') or 'news.un.org' in r.get('description','').lower() or 'un news' in r.get('description','').lower()]
+    for r in selected:
+        r['collection_method'] = 'Third-party news index; not direct UN RSS'
+    return selected
+
 def collect():
     records, errors, seen = [], [], set()
     warnings = []
@@ -339,6 +359,15 @@ def collect():
             print(f'{source}: {len(added)} records ({sum(x["kind"] == "podcast" for x in added)} podcasts)')
         except Exception as exc:
             if source in ('UN News Middle East', 'UN News'):
+                try:
+                    fallback_items=un_syndicated_fallback(source, seen)
+                    if fallback_items:
+                        records.extend(fallback_items)
+                        warnings.append({'source':source,'message':f'Direct UN RSS unavailable; {len(fallback_items)} attributed headlines collected from a third-party news index, not publisher RSS.'})
+                        print(f'{source}: index fallback supplied {len(fallback_items)} headlines')
+                        continue
+                except Exception as fallback_exc:
+                    print(f'{source}: indexed fallback also unavailable: {fallback_exc}')
                 failed_un_sources.add(source)
             if source == 'UN News Middle East':
                 un_regional_failed = True

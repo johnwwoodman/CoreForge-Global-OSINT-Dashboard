@@ -113,3 +113,8 @@ button:disabled{opacity:.42;cursor:not-allowed}
 .country-profile .country-search-row button[data-country-go]{margin:0;white-space:nowrap;align-self:stretch}
 @container (max-width:560px){.country-profile .country-search-row{grid-template-columns:1fr}.country-profile .country-search-row label{flex-wrap:wrap}}
 @media(max-width:650px){.country-profile .country-search-row{grid-template-columns:1fr}.country-profile .country-search-row label{flex-wrap:wrap}}
+
+/* v1.9 analysis panels */
+.analysis-list{padding-left:1.35rem;line-height:1.65}.analysis-list li{margin:.65rem 0;overflow-wrap:anywhere}.analysis-list small{color:var(--muted,#9cb5cb)}.analysis-note{display:block;margin:1rem 0}.analysis-note small{display:block;margin:.2rem 0 .4rem}.analysis-note textarea{display:block;width:100%;min-height:5.5rem;box-sizing:border-box;resize:vertical}.widget details{margin:.7rem 0}.widget details summary{cursor:pointer;overflow-wrap:anywhere}
+
+.history-table-wrap{max-height:420px;overflow:auto}.history-table{width:100%;border-collapse:collapse;font-size:.85rem}.history-table td,.history-table th{padding:.45rem .65rem;border-bottom:1px solid #304154;text-align:left;white-space:nowrap}

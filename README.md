@@ -1,3 +1,27 @@
+# CoreForge v1.9.0 — Consolidated Intelligence Analysis
+
+**Release scope:** Adds source-linked timeline, country evidence register, ASCOPE civil-environment notes, approximate cross-publisher headline matching, leadership change detection and historical World Bank indicator tables. Retains all v1.5.2 functionality and original workflow filenames.
+
+**Important limits:** UN News direct RSS can still be blocked by its publisher. The collector now attempts a clearly labelled third-party indexed-headline fallback; this is not equivalent to publisher RSS and has not been verified live. REST Countries API errors are diagnosed rather than silently treated as valid data. Historical indicators populate on the next successful GitHub country workflow run; bundled data may initially be empty. Leadership records remain candidates until corroborated.
+
+**Use:** Add analysis panels from the Widget Library. Select a country in Country Profile before opening the Country Assessment or ASCOPE panels. ASCOPE notes stay in browser storage. Existing workspaces are not automatically overwritten.
+
+**Windows:** Starts with bundled data, synchronises country facts from GitHub when accessible, and retains a cached copy offline.
+
+**Workflow files:** `.github/workflows/collect-intelligence.yml`, `.github/workflows/update-country-facts.yml`, `.github/workflows/weekly-brief.yml`. Do not add a duplicate `collect.yml`.
+
+## Release history
+
+- **v1.9.0:** Consolidated analytical widgets, ASCOPE notes, indexed UN News fallback, REST Countries diagnostics, leadership change comparison, version alignment and workflow filename preservation.
+- **v1.5.2:** Strategic territories and political status.
+- **v1.5.1:** ISO country coverage and search aliases.
+- **v1.5.0:** Worldwide leadership refresh and Windows synchronisation.
+- **v1.4.0:** Worldwide leadership collector.
+- **v1.3.x:** Automated country facts and provider resilience.
+- **v1.2.x:** Country profiles and worldwide reference data.
+
+---
+
 ## v1.5.0 — Worldwide coverage and Windows synchronisation (25 October 2026)
 
 - Leadership refresh attempts all country records each scheduled run (instead of 42), subject to publisher availability and rate limits; coverage metrics distinguish one vs both names. A missing name remains missing rather than guessed.
