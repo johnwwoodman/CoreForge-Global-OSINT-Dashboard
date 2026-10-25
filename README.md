@@ -1,3 +1,15 @@
+## v1.3 — Automated Country Intelligence (25 October 2026)
+
+- Daily GitHub Actions refresh for geography (REST Countries), dated population and GDP (World Bank), and candidate political leadership/government descriptions (Wikidata).
+- Last-good-value preservation on partial upstream outages, with per-source refresh diagnostics in the generated `data/country-facts.json`.
+- Country Profile displays head of state and head of government separately, data-source links, update dates, GDP and dated population where available, and publisher/date for related intelligence.
+- BBC World links are provided for context; BBC content is **not scraped or republished**. Older BBC country profiles may be stale.
+- Wikidata leadership is explicitly **not independently verified**; missing/ambiguous values are not presented as confirmed. GitHub Actions must successfully run to populate new values.
+- All features remain browser-first and free; Python runs in GitHub Actions, not on end-user machines.
+- Existing map layers, UN feed collection, podcasts, and local Ollama integration are unchanged.
+
+**Deployment:** upload the update ZIP preserving folders; run **Actions → Update country intelligence → Run workflow**, then wait for the action to commit `data/country-facts.json`. A successful workflow is necessary to replace the bundled historical population and fill leadership. If repository Actions lacks Contents write permissions, enable workflow read/write permissions. The first update is not pre-populated with live leadership because external API access could not be verified in the build environment.
+
 # CoreForge Global OSINT Dashboard
 
 CoreForge is a browser-based, open-source dashboard for public reporting, approximate geographic references, research publications and podcasts. Optional local analysis uses Ollama; the public dashboard does not require AI or an installation.
