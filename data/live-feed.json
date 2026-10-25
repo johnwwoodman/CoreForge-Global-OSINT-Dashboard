@@ -1,21 +1,215 @@
 {
-  "updated": "2026-10-25T11:21:17.170255Z",
+  "updated": "2026-10-25T16:12:39.664712Z",
   "records": [
     {
-      "title": "Voters in Brazil head to polls as Lula goes up against Bolsonaro's son",
+      "title": "Early reports suggest record high turnout in Serbia elections",
       "source": "BBC World",
-      "description": "Flávio Bolsonaro, the son of Brazil's imprisoned ex-president, is challenging Lula, who is seeking a fourth term in office.",
+      "description": "Serbia is heading to the polls as a student movement attempts to oust longtime populist leader Aleksandar Vučić.",
       "category": "Geopolitics",
-      "region": "Americas",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c6jdmj1ej715o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-25T16:05:15Z"
+    },
+    {
+      "title": "Serbia votes as strongman Vučić faces grassroots challenge to 12-year rule – Europe live",
+      "source": "The Guardian Europe",
+      "description": "The Student List movement is taking on authoritarian leader following nearly two years of protests against government and institutional corruption What is at stake in Serbia’s election? Dobro veče , or good evening, and welcome to our live coverage of Serbian election night. The grassroots protest movement, the Student List, is taking on the country’s increasingly authoritarian leader, Aleksandar Vučić , in what is shaping up to be the sternest test of his 12-year grip on power. Continue reading",
+      "category": "Geopolitics",
+      "region": "Europe",
       "regions": [
-        "Americas"
+        "Europe"
       ],
       "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-25T11:00:26Z",
-      "lat": -14.24,
-      "lon": -51.93,
-      "place": "Brazil",
+      "url": "https://www.theguardian.com/world/live/2026/oct/25/europe-serbia-elections-aleksander-vucic-student-list-protests-bulgaria-latest-news-updates",
+      "published": "2026-10-25T16:02:30Z"
+    },
+    {
+      "title": "Thousands rally against Netanyahu in Tel Aviv ahead of Israeli elections – video",
+      "source": "The Guardian Middle East",
+      "description": "Thousands of people gathered in Tel Aviv on Saturday in a final protest against the Israeli prime minister, Benjamin Netanyahu, and his government ahead of what has been described as the most consequential election in the country's history. The rally at Hostages Square was organised by the October Council, a group representing the families and friends of the victims and survivors of the Hamas-led attack on 7 October 2023 that sparked the war in Gaza. Protesters demanded an independent commission",
+      "category": "Geopolitics",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/video/2026/oct/25/thousands-rally-against-netanyahu-in-tel-aviv-ahead-of-israeli-elections-video",
+      "published": "2026-10-25T15:35:04Z"
+    },
+    {
+      "title": "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
+      "source": "BBC World",
+      "description": "He will be observed to evaluate whether his \"psychiatric health is compatible with pursuing his interrogation\", authorities said.",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-25T15:32:51Z",
+      "lat": 48.86,
+      "lon": 2.35,
+      "place": "Paris",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Portuguese police with dogs and batons dismantle housing protest camps",
+      "source": "The Guardian World",
+      "description": "More than 30 people arrested as officers clear at least 100 tents in central Lisbon and about 50 in Porto Police in Portugal have dismantled housing protest camps in Lisbon and Porto, baton-charging campaigners in the early hours of Sunday and arresting more than 30 people. The raids were the latest incident in days of clashes between police and campaigners who – inspired by similar camps in Spain – had sought to pitch tents in central squares to protest against the country’s deepening housing c",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/25/police-portugal-dogs-batons-dismantle-housing-protest-camps",
+      "published": "2026-10-25T15:32:20Z"
+    },
+    {
+      "title": "‘They paved paradise’: fighting back over the loss of green spaces in Cameroon’s capital",
+      "source": "The Guardian Global Development",
+      "description": "Concrete sprawl in Yaoundé has devastated the city’s trees and parks, so volunteers are stepping up, shrub by shrub A little piece of paradise is buried under the asphalt that is now lined with parked cars. The romantic spot where Sosthène Hugues Ngono used to bring his first dates had been green and beautiful. “It wasn’t just a park,” he says, standing at the edge of what is now a private car park in Cameroon’s capital, Yaoundé. “It was where I came to clear my head when things felt confused,” ",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/global-development/2026/oct/25/environment-cities-cameroon-yaounde-green-space-trees",
+      "published": "2026-10-25T15:00:05Z"
+    },
+    {
+      "title": "Brazilians vote in presidential election runoff pitting leftist Lula against far-right Bolsonaro",
+      "source": "The Guardian World",
+      "description": "Incumbent president lost in first round to senator and son of convicted ex-president Brazilians are going to the polls on Sunday in a highly unpredictable runoff in which the leftist president, Luiz Inácio Lula da Silva , is attempting an unprecedented comeback against the far-right senator Flávio Bolsonaro , who won the first-round vote. Bolsonaro’s surprise victory despite not leading most polls made him the favourite three weeks ago, but since then Lula’s campaign has gained ground, and the t",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
+      "published": "2026-10-25T14:41:17Z"
+    },
+    {
+      "title": "Gabon says access to social media restored after eight-month ban",
+      "source": "BBC World",
+      "description": "The authorities had justified the ban by saying online content was fuelling conflict, while the opposition had condemned it as an abuse of power.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2w0ngejneo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-25T14:39:47Z"
+    },
+    {
+      "title": "Almost two-thirds of Australians bulk-billed for all GP care amid extra incentives for doctors",
+      "source": "The Guardian World",
+      "description": "Exclusive: RACGP survey reflects Medicare investments, but experts caution quality of care and outcomes also matter Get our new political email , free app or daily news podcast The proportion of general practitioners bulk-billing all of their patients has more than doubled in a year, a report has found, after the government introduced financial incentives for doctors and practices. And almost two-thirds (63%) of Australians are now bulk-billed for all their GP care, up from 56% in both 2024 and ",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/26/almost-two-thirds-of-australians-bulk-billed-for-all-gp-care-amid-extra-incentives-for-doctors",
+      "published": "2026-10-25T14:00:06Z"
+    },
+    {
+      "title": "Volkswagen to build $4bn Audi SUV factory in US despite job cuts at home",
+      "source": "The Guardian World",
+      "description": "VW investment, creating 4,500 jobs in Georgia, comes amid Trump’s damaging tariffs, intense Chinese competition and costly shift towards EVs Audi has said it will spend $4bn (£3bn) to build its first factory in the US, as its parent company, Volkswagen, struggles with the impact of steep tariffs imposed by Donald Trump. The German brand’s chief executive, Gernot Döllner, joined Trump on stage at a campaign rally on Saturday night to announce the factory in Macon, Georgia, in an unusual move by a",
+      "category": "Economics",
+      "region": "Europe",
+      "regions": [
+        "Europe",
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/business/2026/oct/25/volkswagen-to-build-4bn-audi-suv-factory-in-us-despite-job-cuts-at-home",
+      "published": "2026-10-25T13:43:19Z"
+    },
+    {
+      "title": "Rayner backs Burnham call for debate on return to free movement with EU",
+      "source": "The Guardian Europe",
+      "description": "Cabinet minister says PM’s plea is ‘pragmatism’ but comments risk causing concern among some red wall MPs Andy Burnham’s call for the UK to consider a return to free movement with Europe has been backed by senior cabinet ministers including Angela Rayner but risks causing concern among fellow red wall MPs. The prime minister made his plea for an “honest discussion” about free movement in an interview with the Sunday Times, making clear that staying out of it would no longer be a red line in talk",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/politics/2026/oct/25/burnham-rayner-labour-eu-free-movement-brexit",
+      "published": "2026-10-25T13:31:05Z"
+    },
+    {
+      "title": "Hundreds of thousands march across France in protests over schools and policing",
+      "source": "The Guardian World",
+      "description": "Almost 1,000 arrested as police charge crowd in Paris and teargas used to stop protesters reaching other city centres Hundreds of thousands marched in cities across France on Saturday in largely peaceful protests to support schoolchildren’s demands for more teachers and repairs to dilapidated buildings, as Emmanuel Macron faces a social and political crisis in his final months as president. The prosecutor’s office in the southern city of Nice said on Sunday that 59 people had been taken into pol",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/24/hundreds-of-thousands-march-across-france-in-protests-over-schools-and-policing",
+      "published": "2026-10-25T12:07:05Z",
+      "lat": 46.6,
+      "lon": 2.21,
+      "place": "France",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "This comedian jokes about deportation from Ireland … but it is happening for real",
+      "source": "The Guardian Europe",
+      "description": "Despite job offers, Jaishree Malik has had visa renewal and extension requests delayed and denied, and she is not alone Jaishree Malik bounds on to the Cheeky Monkey comedy club stage and brandishes an envelope – it is a letter from the Irish government. Would the audience like to hear what’s in the letter? “Yeah,” the first rows reply. She repeats the question, prompting a louder response. “Yeah!” Continue reading...",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/ng-interactive/2026/oct/25/comedy-routine-deportation-ireland-woman-",
+      "published": "2026-10-25T12:00:04Z"
+    },
+    {
+      "title": "‘A hidden tradition’: Benjamin Moser wants you to know Jewish anti-Zionism is not new",
+      "source": "The Guardian Middle East",
+      "description": "The writer rarely questioned the tenets of liberal Zionism growing up. Now he embraces anti-Zionism with the fervor of a new convert In 1987, the Israeli human rights attorney Felicia Langer was paying a visit to the Neve Tirza women’s prison when a client named Siham shared some disturbing news: the prisoners held there had recently been sprayed with a chemical agent that left them writhing on the floor. Langer grabbed a tissue that had been exposed to the substance – a piece of evidence, perha",
+      "category": "Geopolitics",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/25/benjamin-moser-jewish-anti-zionism-book",
+      "published": "2026-10-25T12:00:02Z"
+    },
+    {
+      "title": "Signs suggest Thomas Markle Sr may be ‘sex offender of the grossest kind’, says Philippine minister",
+      "source": "The Guardian World",
+      "description": "Exclusive: Forensic analysis of found images continues as Meghan’s father denies possessing child sexual abuse images All signs point to Thomas Markle Sr being a “possible sex offender of the grossest kind” although a full forensic investigation will give a “definitive picture”, the Philippine interior minister has told the Guardian. Authorities in the south-east Asian country are analysing digital images allegedly belonging to the estranged father of the Duchess of Sussex that were said to have",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/25/thomas-markle-sr-philippines-investigation",
+      "published": "2026-10-25T11:52:45Z"
+    },
+    {
+      "title": "Police and protesters exchange teargas and fireworks in demonstrations across France – video",
+      "source": "The Guardian Europe",
+      "description": "Hundreds of thousands marched in cities across France on Saturday amid fresh demonstrations over school funding and the cost of living. A peaceful protest during the day in Paris – with at least 110,000 people marching along the eastern edge of the city – descended into violent clashes with police by the time night fell. Police fired teargas to prevent protesters in Lyon, Lille, Montpellier, Nantes and Toulouse from reaching city centres. In Marseille, some bin fires were lit. At least two peopl",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/video/2026/oct/25/police-and-protesters-exchange-teargas-and-fireworks-in-demonstrations-across-france-video",
+      "published": "2026-10-25T11:23:33Z",
+      "lat": 46.6,
+      "lon": 2.21,
+      "place": "France",
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
@@ -23,7 +217,7 @@
     {
       "title": "Lights out: the island that goes dark to save young seabirds – in pictures",
       "source": "The Guardian Environment",
-      "description": "Every autumn, Corvo Island in thre Azores turns off its public lighting for a few key days to help fledgling Cory’s shearwaters as they attempt to fly to the ocean guided by the stars Once a year, Corvo, the smallest and most northerly island of Portugal’s Azores archipelago, goes dark. Since 2019, the island’s 450 or so inhabitants have chosen to switch off the lights every autumn for five nights to tackle the disastrous effects of artificial light on Cory’s shearwaters, a seabird endemic to th",
+      "description": "Every autumn, Corvo Island in the Azores turns off its public lighting for a few key days to help fledgling Cory’s shearwaters as they attempt to fly to the ocean guided by the stars Once a year, Corvo, the smallest and most northerly island of Portugal’s Azores archipelago, goes dark. Since 2019, the island’s 450 or so inhabitants have chosen to switch off the lights every autumn for five nights to tackle the disastrous effects of artificial light on Cory’s shearwaters, a seabird endemic to the",
       "category": "Disasters",
       "region": "all",
       "regions": [],
@@ -34,7 +228,7 @@
     {
       "title": "Demand for UK government action 10 months after British man’s death in Grenada",
       "source": "The Guardian World",
-      "description": "Police closed case of Andrew Frederick despite autopsy report ruling his death a homicide A time-critical investigation into the death of a British man whose body was found in a ransacked property on the Caribbean island of Grenada has stalled because of diplomatic delays between the two countries. Charity workers supporting the family of Andrew Frederick are demanding immediate government intervention to clear the path for a full investigation to begin almost 10 months after his death, which ha",
+      "description": "Police closed case of Andrew Frederick despite autopsy report ruling his death a homicide A time-critical investigation into the death of a British father whose body was found in a ransacked property on the Caribbean island of Grenada has stalled because of diplomatic delays between the two countries. Charity workers supporting the family of Andrew Frederick are demanding immediate government intervention to clear the path for a full investigation to begin almost 10 months after his death, which",
       "category": "Geopolitics",
       "region": "Europe",
       "regions": [
@@ -86,17 +280,6 @@
       "published": "2026-10-25T10:03:17Z"
     },
     {
-      "title": "Signs suggest Thomas Markle Sr may be ‘sex offender of the grossest kind’, says Philippine minister",
-      "source": "The Guardian World",
-      "description": "Exclusive: Forensic analysis of found images continues as Meghan’s father denies possessing child sexual abuse images All signs point to Thomas Markle Sr being a “possible sex offender of the grossest kind” although a full forensic investigation will give a “definitive picture”, the Philippine interior minister has told the Guardian. Authorities in the south-east Asian country are analysing digital images allegedly belonging to the estranged father of the Duchess of Sussex that were said to have",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/25/thomas-markle-sr-philippines-investigation",
-      "published": "2026-10-25T09:33:05Z"
-    },
-    {
       "title": "US seized American heir’s cellphone in violation of treaty agreement, lawyer says",
       "source": "The Guardian Europe",
       "description": "James ‘Fergie’ Chambers, in prison in Spain, has applied for asylum as US seeks extradition over alleged Hamas support US authorities seized wealthy activist James “Fergie” Chambers’s cellphone at some point after Spanish police arrested him in July without notifying him or his attorneys, the Guardian has learned. Chambers, a US citizen and wealthy donor to leftwing and humanitarian projects, is imprisoned in Madrid. His case is the first known instance of the US seeking to extradite a citizen o",
@@ -142,17 +325,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cmz98plpjzplo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-25T08:36:47Z"
-    },
-    {
-      "title": "Brazilians vote in presidential election runoff pitting leftist Lula against far-right Bolsonaro",
-      "source": "The Guardian World",
-      "description": "Incumbent president lost in first round to senator and son of convicted ex-president Brazilians are going to the polls on Sunday in a highly unpredictable runoff in which the leftist president, Luiz Inácio Lula da Silva , is attempting an unprecedented comeback against the far-right senator Flávio Bolsonaro , who won the first-round vote. Bolsonaro’s surprise victory despite not leading most polls made him the favourite three weeks ago, but since then Lula’s campaign has gained ground, and the t",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
-      "published": "2026-10-25T08:00:58Z"
     },
     {
       "title": "Rosebank: Life on the oil field at the centre of a political storm",
@@ -544,25 +716,6 @@
       "location_verified": false
     },
     {
-      "title": "Hundreds of thousands march in France as protests take place across Europe – as it happened",
-      "source": "The Guardian World",
-      "description": "French police have made 1,000 arrests and Italian officers have raided homes in Milan, with protests also taking place in Spain and Albania Jesse, 40, a charity worker from the north of Paris, had turned out for the street march. She said: “I’m so angry. I’m here to support schoolchildren’s demands for better conditions. I’m so proud of them and we have to stand together.” Continue reading...",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news",
-      "published": "2026-10-24T20:22:18Z",
-      "lat": 46.6,
-      "lon": 2.21,
-      "place": "France",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "Fireworks and tear gas as protesters and riot police clash in Paris",
       "source": "BBC World",
       "description": "The BBC's Europe correspondent reports from Paris where mostly peaceful protests turned into unrest after nightfall.",
@@ -604,25 +757,6 @@
       "published": "2026-10-24T19:00:41Z"
     },
     {
-      "title": "Hundreds of thousands march across France in protests over schools and policing",
-      "source": "The Guardian World",
-      "description": "Almost 1,000 arrested as police charge crowd in Paris and teargas used to stop protesters reaching other city centres Hundreds of thousands marched in cities across France on Saturday in largely peaceful protests to support schoolchildren’s demands for more teachers and repairs to dilapidated buildings, as Emmanuel Macron faces a social and political crisis in his final months as president. In Paris, at least 110,000 people marched along the eastern edge of the city, according to government esti",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/24/hundreds-of-thousands-march-across-france-in-protests-over-schools-and-policing",
-      "published": "2026-10-24T17:54:41Z",
-      "lat": 46.6,
-      "lon": 2.21,
-      "place": "France",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "Two rescued after Nairobi building collapse with five still missing",
       "source": "BBC World",
       "description": "Police have launched a manhunt for the building's owner and contractor after the multi-storey building collapsed while still under construction.",
@@ -640,17 +774,6 @@
       "location_verified": false
     },
     {
-      "title": "Mum who died trying to save sons was hero, husband says",
-      "source": "BBC World",
-      "description": "Nathan Gregory says the loss of childhood sweetheart Leanne \"is unimaginable for our family\".",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cm86z5n0yvy6o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-24T17:11:56Z"
-    },
-    {
       "title": "Six Flags adding seatbelts to Goliath rollercoaster following death",
       "source": "BBC Americas",
       "description": "The CEO of the amusement park chain says the company is evaluating safety procedures at all of its 34 locations.",
@@ -662,25 +785,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c60rl9r59g0do?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-24T16:29:31Z"
-    },
-    {
-      "title": "Major protests in Paris and other French cities in challenge to Macron – in pictures",
-      "source": "The Guardian Europe",
-      "description": "Paris march drew 110,000 people, according to police, amid fresh nationwide demonstrations over school funding and cost of living Continue reading...",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/gallery/2026/oct/24/major-protests-in-paris-and-other-french-cities-in-challenge-to-emmanuel-macron",
-      "published": "2026-10-24T16:21:25Z",
-      "lat": 48.86,
-      "lon": 2.35,
-      "place": "Paris",
-      "location_precision": "city-reference",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "Fire engulfs Hitler's mountaintop Eagle's Nest retreat",
@@ -707,25 +811,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-24T15:21:44Z",
-      "lat": 51.17,
-      "lon": 10.45,
-      "place": "Germany",
-      "location_precision": "country-centroid",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Suspect arrested over fire at Hitler’s ‘Eagle’s Nest’ retreat in Bavaria",
-      "source": "The Guardian World",
-      "description": "About 200 firefighters deployed to tackle blaze at former Nazi mountain retreat in remote part of southern Germany Police have arrested a 33-year-old German citizen after a fire ripped through Adolf Hitler’s former mountain retreat in Bavaria, leaving the historic Nazi meeting place – known as the Eagle’s Nest – largely destroyed. About 200 firefighters were deployed on Friday night to tackle the blaze at the Nazi dictator’s remote, purpose-built Kehlsteinhaus residence, a protected building on ",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/24/blaze-engulfs-hitlers-eagles-nest-mountain-retreat-in-bavaria",
-      "published": "2026-10-24T14:28:15Z",
       "lat": 51.17,
       "lon": 10.45,
       "place": "Germany",
@@ -775,25 +860,6 @@
       "kind": "news",
       "url": "https://www.theguardian.com/world/2026/oct/24/storm-boelo-80mph-winds-heavy-rain-northern-uk",
       "published": "2026-10-24T13:28:07Z"
-    },
-    {
-      "title": "Ukraine says Starlink connection 'now stable' after network limits",
-      "source": "BBC Europe",
-      "description": "The slowed Starlink connections had affected the Ukraine's military and drone operations for a week.",
-      "category": "Defence",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-24T12:12:40Z",
-      "lat": 48.38,
-      "lon": 31.17,
-      "place": "Ukraine",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "Attention LaMelo Ball: only losers boast about avoiding diaper duty | Arwa Mahdawi",
@@ -946,41 +1012,26 @@
     },
     {
       "title": "Minneapolis withdrawal was 'surrender', Trump's ex-border patrol chief tells BBC",
-      "source": "BBC World",
+      "source": "BBC Americas",
       "description": "Greg Bovino was the public face of the controversial immigration enforcement operation in the city earlier this year.",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/ck20rery78lro?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-24T05:31:01Z"
-    },
-    {
-      "title": "How Brazil's changing working class is reshaping the presidential race",
-      "source": "BBC World",
-      "description": "Calls for change present a challenge to President Lula in the second round of the election on Sunday.",
       "category": "Geopolitics",
       "region": "Americas",
       "regions": [
         "Americas"
       ],
       "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cw80zx79nkvno?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-24T05:05:44Z",
-      "lat": -14.24,
-      "lon": -51.93,
-      "place": "Brazil",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
+      "url": "https://www.bbc.co.uk/news/articles/ck20rery78lro?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-24T05:31:01Z"
     },
     {
       "title": "The rise of AI election ads in US midterms campaign",
-      "source": "BBC World",
+      "source": "BBC Americas",
       "description": "BBC Verify has tracked dozens of AI ads to assess how they are being used by campaigns in the midterms.",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/videos/cm62y59zw8zko?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-24T05:03:44Z"
@@ -1046,17 +1097,6 @@
       "kind": "news",
       "url": "https://www.theguardian.com/australia-news/2026/oct/24/greens-senator-jordon-steele-john-confirms-leave-from-parliament-ntwnfb",
       "published": "2026-10-24T00:52:33Z"
-    },
-    {
-      "title": "Helen Haines’s condition improves days after losing both legs from alleged attack",
-      "source": "The Guardian World",
-      "description": "Independent MP now serious but stable, according to update from Melbourne’s Alfred hospital Get our breaking news email , free app or daily news podcast Independent MP Helen Haines’s condition has been downgraded to serious but stable after she lost both legs following an alleged attack near her electorate office in north-east Victoria on Monday afternoon. The Alfred hospital in Melbourne provided an update on Haines’s condition on Saturday morning. Continue reading...",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/24/helen-hainess-condition-improves-days-after-losing-both-legs-from-alleged-attack-ntwnfb",
-      "published": "2026-10-24T00:41:29Z"
     },
     {
       "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
@@ -1548,19 +1588,6 @@
       "published": "2026-10-23T12:17:45Z"
     },
     {
-      "title": "World champion Jepchirchir fails drugs test",
-      "source": "BBC Africa",
-      "description": "Reigning world women's marathon champion Peres Jepchirchir is provisionally suspended by the Athletics Integrity Unit after a sample tests positive for EPO.",
-      "category": "Geopolitics",
-      "region": "Africa",
-      "regions": [
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/sport/olympics/articles/cwz0vn1yk235o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-23T12:01:20Z"
-    },
-    {
       "title": "EPA has failed to tackle cancer-linked pesticide pollution, lawsuit alleges",
       "source": "The Guardian Environment",
       "description": "Suit alleges EPA has for decades failed under the Clean Water Act to address surface-water atrazine pollution A new lawsuit asks a federal judge to order the Trump administration to address widespread pollution from the hormone-disrupting pesticide atrazine – which has regularly been found at levels that threaten wildlife and human health. The cancer-linked chemical is now contaminating nearly 25%, or about 860,000 miles, of all continental US rivers, according to a recent review of federal reco",
@@ -1592,44 +1619,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cxnv025d8qpmo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-23T12:00:25Z"
-    },
-    {
-      "title": "West Bank: Guterres alarmed as Israel imposes sweeping closures after deadly Hebron attack",
-      "source": "UN News Middle East",
-      "description": "The UN said on Friday it was “extremely alarmed” by intensifying violence in the occupied West Bank, as Israel moved to seal off the territory following a deadly attack on its soldiers in Hebron.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168660",
-      "published": "2026-10-23T12:00:00Z",
-      "lat": 31.05,
-      "lon": 34.85,
-      "place": "Israel",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Yemen: Deepening concerns for Taiz City as aid is blocked from entering",
-      "source": "UN News Middle East",
-      "description": "Aid agencies warned on Friday of the fast-developing humanitarian emergency inside Taiz City in Yemen, which has been encircled by de facto Houthi forces fighting government troops along the country’s west coast.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168654",
-      "published": "2026-10-23T12:00:00Z",
-      "lat": 15.55,
-      "lon": 48.52,
-      "place": "Yemen",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "Earnings limit of up to £140K for first-time buyers loan scheme",
@@ -1852,7 +1841,7 @@
       "published": "2026-10-23T06:47:10Z"
     },
     {
-      "title": "Why a student protest movement is challenging 12 years of Vučić rule in Serbia",
+      "title": "What you need to know about Serbia's pivotal election",
       "source": "BBC Europe",
       "description": "After two years of student protests, Serbians vote on Sunday in elections that could bring down the ruling party.",
       "category": "Geopolitics",
@@ -2064,6 +2053,19 @@
       "kind": "news",
       "url": "https://www.theguardian.com/us-news/2026/oct/22/arizona-storms-weather-tornado-warning",
       "published": "2026-10-22T23:15:40Z"
+    },
+    {
+      "title": "Approach African GP with humility, says Hamilton",
+      "source": "BBC Africa",
+      "description": "Lewis Hamilton addresses concerns on human rights grounds about holding an African Grand Prix in Rwanda by saying people should \"approach it with humility\".",
+      "category": "Geopolitics",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c6vgxd2xyv7do?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-22T22:47:30Z"
     },
     {
       "title": "L'Oreal says weight loss drugs are impacting beauty and skincare sales",
@@ -2934,26 +2936,6 @@
       "published": "2026-10-21T18:51:39Z"
     },
     {
-      "title": "Heidi Levine recounts how Palestinian youths helped save her in settler attack",
-      "source": "The Guardian Middle East",
-      "description": "US photojournalist describes ‘protective shield’, vows to return to work in West Bank and criticises Netanyahu comments on incident The Washington Post photojournalist who was attacked and seriously injured by Israeli settlers in the West Bank on Friday has described how she was saved with the help of local Palestinians. Heidi Levine sustained four fractured vertebrae, two broken ribs and four puncture wounds when she was knocked to the ground and repeatedly beaten by a crowd of masked settlers ",
-      "category": "Geopolitics",
-      "region": "Middle East",
-      "regions": [
-        "Middle East",
-        "Americas"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/21/heidi-levine-palestinians-israeli-settler-attack-west-bank",
-      "published": "2026-10-21T17:59:14Z",
-      "lat": 38.9,
-      "lon": -77.04,
-      "place": "Washington",
-      "location_precision": "city-reference",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
-    },
-    {
       "title": "John Staley obituary",
       "source": "The Guardian Asia",
       "description": "My father, John Staley, who has died aged 88, was field director for Oxfam in south India and Sri Lanka during the late 1960s and early 70s, when he was responsible for Oxfam’s funding of several hundred local, national and international voluntary agencies. His role included aid administration, policy formulation, project appraisal, recommendations for funding, disaster relief and liaison with government and non-government organisations. He led Oxfam’s response in India to a drought in Maharasht",
@@ -2978,25 +2960,6 @@
       "kind": "news",
       "url": "https://www.theguardian.com/world/2026/oct/21/us-vaccine-trial-african-newborns-hepatitis-b",
       "published": "2026-10-21T17:18:56Z"
-    },
-    {
-      "title": "Israel’s fault lines: inside the 23 October Guardian Weekly",
-      "source": "The Guardian Middle East",
-      "description": "Far right gains predicted in key election. Plus: why the mystery over Havana syndrome refuses to die • Get the Guardian Weekly delivered to your home address Israel is holding national elections next week, giving its citizens their first chance to pass judgment on Benjamin Netanyahu and his coalition since the Hamas-led attacks of 7 October 2023. For our big story this week, chief Middle East correspondent Emma Graham-Harrison says that whether or not the prime minister can hold on to power, a m",
-      "category": "Geopolitics",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/news/2026/oct/21/israels-fault-lines-inside-the-23-october-guardian-weekly",
-      "published": "2026-10-21T17:00:52Z",
-      "lat": 31.05,
-      "lon": 34.85,
-      "place": "Israel",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "Taiwan charges five men over plot to run over comedian for his Xi Jinping jokes",
@@ -3107,19 +3070,6 @@
       "location_precision": "city-reference",
       "location_method": "headline-keyword",
       "location_verified": false
-    },
-    {
-      "title": "‘Ominous start’ to West Bank olive harvest amid settler attacks",
-      "source": "UN News Middle East",
-      "description": "The use of live ammunition, arson and the destruction of centuries-old olive trees have marked the opening weeks of this year’s harvest in the occupied West Bank.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168644",
-      "published": "2026-10-21T12:00:00Z"
     },
     {
       "title": "The night watch: the YouTubers who are guardians of a shark stuck in a South Korean canal",
@@ -3473,25 +3423,6 @@
       "published": "2026-10-20T13:54:35Z"
     },
     {
-      "title": "Yemen war continues to force families from homes amid hunger and disease",
-      "source": "UN News Middle East",
-      "description": "More than 250,000 people have now fled renewed fighting in Yemen, the UN said on Tuesday, citing particular concern for those sheltering in the southwestern city of Taiz and the wider governorate, where access is “essentially blocked”.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168629",
-      "published": "2026-10-20T12:00:00Z",
-      "lat": 15.55,
-      "lon": 48.52,
-      "place": "Yemen",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "North Korea publishes photos of Kim Jong Un - why do rumours of his death keep coming back?",
       "source": "BBC Asia",
       "description": "North Korean state media has published photos of the dictator with his daughter after the unsubstantiated rumour spread.",
@@ -3734,44 +3665,6 @@
       "published": "2026-10-19T12:51:44Z"
     },
     {
-      "title": "‘Season of fear’: Escalating Israeli attacks on West Bank olive farmers, deadly strikes on Gaza",
-      "source": "UN News Middle East",
-      "description": "Israeli attacks on war-torn Gaza over the weekend killed at least six Palestinians, including children, despite a year-old ceasefire agreement. Meanwhile, in the occupied West Bank, settler violence continued through the ongoing olive harvest, with UN independent experts on Monday urging Israel to protect Palestinian farmers.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168625",
-      "published": "2026-10-19T12:00:00Z",
-      "lat": 31.5,
-      "lon": 34.47,
-      "place": "Gaza",
-      "location_precision": "city-reference",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Gaza: Funding cuts leave half a million without food assistance",
-      "source": "UN News Middle East",
-      "description": "Funding shortages have forced the World Food Programme (WFP) to slash assistance to hungry families in the Gaza Strip by roughly one third – a move that will affect some 500,000 people as winter approaches, the UN agency announced on Monday.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168622",
-      "published": "2026-10-19T12:00:00Z",
-      "lat": 31.5,
-      "lon": 34.47,
-      "place": "Gaza",
-      "location_precision": "city-reference",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "Israeli police arrest 10 over settler attacks on journalist and diplomats in West Bank",
       "source": "BBC Middle East",
       "description": "It comes after masked settlers attacked Palestinians and European officials visiting the West Bank during olive harvesting season.",
@@ -3877,27 +3770,6 @@
       "published": "2026-10-19T05:00:20Z"
     },
     {
-      "title": "Revealed: African island fights offshore gambling network linked to UK family",
-      "source": "The Guardian Africa",
-      "description": "London-based property investors deny selling licences to casinos claiming to be based on Anjouan, a tiny Indian Ocean island The island of Anjouan, rising out of the Indian Ocean between Mozambique and Madagascar, is a corner of the Earth that few people have heard of, let alone laid eyes on. Known as Nzwani in the local language, this tiny volcanic island – one of a collection that make up the Union of Comoros – counts ylang-ylang oil and vanilla among its chief exports. Continue reading...",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe",
-        "Asia-Pacific",
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/society/2026/oct/19/revealed-britons-using-an-african-islands-name-to-aid-underground-gambling",
-      "published": "2026-10-19T05:00:20Z",
-      "lat": 51.51,
-      "lon": -0.13,
-      "place": "London",
-      "location_precision": "city-reference",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
-    },
-    {
       "title": "A tale of two trap houses: being cuckooed ruined my friend’s life – but did it then help save him? – podcast",
       "source": "The Guardian Long Read",
       "description": "Drug gangs have moved off Britain’s streets and into vulnerable people’s homes. Addicts like my friend are easy targets, but the reality can be more complicated than it seems By Max Daly. Read by Simon Darwen Read the text version here Support the Guardian today: theguardian.com/longreadpod Continue reading...",
@@ -3924,19 +3796,6 @@
       "published": "2026-10-18T22:22:51Z"
     },
     {
-      "title": "Shabana Mahmood to hold talks with EU over law enforcement cooperation",
-      "source": "The Guardian Europe",
-      "description": "UK home secretary’s meeting comes after PM said he wanted to rejoin European law enforcement databases The UK home secretary, Shabana Mahmood, will meet the EU’s home affairs commissioner on Monday for further talks just days after Andy Burnham said he wanted to rejoin European law enforcement databases from which the UK has been locked out of since Brexit. According to the European Commission, they will discuss “migration, border management, law enforcement cooperation and counter-terrorism”, w",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/politics/2026/oct/18/shabana-mahmood-talks-eu-law-enforcement-cooperation-magnus-brunner",
-      "published": "2026-10-18T18:13:11Z"
-    },
-    {
       "title": "Attacked from the sky: Sudanese goldminers count deadly cost of eking out a living on the Egypt border",
       "source": "The Guardian Global Development",
       "description": "As civil war has left their country in ruins, many young Sudanese have turned to artisanal mining. An airstrike on a mine last week killed more than 100 and has provoked anger against Egypt, seen as the most likely suspect Torches still fixed on their heads but tools cast aside, the Sudanese goldminers of the North Valley had already mounted an impromptu rescue operation by the time Ammar* arrived at the site of a suspected Egyptian airstrike. At least 114 were killed, according to the Sudanese ",
@@ -3952,25 +3811,6 @@
       "lon": 30.8,
       "place": "Egypt",
       "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Flour sacks turned flood barriers: Gaza faces another winter without safe shelter",
-      "source": "UN News Middle East",
-      "description": "Like many people in the war-ravaged Gaza Strip, Ahmed Al-Omari is preparing for another winter of bitter cold and rain that threatens to cause flooding as families struggle to survive in tattered tents and damaged buildings.",
-      "category": "Disasters",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168619",
-      "published": "2026-10-17T12:00:00Z",
-      "lat": 31.5,
-      "lon": 34.47,
-      "place": "Gaza",
-      "location_precision": "city-reference",
       "location_method": "headline-keyword",
       "location_verified": false
     },
@@ -4039,25 +3879,6 @@
       "kind": "news",
       "url": "https://www.theguardian.com/environment/2026/oct/16/restaurant-pandemic-loans",
       "published": "2026-10-16T13:00:11Z"
-    },
-    {
-      "title": "Gaza: 340 children killed despite ceasefire agreement - UNICEF",
-      "source": "UN News Middle East",
-      "description": "A little over one year since a ceasefire agreement was announced between Hamas fighters and Israel, more than 340 children have been reported killed and hundreds more injured, the UN Children’s Fund (UNICEF) said on Friday.",
-      "category": "Defence",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168611",
-      "published": "2026-10-16T12:00:00Z",
-      "lat": 31.5,
-      "lon": 34.47,
-      "place": "Gaza",
-      "location_precision": "city-reference",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "How will Ukraine get through winter after the Trump-Putin diesel deal?",
@@ -4153,25 +3974,6 @@
       "audio_url": "https://traffic.libsyn.com/secure/middleeastinst/Middle_East_Focus_10.15.26_edited_mixdown.mp3?dest-id=531685",
       "url": "https://middleeastinst.libsyn.com/deadlock-in-gaza-and-the-west-bank-at-a-breaking-point",
       "published": "2026-10-15T19:20:00Z",
-      "lat": 31.5,
-      "lon": 34.47,
-      "place": "Gaza",
-      "location_precision": "city-reference",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Security Council LIVE: Deaths, demolitions spike in Gaza, West Bank",
-      "source": "UN News Middle East",
-      "description": "Amid a rise in lethal Israeli strikes, demolitions and violence in Gaza and the West Bank, the Security Council held an open debate on Thursday focusing on the current situation in the Occupied Palestinian Territory.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168599",
-      "published": "2026-10-15T12:00:00Z",
       "lat": 31.5,
       "lon": 34.47,
       "place": "Gaza",
@@ -4345,39 +4147,6 @@
       "published": "2026-10-14T14:16:04Z"
     },
     {
-      "title": "Yemen: WFP warns of potential ‘humanitarian catastrophe’ as fighting blocks aid delivery",
-      "source": "UN News Middle East",
-      "description": "Intensifying fighting in Yemen has cut off life-saving assistance to 800,000 people as shifting frontlines, blocked roads and growing insecurity severely restrict access to the city of Taiz and other conflict zones, the UN World Food Programme (WFP) said on Wednesday.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168591",
-      "published": "2026-10-14T12:00:00Z",
-      "lat": 15.55,
-      "lon": 48.52,
-      "place": "Yemen",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "WHO calls for urgent health action across the Eastern Mediterranean",
-      "source": "UN News Middle East",
-      "description": "The head of the World Health Organization (WHO) has called for promoting, providing and protecting health in the Eastern Mediterranean region, home to some of the world’s top humanitarian crises such as Sudan, Yemen and the Occupied Palestinian Territory.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East",
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168590",
-      "published": "2026-10-14T12:00:00Z"
-    },
-    {
       "title": "From black soldier flies to mealworms: farming insects for food, fodder and fertiliser in Uganda",
       "source": "The Guardian Global Development",
       "description": "Cultivating the nutritious bugs means families can raise livestock and enrich their own food, while lowering pressures on the land Just a few minutes’ walk from his home in the Kyaka II refugee settlement, Kanane Bikanyale keeps a small flock of chickens. From a modified jerrycan, he pours out black soldier fly larvae into the coup where they disappear in a scrum of pecking chickens. Kanane Bikanyale tends to his black soldier fly larvae in a rearing unit in the Kyaka II refugee camp in Uganda C",
@@ -4415,25 +4184,6 @@
       "published": "2026-10-14T06:00:46Z"
     },
     {
-      "title": "Iranian woman handed death sentence for ‘blasphemy’ in social media post",
-      "source": "The Guardian Global Development",
-      "description": "Rights groups warn of Tehran regime’s increasing use of executions to suppress dissent, with at least 600 this year Human rights groups have raised the alarm over the growing number of death sentences and executions in Iran, after reports that a 23-year-old woman, Najmeh Amini, has been sentenced to death for blasphemy over a social-media post. Amini, an accounting student, is being held in Vakilabad prison in the north-east city of Mashhad. She has been sentenced to more than 12 years in prison",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/global-development/2026/oct/14/najmeh-amini-blasphemy-death-sentence-insulting-prophet",
-      "published": "2026-10-14T04:00:44Z",
-      "lat": 35.69,
-      "lon": 51.39,
-      "place": "Tehran",
-      "location_precision": "city-reference",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
-    },
-    {
       "title": "From the archive: ‘Voters are unhappier with the NHS than they’ve been for 30 years. As a GP, I feel the same’ – podcast",
       "source": "The Guardian Long Read",
       "description": "We are raiding the Guardian long read archives to bring you some classic pieces from years past, with new introductions from the authors This week, from 2023: Even those at the top admit the NHS can’t do what is being asked of it today. But it is far from unsalvageable – we just need serious politicians who will commit to funding it By Gavin Francis. Read by Greg Miller Burns Read the text version here Support the Guardian today: theguardian.com/longreadpod Free for All: Why the NHS is Worth Sav",
@@ -4465,38 +4215,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/sounds/play/w3ct8jyk?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-13T19:45:00Z"
-    },
-    {
-      "title": "A 'landmark' moment - why has Rwanda been chosen to host F1?",
-      "source": "BBC Africa",
-      "description": "How Rwanda has succeeded where Morocco and South Africa, among others, have failed by agreeing a deal to stage the African Grand Prix.",
-      "category": "Geopolitics",
-      "region": "Africa",
-      "regions": [
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/sport/formula1/articles/cw62yglre6y5o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-13T15:01:17Z"
-    },
-    {
-      "title": "Yemen: Houthi siege, cholera outbreak and aid cuts put civilians in the crosshairs",
-      "source": "UN News Middle East",
-      "description": "Yemen’s southwestern city of Taiz is facing a “devastating” humanitarian crisis as escalating tensions are dramatically driving up food prices and causing shortages of supplies, the UN Spokesperson said on Tuesday.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168589",
-      "published": "2026-10-13T12:00:00Z",
-      "lat": 15.55,
-      "lon": 48.52,
-      "place": "Yemen",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "Latin American organised crime ‘may operate in 16 European countries’",
@@ -4575,25 +4293,6 @@
       "location_verified": false
     },
     {
-      "title": "Security Council LIVE: Syria’s fragile transition – economic strain, Israeli incursions and progress towards elections",
-      "source": "UN News Middle East",
-      "description": "The Security Council met to debate Syria's thorny transition Monday as it faces pressure on several fronts. Economic hardship is fuelling unrest, Israeli incursions continue in the south and sectarian tensions persist in Sweida, even as Damascus reports progress on its chemical weapons programme and talks about future elections. Millions, meanwhile, remain displaced. Follow live below and go here for full meetings coverage.",
-      "category": "Economics",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168578",
-      "published": "2026-10-12T12:00:00Z",
-      "lat": 34.8,
-      "lon": 38.99,
-      "place": "Syria",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "Watch: CCTV shows people take cover as missile hits Riyadh airport",
       "source": "BBC Middle East",
       "description": "Footage from inside the airport shows the moment the strike hit on Saturday.",
@@ -4637,38 +4336,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c962y4ld1d7do?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-11T23:13:20Z"
-    },
-    {
-      "title": "Djibouti shipwreck: Death toll rises to 139 as 84 remain missing",
-      "source": "UN News Middle East",
-      "description": "At least 139 migrants have died after their boat capsized off Djibouti, with a further 84 people still missing, the UN migration agency (IOM) said on Sunday.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168573",
-      "published": "2026-10-11T12:00:00Z"
-    },
-    {
-      "title": "Sustaining livelihoods amid crisis in Gaza",
-      "source": "UN News Middle East",
-      "description": "Nidaa, Hanaa and Hanin have different stories, but share a common thread: the determination to build something of their own and keep it going despite extraordinary challenges facing them in war-ravaged Gaza.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168569",
-      "published": "2026-10-11T12:00:00Z",
-      "lat": 31.5,
-      "lon": 34.47,
-      "place": "Gaza",
-      "location_precision": "city-reference",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "Tech Now",
@@ -4731,38 +4398,6 @@
       "lat": 9.15,
       "lon": 40.49,
       "place": "Ethiopia",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Amid heartache of Nepal flooding disaster, fear remains",
-      "source": "UN News Middle East",
-      "description": "Six weeks after Nepal’s deadly flooding disaster, communities are still struggling to rebuild their lives, but they will need sustained help as global warming increases the risk of another Himalayan catastrophe, the UN Children’s Fund (UNICEF) said on Friday.",
-      "category": "Disasters",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168561",
-      "published": "2026-10-09T12:00:00Z"
-    },
-    {
-      "title": "Security Council LIVE: Yemen has fallen back into full-scale war, warns UN envoy",
-      "source": "UN News Middle East",
-      "description": "The Security Council met to discuss the crisis in Yemen Friday, where a Houthi offensive launched in September has sharply escalated the 12-year-long war for control of the country and spillover from the US-Iran war has provoked a new displacement crisis. Live coverage below and for full meetings updates, go here.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168559",
-      "published": "2026-10-09T12:00:00Z",
-      "lat": 15.55,
-      "lon": 48.52,
-      "place": "Yemen",
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
@@ -4950,25 +4585,6 @@
       "published": "2026-10-07T16:00:18Z"
     },
     {
-      "title": "Critical funding gap threatens health response in Yemen",
-      "source": "UN News Middle East",
-      "description": "The World Health Organization (WHO) warned that significantly more resources are required to scale up its response in Yemen amid escalating conflict and rising needs.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168541",
-      "published": "2026-10-07T12:00:00Z",
-      "lat": 15.55,
-      "lon": 48.52,
-      "place": "Yemen",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "Heatstroke ruined his health. Years before, it took the life of another farm worker at the same company",
       "source": "The Guardian Environment",
       "description": "A farm labor contractor exposed laborers on H-2A agricultural visas to heat-related health hazards, but is still bringing hundreds of migrant farm workers to North Carolina It was 4pm and 90F (32C) when Carlos Vargas Moreno and other farm workers set out to weed a watermelon field in Goldsboro, North Carolina , on 19 July 2022. The work day had begun at 7am and included two 15-minute breaks and a one-hour lunch eaten outdoors. The heat index – what the temperature feels like to the human body wh",
@@ -5024,25 +4640,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/sounds/play/w3ct8jyj?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-06T19:30:00Z"
-    },
-    {
-      "title": "Israeli demolition in East Jerusalem displaces 69 Palestinians",
-      "source": "UN News Middle East",
-      "description": "Sixty-nine Palestinians – more than half of them children – were displaced on Tuesday after Israeli authorities green lit the demolition of their residential building in the At Tur area of East Jerusalem, the UN aid coordination office (OCHA) has reported.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168539",
-      "published": "2026-10-06T12:00:00Z",
-      "lat": 31.77,
-      "lon": 35.21,
-      "place": "Jerusalem",
-      "location_precision": "city-reference",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "‘There’s always been a belittling of African women’: honouring history’s invisible heroines",
@@ -5101,44 +4698,6 @@
       "audio_url": "https://traffic.libsyn.com/secure/0f51b9e6-e899-4fce-b775-b7c45b08605d/Brian_and_Andrew_FINAL2_mixdown.mp3?dest-id=4928180",
       "url": "https://0f51b9e6-e899-4fce-b775-b7c45b08605d.libsyn.com/from-the-middle-east-to-middle-america-engineering-better-policy-with-andrew-j-tabler",
       "published": "2026-10-05T18:17:00Z"
-    },
-    {
-      "title": "‘Nothing can justify these atrocities,’ says Guterres three years on from 7 October attacks",
-      "source": "UN News Middle East",
-      "description": "Three years after Hamas and other Palestinian armed groups attacked Israel, UN Secretary-General António Guterres has said nothing can justify the atrocities of 7 October – calling for an end to the suffering of Israelis and Palestinians alike.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168530",
-      "published": "2026-10-05T12:00:00Z",
-      "lat": 31.05,
-      "lon": 34.85,
-      "place": "Israel",
-      "location_precision": "country-centroid",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "More than 184,000 displaced as fighting intensifies in Yemen",
-      "source": "UN News Middle East",
-      "description": "Intense fighting in Yemen has forced more than 184,000 people from their homes since the start of August, most of them since early September, the UN migration agency (IOM) said on Monday.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168528",
-      "published": "2026-10-05T12:00:00Z",
-      "lat": 15.55,
-      "lon": 48.52,
-      "place": "Yemen",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "‘Defend our men!’: fears for women’s rights in Latin America over plans to counter gender violence laws",
@@ -5226,44 +4785,6 @@
       "published": "2026-10-02T12:48:56Z"
     },
     {
-      "title": "Escalating fighting in Yemen deepens food security crisis",
-      "source": "UN News Middle East",
-      "description": "Renewed conflict in Yemen has triggered a surge in hunger that could have consequences in the wider region and beyond, the World Food Programme (WFP) warned on Friday.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168509",
-      "published": "2026-10-02T12:00:00Z",
-      "lat": 15.55,
-      "lon": 48.52,
-      "place": "Yemen",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Gaza: WHO appeals for massive aid influx ahead of winter",
-      "source": "UN News Middle East",
-      "description": "Repeated delays in bringing lifesaving medicines, prosthetics and more from Israel into Gaza risk having devastating consequences on Palestinians who urgently need them in the war-torn enclave, the UN World Health Organization (WHO) said on Friday.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168508",
-      "published": "2026-10-02T12:00:00Z",
-      "lat": 31.5,
-      "lon": 34.47,
-      "place": "Gaza",
-      "location_precision": "city-reference",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "Why the Houthis' Red Sea power play makes Iran even stronger",
       "source": "Chatham House podcasts",
       "description": "The Iranian-backed Houthi rebels' capture of Yemen's port city of Mocha means that Iran now effectively controls two crucial waterways in the region – the Bab al-Mandab Strait to the Red Sea and thus the Suez Canal, as well as the Hormuz Strait. Why has this simmering conflict exploded again? What do Iran and the Houthis want? How serious is this potential blockade for world trade and energy supply? And could the Houthis become a regional power, in economic terms even more powerful than Iran? Br",
@@ -5326,19 +4847,6 @@
       "kind": "podcast",
       "url": "https://www.theguardian.com/news/audio/2026/oct/02/the-end-times-fascists-are-plotting-their-escape-from-our-world-our-mission-is-clear-podcast",
       "published": "2026-10-02T04:00:09Z"
-    },
-    {
-      "title": "Making politics 'fun, trendy, sexy': How Gen Z could shape Kenya's next election",
-      "source": "BBC Africa",
-      "description": "A voter mobilisation campaign has registered huge numbers of young people but it is not clear who they are backing.",
-      "category": "Geopolitics",
-      "region": "Africa",
-      "regions": [
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cwly7v7kk17mo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-01T23:46:12Z"
     },
     {
       "title": "Special Episode: Saudi Oil After the East-West Pipeline Attack",
@@ -5418,64 +4926,6 @@
       "published": "2026-09-30T23:02:21Z"
     },
     {
-      "title": "Palestinians yearn for ‘a return to normal life’, says top Middle East peace envoy",
-      "source": "UN News Middle East",
-      "description": "The UN is continuing efforts to support Palestinians in Gaza amid major challenges to humanitarian access, reconstruction and the restoration of essential services, according to Ramiz Alakbarov, Acting UN Special Coordinator for the Middle East Peace Process.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168497",
-      "published": "2026-09-30T12:00:00Z",
-      "lat": 31.5,
-      "lon": 34.47,
-      "place": "Gaza",
-      "location_precision": "city-reference",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "World News in Brief: Storm clouds over Gaza, deadly obstacles face Mexican women rights defenders, Latvia booze ban proves lifesaver",
-      "source": "UN News Middle East",
-      "description": "UN teams are racing to protect families in Gaza from the coming rainy season, but restricted access to land and shortages of critical supplies are hampering the effort, UN Spokesperson Stéphane Dujarric said on Wednesday.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East",
-        "Americas"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168496",
-      "published": "2026-09-30T12:00:00Z",
-      "lat": 31.5,
-      "lon": 34.47,
-      "place": "Gaza",
-      "location_precision": "city-reference",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Lebanon: One in five children goes to bed hungry, says UNICEF",
-      "source": "UN News Middle East",
-      "description": "Four in five households in Lebanon struggle to afford basic necessities today, with children increasingly going without food, missing school and being pushed into work as conflict compounds years of economic crisis. \"I wanted to buy clothes for my children, but I could not. I also wanted to enrol them in school, but I could not afford that either,\" said one father of four, cited on Wednesday by the UN Children's Fund (UNICEF).",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168490",
-      "published": "2026-09-30T12:00:00Z",
-      "lat": 33.85,
-      "lon": 35.86,
-      "place": "Lebanon",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "From the archive: How Facebook and Instagram became marketplaces for child sex trafficking – podcast",
       "source": "The Guardian Long Read",
       "description": "We are raiding the Guardian long read archives to bring you some classic pieces from years past, with new introductions from the authors. This week, from 2023: Our two-year investigation suggests that the tech giant Meta is struggling to prevent criminals from using its platforms to buy and sell children for sex. By Katie McQue and Mei-Ling McNamara . Read by Jeanette Robinson More from this series: Rights and freedom Content warning – the following article contains descriptions of child sexual ",
@@ -5537,25 +4987,6 @@
       "published": "2026-09-29T16:03:05Z"
     },
     {
-      "title": "Yemen escalation fuels fears of further cholera, measles spread",
-      "source": "UN News Middle East",
-      "description": "Heavy fighting in Yemen is fuelling concerns of an uptick in cholera, measles and other preventable diseases, as overcrowding at displacement sites threatens to overwhelm the limited healthcare services still open.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168480",
-      "published": "2026-09-29T12:00:00Z",
-      "lat": 15.55,
-      "lon": 48.52,
-      "place": "Yemen",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "Back to War in Ethiopia?",
       "source": "Crisis Group Hold Your Fire",
       "description": "This week on Hold Your Fire! , Richard speaks with Crisis Group’s Africa director Murithi Mutiga about renewed fighting in northern Ethiopia. They examine why the Pretoria agreement, which ended the devastating 2020–2022 war between Tigrayan rebels and the federal government, failed to deliver lasting peace. They assess the fragile new alliance of Tigrayan, Amhara and other rebel groups, Eritrea’s alleged backing, and the threat it poses to the federal government. They also discuss how war-weary",
@@ -5606,25 +5037,6 @@
       "location_verified": false
     },
     {
-      "title": "Security Council LIVE: Ambassadors meet as West Bank tensions rise, Gaza plan stalls",
-      "source": "UN News Middle East",
-      "description": "The Security Council met Monday morning with prospects for peace in the Middle East under strain on two fronts. In the West Bank, settler violence and settlement expansion are raising fears for a two-State solution. In Gaza, a year-old peace plan has stalled while civilian suffering continues. The meeting comes as the plan’s remaining phases, including Hamas’ disarmament and Israel’s full withdrawal, remain unimplemented, and as the illegality of settlements under international law remains a key",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168464",
-      "published": "2026-09-28T12:00:00Z",
-      "lat": 31.5,
-      "lon": 34.47,
-      "place": "Gaza",
-      "location_precision": "city-reference",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "Exile has not broken young Rohingya people. But survival cost us more than our homes | Ajas Khan",
       "source": "The Guardian Global Development",
       "description": "Nine years growing up in a tent robbed me of my freedom and childhood. But my generation is determined to fight for a better future – one that we must be involved in shaping Nine years ago, I was forced to flee my home in Maungdaw township, Rakhine state, Myanmar. I was 13 years old. I remember how quickly an average day turned into a day when life felt extinguished, leaving behind the place where I grew up with my family. Even now, when I go to sleep, what comes into my mind is the memory of th",
@@ -5647,19 +5059,6 @@
       "published": "2026-09-28T04:00:24Z"
     },
     {
-      "title": "Saudi Arabia warns Gulf security inseparable from global stability amid regional tensions",
-      "source": "UN News Middle East",
-      "description": "Saudi Arabia’s Foreign Minister warned on Saturday that escalating threats across the Middle East risked international peace, energy security and global trade, calling for stronger international cooperation to protect Gulf States and vital shipping routes.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168459",
-      "published": "2026-09-26T12:00:00Z"
-    },
-    {
       "title": "Tech Now",
       "source": "BBC Technology",
       "description": "Ammie Sekhon explores tech used to identify and remove counterfeit products online.",
@@ -5669,25 +5068,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/iplayer/episode/m0032d9k?at_medium=RSS&at_campaign=rss",
       "published": "2026-09-26T01:00:13Z"
-    },
-    {
-      "title": "‘No one speaks on behalf of Lebanon’: PM Salam asserts State authority at UN",
-      "source": "UN News Middle East",
-      "description": "Lebanon’s Prime Minister, Nawaf Salam, has stressed that decisions over war and peace, and control of weapons, must rest solely with the State and its constitutional institutions.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168444",
-      "published": "2026-09-25T12:00:00Z",
-      "lat": 33.85,
-      "lon": 35.86,
-      "place": "Lebanon",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "China rising, America in decline? The Trump-Xi summit",
@@ -5834,26 +5214,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cwg59g3vz564o?at_medium=RSS&at_campaign=rss",
       "published": "2026-09-22T09:11:48Z"
-    },
-    {
-      "title": "Inside Djibouti refugee camp for thousands fleeing Houthi advance in Yemen",
-      "source": "BBC Africa",
-      "description": "Fighting on Yemen's west coast has prompted thousands of people to flee by boat across the Bab al-Mandab Strait.",
-      "category": "Humanitarian",
-      "region": "Africa",
-      "regions": [
-        "Africa",
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/videos/c6z0z2nne11vo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-21T10:00:31Z",
-      "lat": 15.55,
-      "lon": 48.52,
-      "place": "Yemen",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "Nine women in South Africa have been murdered since July. We are being told to be vigilant – but where are the warnings to men? | Nolethu Ndude",
@@ -8884,15 +8244,19 @@
     {
       "source": "UN News",
       "message": "Publisher returned non-XML content"
+    },
+    {
+      "source": "UN News Middle East",
+      "message": "Regional feed unavailable and global UN News fallback also unavailable."
     }
   ],
   "sources_checked": 27,
-  "sources_ok": 26,
+  "sources_ok": 25,
   "collector_version": "1.0.0-rc3-un-resilience",
   "classification_method": "keyword-heuristic",
   "location_method": "headline-or-lead-reference",
   "content_counts": {
-    "news": 372,
+    "news": 339,
     "podcast": 192,
     "research": 16
   },
