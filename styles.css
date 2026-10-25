@@ -88,3 +88,20 @@ button:disabled{opacity:.42;cursor:not-allowed}
 .geo-layer-presets{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
 .geo-layer-presets button{padding:6px 10px;min-height:34px}
 .geo-layer-options input{width:18px;height:18px;flex-shrink:0}
+
+/* v1.3.3 country profile readability */
+.country-profile,.country-profile-content,.country-facts{min-width:0;max-width:100%;overflow-wrap:anywhere}
+.country-profile{line-height:1.55}
+.country-profile label{display:inline-flex;align-items:center;gap:8px;flex-wrap:wrap}
+.country-profile input[data-country-search]{width:min(100%,360px);max-width:100%;box-sizing:border-box}
+.country-facts{grid-template-columns:minmax(130px,34%) minmax(0,1fr);gap:10px 14px}
+.country-facts dd{min-width:0;overflow-wrap:anywhere}
+.country-status{line-height:1.55}
+.country-diagnostics{margin:14px 0;padding:10px;border:1px solid var(--line);border-radius:8px}
+.country-diagnostics summary{cursor:pointer}
+.country-diagnostics li{overflow-wrap:anywhere;margin:5px 0}
+.country-actions{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.country-note-label{display:grid!important;gap:6px;margin:12px 0}
+.country-note-label textarea{width:100%;box-sizing:border-box;min-height:72px;resize:vertical;padding:10px;border-radius:7px;border:1px solid var(--line);background:var(--panel2);color:var(--text);font:inherit}
+.country-links,.country-related{overflow-wrap:anywhere}
+@media(max-width:540px){.country-facts{grid-template-columns:1fr}.country-facts dt{margin-top:8px}}

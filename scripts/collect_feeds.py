@@ -304,7 +304,7 @@ def fetch_publisher_xml(source, primary):
             return raw, candidate
         except Exception as exc:
             failures.append(f'{candidate}: {str(exc)[:85]}')
-    raise ValueError('Publisher RSS unavailable after '+str(len(candidates))+' endpoints; '+ '; '.join(failures)[:260])
+    raise ValueError('Publisher RSS unavailable after '+str(len(candidates))+' endpoints (publisher may block automated requests); '+ '; '.join(failures)[:140])
 
 def un_middle_east_fallback(raw, seen):
     """Use only region-relevant items from the UN global feed when regional RSS fails."""

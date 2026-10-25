@@ -51,16 +51,18 @@ def merge(existing,patch):
 # The remainder rotates daily, keeping one Wikidata request per run.
 PRIORITY_CODES=('SY','GB','FJ','JO','IL','PS','LB','IQ','IR','SA','AE','QA','KW','BH','OM','YE','EG','TR','US','RU','CN','IN','UA')
 def choose_wikidata_batch(countries, today, size=15):
+ """Prioritise incomplete high-interest profiles while rotating worldwide coverage."""
  codes=sorted({r.get('code') for r in countries.values() if len(r.get('code') or '')==2})
  by_code={r.get('code'):r for r in countries.values() if r.get('code')}
- # One priority slot rotates every day; 14 slots provide worldwide coverage.
  priority=[c for c in PRIORITY_CODES if c in codes]
  day=datetime.date.fromisoformat(today).toordinal()
- selected=[priority[day%len(priority)]] if priority else []
+ # Six rotating priority slots, nine worldwide slots; revisit missing records first.
+ missing=sorted(priority,key=lambda c:(bool(by_code[c].get('headOfState') or by_code[c].get('headOfGovernment')),c))
+ pstart=(day*6)%len(missing) if missing else 0
+ selected=(missing[pstart:]+missing[:pstart])[:min(6,size)]
  remaining=[c for c in codes if c not in selected]
- start=(day*(size-1))%len(remaining) if remaining else 0
- selected += (remaining[start:]+remaining[:start])[:size-len(selected)]
- return selected
+ start=(day*(size-len(selected)))%len(remaining) if remaining else 0
+ return selected+(remaining[start:]+remaining[:start])[:size-len(selected)]
 
 def wikidata_once(codes):
  # Only one request per run. Respect 429 and never retry immediately.
@@ -68,8 +70,8 @@ def wikidata_once(codes):
  query="""SELECT ?code ?country ?stateLabel ?govLabel ?systemLabel WHERE {
  VALUES ?code { %s }
  ?country wdt:P297 ?code.
- OPTIONAL { ?country p:P35 ?s. ?s ps:P35 ?state. FILTER NOT EXISTS { ?s pq:P582 ?end. FILTER(?end < NOW()) } FILTER NOT EXISTS { ?s pq:P580 ?start. FILTER(?start > NOW()) } }
- OPTIONAL { ?country p:P6 ?g. ?g ps:P6 ?gov. FILTER NOT EXISTS { ?g pq:P582 ?end2. FILTER(?end2 < NOW()) } FILTER NOT EXISTS { ?g pq:P580 ?start2. FILTER(?start2 > NOW()) } }
+ OPTIONAL { ?country p:P35 ?s. ?s ps:P35 ?state. FILTER NOT EXISTS { ?s pq:P582 ?end. FILTER(?end <= NOW()) } FILTER NOT EXISTS { ?s pq:P580 ?start. FILTER(?start > NOW()) } }
+ OPTIONAL { ?country p:P6 ?g. ?g ps:P6 ?gov. FILTER NOT EXISTS { ?g pq:P582 ?end2. FILTER(?end2 <= NOW()) } FILTER NOT EXISTS { ?g pq:P580 ?start2. FILTER(?start2 > NOW()) } }
  OPTIONAL { ?country wdt:P122 ?system. }
  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }"""%values

@@ -1,3 +1,12 @@
+## v1.3.3 — Reliability and country intelligence (2026-10-25)
+
+- Country Profile layout now wraps long values and collapses provider diagnostics.
+- Added copyable country summaries and browser-local analyst notes (not synced).
+- Shows primary currency by default and clear leadership check status.
+- Improved rotating leadership collection to include six priority countries per run while retaining worldwide coverage.
+- Shortened UN publisher errors; previously collected UN News items remain preserved during upstream failures. Publisher HTTP 406 responses cannot be bypassed reliably by a static RSS client.
+- Population and GDP automation, map layers, podcasts, and local AI remain unchanged.
+
 ## v1.3.2 — Leadership coverage and concurrent updates
 
 - Daily Wikidata batch includes one rotating priority country (Middle East and major global countries) plus worldwide rotation; candidate names remain unverified.
