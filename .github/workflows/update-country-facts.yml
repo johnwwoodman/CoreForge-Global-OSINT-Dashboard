@@ -6,7 +6,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: country-data-refresh
+  group: country-data-refresh-${{ github.ref }}
   cancel-in-progress: false
 jobs:
   update:
@@ -26,7 +26,26 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/country-facts.json
-          if ! git diff --cached --quiet; then
-            git commit -m 'Refresh country intelligence snapshot'
-            git push
+          if git diff --cached --quiet; then
+            echo 'No country data changes'
+            exit 0
           fi
+          git commit -m 'Refresh country intelligence snapshot'
+          # Other workflows can push to main during collection. Rebase on
+          # their commits and retry rather than force-pushing or losing data.
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo 'Country snapshot conflicts with a concurrent update; leaving remote unchanged.' >&2
+              exit 1
+            fi
+            if git push origin HEAD:main; then
+              echo 'Country snapshot published'
+              exit 0
+            fi
+            echo "Concurrent push detected (attempt $attempt); retrying..."
+            sleep $((attempt * 3))
+          done
+          echo 'Could not publish after five attempts; remote data remains unchanged.' >&2
+          exit 1
