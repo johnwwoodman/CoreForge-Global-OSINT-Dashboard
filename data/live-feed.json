@@ -1,6 +1,26 @@
 {
-  "updated": "2026-10-25T18:55:57.795791Z",
+  "updated": "2026-10-25T19:04:16.202247Z",
   "records": [
+    {
+      "title": "Emirati diplomat who helped deliver aid to Gaza enters UN secretary general race",
+      "source": "The Guardian Middle East",
+      "description": "Lana Nusseibeh has Palestine’s endorsement but faces criticism over the UAE’s human rights record and alleged funding of the RSF in Sudan An Emirati diplomat who as UAE ambassador to the UN helped secure the delivery of humanitarian aid to Gaza has entered the race as a late contender to succeed António Guterres as the world body’s secretary general. Lana Nusseibeh, who is of Palestinian heritage, is widely noted for her advocacy of the Palestinian cause and the two state solution and has won th",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East",
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/25/lana-nusseibeh-emirati-diplomat-enters-un-secretary-general-race",
+      "published": "2026-10-25T19:00:10Z",
+      "lat": 31.5,
+      "lon": 34.47,
+      "place": "Gaza",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
     {
       "title": "Serbia votes as strongman Vučić faces grassroots challenge to 12-year rule – Europe live",
       "source": "The Guardian World",
@@ -12,7 +32,7 @@
       ],
       "kind": "news",
       "url": "https://www.theguardian.com/world/live/2026/oct/25/europe-serbia-elections-aleksander-vucic-student-list-protests-bulgaria-latest-news-updates",
-      "published": "2026-10-25T18:37:37Z"
+      "published": "2026-10-25T18:57:36Z"
     },
     {
       "title": "Venezuelan opposition leader María Machado returns after months in exile",
@@ -2940,7 +2960,7 @@
     },
     {
       "title": "Tied up and tortured: Israel using US-made electroshock weapons on Palestinian detainees",
-      "source": "The Guardian Middle East",
+      "source": "The Guardian Global Development",
       "description": "Investigation suggests American company Axon still supplies Israel with Taser weapons despite evidence they have been used to torture prisoners The soldiers drag the man into a section of the prison known as Hell’s Wing, a metaphor for its notoriety for acts of brutality. Shoving him violently into a corner, they take a step back before one of them draws his weapon and fires two rubber bullets at his body. The man, a double amputee, collapses to the floor. After tying him up tightly, the soldier",
       "category": "Defence",
       "region": "Middle East",
@@ -6475,12 +6495,12 @@
     },
     {
       "title": "Ebola outbreak: five big questions",
-      "source": "The Guardian Global Development",
+      "source": "The Guardian Global Development Analysis",
       "description": "On 23 August, it will be 100 days since the Bundibugyo strain was first reported. How did it became the DRC’s most deadly outbreak and what must be done to stop it becoming the world’s largest? Almost 100 days ago, Africa’s public health watchdog reported an outbreak of Ebola in the Democratic Republic of the Congo. There have now been almost 5,000 cases and more than 2,000 deaths since 15 May, making this Ebola outbreak the biggest and most deadly in the DRC’s history. Continue reading...",
       "category": "Humanitarian",
       "region": "all",
       "regions": [],
-      "kind": "news",
+      "kind": "research",
       "url": "https://www.theguardian.com/global-development/2026/aug/21/ebola-outbreak-five-big-questions",
       "published": "2026-08-21T09:02:22Z"
     },
@@ -9161,7 +9181,7 @@
   "content_counts": {
     "news": 395,
     "podcast": 192,
-    "research": 16
+    "research": 17
   },
   "podcast_sources": [
     {
