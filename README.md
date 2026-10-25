@@ -163,3 +163,10 @@ not proof that the dedicated regional endpoint is reliably accessible.
 - Country facts remain clearly marked as approximate; political officeholders require current verification.
 - UN News collector now reports failures without falsely marking feeds healthy and preserves previously collected genuine UN News articles when available (not labelled as fresh).
 - UN News RSS availability remains dependent on publisher access from GitHub Actions.
+
+### v1.4.0 — Worldwide political leadership collection (25 October 2026)
+- New `scripts/update_leadership.py` enriches country profiles with head-of-state and head-of-government candidates using Wikipedia country-to-Wikidata mappings and batched Wikidata entity claims. It avoids the previously rate-limited SPARQL service.
+- Daily refresh prioritises Middle East countries, the UK, US and other high-interest countries; other countries rotate through subsequent runs. Coverage is reported in the country profile. Names remain explicitly **unverified** until independently corroborated.
+- The collector only accepts unambiguous current claims based on recorded start/end qualifiers, and retains cached data when a provider fails. Incomplete Wikidata claims can still leave countries without names; coverage is not guaranteed.
+- REST Countries parser handles structured JSON error envelopes without treating them as country records. The legacy v3 endpoint is deprecated; when it fails, previously cached geographic facts remain.
+- The local Windows bundle contains a snapshot and does not automatically inherit new GitHub Actions results. For latest leadership, use the GitHub Pages edition after the daily workflow completes.

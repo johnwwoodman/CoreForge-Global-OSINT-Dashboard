@@ -21,7 +21,9 @@ def rest_countries():
  for url in REST_URLS:
   try:
    result=get(url)
-   if not isinstance(result,list):raise ValueError('Expected a list, received '+type(result).__name__)
+   if isinstance(result,dict):
+    result=result.get('data',{}).get('objects',[]) if isinstance(result.get('data'),dict) else result.get('data',[])
+   if not isinstance(result,list):raise ValueError('Unexpected response shape; cached data retained')
    rows=[r for r in result if valid_country(r)]
    if len(rows)<50:raise ValueError('Only '+str(len(rows))+' valid records')
    return rows
@@ -125,18 +127,7 @@ def main():
    if not count:raise ValueError('No matching ISO3 codes in '+str(len(values))+' World Bank records')
    success.append('World Bank '+indicator+' ('+str(count)+')')
   except Exception as e:errors.append('World Bank '+indicator+': '+str(e)[:220])
- # One query per day, prioritising high-interest countries while rotating globally.
- batch=choose_wikidata_batch(countries,TODAY)
- if batch:
-  try:
-   result=wikidata_once(batch)
-   for rec in countries.values():
-    patch=result.get(rec.get('code'))
-    if patch:merge(rec,patch)
-   success.append('Wikidata ('+str(len(result))+' candidates; '+','.join(batch)+')')
-  except urllib.error.HTTPError as e:
-   errors.append('Wikidata: HTTP '+str(e.code)+'; skipped further requests (rate limit/outage)')
-  except Exception as e:errors.append('Wikidata: '+str(e)[:220])
+ # Leadership enrichment runs independently via scripts/update_leadership.py.
  if not success:
   print('All providers failed; retaining last valid snapshot',file=sys.stderr)
   for err in errors:print(err,file=sys.stderr)
