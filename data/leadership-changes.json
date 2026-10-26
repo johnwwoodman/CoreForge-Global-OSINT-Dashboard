@@ -1,5 +1,15 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "description": "Changes in collected candidate data; not independently confirmed political transitions.",
-  "changes": []
+  "changes": [
+    {
+      "code": "GR",
+      "country": "Greece",
+      "field": "headOfGovernment",
+      "previous": "9811205000",
+      "current": "Kyriakos Mitsotakis",
+      "detected": "2026-10-26",
+      "verification": "Unverified source-data change"
+    }
+  ]
 }
