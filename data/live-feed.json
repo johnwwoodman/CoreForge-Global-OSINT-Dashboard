@@ -1,6 +1,359 @@
 {
-  "updated": "2026-10-28T20:15:32.737772Z",
+  "updated": "2026-10-29T00:54:50.434020Z",
   "records": [
+    {
+      "title": "Australian politics live: Labor says ATO could have handled credit card ban better; man cautioned for allegedly stalking MPs",
+      "source": "The Guardian World",
+      "description": "Follow the day’s news live Get our breaking news email , free app or daily news podcast Gas reservation policy set for lower house vote today Australia’s domestic gas reservation is set to be debated and voted on in the lower house today. Rather than international base companies, determining through algorithms what Australians receive, it empowers people themselves to determine what you receive on your devices, so that you should have that control. This isn’t about government having a greater ro",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/australia-news/live/2026/oct/29/labor-treasurer-jim-chalmers-social-media-anthony-albanese-coalition-one-nation-ntwnfb",
+      "published": "2026-10-29T00:46:25Z"
+    },
+    {
+      "title": "Microsoft posts $36.6bn profit after offering buyouts to one in four workers",
+      "source": "BBC Business",
+      "description": "The week, the Windows developer said it would offer buyouts to 60,000 workers as it looks to curb costs.",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c6m24klyjr8no?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-29T00:36:12Z"
+    },
+    {
+      "title": "Australian SAS officers knew about unlawful ‘throwdowns’ on dead Afghans, report says",
+      "source": "The Guardian World",
+      "description": "Nothing done to stop planting weapons on dead Afghans, ADF inspector says, as ‘breakdown of command’ allowed ‘egregious behaviour’ Get our daily political email , free app or daily news podcast Some Australian SAS officers knew that soldiers under their command were using “throwdowns” – planting weapons on dead Afghan civilians to portray them as combatants – but did nothing to stop the unlawful practice, a previously unpublished military report has said. Posted online this week, the executive s",
+      "category": "Defence",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/29/australian-sas-officers-knew-about-unlawful-throwdowns-on-dead-afghans-report-says-ntwnfb",
+      "published": "2026-10-29T00:30:25Z"
+    },
+    {
+      "title": "Netanyahu bloc loses majority as most ballots counted – as it happened",
+      "source": "The Guardian World",
+      "description": "This live blog is now closed – you can read the latest elections news here One apparent loser from Tuesday’s election was far-right national security minister Itamar Ben-Gvir, who was expected to better his party’s result of six seats from the 2022 elections. But instead there was stunned silence at the watch party for Otzma Yehudit (Jewish Power) in central Israel as results from the exit polls flashed across the screen, with most channels suggesting the party would remain on just six seats. Co",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/live/2026/oct/28/israel-election-results-live-updates-exit-polls-netanyahu-likud-eisenkot-latest-news",
+      "published": "2026-10-29T00:24:12Z"
+    },
+    {
+      "title": "I earn £30,000. I'm angry there was no fuel duty cut in the Budget",
+      "source": "BBC Business",
+      "description": "People on a range of incomes from £4,062 to £150,000 a year tell the BBC what they made of this year's Budget.",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-29T00:00:25Z"
+    },
+    {
+      "title": "'I live with a ghost': Japan's haunted homes attract bargain hunters",
+      "source": "BBC Business",
+      "description": "Properties where someone has died in tragic circumstances can have big reductions in price.",
+      "category": "Economics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cqwy78elyrlzo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-29T00:00:15Z",
+      "lat": 36.2,
+      "lon": 138.25,
+      "place": "Japan",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+      "source": "BBC World",
+      "description": "The defeated Brazilian candidate claims to be the victim of a coup d’état and political persecution, recycling unsubstantiated allegations of “electoral fraud”.",
+      "category": "Geopolitics",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-28T23:21:48Z",
+      "lat": -14.24,
+      "lon": -51.93,
+      "place": "Brazil",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Menindee Lakes water levels drop to lowest in five years as experts warn of mass fish deaths",
+      "source": "The Guardian World",
+      "description": "NSW government imposes water restrictions after Menindee water volumes fall below 2021 levels Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here Water levels at the Menindee Lakes in western New South Wales have fallen to their lowest point in five years, prompting the state government to impose upstream water use restrictions as experts warn of potential mass fish deaths over summer. Combined volume at the Menindee Lakes fell below 480 gigalitres earlier thi",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/28/menindee-lakes-water-levels-drop-mass-fish-death-fears",
+      "published": "2026-10-28T23:15:36Z"
+    },
+    {
+      "title": "Details of thousands of US immigration agents leaked in major hack",
+      "source": "BBC Americas",
+      "description": "A group called the Department of Peace released information on more than 41,000 DHS staff.",
+      "category": "Cyber",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cq8jzkpjr28vo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-28T23:11:00Z"
+    },
+    {
+      "title": "Record-breaking high tides spark chaos – and kayak commutes – across California",
+      "source": "The Guardian Environment",
+      "description": "Seawater surges into low-lying communities from San Diego to San Francisco Bay Area, submerging streets, homes and businesses Historic high tides have caused chaos up and down the California coast this week, as parts of the state were inundated by record-breaking water levels. Seawater surged into low-lying communities from San Diego to the San Francisco Bay Area, submerging streets, flooding homes and businesses, and jamming important transportation corridors and train routes. Kayakers and padd",
+      "category": "Disasters",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/us-news/2026/oct/28/california-extreme-weather-high-tides",
+      "published": "2026-10-28T22:22:39Z"
+    },
+    {
+      "title": "Girl seriously injured in wolf attack at German wildlife park",
+      "source": "BBC World",
+      "description": "The eight-year-old was in an enclosure with other children and a staff member when she was attacked.",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c678prm55gzzo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-28T22:08:52Z"
+    },
+    {
+      "title": "Flávio Bolsonaro calls himself the ‘leader of Brazil’ after fleeing to Miami",
+      "source": "The Guardian World",
+      "description": "Far-right senator and family land in US after crossing from Brazil into Argentina and then flying via Ecuador Flávio Bolsonaro declared himself the “true president” of Brazil after losing last Sunday’s presidential election and fleeing to the United States. After landing on a private jet with his family in Miami, Florida , on Wednesday morning, the far-right senator published the claim in a letter – even though his own party has recognised the legitimate victory of Luiz Inácio Lula da Silva , as",
+      "category": "Geopolitics",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat",
+      "published": "2026-10-28T22:06:46Z",
+      "lat": -14.24,
+      "lon": -51.93,
+      "place": "Brazil",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "New book makes fiery claims about Jared Kushner’s finances in Trump’s first term",
+      "source": "The Guardian World",
+      "description": "Kushner threatens to sue, denying allegations that two slush funds were set up to influence his Middle East role A new book containing incendiary claims about Jared Kushner ’s financial dealings during Donald Trump ’s first term has ignited a political and media firestorm. The book by author Matthew Cole is called Princes and Thieves: Jared Kushner and Mohamed bin Zayed’s Secret Plot to Remake the Middle East and was released in the US this week. An excerpt was published by Vanity Fair last Thur",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/us-news/2026/oct/28/jared-kushner-book-claims",
+      "published": "2026-10-28T21:56:39Z"
+    },
+    {
+      "title": "High-speed train crash kills at least 68 people in Spain",
+      "source": "BBC World",
+      "description": "The crash, between a moving train and another that was stopped further up the track, was caused by an \"inexplicable\" error, the transport minister said.",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-28T21:38:54Z"
+    },
+    {
+      "title": "EU backs away from offer to Canada to start ‘associate member’ talks",
+      "source": "The Guardian World",
+      "description": "Watered-down version of statement to be issued at end of Montreal summit instead offers ‘ever closer association’ The EU has backed away from its offer to Canada to start talks on becoming an “associate member” after disagreements between members states just as an EU-Canada summit was set to begin in Montreal. A draft of a joint statement to be issued after the end of the summit, which runs Thursday and Friday, showed a watered-down version offering “an ever closer association of Canada to the E",
+      "category": "Geopolitics",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/28/european-union-canada",
+      "published": "2026-10-28T21:27:33Z",
+      "lat": 56.13,
+      "lon": -106.35,
+      "place": "Canada",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Bloodied, dazed and angry - how passengers' rail journey turned to disaster in Spain",
+      "source": "BBC World",
+      "description": "Survivors of the train crash in Spain have spoken of their shock, panic and anger at the accident in Toledo province on Wednesday.",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cm9qzd47ng98o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-28T21:24:41Z"
+    },
+    {
+      "title": "Death of US actress Hayden Panettiere ruled accidental, ending local police probe",
+      "source": "BBC World",
+      "description": "The Heroes and Nashville star died in August from the toxic effects of fentanyl, Xanax and several other drugs.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c6lylxjkkp0vo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-28T21:16:30Z"
+    },
+    {
+      "title": "‘Worldwide legacy’: almost $20m raised to protect majestic tract of land in far north Queensland",
+      "source": "The Guardian World",
+      "description": "Bush Heritage hopes to buy Wooroora station, which links wet sclerophyll forest and savanna woodland and is home to 12 endangered species Get our breaking news email , free app or daily news podcast A majestic tract of land in far north Queensland that links wet tropics and world heritage rainforest, and contains headwaters that flow to the Great Barrier Reef, could be bought and protected by Christmas, after a conservation group raised more than $19m in private donations to buy the cattle stati",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/29/worldwide-legacy-almost-20m-raised-to-protect-majestic-tract-of-land-in-far-north-queensland",
+      "published": "2026-10-28T21:06:14Z"
+    },
+    {
+      "title": "Death toll rises to 68 with dozens injured after high-speed train collision in Spain – as it happened",
+      "source": "The Guardian World",
+      "description": "Pedro Sánchez says the government will act with urgency to ‘clarify what has happened, why this tragedy occurred’ Full report from Spain At least 30 people are believed to have died after two high-speed trains collided in the province of Toledo in Spain, with concerns the death toll could be much higher. The number of people affected is expected to rise ( 10:46 ) , local authorities said, with growing concerns about a “major tragedy” ( 11:03 ). The affected trains are understood to be Iryo 7076 ",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/live/2026/oct/28/spain-train-crash-toledo-europe-latest-news-updates",
+      "published": "2026-10-28T20:53:55Z"
+    },
+    {
+      "title": "Israel's election deadlock is a sign of the country's deep divisions",
+      "source": "BBC World",
+      "description": "The election was a celebration of democracy in some ways - but it has left Israel with no clear path to a new government, writes James Landale.",
+      "category": "Geopolitics",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cqz0ve94ygpjo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-28T20:53:02Z",
+      "lat": 31.05,
+      "lon": 34.85,
+      "place": "Israel",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Watch: King dances in the streets of the Bahamas capital",
+      "source": "BBC World",
+      "description": "The monarch is in the Bahamas as part of a tour of the Caribbean during which he addressed the \"great suffering of the past\".",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/cm87zwe3ydp1o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-28T20:44:10Z"
+    },
+    {
+      "title": "Winner claims massive Canada lotto prize hours before expiration",
+      "source": "BBC Americas",
+      "description": "It's rare for such a large lottery jackpot to go unclaimed - this one is worth C$40m (£21.4m).",
+      "category": "Geopolitics",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cwvg039x08g2o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-28T20:35:01Z",
+      "lat": 56.13,
+      "lon": -106.35,
+      "place": "Canada",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Restaurants sceptical over 'garlic and gherkins' plan",
+      "source": "BBC Business",
+      "description": "Import tariffs on more than 100 items - including garlic, gherkins and plant-based milk - are being removed.",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cm74pvzzke91o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-28T20:31:39Z"
+    },
+    {
+      "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+      "source": "BBC World",
+      "description": "With 85% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
+      "category": "Geopolitics",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-28T20:24:39Z",
+      "lat": 31.05,
+      "lon": 34.85,
+      "place": "Israel",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "US ambassador suggests Trump could blame Canada if midterms don’t go his way",
+      "source": "The Guardian World",
+      "description": "Pete Hoekstra, controversial US ambassador to Canada, has also accused Canadian officials of interfering in US elections The US ambassador has suggested Canada could be blamed if Republicans perform poorly in next week’s midterm elections, the latest intervention from a controversial figure who has been accused of inflaming a bitter dispute that has angered and baffled residents of both countries. On Wednesday, CTV news reported that Pete Hoekstra told business leaders at a closed door meeting t",
+      "category": "Geopolitics",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/28/canada-ambassador-republicans-midterms",
+      "published": "2026-10-28T20:15:07Z",
+      "lat": 56.13,
+      "lon": -106.35,
+      "place": "Canada",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
     {
       "title": "What we now know about the UK economy in four charts",
       "source": "BBC Business",
@@ -11,38 +364,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c9x28350ly07o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-28T20:08:45Z"
-    },
-    {
-      "title": "Politics live: Chalmers calls social media a ‘business model for hate’; half of young Australians say US a ‘threat’",
-      "source": "The Guardian World",
-      "description": "Follow the day’s news live Get our breaking news email , free app or daily news podcast US increasingly seen as a ‘threat’ by Australians Australia’s immediate neighbours are trusted more than historic allies, according to a new survey AAP reports on, which shows the United States is increasingly considered a “threat”. That climate is no accident. Hate is monetised and weaponised by algorithmic rage-bait. Extremism is incentivised; nuance is penalised. The most available public figures are the m",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/australia-news/live/2026/oct/29/labor-treasurer-jim-chalmers-social-media-anthony-albanese-coalition-one-nation-ntwnfb",
-      "published": "2026-10-28T20:05:01Z"
-    },
-    {
-      "title": "Israel election results live: Netanyahu bloc loses majority as most ballots counted",
-      "source": "The Guardian World",
-      "description": "Opposition bloc and Netanyahu’s coalition predicted to fall short of 61 seats needed to form a government, while Palestinian parties set for big gains Full report: Coalition talks loom in Israel Analysis: Rise of Palestinian parties will redraw political landscape Israel election: what we know so far One apparent loser from Tuesday’s election was far-right national security minister Itamar Ben-Gvir, who was expected to better his party’s result of six seats from the 2022 elections. But instead t",
-      "category": "Geopolitics",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/live/2026/oct/28/israel-election-results-live-updates-exit-polls-netanyahu-likud-eisenkot-latest-news",
-      "published": "2026-10-28T20:03:20Z",
-      "lat": 31.05,
-      "lon": 34.85,
-      "place": "Israel",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "What the Budget offers for under 25s - and what it leaves out",
@@ -58,7 +379,7 @@
     {
       "title": "Coalition talks loom in Israel as Netanyahu and Eisenkot blocs set to fall short of majority",
       "source": "The Guardian World",
-      "description": "Projections show votes for Palestinian parties surged in a tight contest that drew highest turnout in decades Israel election – live updates Israel election: what we know so far Analysis: Rise of Palestinian parties in Knesset will redraw Israel’s political landscape Israel’s future hung in the balance on Wednesday as it became clear that Benjamin Netanyahu had lost his governing majority. His political fate now depends on whether opposition Jewish parties are prepared to forge a common front wi",
+      "description": "Projections show votes for Palestinian parties surged in a tight contest that drew highest turnout in decades Israel election: what we know so far Analysis: Rise of Palestinian parties in Knesset will redraw Israel’s political landscape Israel’s future hung in the balance on Wednesday as it became clear that Benjamin Netanyahu had lost his governing majority. His political fate now depends on whether opposition Jewish parties are prepared to forge a common front with Palestinian parties, whose s",
       "category": "Geopolitics",
       "region": "Middle East",
       "regions": [
@@ -73,19 +394,6 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
-    },
-    {
-      "title": "Death toll rises to 68 with dozens injured after high-speed train collision in Spain – latest updates",
-      "source": "The Guardian World",
-      "description": "Pedro Sánchez says the government will act with urgency to ‘clarify what has happened, why this tragedy occurred’ Full report from Spain At least 30 people are believed to have died after two high-speed trains collided in the province of Toledo in Spain, with concerns the death toll could be much higher. The number of people affected is expected to rise ( 10:46 ) , local authorities said, with growing concerns about a “major tragedy” ( 11:03 ). The affected trains are understood to be Iryo 7076 ",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/live/2026/oct/28/spain-train-crash-toledo-europe-latest-news-updates",
-      "published": "2026-10-28T19:56:51Z"
     },
     {
       "title": "Dharshini David: Healey buys himself some time, but big questions still unanswered",
@@ -106,6 +414,19 @@
       "location_precision": "country-centroid",
       "location_method": "description-lead-keyword",
       "location_verified": false
+    },
+    {
+      "title": "US central bank holds interest rates steady ahead of midterm elections – here's what that means",
+      "source": "BBC Americas",
+      "description": "The Federal Reserve's interest rate decisions affect everything from mortgages to car loans",
+      "category": "Economics",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-28T19:42:42Z"
     },
     {
       "title": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
@@ -153,7 +474,7 @@
     {
       "title": "Israel’s choice: Netanyahu remaining in power or a Palestinian-backed coalition",
       "source": "The Guardian World",
-      "description": "Incumbent could turn defeat into another term in office as rival parties erect confected barrier to unseating him Israel election results – live updates Full report: Coalition talks loom in Israel Analysis: Rise of Palestinian parties will redraw political landscape Hours before the final results from Israel’s elections were in, several things were clear. Benjamin Netanyahu’s far-right coalition had lost its mandate, and the opposition had a firm majority. But most of Israel ’s Jewish opposition",
+      "description": "Incumbent could turn defeat into another term in office as rival parties erect confected barrier to unseating him Full report: Coalition talks loom in Israel Analysis: Rise of Palestinian parties will redraw political landscape Hours before the final results from Israel’s elections were in, several things were clear. Benjamin Netanyahu’s far-right coalition had lost its mandate, and the opposition had a firm majority. But most of Israel ’s Jewish opposition ruled out governing with Palestinian-l",
       "category": "Geopolitics",
       "region": "Middle East",
       "regions": [
@@ -213,25 +534,6 @@
       "published": "2026-10-28T18:45:09Z"
     },
     {
-      "title": "Flávio Bolsonaro lands in Miami after defeat in Brazil's presidential election",
-      "source": "BBC World",
-      "description": "His arrival in the US ends speculation about his whereabouts after he failed to comply with an order to surrender his passports.",
-      "category": "Geopolitics",
-      "region": "Americas",
-      "regions": [
-        "Americas"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-28T18:42:45Z",
-      "lat": -14.24,
-      "lon": -51.93,
-      "place": "Brazil",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "Three ways the Budget affects you",
       "source": "BBC Business",
       "description": "The BBC's Esyllt Carr explains how the chancellor's spending plans impact young people.",
@@ -280,7 +582,7 @@
     {
       "title": "‘It all happened in a split-second’: survivors recount details of deadly train crash in Spain",
       "source": "The Guardian World",
-      "description": "Passengers describe carriages full of seriously injured people after crash that has claimed at least 68 lives At least 68 killed in Toledo train crash – full report Europe live – latest updates Josimar Medina woke a little before 9am on Wednesday to find himself airborne and hurtling through his carriage on the fast train from Madrid to Seville. “I remember flying through the air and looking for my girlfriend, who was also shooting through the air,” said Medina, a 37-year-old tourist from the no",
+      "description": "Passengers describe carriages full of seriously injured people after crash that has claimed at least 68 lives At least 68 killed in Toledo train crash – full report Josimar Medina woke a little before 9am on Wednesday to find himself airborne and hurtling through his carriage on the fast train from Madrid to Seville. “I remember flying through the air and looking for my girlfriend, who was also shooting through the air,” said Medina, a 37-year-old tourist from the northern Peruvian city of Chicl",
       "category": "Geopolitics",
       "region": "Europe",
       "regions": [
@@ -315,64 +617,14 @@
       "published": "2026-10-28T17:34:41Z"
     },
     {
-      "title": "Bloodied, dazed and angry - how passengers' rail journey turned to disaster in Spain",
-      "source": "BBC Europe",
-      "description": "Survivors of the train crash in Spain have spoken of their shock, panic and anger at the accident in Toledo province on Wednesday.",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cm9qzd47ng98o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-28T17:16:03Z"
-    },
-    {
-      "title": "Clock ticks down for Canada lotto winner to claim massive prize",
-      "source": "BBC Americas",
-      "description": "It's rare for such a large lottery jackpot to go unclaimed - this one is worth C$40m (£21.4m).",
-      "category": "Geopolitics",
-      "region": "Americas",
-      "regions": [
-        "Americas"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cwvg039x08g2o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-28T17:05:44Z",
-      "lat": 56.13,
-      "lon": -106.35,
-      "place": "Canada",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
-      "source": "BBC World",
-      "description": "With 85% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
-      "category": "Geopolitics",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-28T16:59:47Z",
-      "lat": 31.05,
-      "lon": 34.85,
-      "place": "Israel",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "Second fatal train collision this year casts doubt over Spain’s high-speed rail network",
       "source": "The Guardian World",
-      "description": "Questions were raised before Toledo crash over rail safety in a country where train travel has surged by 40% Deadly Spanish rail collision – latest updates Spain’s high-speed rail network, the most extensive in Europe and the second largest in the world after China, has long been a point of pride in the country. But Wednesday’s deadly crash – the second in nine months – has recast the spotlight on questions about safety. Officials said at least 68 people were killed on Wednesday morning after a ",
+      "description": "Questions were raised before Toledo crash over rail safety in a country where train travel has surged by 40% Spain’s high-speed rail network, the most extensive in Europe and the second largest in the world after China, has long been a point of pride in the country. But Wednesday’s deadly crash – the second in nine months – has recast the spotlight on questions about safety. Officials said at least 68 people were killed on Wednesday morning after a high-speed train slammed into another that had ",
       "category": "Geopolitics",
       "region": "Europe",
       "regions": [
-        "Europe"
+        "Europe",
+        "Asia-Pacific"
       ],
       "kind": "news",
       "url": "https://www.theguardian.com/world/2026/oct/28/analysis-fatal-collision-doubt-over-spain-high-speed-rail",
@@ -460,7 +712,7 @@
     {
       "title": "Spain’s Sánchez declares three days of mourning after at least 68 killed in Toledo train crash",
       "source": "The Guardian Europe",
-      "description": "High-speed service travelling from Madrid to Seville ran into back of another, knocking two carriages off track Spain train crash – latest updates The Spanish prime minister has declared three days of mourning after at least 68 people were killed and dozens more injured in a collision between two high-speed trains in central Spain. The trains were travelling in the same direction on the line that stretches from the Spanish capital, Madrid, to Seville on Wednesday when one of the trains ran into ",
+      "description": "High-speed service travelling from Madrid to Seville ran into back of another, knocking two carriages off track The Spanish prime minister has declared three days of mourning after at least 68 people were killed and dozens more injured in a collision between two high-speed trains that officials suggested was caused by an “inexplicable” error at the central command centre. The trains, one from Spain’s state-owned Renfe and the other from the private rail company Iryo, were travelling on Wednesday",
       "category": "Geopolitics",
       "region": "Europe",
       "regions": [
@@ -542,7 +794,7 @@
     },
     {
       "title": "Israel election: what we know so far",
-      "source": "The Guardian World",
+      "source": "The Guardian Middle East",
       "description": "With nearly all votes counted, Netanyahu’s coalition government has lost its majority, but main opponents also fail to gain outright majority; marked gains by Palestinian parties Israel election – live updates Full report: Coalition talks loom in Israel Analysis: Rise of Palestinian parties will redraw political landscape With almost all votes counted, Benjamin Netanyahu’s coalition government has lost its majority, but his main opponents, an alliance of Jewish Israeli parties unofficially led b",
       "category": "Geopolitics",
       "region": "Middle East",
@@ -631,7 +883,7 @@
     {
       "title": "Trump says government to ‘terminate’ Biden-era methane emissions rules",
       "source": "The Guardian Environment",
-      "description": "Critics warn of climate danger as president in Texas claims change will save companies and consumers billions Donald Trump said his administration is “terminating” Biden-era regulations holding oil and gas companies accountable for large leaks of planet-warming methane during a rally in Lubbock, Texas, on Tuesday evening. “Tonight, I’m officially terminating Biden’s expensive and unnecessary methane regulations to save consumers and energy producers,” Trump said, lifting what he called “cripplin",
+      "description": "Critics warn of climate danger as president in Texas claims change will save companies and consumers billions Donald Trump said his administration was “terminating” Biden-era regulations holding oil and gas companies accountable for large leaks of planet-warming methane during a rally in Lubbock, Texas, on Tuesday evening. “Tonight, I’m officially terminating Biden’s expensive and unnecessary methane regulations to save consumers and energy producers,” Trump said, lifting what he called “crippli",
       "category": "Disasters",
       "region": "all",
       "regions": [],
@@ -691,49 +943,6 @@
       "published": "2026-10-28T14:07:21Z"
     },
     {
-      "title": "Menindee Lakes water levels drop to lowest in five years as experts warn of mass fish deaths",
-      "source": "The Guardian World",
-      "description": "NSW government imposes water restrictions after Menindee water volumes fall below 2021 levels Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here Water levels at Menindee Lakes in western New South Wales have fallen to their lowest point in five years, prompting the state government to impose upstream water use restrictions as experts warn of potential mass fish deaths over summer. Combined volume at Menindee Lakes fell below 480 gigalitres earlier this month,",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/28/menindee-lakes-water-levels-drop-mass-fish-death-fears",
-      "published": "2026-10-28T14:00:07Z"
-    },
-    {
-      "title": "How students rocked Serbia’s parliamentary election – video explainer",
-      "source": "The Guardian Europe",
-      "description": "The long-serving leader of Serbia, Aleksandar Vučić, has conceded defeat, ushering in a seismic political shift after a historic election that pitted ​the increasingly authoritarian leader against a student-led movement that had spent two years protesting against his government. As news broke that Vučić’s 12 years in power had come to an end, celebrations erupted on the streets of Belgrade and other cities. But how did we get here - and what happens now? The Guardian's Europe live correspondent,",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/video/2026/oct/28/how-students-rocked-serbias-presidential-election-video-explainer",
-      "published": "2026-10-28T13:41:10Z"
-    },
-    {
-      "title": "Flávio Bolsonaro lands in Miami after Brazil election loss",
-      "source": "The Guardian World",
-      "description": "Far-right senator and family land in US after crossing from Brazil into Argentina and then flying via Ecuador A private jet carrying the Brazilian far-right senator Flávio Bolsonaro has landed in Miami, Florida, where the losing candidate in Sunday’s presidential election runoff left the airport under police escort without speaking to the press. After losing Sunday’s election to the incumbent president, Luiz Inácio Lula da Silva , Bolsonaro disappeared for more than 24 hours, until Argentina’s m",
-      "category": "Geopolitics",
-      "region": "Americas",
-      "regions": [
-        "Americas"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat",
-      "published": "2026-10-28T13:39:01Z",
-      "lat": -14.24,
-      "lon": -51.93,
-      "place": "Brazil",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "Mark Carney is celebrated abroad – while consolidating power at home | Shiri Pasternak",
       "source": "The Guardian Environment",
       "description": "The Canadian prime minister’s reckoning with Trumpism in Davos clashes with his attacks on environmental, Indigenous and labour rights The Canadian prime minister is a hero around the world for his Davos speech that reckoned with a reconfiguration of power in the shadow of Donald Trump. But at home, Mark Carney is mirroring the US president by radically centralizing power within his office and cabinet and taking a hatchet to dozens of laws protecting environmental , Indigenous and labour rights ",
@@ -747,9 +956,9 @@
       "published": "2026-10-28T13:00:04Z"
     },
     {
-      "title": "Australia must recruit hundreds more to crew Aukus submarines, retired admiral warns",
+      "title": "‘Don’t be stinky’: recruitment a ‘huge issue’ facing Aukus submarine program",
       "source": "The Guardian World",
-      "description": "As USS Colorado showcases the program in Perth, Peter Briggs says personnel is just one of the ‘huge issues’ it faces Get our breaking news email , free app or daily news podcast Australia faces an uphill battle to recruit and train enough naval personnel to serve on submarines planned for the future fleet of nuclear-powered vessels under the controversial $368bn Aukus deal , a retired admiral has warned. As the Virginia-class submarine USS Colorado arrived at HMAS Stirling south of Perth on Tue",
+      "description": "As USS Colorado showcases the program in Perth, retired admiral Peter Briggs says personnel is one of the ‘huge issues’ it faces Follow our Australia politics live blog for latest updates Get our breaking news email , free app or daily news podcast Australia faces an uphill battle to recruit and train enough naval personnel to serve on submarines planned for the future fleet of nuclear-powered vessels under the controversial $368bn Aukus deal , a retired admiral has warned. As the Virginia-class",
       "category": "Geopolitics",
       "region": "Asia-Pacific",
       "regions": [
@@ -780,6 +989,49 @@
       "kind": "news",
       "url": "https://www.theguardian.com/global-development/2026/oct/28/i-am-mother-leader-warrior-of-the-amazon-nemonte-nenquimo-on-why-the-west-needs-to-be-rescued",
       "published": "2026-10-28T12:00:03Z"
+    },
+    {
+      "title": "Civilians in Sudan’s El Obeid trapped between drones and incarceration",
+      "source": "UN News",
+      "description": "Civilians in Sudan’s El Obeid live in constant fear of drone attacks by the Rapid Support Forces (RSF) and of a wave of arbitrary arrests by the Sudanese Armed Forces (SAF), UN-appointed independent investigators said on Wednesday.",
+      "category": "Defence",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168696",
+      "published": "2026-10-28T12:00:00Z",
+      "lat": 12.86,
+      "lon": 30.22,
+      "place": "Sudan",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "UN human rights chief urges better protection of civilians in conflicts",
+      "source": "UN News",
+      "description": "Youth-led protests against corruption and inequality in Serbia, Bangladesh, Nepal and Madagascar reflect a growing demand for reinforcing human rights around the world, UN human rights chief Volker Türk said at a press briefing on Wednesday.",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168695",
+      "published": "2026-10-28T12:00:00Z"
+    },
+    {
+      "title": "Backing for UN call to end Cuba embargo falls to 20-year low",
+      "source": "UN News",
+      "description": "The UN General Assembly on Wednesday called for the 34th time for an end to the US economic, commercial and financial embargo on Cuba – but with the weakest backing for the resolution in two decades.",
+      "category": "Humanitarian",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168694",
+      "published": "2026-10-28T12:00:00Z"
     },
     {
       "title": "Ending conflict is ‘number one thing’ to reduce world hunger, new WFP chief says",
@@ -864,11 +1116,13 @@
     },
     {
       "title": "Netanyahu and Eisenkot face difficult paths to power as neither set to win majority",
-      "source": "BBC World",
+      "source": "BBC Middle East",
       "description": "The two main blocs appear to have too few seats to form the next government without reliance on Arab parties.",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cjy561y4pl56o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-28T10:35:13Z"
@@ -1035,49 +1289,6 @@
       "published": "2026-10-28T06:49:03Z"
     },
     {
-      "title": "Flávio Bolsonaro flees Brazil after presidential election loss, reports say",
-      "source": "The Guardian World",
-      "description": "Far-right senator and his family boarded private plane to Ecuador after crossing border to Argentina, Argentina’s government confirms The far-right senator Flávio Bolsonaro has reportedly fled Brazil and is on his way to the United States after losing Sunday’s presidential election to the leftwing incumbent, Luiz Inácio Lula da Silva, who called the act “shameful”. A report by the news website Metrópoles , citing people close to the politician’s family, said he was en route to the US. “The plane",
-      "category": "Geopolitics",
-      "region": "Americas",
-      "regions": [
-        "Americas"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/27/flavio-bolsonaro-brazil-argentina-fled",
-      "published": "2026-10-28T06:36:14Z",
-      "lat": -14.24,
-      "lon": -51.93,
-      "place": "Brazil",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Coalition MP ejected from question time after swearing at PM – as it happened",
-      "source": "The Guardian World",
-      "description": "Get our breaking news email , free app or daily news podcast Online hate is spilling into the real world, AFP warns AFP Commissioner Krissy Barrett began her late-night appearance at the Senate estimates hearing noting “a heaviness that hangs across Australia” after the alleged attack on independent MP Helen Haines . Lone actors are being motivated by a convergence of personal grievances, mental health vulnerabilities and ideological concerns … What helped keep us safe in recent times, such as o",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/australia-news/live/2026/oct/28/inflation-abs-labor-anthony-albanese-parliament-greens-david-shoebridge-one-nation-ntwnfb",
-      "published": "2026-10-28T06:35:49Z"
-    },
-    {
-      "title": "Australia must ‘re-win the argument for democratic politics’ in wake of Haines incident, Alastair Campbell says",
-      "source": "The Guardian World",
-      "description": "Tony Blair’s former spokesperson says attacks on UK MPs did not bring about lasting cultural change and overheated rhetoric quickly returned to politics Get our breaking news email , free app or daily news podcast Tony Blair’s former communications guru, Alastair Campbell, says the UK political system was too quick to revert to overheated rhetoric and polarisation after attacks on MPs, urging politicians to “re-win the argument for democratic politics”. More than a week after independent MP Hele",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/28/australia-democratic-politics-argument-helen-haines-incident-alastair-campbell-ntwnfb",
-      "published": "2026-10-28T06:24:22Z"
-    },
-    {
       "title": "Sea of crimson: vivid ‘red beach’ transforms China’s wetlands and marshes – in pictures",
       "source": "The Guardian Environment",
       "description": "A striking transformation takes place along the coast of Qinqdao in autumn, when a native seepweed turns a brilliant shade of red. The ‘red beach’ phenemon can be seen in the salt marshes and wetlands on the coast of China’s Shandong province, where the Suaeda glauca plant matures and absorbs water, changing it from green to crimson between September and November Continue reading...",
@@ -1155,19 +1366,6 @@
       "location_precision": "country-centroid",
       "location_method": "description-lead-keyword",
       "location_verified": false
-    },
-    {
-      "title": "FBI raids California home tied to former Congressman Eric Swalwell - US media",
-      "source": "BBC Americas",
-      "description": "The California Democrat has faced multiple sexual misconduct allegations which he has denied.",
-      "category": "Geopolitics",
-      "region": "Americas",
-      "regions": [
-        "Americas"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cwvgrk0zx641o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-28T02:51:25Z"
     },
     {
       "title": "Alexander brothers each sentenced to 30 years in prison in sex trafficking case",
@@ -1286,19 +1484,6 @@
       "location_verified": false
     },
     {
-      "title": "Trump shows off tanker with ‘1m barrels of oil’ and floats Venezuela as 51st state",
-      "source": "The Guardian World",
-      "description": "President at Texas campaign rally hails deal struck with post-Maduro government as ‘greatest oil victory in history’ Donald Trump suggested Venezuela would become the 51st state of the United States on Tuesday as the president showed off a tanker he claimed had “one million barrels of oil on it” from the country, nine months after deposing its president. At a campaign rally in Corpus Christ, Texas, Trump touted a US oil deal with Venezuela, which the US attacked in January, capturing its long-se",
-      "category": "Geopolitics",
-      "region": "Americas",
-      "regions": [
-        "Americas"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/us-news/2026/oct/27/trump-oil-tanker-venezuela",
-      "published": "2026-10-27T23:07:06Z"
-    },
-    {
       "title": "Ceasefire extended across Ukraine's Kherson region, officials say",
       "source": "BBC World",
       "description": "The truce was originally planned for the stranded residents of Oleshky, and Russia and Ukraine say no breaches have been reported.",
@@ -1330,11 +1515,13 @@
     },
     {
       "title": "Trump says US voter fraud is 'rampant' - evidence suggests it is extremely rare",
-      "source": "BBC World",
+      "source": "BBC Americas",
       "description": "As the US president casts doubt on the security of the midterm elections, BBC Verify examines his claims.",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/ckeq3vezxlx1o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-27T21:46:43Z"
@@ -1492,19 +1679,6 @@
       "published": "2026-10-27T19:30:37Z"
     },
     {
-      "title": "Manhunt under way for Tennessee killer who escaped prison through a fence",
-      "source": "BBC Americas",
-      "description": "Morley was given a life sentence for the 2022 killing of his co-worker Cody Birchfield.",
-      "category": "Geopolitics",
-      "region": "Americas",
-      "regions": [
-        "Americas"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/c64g17jqy5ddo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-27T19:20:13Z"
-    },
-    {
       "title": "Is Ebola under control in Kenya after nine cases confirmed?",
       "source": "BBC Africa",
       "description": "Kenya has already released the first group of 20 people who came into contact with its first Ebola patient.",
@@ -1516,17 +1690,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c693z948px0jo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-27T19:19:10Z"
-    },
-    {
-      "title": "Rosebank oilfield would not breach UK emission targets, say government insiders",
-      "source": "The Guardian Environment",
-      "description": "Emissions from exported oil would not count against carbon budget, insiders say – reasoning likely to draw dismay from climate campaigners The giant Rosebank oilfield can be approved without breaching the UK’s emission targets, according to government insiders, in a boost to those in the cabinet who are pushing for it to be given the go-ahead. The Guardian revealed last week that Miatta Fahnbulleh, the energy secretary, was leaning towards rejecting the project , but her position has put her at ",
-      "category": "Disasters",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/environment/2026/oct/27/rosebank-oilfield-north-sea-uk-emissions-targets-insiders",
-      "published": "2026-10-27T19:17:55Z"
     },
     {
       "title": "Heavenly Creatures killer Pauline Parker dies in Orkney, aged 88",
@@ -1621,7 +1784,7 @@
     },
     {
       "title": "Watch: The Mbappé-Chairman Mao controversy explained",
-      "source": "BBC World",
+      "source": "BBC Asia",
       "description": "Kylian Mbappé has apologised for \"ill-judged\" comments he made about late Chinese leader Mao Zedong.",
       "category": "Geopolitics",
       "region": "Asia-Pacific",
@@ -2304,25 +2467,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cwn8d7g29vd9o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-26T19:57:23Z"
-    },
-    {
-      "title": "Netanyahu reportedly pressured military to attack Iran in run-up to election",
-      "source": "The Guardian Middle East",
-      "description": "Israeli prime minister increases alarmist rhetoric as his far-right coalition narrowly trails in polls Israel election – live updates Benjamin Netanyahu has resorted to increasingly alarmist rhetoric and reportedly put pressure on Israel’s military to take action against Iran as his far-right coalition narrowly trails in the polls ahead of Tuesday’s close-run elections. The Israeli prime minister posted an AI-generated image of a nuclear mushroom cloud destroying Tel Aviv, telling Israeli voters",
-      "category": "Defence",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/26/netanyahu-reportedly-pressured-israel-military-attack-iran-runup-to-election",
-      "published": "2026-10-26T19:21:36Z",
-      "lat": 32.43,
-      "lon": 53.69,
-      "place": "Iran",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "Middle East peace held back by US insistence that Iran is a threat, Oman’s foreign minister says",
@@ -3382,17 +3526,6 @@
       "published": "2026-10-23T12:01:20Z"
     },
     {
-      "title": "The US west has lost nearly 300 glaciers since the 1960s. Climate crisis is drastically shrinking what’s left",
-      "source": "The Guardian Environment",
-      "description": "At the midpoint of the last century the region had 1,450 glaciers and a new study reveals the extent of losses Continue reading...",
-      "category": "Disasters",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/environment/ng-interactive/2026/oct/23/glacier-loss-climate-crisis-west",
-      "published": "2026-10-23T12:00:26Z"
-    },
-    {
       "title": "'It's been relentless' say IT workers on frontline of PHP cyber-security scramble",
       "source": "BBC Technology",
       "description": "IT and cyber experts have told the BBC about their struggles in the last 48 hours to update their systems.",
@@ -3766,17 +3899,6 @@
       "published": "2026-10-22T19:18:11Z"
     },
     {
-      "title": "Zuckerberg wins Meta deal to help him foot bill for possible California billionaire tax",
-      "source": "BBC Technology",
-      "description": "The Meta boss had said he would exit the state over a wealth tax that has not yet come into force.",
-      "category": "Cyber",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cky83vwnyglno?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-22T18:26:56Z"
-    },
-    {
       "title": "Aga banned for fake prescription from family member",
       "source": "BBC Africa",
       "description": "Ruti Aga tried to explain a positive test for a banned substance with a fake prescription from a non-existent clinic.",
@@ -3801,17 +3923,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/videos/c9146p1vx888o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-22T17:49:13Z"
-    },
-    {
-      "title": "Race to update services' computer systems after cyber-security flaw found",
-      "source": "BBC Technology",
-      "description": "Websites were taken offline after the developers of programming language PHP said \"critical vulnerabilities\" had been discovered.",
-      "category": "Cyber",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-22T17:12:51Z"
     },
     {
       "title": "Who's Calling the Shots in Tehran?",
@@ -3896,45 +4007,6 @@
       "kind": "news",
       "url": "https://www.theguardian.com/global-development/2026/oct/22/have-scientists-finally-found-a-way-to-save-the-banana-from-disaster",
       "published": "2026-10-22T13:00:05Z"
-    },
-    {
-      "title": "World News in Brief: Russian attacks intensify, UN team tours West Bank, ‘unlawful’ elderly deaths",
-      "source": "UN News",
-      "description": "Long-range Russian attacks across Ukraine are intensifying, including in Kyiv, causing at least 14 civilian deaths and 78 injuries overnight into Thursday, as UN agencies continue to provide aid.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East",
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168648",
-      "published": "2026-10-22T12:00:00Z",
-      "lat": 50.45,
-      "lon": 30.52,
-      "place": "Kyiv",
-      "location_precision": "city-reference",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "First human case of Shamonda virus reported in France as patient dies",
-      "source": "UN News",
-      "description": "A patient in France has died after being infected with Shamonda virus, the first recorded human case of the disease.",
-      "category": "Humanitarian",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168652",
-      "published": "2026-10-22T12:00:00Z",
-      "lat": 46.6,
-      "lon": 2.21,
-      "place": "France",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "Blockades, checkpoints and court action: fending off Brazil’s biofuel giants in the Amazon",
@@ -5809,17 +5881,6 @@
       "published": "2026-09-28T08:00:28Z"
     },
     {
-      "title": "My hometown shows that high streets have to change or die",
-      "source": "BBC Business",
-      "description": "Aberdeen is launching an ambitious bid to revive its struggling centre. Could it offer lessons for other high streets?",
-      "category": "Economics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/crd689de186jo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-27T23:05:53Z"
-    },
-    {
       "title": "Tech Now",
       "source": "BBC Technology",
       "description": "Ammie Sekhon explores tech used to identify and remove counterfeit products online.",
@@ -5851,19 +5912,6 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
-    },
-    {
-      "title": "Europe's car makers are in crisis. Will the threat of war rescue them?",
-      "source": "BBC Business",
-      "description": "Auto executives across Europe hope rearmament can help them flex their industrial muscles once more.",
-      "category": "Economics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/c6vgyq598k9po?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-25T08:31:56Z"
     },
     {
       "title": "Old Rivals, New Alignments in North Africa",
@@ -6141,17 +6189,6 @@
       "published": "2026-09-10T00:32:42Z"
     },
     {
-      "title": "Aviation faces hotter, stormier skies – and passengers might have to accept more disruption",
-      "source": "BBC Business",
-      "description": "Are people going to have to increasingly accept more delays and diversions as the effects of climate change intensify?",
-      "category": "Economics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cm274p8m88lo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-05T23:20:00Z"
-    },
-    {
       "title": "What is the United Nations for?",
       "source": "Chatham House podcasts",
       "description": "The United Nations convenes for its 81st General Assembly next week amid turmoil around the world that it seeks to bring together. The conflicts in Iran, Ukraine and Gaza, and the US, China and Russia's undermining of the rules-based international order cast a shadow over UNGA. Can the organization renew itself for a dangerous multipolar world? Or is it doomed to the same fate as the League of Nations? Bronwen Maddox discusses the UN's present and future with Heather Hurlburt, associate fellow w",
@@ -6425,17 +6462,6 @@
       "audio_url": "https://traffic.libsyn.com/secure/middleeastinst/Middle_East_Focus_7.22.26_20260217T160513.002642_20260402T104122.002838_20260603T161046.615840_20260604T142209.247149_mixdown.mp3?dest-id=531685",
       "url": "https://middleeastinst.libsyn.com/food-security-in-a-hotter-drier-north-africa",
       "published": "2026-07-23T14:11:00Z"
-    },
-    {
-      "title": "Why the UK is dithering over what to do about e-scooters",
-      "source": "BBC Business",
-      "description": "Why is it taking so long for the government to regulate them, and what are the consequences of delay?",
-      "category": "Economics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cn4nvn9w00no?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-22T23:51:24Z"
     },
     {
       "title": "Maximum Pressure on Cuba, With Will Freeman",
@@ -8953,7 +8979,7 @@
   "classification_method": "keyword-heuristic",
   "location_method": "headline-or-lead-reference",
   "content_counts": {
-    "news": 377,
+    "news": 379,
     "podcast": 193,
     "research": 13
   },
@@ -8989,6 +9015,11 @@
       "episodes": 35
     }
   ],
-  "warnings": [],
+  "warnings": [
+    {
+      "source": "UN News",
+      "message": "Using alternate publisher-hosted RSS endpoint: https://news.un.org/feed/subscribe/en/news/all/rss.xml?output=rss"
+    }
+  ],
   "feed_health": "See errors for failed source names"
 }
