@@ -1,6 +1,107 @@
 {
-  "updated": "2026-10-30T17:59:55.817321Z",
+  "updated": "2026-10-30T22:17:19.332658Z",
   "records": [
+    {
+      "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
+      "source": "BBC World",
+      "description": "UK Foreign Secretary Ed Miliband confronted his Russian counterpart at the meeting and accused his government of killing innocent civilians in Ukraine.",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-30T22:11:52Z",
+      "lat": 48.38,
+      "lon": 31.17,
+      "place": "Ukraine",
+      "location_precision": "country-centroid",
+      "location_method": "description-lead-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Soaring cost of Halloween treats spooks shoppers",
+      "source": "BBC Americas",
+      "description": "The price of candy, especially chocolate, has soared, and Halloween bargain hunters are searching for deals and ways to cut costs.",
+      "category": "Geopolitics",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cr0qk25p1yeno?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-30T21:34:32Z"
+    },
+    {
+      "title": "Judge investigating whether Trump administration lied about golf course renovations",
+      "source": "BBC Americas",
+      "description": "A judge grilled Trump lawyers about what they knew of plans to close the golf course next month and said .",
+      "category": "Geopolitics",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmj6jpn8px28o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-30T21:19:23Z"
+    },
+    {
+      "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+      "source": "BBC World",
+      "description": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
+      "category": "Cyber",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-30T21:13:14Z"
+    },
+    {
+      "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
+      "source": "BBC World",
+      "description": "Dan S Sullivan, the incumbent Republican senator running for re-election, and allies have accused the Democrats of trying to confuse voters by recruiting Dan J Sullivan to also stand in the race.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-30T20:55:18Z"
+    },
+    {
+      "title": "Police deployed during stand-off over control of top Poland court",
+      "source": "BBC World",
+      "description": "The escalation came after the government suspended two senior justices and moved to bring criminal charges against them.",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-30T20:52:01Z"
+    },
+    {
+      "title": "They strangled us, says founder of Russian newspaper shut under pressure from authorities",
+      "source": "BBC World",
+      "description": "Novaya Gazeta has been one of the most high-profile independent news outlets in Russia over the last three decades.",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmewepdr109do?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-30T20:41:51Z",
+      "lat": 61.52,
+      "lon": 105.32,
+      "place": "Russia",
+      "location_precision": "country-centroid",
+      "location_method": "description-lead-keyword",
+      "location_verified": false
+    },
     {
       "title": "US tech stocks see sharp falls as AI spending nears $1tn",
       "source": "BBC World",
@@ -10,7 +111,57 @@
       "regions": [],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-30T17:47:01Z"
+      "published": "2026-10-30T20:34:46Z"
+    },
+    {
+      "title": "Canada and EU announce new alliance open to like-minded countries",
+      "source": "The Guardian World",
+      "description": "Alliance for the Future, unveiled at Montreal summit and open to other countries, conceived for world ‘shaken by new storms’ Canada and Europe have announced a new alliance of like-minded nations to serve as both a “protective canopy under which our citizens can thrive” and a powerful hedge against the unpredictable nature of geopolitics, while welcoming other countries to join. Speaking to reporters on Friday from Montreal, the prime minister, Mark Carney, and the European Commission president,",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe",
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance",
+      "published": "2026-10-30T19:42:15Z",
+      "lat": 56.13,
+      "lon": -106.35,
+      "place": "Canada",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "City of London chief tops UK Black Powerlist",
+      "source": "BBC Business",
+      "description": "Ian Thomas, who heads the City of London Corporation, tops the Black Powerlist in its 21st year.",
+      "category": "Economics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c98rz4pxm4ymo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-30T18:00:24Z",
+      "lat": 51.51,
+      "lon": -0.13,
+      "place": "London",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Twice as many plants and animals sold in wildlife trade as previously thought, says report",
+      "source": "The Guardian Environment",
+      "description": "More than 100,000 species are traded globally, whether illegally smuggled, sold as ornaments or in fisheries, timber and fashion industries, study finds The number of plant and animal species in use or sold in the wildlife trade is more than twice as high as previously thought, researchers have discovered. A study, published in Science Advances , warns that there are huge gaps in global assessments of how wildlife is traded, and that past estimates have failed to keep up with changes such as the",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/environment/2026/oct/30/twice-as-many-plants-and-animals-sold-in-wildlife-trade-as-previously-thought-says-report",
+      "published": "2026-10-30T18:00:19Z"
     },
     {
       "title": "'Nothing will change for us': Palestinians react to Israeli elections – video",
@@ -46,22 +197,9 @@
       "published": "2026-10-30T17:40:55Z"
     },
     {
-      "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
-      "source": "BBC World",
-      "description": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
-      "category": "Cyber",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-30T17:39:43Z"
-    },
-    {
       "title": "How crypto hacking funds isolated North Korea’s nuclear programme",
       "source": "The Guardian World",
-      "description": "Cryptocurrency theft is estimated to generate half of the country’s foreign currency income North Korea plays by its own rules. The isolated, secretive and autocratic country is largely cut off from the world’s economic system – but when it comes to generating foreign earnings it relies on some of the world’s most sophisticated hacking. Experts, such as TRM Group, quickly attributed the extraordinary $6.3bn (£4.7bn) Binance cryptocurrency theft to TraderTraitor, an elite North Korean hacking uni",
+      "description": "Cryptocurrency theft is estimated to generate half of the country’s foreign currency income North Korea plays by its own rules. The isolated, secretive and autocratic country is largely cut off from the world’s economic system – but when it comes to generating foreign earnings it relies on some of the world’s most sophisticated hacking. Experts, such as TRM Labs, quickly attributed the extraordinary $6.3bn (£4.7bn) Binance cryptocurrency theft to TraderTraitor, an elite North Korean hacking unit",
       "category": "Cyber",
       "region": "Asia-Pacific",
       "regions": [
@@ -72,22 +210,22 @@
       "published": "2026-10-30T17:37:46Z"
     },
     {
-      "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
-      "source": "BBC World",
-      "description": "European foreign ministers refused to be pictured with Sergei Lavrov at the summit being held in Atlanta.",
+      "title": "Why has Caf abandoned plans to hold Afcon every four years?",
+      "source": "BBC Africa",
+      "description": "The Africa Cup of Nations will remain on a two-year cycle after the Confederation of African Football performed a U-turn on a decision taken last December.",
       "category": "Geopolitics",
-      "region": "Europe",
+      "region": "Africa",
       "regions": [
-        "Europe"
+        "Africa"
       ],
       "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-30T17:25:20Z"
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm3el25ez88yo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-30T17:33:02Z"
     },
     {
       "title": "Evacuation of civilians begins in besieged Ukrainian city of Oleshky",
       "source": "The Guardian World",
-      "description": "Humanitarian convoy brings food and medicine to Russian-held city near Kherson where people have faced months of severe shortages People living in the besieged Russian-held city of Oleshky in southern Ukraine were evacuated on Friday as part of a joint relief operation, the first of its kind in four years and eight months of war. The city, which lies on the Russian-occupied side of the Dnipro River, opposite Kherson, has suffered months of serious food and medical shortages, leading to warnings ",
+      "description": "Humanitarian convoy brings food and medicine to Russian-held city where people have suffered severe shortages People living in the besieged Russian-held city of Oleshky in southern Ukraine were evacuated on Friday as part of a joint relief operation, the first of its kind in four years and eight months of war. The city, which lies on the Russian-occupied side of the Dnipro River, opposite Kherson, has suffered months of serious food and medical shortages, leading to warnings of starvation for th",
       "category": "Humanitarian",
       "region": "Europe",
       "regions": [
@@ -107,6 +245,20 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/ck62ydn7dj9eo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-30T17:07:19Z"
+    },
+    {
+      "title": "Cape Town set for classic finale – what does history suggest could happen?",
+      "source": "BBC Africa",
+      "description": "South Africa set up an epic final day of their decisive Test against Australia by batting throughout the fourth day. What does history suggest could happen?",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific",
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/c6n8dpvyyy71o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-30T17:03:40Z"
     },
     {
       "title": "Canada stops using 'avalanche dogs' for rescues in Rocky Mountains, stirring outrage",
@@ -173,7 +325,7 @@
     {
       "title": "Russian society being ‘systematically crushed’ says Novaya Gazeta as newspaper announces closure",
       "source": "The Guardian World",
-      "description": "Independent outlet, whose former editor Dmitry Muratov won Nobel prize, cites intolerable pressure from authorities Europe live – latest updates Novaya Gazeta, one of Russia’s best-known independent media outlets, has announced it will permanently close next month. The newspaper, whose former editor-in-chief Dmitry Muratov won the Nobel peace prize in 2021 , cited intolerable pressure, including being stripped of its newsroom, its donation platforms and its legal right to publish. “This is not j",
+      "description": "Independent outlet, whose former editor Dmitry Muratov won Nobel prize, cites intolerable pressure from authorities Novaya Gazeta, one of Russia’s best-known independent media outlets, has announced it will permanently close next month. The newspaper, whose former editor-in-chief Dmitry Muratov won the Nobel peace prize in 2021 , cited intolerable pressure, including being stripped of its newsroom, its donation platforms and its legal right to publish. “This is not just our own story; it is the ",
       "category": "Geopolitics",
       "region": "Europe",
       "regions": [
@@ -385,17 +537,6 @@
       "published": "2026-10-30T14:00:17Z"
     },
     {
-      "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
-      "source": "BBC World",
-      "description": "Dan S Sullivan, the incumbent Republican senator running for re-election, and allies have accused the Democrats of trying to confuse voters by recruiting Dan J Sullivan to also stand in the race.",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-30T13:46:16Z"
-    },
-    {
       "title": "Refugee athlete to make history for second time at Youth Olympics",
       "source": "BBC Africa",
       "description": "Yiech Pur Biel leads the first ever refugee team to take part at the Youth Olympics.",
@@ -411,7 +552,7 @@
     {
       "title": "Public sector an ‘afterthought’ to North Sea oil jobs, says Unison leader",
       "source": "The Guardian Environment",
-      "description": "Andrea Egan calls for same political focus on teachers, care sector and NHS and says Jackdaw decision ‘a serious misstep’ UK politics live – latest updates The leader of the UK’s biggest trade union has called for the same political focus to be given to NHS, education and care sector workers as there has been on those employed in North Sea oil and gas. Andrea Egan, the general secretary of Unison, said too often public sector workers were treated as an “afterthought” by the government compared w",
+      "description": "Andrea Egan calls for same political focus on teachers, care sector and NHS and says Jackdaw decision ‘a serious misstep’ The leader of the UK’s biggest trade union has called for the same political focus to be given to NHS, education and care sector workers as there has been on those employed in North Sea oil and gas. Andrea Egan, the general secretary of Unison, said too often public sector workers were treated as an “afterthought” by the government compared with the “massive political focus” ",
       "category": "Disasters",
       "region": "all",
       "regions": [],
@@ -578,6 +719,44 @@
       "location_verified": false
     },
     {
+      "title": "World News in Brief: 300,000 displaced in Lebanon, Türk ‘deeply concerned’ over Novaya Gazeta closure, $50 million refugee appeal, World Cities Day",
+      "source": "UN News",
+      "description": "More than 300,000 people displaced since early March remain internally displaced in Lebanon, where the humanitarian crisis is “far from over,” according to the UN’s aid coordination office (OCHA).",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168713",
+      "published": "2026-10-30T12:00:00Z",
+      "lat": 33.85,
+      "lon": 35.86,
+      "place": "Lebanon",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Ukraine: Oleshky ceasefire offers ‘hope’ for civilians as attacks on aid vehicles continue",
+      "source": "UN News",
+      "description": "Each day the ceasefire in Oleshky holds means hope for civilians in the city, the UN’s top humanitarian official said, stressing that those wishing to leave must be able to do so safely and voluntarily.",
+      "category": "Humanitarian",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168712",
+      "published": "2026-10-30T12:00:00Z",
+      "lat": 48.38,
+      "lon": 31.17,
+      "place": "Ukraine",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
       "title": "DR Congo: Hunger deepens for millions amid conflict, Ebola and climate shocks",
       "source": "UN News",
       "description": "More than 28 million people in the Democratic Republic of the Congo (DRC) are not getting enough to eat and the number is expected to tick up in the coming months, according to the latest alert from the IPC global food security monitor.",
@@ -633,25 +812,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cw62yrzxjnk4o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-30T11:23:38Z"
-    },
-    {
-      "title": "Prominent Russian newspaper shuts down under pressure from authorities",
-      "source": "BBC World",
-      "description": "Novaya Gazeta has been one of the most high-profile independent news outlets in Russia over the last three decades.",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cmewepdr109do?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-30T11:23:06Z",
-      "lat": 61.52,
-      "lon": 105.32,
-      "place": "Russia",
-      "location_precision": "country-centroid",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
     },
     {
       "title": "Beijing Queer film festival cancelled after harassment from authorities",
@@ -773,20 +933,6 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
-    },
-    {
-      "title": "Sir Patrick Stewart: The life of an iconic actor",
-      "source": "BBC Americas",
-      "description": "The renowned British actor died after \"a brief and poignant journey\" with Alzheimer's disease and Lewy Body Dementia, his spokesperson says.",
-      "category": "Geopolitics",
-      "region": "Americas",
-      "regions": [
-        "Americas",
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/videos/c6qxnlxn0n15o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-30T08:59:45Z"
     },
     {
       "title": "Afcon to return to two-year cycle after Caf U-turn",
@@ -917,6 +1063,17 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c6gr8l15k744o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-30T06:10:50Z"
+    },
+    {
+      "title": "How Poundland grew from a market stall to a high street giant",
+      "source": "BBC Business",
+      "description": "The retail giant - which started life at a Wolverhampton market - is now at threat of collapse.",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cw07304l5je7o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-30T06:08:22Z"
     },
     {
       "title": "Post Office suspends sending goods to the EU",
@@ -1658,20 +1815,6 @@
       "location_verified": false
     },
     {
-      "title": "Careless dismissals give Australia route to series win",
-      "source": "BBC Africa",
-      "description": "Australia take a step towards victory over South Africa in Cape Town, with the help of careless batting from Proteas' top order.",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific",
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cwz0vevng3n0o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-29T16:53:40Z"
-    },
-    {
       "title": "Faisal Islam: This Budget was micro and that was deliberate",
       "source": "BBC Business",
       "description": "Chancellor John Healey's plans fall short of radical action to create a promised new economic model.",
@@ -1714,25 +1857,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cm79pjg2l57yo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-29T15:05:15Z"
-    },
-    {
-      "title": "Flávio Bolsonaro calls himself 'leader of Brazil' after election loss",
-      "source": "BBC World",
-      "description": "The defeated presidential candidate says he will lead the opposition from the US.",
-      "category": "Geopolitics",
-      "region": "Americas",
-      "regions": [
-        "Americas"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/c3x2w4109pj8o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-29T14:58:28Z",
-      "lat": -14.24,
-      "lon": -51.93,
-      "place": "Brazil",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "Russian drone attack on Ukrainian train station kills at least 14, officials say",
@@ -1819,17 +1943,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cknv08nvzld4o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-29T13:44:39Z"
-    },
-    {
-      "title": "Island Energy: No plans to remove gas standing charge",
-      "source": "BBC Business",
-      "description": "The provider said any change would need support from the community, the regulator and government.",
-      "category": "Economics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cwy7l1375d74o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-29T13:39:54Z"
     },
     {
       "title": "Philippine police obtain warrant to search Thomas Markle's devices",
@@ -2333,25 +2446,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c678prm55gzzo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-28T22:08:52Z"
-    },
-    {
-      "title": "Flávio Bolsonaro calls himself the ‘leader of Brazil’ after fleeing to Miami",
-      "source": "The Guardian World",
-      "description": "Far-right senator and family land in US after crossing from Brazil into Argentina and then flying via Ecuador Flávio Bolsonaro declared himself the “true president” of Brazil after losing last Sunday’s presidential election and fleeing to the United States. After landing on a private jet with his family in Miami, Florida , on Wednesday morning, the far-right senator published the claim in a letter – even though his own party has recognised the legitimate victory of Luiz Inácio Lula da Silva , as",
-      "category": "Geopolitics",
-      "region": "Americas",
-      "regions": [
-        "Americas"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat",
-      "published": "2026-10-28T22:06:46Z",
-      "lat": -14.24,
-      "lon": -51.93,
-      "place": "Brazil",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "New book makes fiery claims about Jared Kushner’s finances in Trump’s first term",
@@ -3644,30 +3738,6 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
-    },
-    {
-      "title": "Women and girls’ share of civilian war deaths doubles since 2021",
-      "source": "UN News",
-      "description": "War is growing deadlier for women and girls, who accounted for one in four of the more than 37,000 civilians killed in armed conflict last year – double their share in 2021 – according to major UN report released Monday.",
-      "category": "Humanitarian",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168673",
-      "published": "2026-10-26T12:00:00Z"
-    },
-    {
-      "title": "Ukraine: Investigators find Russia committed war crimes by targeting civilians",
-      "source": "UN News",
-      "description": "Top human rights experts investigating Russia’s full-scale invasion of Ukraine said on Monday that the Russian authorities had committed war crimes and crimes against humanity by attacking civilians and vital energy infrastructure, among other violations of international law.",
-      "category": "Humanitarian",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168670",
-      "published": "2026-10-26T12:00:00Z"
     },
     {
       "title": "Five ways Trump has changed immigration in the US",
@@ -6578,17 +6648,6 @@
       "published": "2026-07-23T14:11:00Z"
     },
     {
-      "title": "Why the UK is dithering over what to do about e-scooters",
-      "source": "BBC Business",
-      "description": "Why is it taking so long for the government to regulate them, and what are the consequences of delay?",
-      "category": "Economics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cn4nvn9w00no?at_medium=RSS&at_campaign=rss",
-      "published": "2026-07-22T23:51:24Z"
-    },
-    {
       "title": "Maximum Pressure on Cuba, With Will Freeman",
       "source": "CFR The President Inbox",
       "description": "This episode unpacks how the Trump administration's maximum pressure campaign is accelerating Cuba's economic collapse and what a firsthand trip to the country reveals about life amidst the crisis. Host: James M. Lindsay , Mary and David Boies Distinguished Senior Fellow in U.S. Foreign Policy, CFR Guest: Will Freeman , Fellow for Latin America Studies, CFR We Discuss: What the Trump administration is ultimately seeking to accomplish with its Cuba policy. How secondary sanctions differ from the ",
@@ -9058,7 +9117,7 @@
   "classification_method": "keyword-heuristic",
   "location_method": "headline-or-lead-reference",
   "content_counts": {
-    "news": 387,
+    "news": 390,
     "podcast": 193,
     "research": 14
   },
@@ -9098,6 +9157,10 @@
     {
       "source": "UN News Middle East",
       "message": "Using alternate publisher-hosted RSS endpoint: https://news.un.org/feed/subscribe/en/news/region/middle-east/feed/rss.xml?output=rss"
+    },
+    {
+      "source": "UN News",
+      "message": "Using alternate publisher-hosted RSS endpoint: https://news.un.org/feed/subscribe/en/news/all/rss.xml?output=rss"
     }
   ],
   "feed_health": "See errors for failed source names"
