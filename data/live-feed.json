@@ -1,10 +1,114 @@
 {
-  "updated": "2026-10-31T05:38:11.876940Z",
+  "updated": "2026-10-31T12:25:54.034945Z",
   "records": [
+    {
+      "title": "US approves sale of 500 Patriot missiles to Ukraine",
+      "source": "BBC World",
+      "description": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles.",
+      "category": "Defence",
+      "region": "Europe",
+      "regions": [
+        "Europe",
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T12:21:25Z",
+      "lat": 48.38,
+      "lon": 31.17,
+      "place": "Ukraine",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "France and Germany braced for unrest with hundreds of demonstrations planned – Europe live",
+      "source": "The Guardian World",
+      "description": "French interior minister, Laurent Nuñez, warned earlier this week of a ‘very high risk of public disorder’ Here are some of the latest images from around France: In Paris, two separate marches planned by unions and gilets jaunes through the city centre have been banned. Instead, police have authorised a single march in the far south-east. An appeal by organisers against the decision to exclude them from the centre was rejected late on Friday night. Continue reading...",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/live/2026/oct/31/france-germany-protests-paris-europe-latest-news-updates",
+      "published": "2026-10-31T12:09:22Z",
+      "lat": 48.86,
+      "lon": 2.35,
+      "place": "Paris",
+      "location_precision": "city-reference",
+      "location_method": "description-lead-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Evacuees from Russia-occupied city where residents ate weeds on way to Ukraine",
+      "source": "BBC World",
+      "description": "Residents left the devastated city on Friday following a ceasefire brokered by US First Lady Melania Trump.",
+      "category": "Defence",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T12:05:04Z"
+    },
+    {
+      "title": "Mill 19: a creative hub built into a former steel factory",
+      "source": "The Guardian Environment",
+      "description": "In Pittsburgh, Pennsylviania, a post-industrial site gets a second life Continue reading...",
+      "category": "Disasters",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/artanddesign/gallery/2026/oct/31/mill-19-steel-factory-pittsburgh",
+      "published": "2026-10-31T12:00:42Z"
+    },
+    {
+      "title": "Somalia looks to the future as the UN's political mission closes",
+      "source": "UN News",
+      "description": "“The story of the UN's political engagement in Somalia has been one of persistence, partnership and adaptation,” Raisedon Zenenga, the UN Secretary-General's Deputy Special Representative for Somalia has said, as three decades of UN political missions in the Horn of Africa country comes to an end on 31 October.",
+      "category": "Humanitarian",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168714",
+      "published": "2026-10-31T12:00:00Z",
+      "lat": 5.15,
+      "lon": 46.2,
+      "place": "Somalia",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Healey to veto new offshore wind projects if they will not lower bills",
+      "source": "The Guardian Environment",
+      "description": "UK chancellor’s plans add to concerns government is moving away from pro-renewables agenda John Healey has said he will veto new offshore wind projects if they will not lower bills, adding to concerns that the government is moving away from the pro-renewables agenda. Announcing his plans, the chancellor said clean power is “how we break the grip of international gas prices on our bills” but added the shift towards it “has to come at the right pace, in the right places, with the grid to carry it”",
+      "category": "Disasters",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/environment/2026/oct/31/john-healey-chancellor-offshore-wind-projects-veto",
+      "published": "2026-10-31T11:48:14Z"
+    },
+    {
+      "title": "‘Bunch of baloney’: calls grow for Cop summit reforms as countries on track to fail nature targets",
+      "source": "The Guardian Environment",
+      "description": "Cop17, focused on protecting nature and restoring ecosystems, concludes on Saturday with critics saying system allows ‘one idiot’ to stall progress Calls are growing for major reforms to UN biodiversity summits as countries fail to deliver on their promises to halt the destruction of the natural world, with governments likely on track to continue their record of never having met a target in the 34-year history of the convention. Two weeks of negotiations at biodiversity Cop17 in Yerevan, Armenia",
+      "category": "Disasters",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/environment/2026/oct/31/cop17-reforms-fails-to-deliver-targets",
+      "published": "2026-10-31T10:01:29Z"
+    },
     {
       "title": "‘You need the power of all your votes’: Bedouin women secure success for Arab parties in Israeli election",
       "source": "The Guardian Middle East",
-      "description": "With 180,000 eligible voters, Bedouin turnout was key in Palestinian-led parties winning unprecedented 19 seats Last year, Umm Khaled Fatoum returned from volunteering in a Jewish-Arab support centre for victims of war to find bulldozers tearing into her son’s house in the Bedouin village of Azzarnug. The demolition crew, who arrived under police escort, did not even allow them to remove furniture or solar panels before reducing the home and its contents to a pile of rubble. Continue reading...",
+      "description": "With 180,000 eligible voters, Bedouin turnout was key in Palestinian-led parties winning unprecedented 19 seats Last year, Umm Khaled Fatoun returned from volunteering in a Jewish-Arab support centre for victims of war to find bulldozers tearing into her son’s house in the Bedouin village of Azzarnug. The demolition crew, who arrived under police escort, did not even allow them to remove furniture or solar panels before reducing the home and its contents to a pile of rubble. Continue reading...",
       "category": "Geopolitics",
       "region": "Middle East",
       "regions": [
@@ -12,7 +116,85 @@
       ],
       "kind": "news",
       "url": "https://www.theguardian.com/world/2026/oct/31/bedouin-women-success-arab-parties-israel-election",
-      "published": "2026-10-31T05:00:33Z"
+      "published": "2026-10-31T09:25:16Z"
+    },
+    {
+      "title": "CCTV, zip ties and election watchers: How US mail-in votes are secured and counted",
+      "source": "BBC World",
+      "description": "BBC Verify goes to an election centre to get a behind-the-scenes look at how mail-in ballots for the US midterm elections are processed.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/cw4g1vlj4v2jo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T09:16:14Z"
+    },
+    {
+      "title": "Cost of living protests to spread to Germany and reignite in France on Halloween",
+      "source": "The Guardian World",
+      "description": "Activists call for people to make their anger known over poor public services including education and housing Street protests sweeping Europe are expected to spread to Germany and reignite in France on Saturday, with police mobilised to stop potential looting and rioting on the fringes of what organisers hope will be peaceful rallies. Weeks of, at times violent, student demonstrations have rocked Italy, Spain, Portugal, Albania and France, where activists on Halloween have again called for peopl",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/30/cost-of-living-protests-to-spread-to-germany-and-reignite-in-france-on-halloween",
+      "published": "2026-10-31T09:13:22Z",
+      "lat": 51.17,
+      "lon": 10.45,
+      "place": "Germany",
+      "location_precision": "country-centroid",
+      "location_method": "description-lead-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "‘The last fortress’: historic Athens cafe closes as countercultural area gentrifies",
+      "source": "The Guardian World",
+      "description": "Mouria coffeehouse unable to renew lease in Exarchia, known for leftwing solidarity, resistance and radicalism It has been the hangout of writers, artists, poets and politicians, doctors and lawyers, radicals and revolutionaries for as long as anyone can remember. And for 44 years, Christos Vanas, the proprietor of Mouria, has let them all in. Every day at 7am, the taciturn former waiter has been the first man to step inside the historic cafe in Exarchia, the heart of leftwing Athens . It is a r",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/31/mouria-historic-athens-cafe-closes-exarchia-gentrifies",
+      "published": "2026-10-31T08:00:37Z"
+    },
+    {
+      "title": "Storm warnings for Melbourne, Canberra, Sydney and Brisbane as cold front ‘packs a punch’",
+      "source": "The Guardian World",
+      "description": "BoM predicts hail, damaging winds and possible flash flooding across Victoria, NSW and parts of Queensland into Sunday Get our breaking news email , free app or daily news podcast Storm warnings are in place for multiple capital cities across Australia’s east and south-east as a severe weather front sweeps across the country. Heavy rain, winds and thunderstorms are forecast to hit Melbourne and eastern Victoria throughout Saturday afternoon as a cold front meets warm, humid air. Continue reading",
+      "category": "Disasters",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/31/weather-bom-storm-warnings-melbourne-canberra-sydney-brisbane",
+      "published": "2026-10-31T06:05:20Z"
+    },
+    {
+      "title": "As Trump fans the flames of a world on fire, can diplomacy take back control?",
+      "source": "The Guardian Middle East",
+      "description": "Amid the chaos, havoc and war caused by a capricious and amoral US president, countries are waking up to the dangers of being excluded and abused by America Never has there been a time when the world has been more interconnected than now. What happens in the secretive inner councils in Tehran, the mountains of south-west Yemen, the steppe of the Donbas, the still bloody wasteland that is Gaza and even the elegant boulevards of Paris and Milan have a common thread. One cannot understand one set o",
+      "category": "Geopolitics",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/us-news/2026/oct/31/as-trump-fans-the-flames-of-a-world-on-fire-can-diplomacy-take-back-control",
+      "published": "2026-10-31T06:00:38Z"
+    },
+    {
+      "title": "Spain train disaster clouds Sánchez chances of re-election",
+      "source": "BBC World",
+      "description": "The Spanish PM is hit by a succession of crises just weeks before a snap general election.",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T05:44:21Z"
     },
     {
       "title": "Suited and booted: How Joseph Kabila went from president to rebel leader",
@@ -79,7 +261,7 @@
       "location_verified": false
     },
     {
-      "title": "Trump's tariffs could shutter this Canadian town - its residents are fighting to save it",
+      "title": "The fight to save Canadian town threatened by Trump's tariffs",
       "source": "BBC World",
       "description": "A century-old paper mill in Témiscaming, Quebec is indefinitely closed after the US imposed 50% tariffs on its products, putting hundreds out of work.",
       "category": "Economics",
@@ -190,26 +372,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-31T01:11:43Z"
-    },
-    {
-      "title": "US approves sale of 500 Patriot missiles to Ukraine",
-      "source": "BBC World",
-      "description": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles.",
-      "category": "Defence",
-      "region": "Europe",
-      "regions": [
-        "Europe",
-        "Americas"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-31T00:40:43Z",
-      "lat": 48.38,
-      "lon": 31.17,
-      "place": "Ukraine",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
@@ -576,7 +738,7 @@
     },
     {
       "title": "Evacuation of civilians begins in besieged Ukrainian city of Oleshky",
-      "source": "The Guardian World",
+      "source": "The Guardian Europe",
       "description": "Humanitarian convoy brings food and medicine to Russian-held city where people have suffered severe shortages People living in the besieged Russian-held city of Oleshky in southern Ukraine were evacuated on Friday as part of a joint relief operation, the first of its kind in four years and eight months of war. The city, which lies on the Russian-occupied side of the Dnipro River, opposite Kherson, has suffered months of serious food and medical shortages, leading to warnings of starvation for th",
       "category": "Humanitarian",
       "region": "Europe",
@@ -632,25 +794,6 @@
       "location_verified": false
     },
     {
-      "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
-      "source": "BBC World",
-      "description": "Hundreds of people are also understood to have stayed in the front-line town, despite the dangers.",
-      "category": "Defence",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-30T16:26:11Z",
-      "lat": 48.38,
-      "lon": 31.17,
-      "place": "Ukraine",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "Business secretary says UK needs to understand direction of EU before signing up to closer relationship – as it happened",
       "source": "The Guardian Europe",
       "description": "This blog is now closed Downing Street has paid tribute to Patrick Stewart following the actor’s death. At the daily lobby briefing, the PM’s spokesperson gave a comment that was a bit more extensive than the usual No 10 contribution when a great British celebrity dies. The spokesperson said that was because Andy Burnham feels strongly about the importance of actors. The spokesperson said: The prime minister was very sad to hear of the passing of Sir Patrick Stewart. As a former culture secretar",
@@ -676,7 +819,7 @@
     },
     {
       "title": "Russian society being ‘systematically crushed’ says Novaya Gazeta as newspaper announces closure",
-      "source": "The Guardian World",
+      "source": "The Guardian Europe",
       "description": "Independent outlet, whose former editor Dmitry Muratov won Nobel prize, cites intolerable pressure from authorities Novaya Gazeta, one of Russia’s best-known independent media outlets, has announced it will permanently close next month. The newspaper, whose former editor-in-chief Dmitry Muratov won the Nobel peace prize in 2021 , cited intolerable pressure, including being stripped of its newsroom, its donation platforms and its legal right to publish. “This is not just our own story; it is the ",
       "category": "Geopolitics",
       "region": "Europe",
@@ -692,19 +835,6 @@
       "location_precision": "country-centroid",
       "location_method": "description-lead-keyword",
       "location_verified": false
-    },
-    {
-      "title": "People of 27 nationalities may be among those killed or injured in Spain train crash, Sánchez says – as it happened",
-      "source": "The Guardian World",
-      "description": "This blog is now closed, you can read more on this story here Peunte begins by paying tribute to all affected by the incident. He says that “at present, evidence points to a failure within Adif’s command and control centre,” but adds that investigators are still looking “to clarify what exactly happened.” He says he still has confidence in the system. Continue reading...",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/live/2026/oct/30/spain-investigates-toledo-crash-pedro-sanchez-france-italy-protests-latest-news-updates",
-      "published": "2026-10-30T15:48:05Z"
     },
     {
       "title": "Democratic senator blames Egypt press crackdown on US military aid decision",
@@ -758,19 +888,6 @@
       "published": "2026-10-30T15:09:29Z"
     },
     {
-      "title": "Perfume bottle and child’s necklace among treasures found in Pompeii wardrobe",
-      "source": "The Guardian Europe",
-      "description": "Archaeologists uncover jewellery, cosmetics and coins in cabinet sealed since eruption of Mount Vesuvius in AD79 Fragments of personal objects, from makeup tools and a perfume bottle to coins and a child’s necklace, have been found tucked away in a wooden wardrobe sealed off for almost 2,000 years in the ruins of Pompeii. The artifacts provide an intimate glimpse of daily life in the ancient Roman city before it was devastated by the eruption of Mount Vesuvius in AD79. The wardrobe was discovere",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/science/2026/oct/30/perfume-bottle-child-necklace-pompeii-wardrobe",
-      "published": "2026-10-30T15:06:39Z"
-    },
-    {
       "title": "Six dead after helicopter crashes in northern Indian state",
       "source": "BBC World",
       "description": "The aircraft reportedly took off from the Hindu pilgrimage site of Badrinath on Friday afternoon before losing contact.",
@@ -806,32 +923,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-30T14:48:22Z"
-    },
-    {
-      "title": "Cost of living protests to spread to Germany and reignite in France on Halloween",
-      "source": "The Guardian Europe",
-      "description": "Activists call for people to make their anger known over poor public services including education and housing Europe live – latest updates Street protests sweeping Europe are expected to spread to Germany and reignite in France on Saturday, with police mobilised to stop potential looting and rioting on the fringes of what organisers hope will be peaceful rallies. Weeks of, at times violent, student demonstrations have rocked Italy, Spain, Portugal, Albania and France, where activists on Hallowee",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/30/cost-of-living-protests-to-spread-to-germany-and-reignite-in-france-on-halloween",
-      "published": "2026-10-30T14:42:46Z"
-    },
-    {
-      "title": "Spain’s trust in high-speed rail ‘broken’ after second deadly crash this year, says PM",
-      "source": "The Guardian Europe",
-      "description": "Pedro Sánchez vows to investigate crash that killed 69 people – and rebuild public confidence Europe live – latest updates Spain’s prime minister, Pedro Sánchez, has admitted “trust in high-speed rail has been broken” after Wednesday’s train collision that killed at least 69 people, injured more than 100 and prompted a national debate on the safety of the country’s rail network. Sánchez said Spain was “working tirelessly” to provide information as quickly as possible to the families of the victi",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/30/spain-trust-high-speed-rail-broken-after-second-deadly-crash-this-year-says-pedro-sanchez",
-      "published": "2026-10-30T14:13:52Z"
     },
     {
       "title": "‘Amateur morons’: Flávio Bolsonaro’s short-lived ‘president-elect’ claim met with mockery",
@@ -1188,19 +1279,6 @@
       "published": "2026-10-30T10:07:16Z"
     },
     {
-      "title": "Healey’s budget cuts mean Britain is likely to miss green heating targets",
-      "source": "The Guardian Environment",
-      "description": "Ex-energy secretary Ed Miliband’s agenda appears undermined as money is diverted from renewables to defence Britain is unlikely to hit its targets on green heating after the cuts announced by John Healey this week, experts have warned, as critics of Ed Miliband claim the former energy secretary’s green agenda is being dismantled. The chancellor unveiled more than £3bn worth of cuts to the energy department’s budget this week, much of which will pay for higher defence spending. Continue reading..",
-      "category": "Disasters",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/environment/2026/oct/30/john-healey-budget-cuts-miss-green-heating-targets",
-      "published": "2026-10-30T10:00:50Z"
-    },
-    {
       "title": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
       "source": "BBC Asia",
       "description": "Two analytics firms have attributed the incident to a North Korean hacking unit called TraderTraitor.",
@@ -1437,17 +1515,6 @@
       "published": "2026-10-30T06:00:47Z"
     },
     {
-      "title": "Erin Patterson to die in prison after losing appeal against mushroom murder convictions",
-      "source": "The Guardian World",
-      "description": "Victorian court of appeal rules Patterson should be jailed for life with no parole over deadly beef wellington lunch that killed three people Erin Patterson mushroom murders appeal – live updates Get our breaking news email , free app or daily news podcast Erin Patterson has lost her bid to overturn her convictions and been resentenced to life behind bars with no chance of release, as Victoria’s highest court handed down its decision on two appeals regarding her triple murder case . The court of",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/29/erin-patterson-mushroom-murders-appeal-ruling-ntwnfb",
-      "published": "2026-10-30T05:31:26Z"
-    },
-    {
       "title": "Could 2026 be the year that democracy fought back? | David Van Reybrouck",
       "source": "The Guardian Europe",
       "description": "Elections are never enough by themselves, but the stunning results from Serbia, Brazil and Hungary have given us hope in dark times It is undoubtedly too early to declare victory, but the recent electoral defeats of Viktor Orbán , Aleksandar Vučić and Flávio Bolsonaro make me wonder: is 2026 turning out to be the year democracy slowly, but surely, fought back? Even in Israel, prime minister Benjamin Netanyahu’s reigning bloc lost its parliamentary majority and saw the spectacular rise of Arab pa",
@@ -1633,17 +1700,6 @@
       "kind": "podcast",
       "url": "https://www.bbc.co.uk/sounds/play/p0pjwj3t?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-30T01:30:00Z"
-    },
-    {
-      "title": "Many Cubans voted for Trump - now they're turning on Republican immigration policies",
-      "source": "BBC World",
-      "description": "President Trump's fellow Republicans might feel the brunt of frustration among Cubans at the ballot box, writes the BBC's Will Grant.",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/c574p7z1xm8wo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-30T00:43:04Z"
     },
     {
       "title": "Student-backed election winners demand sweeping resignations in Serbia",
@@ -3169,25 +3225,6 @@
       "published": "2026-10-28T10:17:54Z"
     },
     {
-      "title": "A bitter night in Israel for all who craved a fresh start. Netanyahu survives for now – and we are more divided than ever | Dahlia Scheindlin",
-      "source": "The Guardian Middle East",
-      "description": "Exit polls gave the opposition hope, but then reality dawned. With most votes going to rightwing parties, the prospects for the left and centre now look bleak Following Israel’s nail-biting election , nearly every political community in the country experienced triumph and despair. The initial results swung wildly from the first exit polls to the slow real-vote count; the bloc of parties loyal to the prime minister, Benjamin Netanyahu, might yet win, and each side feels that its fate hangs in the",
-      "category": "Geopolitics",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/commentisfree/2026/oct/28/israel-election-exit-poll-netanyahu-survives",
-      "published": "2026-10-28T10:08:29Z",
-      "lat": 31.05,
-      "lon": 34.85,
-      "place": "Israel",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "Africa’s ‘unprecedented’ Ebola outbreak could reach UK, says top health official",
       "source": "The Guardian World",
       "description": "Jean Kaseya, of the Africa CDC, warns of the illness spreading like Covid unless more funding is secured to increase preparedness and possible treatment The “unprecedented” spread of the Ebola outbreak means it could reach the UK and other countries, according to one of Africa’s top health officials. As the current outbreak reached 10,000 cases, with almost 5,000 deaths , Dr Jean Kaseya, director general of the Africa Centres for Disease Control and Prevention (CDC), compared the outbreak to the",
@@ -3339,17 +3376,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/ckeq3vezxlx1o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-27T21:46:43Z"
-    },
-    {
-      "title": "Trump’s cuts have exposed US to ‘cascade’ of El Niño dangers, experts warn",
-      "source": "The Guardian Environment",
-      "description": "President has taken an axe to National Oceanic and Atmospheric Administration, stalling climate research on and response to extreme weather events Sweeping cuts to the premier US climate agency under Donald Trump have severely hampered the country’s capacity to forecast, research and respond to extreme weather events, former government officials and scientists have warned, as the US faces a cascade of hazards fueled by a potentially historic El Niño this winter. From the start of his second term",
-      "category": "Disasters",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/environment/2026/oct/27/trump-cuts-el-nino-noaa",
-      "published": "2026-10-27T21:34:54Z"
     },
     {
       "title": "'You're lying' - US and Cuban officials get into shouting match at UN",
@@ -3803,19 +3829,6 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
-    },
-    {
-      "title": "Watch: BBC asks Democrat El-Sayed about tight Michigan Senate race",
-      "source": "BBC Americas",
-      "description": "The BBC's Sarah Smith asks Democrat Abdul El-Sayed why polls suggest his contest against Republican Mike Rogers is so close.",
-      "category": "Geopolitics",
-      "region": "Americas",
-      "regions": [
-        "Americas"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/videos/cmx2dj4z6wz6o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-26T15:46:04Z"
     },
     {
       "title": "UK sanctions Sudanese military leaders implicated in El Fasher ‘campaign of rape’",
@@ -9209,7 +9222,7 @@
   "classification_method": "keyword-heuristic",
   "location_method": "headline-or-lead-reference",
   "content_counts": {
-    "news": 393,
+    "news": 394,
     "podcast": 193,
     "research": 14
   },
