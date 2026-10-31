@@ -1,6 +1,382 @@
 {
-  "updated": "2026-10-30T22:17:19.332658Z",
+  "updated": "2026-10-31T05:38:11.876940Z",
   "records": [
+    {
+      "title": "‘You need the power of all your votes’: Bedouin women secure success for Arab parties in Israeli election",
+      "source": "The Guardian Middle East",
+      "description": "With 180,000 eligible voters, Bedouin turnout was key in Palestinian-led parties winning unprecedented 19 seats Last year, Umm Khaled Fatoum returned from volunteering in a Jewish-Arab support centre for victims of war to find bulldozers tearing into her son’s house in the Bedouin village of Azzarnug. The demolition crew, who arrived under police escort, did not even allow them to remove furniture or solar panels before reducing the home and its contents to a pile of rubble. Continue reading...",
+      "category": "Geopolitics",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/31/bedouin-women-success-arab-parties-israel-election",
+      "published": "2026-10-31T05:00:33Z"
+    },
+    {
+      "title": "Suited and booted: How Joseph Kabila went from president to rebel leader",
+      "source": "BBC World",
+      "description": "What does Joseph Kabila launching a new rebel movement mean for DR Congo?",
+      "category": "Geopolitics",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cr3wv311dwnlo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T04:32:07Z"
+    },
+    {
+      "title": "Riot police deployed to Poland’s constitutional court after judge suspended",
+      "source": "The Guardian World",
+      "description": "President Karol Nawrocki seen struggling to gain entry to court building in Warsaw amid long-running row over the court’s legitimacy Riot police were locked in a tense standoff with protesters outside Poland’s constitutional court on Friday night after its top judge was suspended in the latest escalation in a decade-long dispute over the court’s legal status. The clashes followed a controversial decision by a group of government-appointed judges to suspend the court’s contested president, Bogdan",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/31/riot-police-deployed-to-polands-constitutional-court-after-judge-suspended",
+      "published": "2026-10-31T04:27:25Z"
+    },
+    {
+      "title": "Ukraine war briefing: Moscow’s Lavrov snubbed at G20 in Atlanta",
+      "source": "The Guardian Europe",
+      "description": "Russian foreign minister heavily criticised by EU foreign policy chief, and plans for the traditional ‘family photo’ abandoned. What we know on day 1,711 The EU’s foreign policy chief has accused Russian foreign minister Sergei Lavrov of presenting “lies” in G20 meetings in Atlanta about the Ukrainian conflict and suggested Moscow was not ready for peace negotiations . “We were talking about the big geopolitical crisis, including Ukraine, and we were able to address Sergei Lavrov head-on with th",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/31/ukraine-war-briefing-moscows-lavrov-snubbed-at-g20-in-atlanta",
+      "published": "2026-10-31T04:26:03Z",
+      "lat": 55.75,
+      "lon": 37.62,
+      "place": "Moscow",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "‘Don’t worry about the leopard. It’s a man you don’t want to run into’: Delhi women reclaim the outdoors",
+      "source": "The Guardian Global Development",
+      "description": "On a wildlife walk in the Indian capital, a group of women share their stories of trying to enjoy nature in a city where strangers feel entitled to harass them Vallari Sheel wishes she could carry a camera or a pair of binoculars without being asked what her father does for a living. Once, looking at a tree in her south Delhi neighbourhood, about 50 metres away from her home, a man in a car screamed at her: “You have been clicking photos here for 10 days. What are you going to do with them?” She",
+      "category": "Humanitarian",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/global-development/2026/oct/31/delhi-women-natureleopards-its-a-man-you-dont-want-run-in-to-the-delhi-women-trying-to-reclaim-their-right-to-nature",
+      "published": "2026-10-31T03:00:30Z",
+      "lat": 28.61,
+      "lon": 77.21,
+      "place": "Delhi",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Trump's tariffs could shutter this Canadian town - its residents are fighting to save it",
+      "source": "BBC World",
+      "description": "A century-old paper mill in Témiscaming, Quebec is indefinitely closed after the US imposed 50% tariffs on its products, putting hundreds out of work.",
+      "category": "Economics",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmly016ep243o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T02:39:25Z"
+    },
+    {
+      "title": "Albanese looks for reset on world stage as ‘spot fires burn’ domestically and likely interest rate hike looms",
+      "source": "The Guardian World",
+      "description": "The prime minister will speak with King Charles and others at the Commonwealth heads of government meeting in Antigua and Barbuda Get our daily political email , free app or daily news podcast As “summit season” begins, reaffirming ties with fellow leaders on the world stage could be a circuit breaker for Anthony Albanese amid domestic and economic woes, analysts have said. But a likely interest rate hike , triggered by higher-than-expected inflation , while the prime minister is overseas will m",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/31/albanese-reset-world-stage-economic-spot-fires-rba-interest-rate-decision",
+      "published": "2026-10-31T02:24:10Z"
+    },
+    {
+      "title": "Ukraine’s Zelenskyy praises US over $2.1bn Patriot missile deal but warns it could take years",
+      "source": "The Guardian World",
+      "description": "The Ukrainian president called the US decision strong, but added that delivery of 500 Patriot PAC-3 missiles ⁠could take years The US has approved the sale ⁠of 500 Patriot PAC-3 missiles ⁠to Ukraine for an estimated $2.1bn, but Volodymyr Zelenskyy has warned deliveries could take years and stockpiles were needed now to counter Russian ballistic missile attacks. “The proposed sale will improve Ukraine’s capability to meet current and future threats by improving its integrated air and missile defe",
+      "category": "Defence",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/31/ukraines-zelenskyy-praises-us-over-21bn-patriot-missile-deal-but-warns-it-could-take-years",
+      "published": "2026-10-31T02:18:17Z",
+      "lat": 48.38,
+      "lon": 31.17,
+      "place": "Ukraine",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
+      "source": "BBC World",
+      "description": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become.",
+      "category": "Cyber",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T02:12:19Z"
+    },
+    {
+      "title": "The Indian chef who brought curry to America - then vanished",
+      "source": "BBC World",
+      "description": "Indian chef Ranji Smile opened America’s first Indian restaurant in 1901 - then became a fake prince.",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/crm941n0413o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T02:02:16Z"
+    },
+    {
+      "title": "Responsible or panicked? Meet the people around the world already preparing for crisis",
+      "source": "BBC World",
+      "description": "Filter straws to a disposable toilet - people in the US, Japan, Sweden and Netherlands on what's in their emergency stashes.",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe",
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ckreypn92w49o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T01:32:33Z",
+      "lat": 36.2,
+      "lon": 138.25,
+      "place": "Japan",
+      "location_precision": "country-centroid",
+      "location_method": "description-lead-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Global nature talks reach deal but money remains an issue",
+      "source": "BBC World",
+      "description": "Countries have been trying to get a global agreement to halt nature decline back on track.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cw1l32qyj8pqo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T01:27:05Z"
+    },
+    {
+      "title": "Police deployed during stand-off over control of top Poland court",
+      "source": "BBC World",
+      "description": "The escalation came after the government suspended two senior justices and moved to bring criminal charges against them.",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T01:11:43Z"
+    },
+    {
+      "title": "US approves sale of 500 Patriot missiles to Ukraine",
+      "source": "BBC World",
+      "description": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles.",
+      "category": "Defence",
+      "region": "Europe",
+      "regions": [
+        "Europe",
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T00:40:43Z",
+      "lat": 48.38,
+      "lon": 31.17,
+      "place": "Ukraine",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
+      "source": "BBC World",
+      "description": "The incumbent Republican running for re-election and allies have accused the Democrats of trying to confuse voters by recruiting a second Dan Sullivan to also stand in the race.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T00:29:58Z"
+    },
+    {
+      "title": "US cancels G20 ‘family photo’ after Australia, UK and others refuse to appear with Russia",
+      "source": "The Guardian World",
+      "description": "Marco Rubio pulls plug on traditional photo op at meeting of foreign ministers after about one-third of countries threaten boycott The traditional “family photo” to open the G20 foreign ministers’ meeting has been abruptly cancelled in the US after a host of nations – including Australia and the UK – refused to appear beside the Russian foreign minister, Sergei Lavrov. The US secretary of state, Marco Rubio, pulled the plug after several European officials, the UK and Australia made it known the",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe",
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/31/us-cancels-g20-family-photo-after-australia-uk-and-others-refuse-to-appear-with-russia",
+      "published": "2026-10-31T00:29:28Z",
+      "lat": 61.52,
+      "lon": 105.32,
+      "place": "Russia",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "'The necktie is dead': How US midterm candidates are dressing for votes",
+      "source": "BBC World",
+      "description": "From Alaska to Texas, candidates with an eye on Congress are using their personal style to stand out.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ckq6nz4286r4o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T00:16:03Z"
+    },
+    {
+      "title": "‘We’re not freaks’: police raid sparks concern for Taiwan’s LGBT-friendly image",
+      "source": "The Guardian Asia",
+      "description": "The rounding up of customers at a gay bar weeks before Saturday’s Pride festival has some questioning the island’s progressive image Josh was having a drink at Commander D, a popular gay bar in Taipei, on a Saturday afternoon when several police officers suddenly burst in. “Squat down and don’t move,” they shouted. Bewildered, he looked around to see the bar owner being handcuffed and forced to his knees. The 28-year-old was among 51 customers to be rounded up and taken away for questioning over",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/31/taiwan-gay-bar-police-raid-lgbt-pride-parade",
+      "published": "2026-10-31T00:05:27Z",
+      "lat": 23.7,
+      "lon": 120.96,
+      "place": "Taiwan",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "A top-secret spy mission, a decades-old scandal – and the Austin Powers-esque saga to lift the lid",
+      "source": "The Guardian World",
+      "description": "Rex Patrick’s latest transparency fight is over what he calls ‘most open secret in the history of Australian spying’ – maybe even the world Get our daily political email , free app or daily news podcast A campaign to uncover any documents relating to whether Australian spies bugged Timor-Leste to gain the upper hand in sensitive oil and gas negotiations will be a little less secret after a critical win by the former senator Rex Patrick. The politician turned transparency advocate is trying to fi",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/31/timor-leste-australia-bugging-rex-patrick-ntwnfb",
+      "published": "2026-10-31T00:04:51Z"
+    },
+    {
+      "title": "He questioned Thailand's monarchy dressed as Harry Potter. Now he's in jail for 34 years",
+      "source": "BBC World",
+      "description": "Thailand has prosecuted 294 people since 2020 under its lèse majesté law, with sentences going up to 50 years.",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmjwepvd0qq9o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-30T23:26:16Z"
+    },
+    {
+      "title": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
+      "source": "BBC World",
+      "description": "Ukraine correspondent Dan Johnson explains the temporary ceasefire in the devastated town of Oleshky.",
+      "category": "Defence",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-30T23:19:17Z",
+      "lat": 48.38,
+      "lon": 31.17,
+      "place": "Ukraine",
+      "location_precision": "country-centroid",
+      "location_method": "description-lead-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "ICE agent charged for hitting Texas immigrant with vehicle during pursuit",
+      "source": "BBC Americas",
+      "description": "The Mexican national, who was living in the US without legal documentation, suffered multiple leg fractures and a hip injury, prosecutors said.",
+      "category": "Geopolitics",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ckjwep125v3eo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-30T23:16:43Z"
+    },
+    {
+      "title": "Australia’s best photos of the month – October 2026",
+      "source": "The Guardian Environment",
+      "description": "Dolly Parton, tulips and outback life all feature in the best images captured across the country in October Apartments, community centres and a pink outdoor toilet: Australia’s 2026 National Architecture award winners – in pictures Continue reading...",
+      "category": "Disasters",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/artanddesign/gallery/2026/oct/31/australias-best-photos-of-the-month-october-2026",
+      "published": "2026-10-30T23:00:26Z"
+    },
+    {
+      "title": "The UAE in Sudan",
+      "source": "Crisis Group Hold Your Fire",
+      "description": "In this episode of Hold Your Fire! , Richard speaks with Crisis Group’s Sudan expert Shewit Woldemichael and Horn of Africa Director Alan Boswell about Sudan’s war and the foreign powers fueling it. They revisit the atrocities committed during the Rapid Support Forces’ (RSF) takeover of El Fasher a year ago and the failure by outside actors to prevent them. They discuss shifting front lines, how external supply of drones and other military equipment is helping the RSF sustain its campaign and th",
+      "category": "Geopolitics",
+      "region": "Middle East",
+      "regions": [
+        "Middle East",
+        "Africa"
+      ],
+      "kind": "podcast",
+      "audio_url": "https://sphinx.acast.com/p/open/s/60b001bcdb92290012060084/e/6ae51813f6b38070e245c323/media.mp3",
+      "url": "https://shows.acast.com/hold-your-fire/episodes/the-uae-in-sudan",
+      "published": "2026-10-30T22:21:06Z",
+      "lat": 12.86,
+      "lon": 30.22,
+      "place": "Sudan",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Manhunt under way after Toronto CEO and family violently attacked in home invasion",
+      "source": "BBC Americas",
+      "description": "The real estate mogul and his two daughters were shot, while his wife was assaulted with a hammer, in an attack that has shocked the city.",
+      "category": "Geopolitics",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c6ewepng9ky5o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-30T22:13:46Z"
+    },
     {
       "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
       "source": "BBC World",
@@ -23,7 +399,7 @@
     {
       "title": "Soaring cost of Halloween treats spooks shoppers",
       "source": "BBC Americas",
-      "description": "The price of candy, especially chocolate, has soared, and Halloween bargain hunters are searching for deals and ways to cut costs.",
+      "description": "The price of candy, especially chocolate, is up, and Halloween bargain hunters are searching for deals and ways to cut costs.",
       "category": "Geopolitics",
       "region": "Americas",
       "regions": [
@@ -58,30 +434,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-30T21:13:14Z"
-    },
-    {
-      "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
-      "source": "BBC World",
-      "description": "Dan S Sullivan, the incumbent Republican senator running for re-election, and allies have accused the Democrats of trying to confuse voters by recruiting Dan J Sullivan to also stand in the race.",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-30T20:55:18Z"
-    },
-    {
-      "title": "Police deployed during stand-off over control of top Poland court",
-      "source": "BBC World",
-      "description": "The escalation came after the government suspended two senior justices and moved to bring criminal charges against them.",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-30T20:52:01Z"
     },
     {
       "title": "They strangled us, says founder of Russian newspaper shut under pressure from authorities",
@@ -394,22 +746,26 @@
     },
     {
       "title": "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
-      "source": "BBC World",
+      "source": "BBC Middle East",
       "description": "The PM's Likud party has alleged foreign interference and said Arab-led parties \"stole\" the election after his coalition lost its majority.",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/ckdd8qdl9e0eo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-30T15:09:29Z"
     },
     {
       "title": "Perfume bottle and child’s necklace among treasures found in Pompeii wardrobe",
-      "source": "The Guardian World",
+      "source": "The Guardian Europe",
       "description": "Archaeologists uncover jewellery, cosmetics and coins in cabinet sealed since eruption of Mount Vesuvius in AD79 Fragments of personal objects, from makeup tools and a perfume bottle to coins and a child’s necklace, have been found tucked away in a wooden wardrobe sealed off for almost 2,000 years in the ruins of Pompeii. The artifacts provide an intimate glimpse of daily life in the ancient Roman city before it was devastated by the eruption of Mount Vesuvius in AD79. The wardrobe was discovere",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
       "kind": "news",
       "url": "https://www.theguardian.com/science/2026/oct/30/perfume-bottle-child-necklace-pompeii-wardrobe",
       "published": "2026-10-30T15:06:39Z"
@@ -453,7 +809,7 @@
     },
     {
       "title": "Cost of living protests to spread to Germany and reignite in France on Halloween",
-      "source": "The Guardian World",
+      "source": "The Guardian Europe",
       "description": "Activists call for people to make their anger known over poor public services including education and housing Europe live – latest updates Street protests sweeping Europe are expected to spread to Germany and reignite in France on Saturday, with police mobilised to stop potential looting and rioting on the fringes of what organisers hope will be peaceful rallies. Weeks of, at times violent, student demonstrations have rocked Italy, Spain, Portugal, Albania and France, where activists on Hallowee",
       "category": "Geopolitics",
       "region": "Europe",
@@ -614,19 +970,6 @@
       "published": "2026-10-30T12:43:46Z"
     },
     {
-      "title": "Swedish academic says he has been barred from UK over event with Palestine Action founder",
-      "source": "BBC World",
-      "description": "Andreas Malm was due to appear on a panel alongside a co-founder of the proscribed group next week.",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/ck1l32jdlvl1o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-30T12:36:55Z"
-    },
-    {
       "title": "What we know about Binance's $6.3bn hack",
       "source": "BBC World",
       "description": "Cyber correspondent Joe Tidy explains more about what is suspected to be the biggest hack in history.",
@@ -658,27 +1001,14 @@
     },
     {
       "title": "Google value plunges by $500bn as its own AI search hits ad sales",
-      "source": "BBC World",
+      "source": "BBC Business",
       "description": "Google spooked investors so badly that its stock hit a six-month low, after it revealed its AI own search summaries were affecting ad revenue.",
-      "category": "Geopolitics",
+      "category": "Economics",
       "region": "all",
       "regions": [],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-30T12:04:02Z"
-    },
-    {
-      "title": "The week’s best new tracks and the act you need to know: Dutch squat-punks Bombstrap’s uncompromising racket",
-      "source": "The Guardian Europe",
-      "description": "The Rotterdam band are a riot of sound, look and attitude led by Eva Kah, who is as much a living artwork as she is a phenomenal live performer From Rotterdam, the Netherlands Recommended if you like Gnod, Discharge, Gwar Up next Debut album Big Enemy out now via Tartarus, playing Le Guess Who festival Rotterdam’s Bombstrap are a riotous and theatrical fusion of sound, look and attitude. An embodied version of John Milton’s Pandæmonium with the amp turned up to 11, the band revel in hardcore alt",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/music/2026/oct/30/the-weeks-best-new-songs-dutch-squat-punks-bombstrap-rotterdam",
-      "published": "2026-10-30T12:00:53Z"
     },
     {
       "title": "UN rights office warns of deepening displacement ‘nightmare’ in Gaza",
@@ -833,19 +1163,6 @@
       "location_verified": false
     },
     {
-      "title": "‘Swift justice’: Student List supporters focus on cleaning up Serbia’s rotten institutions",
-      "source": "The Guardian Europe",
-      "description": "After improbable election victory, the unconventional grassroots movement says it will prioritise dismissal of corrupt officials In Belgrade’s Pioneers Park, just across from the national assembly, a small crowd craned their necks to listen. One woman held aloft a placard reading “Love prevailed for the people and Serbia”. With a bouquet of media microphones in front of them, members of the Student List, the direct democracy movement that won an improbable but decisive victory in Sunday’s electi",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/30/student-list-focus-on-cleaning-up-serbia-corruption",
-      "published": "2026-10-30T10:54:17Z"
-    },
-    {
       "title": "What's at stake for Trump in the US midterms?",
       "source": "BBC World",
       "description": "Anthony Zurcher explains how the results of the midterm elections could reshape the rest of Trump's presidency.",
@@ -897,25 +1214,6 @@
       "published": "2026-10-30T09:33:51Z"
     },
     {
-      "title": "Oh to Believe in Another World review – William Kentridge’s amazing animated ballet of black comic pain",
-      "source": "The Guardian Europe",
-      "description": "Kentridge’s cine-musical creation, made to accompany Shostakovich’s 10th Symphony, is a marvel of puppetry, dance and humour, exploring humanity, grief and idealism The Baku international arts festival in Azerbaijan is showcasing an amazing cine-musical creation, perhaps the most amazing animation I have ever seen. Oh to Believe in Another World is an hour-long collage animation with live-action choreography by the 71-year-old South African artist and film-maker William Kentridge . It is shown w",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/film/2026/oct/30/oh-to-believe-in-another-world-review-william-kentridges-amazing-animated-ballet-of-black-comic-pain",
-      "published": "2026-10-30T09:29:33Z",
-      "lat": 40.41,
-      "lon": 49.87,
-      "place": "Baku",
-      "location_precision": "city-reference",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
-    },
-    {
       "title": "Houthis sending Taiz ‘back to the stone age’, governor of besieged Yemen city says",
       "source": "The Guardian World",
       "description": "Oxygen, food and water supplies running low and massacres taking place, says Nabil Shamsan The Houthis are trying to send the city of Taiz back to the stone age, the city’s governor said in a briefing designed to urge the international community to do more to lift the month-long siege. Nabil Shamsan said massacres were taking place in Yemen’s third city, that oxygen and water supplies were running out and that rubbish was piling up in the streets due to landfill sites being either full or inacce",
@@ -949,11 +1247,13 @@
     },
     {
       "title": "How Kenyans got caught in $130m US ghost student scam",
-      "source": "BBC World",
+      "source": "BBC Africa",
       "description": "The alleged scheme used stolen identities to claim US student aid, with Kenyans among those charged.",
       "category": "Humanitarian",
-      "region": "all",
-      "regions": [],
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cxvgdzpy7241o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-30T08:32:35Z"
@@ -1148,19 +1448,6 @@
       "published": "2026-10-30T05:31:26Z"
     },
     {
-      "title": "Former Sydney childcare worker Ashley Paul Griffith hit with 202 more abuse charges",
-      "source": "The Guardian World",
-      "description": "NSW police say charges include child rape and relate to 23 alleged victims aged between one and five at a Sydney childcare centre Get our breaking news email , free app or daily news podcast One of Australia’s most notorious paedophiles is facing hundreds more child abuse charges, including for the alleged rape of children as young as one. Days after being extradited from Queensland to New South Wales, Ashley Paul Griffith was hit with 202 charges dating from between 2014 and 2017, with police l",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/30/ashley-paul-griffith-queensland-paedophile-childcare-worker-additional-charges-ntwnfb",
-      "published": "2026-10-30T05:14:17Z"
-    },
-    {
       "title": "Could 2026 be the year that democracy fought back? | David Van Reybrouck",
       "source": "The Guardian Europe",
       "description": "Elections are never enough by themselves, but the stunning results from Serbia, Brazil and Hungary have given us hope in dark times It is undoubtedly too early to declare victory, but the recent electoral defeats of Viktor Orbán , Aleksandar Vučić and Flávio Bolsonaro make me wonder: is 2026 turning out to be the year democracy slowly, but surely, fought back? Even in Israel, prime minister Benjamin Netanyahu’s reigning bloc lost its parliamentary majority and saw the spectacular rise of Arab pa",
@@ -1249,38 +1536,8 @@
       "published": "2026-10-30T03:57:06Z"
     },
     {
-      "title": "New York police will now investigate Cornell sex complaints, governor says",
-      "source": "BBC World",
-      "description": "The change was announced amid backlash over the school's handling of gang rape allegations involving a fraternity on campus.",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cmwy42j9wewlo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-30T03:32:44Z",
-      "lat": 40.71,
-      "lon": -74.01,
-      "place": "New York",
-      "location_precision": "city-reference",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Feral deer will become Australia’s next feral pig problem without prompt action, report warns",
-      "source": "The Guardian World",
-      "description": "The invasive species has increased in spread and numbers and is costing farmers millions of dollars Get our breaking news email , free app or daily news podcast An unpublished government report on feral deer shows Australia is failing in its efforts to stop the spread of what one advocate warns could become “Australia’s next feral pig ”. The five years from 2020-2025 over which the national feral deer action plan was assessed covers a period in which the famously elusive species has increasingly",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/environment/2026/oct/30/australia-feral-deer-problem-report-national-action-plan",
-      "published": "2026-10-30T03:30:42Z"
-    },
-    {
       "title": "Record number of purges as Xi emphasises 'party discipline' at China political gathering",
-      "source": "BBC World",
+      "source": "BBC Asia",
       "description": "Xi's anti-corruption campaign has become \"an effort to consolidate and maintain authority\", observers say.",
       "category": "Geopolitics",
       "region": "Asia-Pacific",
@@ -1296,17 +1553,6 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
-    },
-    {
-      "title": "Three dead after two helicopters collide midair near Oregon airport",
-      "source": "BBC World",
-      "description": "The collision involving a Robinson R22 and an Airbus helicopter occurred on Thursday afternoon, with both aircraft crashing in a field adjacent to a highway.",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cked3p81303yo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-30T03:05:17Z"
     },
     {
       "title": "China expels a record number from Communist party amid Xi’s intensified purges of top officials",
@@ -1326,17 +1572,6 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
-    },
-    {
-      "title": "Sam Wood to remain in custody after another failed bail bid over domestic violence charges",
-      "source": "The Guardian World",
-      "description": "Former Bachelor star and wellness influencer stands accused of choking and assaulting wife at Noosa in Queensland Get our breaking news email , free app or daily news podcast Former Bachelor star Sam Wood will remain in custody while he awaits trial on domestic violence charges , after he was refused bail for a second time. Wood, 46, from Melbourne, has been held in custody since his arrest on 4 October at Noosa. On Friday supreme court justice Patrick McCafferty said Wood posed “an unacceptable",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/30/sam-wood-bail-bid-court-wife-szezana-ntwnfb",
-      "published": "2026-10-30T02:47:58Z"
     },
     {
       "title": "Democrats have an identity crisis - it won't be an easy fix",
@@ -1359,17 +1594,6 @@
       "kind": "news",
       "url": "https://www.theguardian.com/world/2026/oct/30/png-el-nino-drought-papua-new-guinea",
       "published": "2026-10-30T01:45:56Z"
-    },
-    {
-      "title": "More than 43 million ballots cast so far in midterms early voting surge",
-      "source": "BBC World",
-      "description": "Hispanic voters have helped drive the early voting numbers, which appear to outpace overall turnout for previous elections in some battleground counties.",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/c30rlxkjv2yko?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-30T01:44:24Z"
     },
     {
       "title": "Watch: Why Australia's mushroom murderer may now die in prison",
@@ -1409,6 +1633,17 @@
       "kind": "podcast",
       "url": "https://www.bbc.co.uk/sounds/play/p0pjwj3t?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-30T01:30:00Z"
+    },
+    {
+      "title": "Many Cubans voted for Trump - now they're turning on Republican immigration policies",
+      "source": "BBC World",
+      "description": "President Trump's fellow Republicans might feel the brunt of frustration among Cubans at the ballot box, writes the BBC's Will Grant.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c574p7z1xm8wo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-30T00:43:04Z"
     },
     {
       "title": "Student-backed election winners demand sweeping resignations in Serbia",
@@ -1508,6 +1743,19 @@
       "location_verified": false
     },
     {
+      "title": "How the deadly train crash in Spain unfolded – explainer",
+      "source": "The Guardian Europe",
+      "description": "Spain has begun three days of mourning to commemorate the 69 people who died in a high-speed rail collision. The trains – one from Spain's state-owned Renfe and the other from the private rail company Iryo – were heading from Madrid to to the southern region of Andalucía on the same line when they collided. The deadly crash came just 10 months after 46 people were killed when two trains collided on the same line. The disaster has raised fresh questions about safety on Spain's large, modern high-",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/video/2026/oct/29/how-the-deadly-train-crash-in-spain-unfolded-explainer",
+      "published": "2026-10-29T22:13:26Z"
+    },
+    {
       "title": "Young athlete and former minister among victims of Spain train crash",
       "source": "BBC Europe",
       "description": "As some of the victims' names are released publicly, an outpouring of grief and anger is sweeping across Spain.",
@@ -1519,20 +1767,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cr78plp1p9yvo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-29T21:33:35Z"
-    },
-    {
-      "title": "Venezuela opposition leader María Machado calls for elections upon return",
-      "source": "BBC World",
-      "description": "Machado, who was in exile for nearly a year, said the transition in Venezuela's government would be \"irreversible, organised, pacific\".",
-      "category": "Geopolitics",
-      "region": "Americas",
-      "regions": [
-        "Americas",
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/ck054d5mnzreo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-29T21:05:03Z"
     },
     {
       "title": "Watch: What leaked audio reveals about Spain train crash",
@@ -1549,11 +1783,13 @@
     },
     {
       "title": "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
-      "source": "BBC World",
+      "source": "BBC Europe",
       "description": "A temporary ceasefire has brought rare quiet to Kherson, offering its residents a glimpse of normal life before fighting resumes.",
       "category": "Defence",
-      "region": "all",
-      "regions": [],
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/ck1l393pyrylo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-29T20:05:57Z"
@@ -1885,19 +2121,6 @@
       "published": "2026-10-29T14:08:23Z"
     },
     {
-      "title": "A volcanic eruption and Obama on the midterm campaign trail: photos of the day – Thursday",
-      "source": "The Guardian Europe",
-      "description": "The Guardian’s picture editors select photographs from around the world Continue reading...",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/news/gallery/2026/oct/29/volcanic-eruption-and-obama-on-the-midterm-campaign-trail-photos-of-the-day-thursday",
-      "published": "2026-10-29T14:01:44Z"
-    },
-    {
       "title": "The beautiful, shocking work of artist Hoda Afshar: ‘I don’t take freedom of speech for granted’",
       "source": "The Guardian Middle East",
       "description": "Afshar’s experiences as a young woman in Iran have shaped her artistic career in Australia, focusing her eye on the humanity within inhumane systems Get our weekend culture and lifestyle email When Hoda Afshar was a teenager, coming of age in theocratic and authoritarian Iran in the 1990s, she and her friends were repeatedly arrested and physically punished by the “morality police”, for wearing their hijabs incorrectly in public and for attending underground parties. “They used to put a few of u",
@@ -1967,20 +2190,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c6z7x8214np7o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-29T13:19:24Z"
-    },
-    {
-      "title": "President Tinubu to 'pray for Nigeria' during Saudi Arabia trip",
-      "source": "BBC Africa",
-      "description": "He last travelled to Mecca in 2022 as he was campaigning to become Nigeria's president.",
-      "category": "Geopolitics",
-      "region": "Middle East",
-      "regions": [
-        "Middle East",
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cw78pry0788no?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-29T13:05:51Z"
     },
     {
       "title": "Inside the Russia-Africa summit in Moscow",
@@ -2128,7 +2337,7 @@
     },
     {
       "title": "Audio reveals exchanges between Spain train operators and drivers moments before deadly crash",
-      "source": "BBC World",
+      "source": "BBC Europe",
       "description": "The leaked tapes appear to show one high-speed train was given clearance to move at normal speed, even though another up ahead had stalled.",
       "category": "Geopolitics",
       "region": "Europe",
@@ -2138,17 +2347,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cmqxnl312v34o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-29T11:07:35Z"
-    },
-    {
-      "title": "Voter voices: Which issues matter most to Americans?",
-      "source": "BBC World",
-      "description": "As part of our Voter Voices series, the BBC asked Americans across the country what issue will influence how they vote.",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/videos/cm3wv3njppweo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-29T10:52:33Z"
     },
     {
       "title": "A new wave of electric ferries is here in the US. Some even fly",
@@ -2291,19 +2489,6 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
-    },
-    {
-      "title": "Cambodian police and soldiers helped guard abusive scam compounds, Amnesty alleges",
-      "source": "The Guardian Asia",
-      "description": "Survivors tell rights group that serving officers who worked as guards administered electric shocks and beatings Cambodian police and military officers worked as private security guards in scam compounds where thousands were forced to work in the online fraud industry, according to a report by Amnesty International. The global rights group alleged they worked for security companies as part of a system that enabled slavery and rape in the compounds, with some guards using electric batons to keep ",
-      "category": "Defence",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/29/cambodian-police-scam-compounds-amnesty-international",
-      "published": "2026-10-29T06:00:26Z"
     },
     {
       "title": "I set up a free school for Afghan girls – and the Taliban blindfolded me and broke my nose and jaw",
@@ -3072,25 +3257,6 @@
       "location_verified": false
     },
     {
-      "title": "Gulf states working on multipart peace deal to avert renewal of US-Iran war",
-      "source": "The Guardian Middle East",
-      "description": "Talks are aimed at reopening strait of Hormuz and lifting sanctions on Iran, and for Houthis to withdraw in Yemen A multipronged peace deal to reopen the strait of Hormuz within four days of sanctions being lifted and for the Houthis to withdraw substantial forces inside Yemen are at the heart of Gulf states’ plans to avert what they regard as a disastrous renewal of war between Iran and the US. The US is aware of the talks’ progress but is holding out for a concession that European powers sugge",
-      "category": "Geopolitics",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/28/gulf-states-multipart-peace-deal-avert-renewal-us-iran-war",
-      "published": "2026-10-28T05:00:55Z",
-      "lat": 32.43,
-      "lon": 53.69,
-      "place": "Iran",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "From the archive: The disabled villain: why sensitivity reading can’t kill off this ugly trope – podcast",
       "source": "The Guardian Long Read",
       "description": "We are raiding the Guardian long read archives to bring you some classic pieces from years past, with new introductions from the authors This week, from 2023: For centuries, fictional narratives have used outer difference to telegraph inner monstrosity. As someone who uses a wheelchair, I’ve learned you can’t just edit out a few slurs or bad words to fix this – it’s often baked deep into the story Written and read by Jan Grue Read the text version here Support the Guardian today: theguardian.com",
@@ -3519,19 +3685,6 @@
       "published": "2026-10-27T07:00:06Z"
     },
     {
-      "title": "Australian sunscreen brands face stricter rules after safety scandal",
-      "source": "BBC Asia",
-      "description": "The reforms come after a report found some popular sunscreens were far less effective than advertised.",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cm89zkdq1dkno?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-27T06:10:40Z"
-    },
-    {
       "title": "Donald Trump's biggest economic problem looks strangely familiar",
       "source": "BBC Americas",
       "description": "Donald Trump heads into the US midterm elections with an issue similar to his political foe Joe Biden.",
@@ -3618,17 +3771,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cw78pe7vlej5o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-27T00:00:30Z"
-    },
-    {
-      "title": "Anthropic's blockbuster share listing - 5 surprising things we now know",
-      "source": "BBC Technology",
-      "description": "Anthropic’s IPO prospectus is 355 pages and full of never before disclosed company information.",
-      "category": "Cyber",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cwn8d7g29vd9o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-26T19:57:23Z"
     },
     {
       "title": "Sydney's new $5bn airport has one big problem: Getting there is tough",
@@ -4300,17 +4442,6 @@
       "published": "2026-10-23T07:00:03Z"
     },
     {
-      "title": "Week in wildlife: a bookworm bear, an angelic spider and a bald hedgehog",
-      "source": "The Guardian Environment",
-      "description": "This week’s best wildlife photographs from around the world Continue reading...",
-      "category": "Disasters",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/environment/gallery/2026/oct/23/week-in-wildlife-a-bookworm-bear-an-angelic-spider-and-a-bald-hedgehog",
-      "published": "2026-10-23T07:00:02Z"
-    },
-    {
       "title": "Why am I obsessed with China’s ancient golden age? I took my daughter on a trip to find out – podcast",
       "source": "The Guardian Long Read",
       "description": "I felt a duty to write about the Tang dynasty and its incredible social and cultural sophistication – but also to connect my Chinese past with my child By Xiaolu Guo. Read by Elizabeth Chan Read the text version here Support the Guardian today: theguardian.com/longreadpod Continue reading...",
@@ -4866,19 +4997,6 @@
       "location_precision": "city-reference",
       "location_method": "headline-keyword",
       "location_verified": false
-    },
-    {
-      "title": "As King Charles heads to the Caribbean, he should know that Winston Churchill admitted to imperial plunder 90 years ago | Kenneth Mohammed",
-      "source": "The Guardian Global Development",
-      "description": "Modern politicians play on tales of empire to exaggerate what Britain left behind, but the monarch should consider a historical speech on imperial plunder For us in the Caribbean, there is something surreal about Britain’s renewed nostalgia over empire. As Britain’s monarch prepares to visit the Caribbean , and at a time when we in the former colonies are demanding to have a serious reckoning with slavery and reparations , UK politicians are invoking a dumbed-down distortion of history. Rewritin",
-      "category": "Humanitarian",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/global-development/2026/oct/17/king-charles-caribbean-winston-churchill-empire-britain-wealth",
-      "published": "2026-10-17T05:00:21Z"
     },
     {
       "title": "The Yemen War, Saudi-Iran relations and Another Escalation in the Gulf",
@@ -6360,17 +6478,6 @@
       "audio_url": "https://dts.podtrac.com/redirect.mp3/mcdn.podbean.com/mf/web/rtifsnbzktyw3dz6/260909_TPI-MEAD-MASTER.mp3",
       "url": "https://thepresidentsinbox.podbean.com/e/what-the-us-got-wrong-in-the-war-on-terror/",
       "published": "2026-09-10T00:32:42Z"
-    },
-    {
-      "title": "Aviation faces hotter, stormier skies – and passengers might have to accept more disruption",
-      "source": "BBC Business",
-      "description": "Are people going to have to increasingly accept more delays and diversions as the effects of climate change intensify?",
-      "category": "Economics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cm274p8m88lo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-05T23:20:00Z"
     },
     {
       "title": "What is the United Nations for?",
@@ -8612,21 +8719,6 @@
       "location_verified": false
     },
     {
-      "title": "UN stamps Trump plan, Gaza in Limbo, Saudi Crown Prince in Washington",
-      "source": "Crisis Group Hold Your Fire",
-      "description": "Hosted on Acast. See acast.com/privacy for more information.",
-      "category": "Geopolitics",
-      "region": "Middle East",
-      "regions": [
-        "Middle East",
-        "Americas"
-      ],
-      "kind": "podcast",
-      "audio_url": "https://sphinx.acast.com/p/open/s/60b001bcdb92290012060084/e/6921ed8253b254a5387d27e7/media.mp3",
-      "url": "https://shows.acast.com/hold-your-fire/episodes/un-stamps-trump-plan-gaza-in-limbo-saudi-crown-prince-in-was",
-      "published": "2025-11-22T17:06:10Z"
-    },
-    {
       "title": "Special Feature: A Front-Row Seat to Saudi Arabia's Transformation",
       "source": "MEI Taking the Edge Off",
       "description": "In this episode, Brian sits down with Faisal Abbas, editor-in-chief of Arab News . Abbas, who reported on Saudi Crown Prince Mohammed bin Salman's November 18 visit to the White House, unpacks his impressions from the visit and the opportunities it presents for US-Saudi relations. The conversation also explores the Kingdom's transformation over the past decade, its relationships with key partners including the United States, and Abbas's recommendations for deepening the US-Saudi partnership goin",
@@ -9117,7 +9209,7 @@
   "classification_method": "keyword-heuristic",
   "location_method": "headline-or-lead-reference",
   "content_counts": {
-    "news": 390,
+    "news": 393,
     "podcast": 193,
     "research": 14
   },
@@ -9157,10 +9249,6 @@
     {
       "source": "UN News Middle East",
       "message": "Using alternate publisher-hosted RSS endpoint: https://news.un.org/feed/subscribe/en/news/region/middle-east/feed/rss.xml?output=rss"
-    },
-    {
-      "source": "UN News",
-      "message": "Using alternate publisher-hosted RSS endpoint: https://news.un.org/feed/subscribe/en/news/all/rss.xml?output=rss"
     }
   ],
   "feed_health": "See errors for failed source names"
