@@ -1,6 +1,200 @@
 {
-  "updated": "2026-10-31T12:25:54.034945Z",
+  "updated": "2026-10-31T19:16:58.871487Z",
   "records": [
+    {
+      "title": "Disquiet grows in Albanese’s back yard as Grayndler artists unite against ‘insane’ AI proposal",
+      "source": "The Guardian World",
+      "description": "Inner west Sydney seat has long been safely held by the PM – but potential changes to copyright laws are angering its large creative community Get our daily political email , free app or daily news podcast The prime minister is facing growing discontent within his own electorate as creatives push back against the federal government’s proposal to allow AI companies to scrape everything Australians create online. Anthony Albanese’s seat of Grayndler in Sydney’s inner west is home to more than 3,00",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/01/artists-against-ai-proposal-anthony-albanese-grayndler-sydney-inner-west",
+      "published": "2026-10-31T19:00:52Z"
+    },
+    {
+      "title": "Protests under way in Germany and France as minister warns against use of Halloween masks – Europe live",
+      "source": "The Guardian World",
+      "description": "France’s interior minister, Laurent Nuñez, has warned protesters that covering their faces with Halloween costumes could result in fines Protesters in Paris have begun marching from Porte de Bagnolet, with demonstrations also taking place in Lille and Lyon . Crowds of people have gathered in Paris for the protests, where two French student unions have called for a blockade of schools and universities on Tuesday and Thursday. Continue reading...",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/live/2026/oct/31/france-germany-protests-paris-europe-latest-news-updates",
+      "published": "2026-10-31T18:31:38Z",
+      "lat": 48.86,
+      "lon": 2.35,
+      "place": "Paris",
+      "location_precision": "city-reference",
+      "location_method": "description-lead-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Police clash with masked rioters after largely peaceful protests across France",
+      "source": "The Guardian World",
+      "description": "Demonstrations also taking place in Germany, where officers fire teargas to disperse crowds as evening falls Clashes have erupted in Paris, Marseille and other cities after tens of thousands of demonstrators, some in Halloween fancy dress, marched across France in a third wave of protests over the cost of living and deteriorating public services. About 320,000 people – down from an estimated 410,000 last weekend – took part in rallies around the country, the interior ministry said, including 70,",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/31/police-clash-rioters-after-largely-peaceful-protests-across-france",
+      "published": "2026-10-31T18:23:56Z",
+      "lat": 46.6,
+      "lon": 2.21,
+      "place": "France",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
+      "source": "BBC World",
+      "description": "Oleshky residents had been without food, water and electricity, with many resorting to cooking garden weeds to survive.",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T17:53:35Z",
+      "lat": 61.52,
+      "lon": 105.32,
+      "place": "Russia",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "From teargas in Paris to gen Z in Germany: protests across Europe – in pictures",
+      "source": "The Guardian Europe",
+      "description": "Demonstrations over the high cost of living and inequality spread from France to Germany and Albania Continue reading...",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/gallery/2026/oct/31/from-teargas-in-paris-to-gen-z-in-germany-europe-across-protests-in-pictures",
+      "published": "2026-10-31T17:49:22Z",
+      "lat": 48.86,
+      "lon": 2.35,
+      "place": "Paris",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "‘You need the power of all your votes’: Bedouin women secure success for Arab parties in Israeli election",
+      "source": "The Guardian Middle East",
+      "description": "With 180,000 eligible voters, Bedouin turnout was key in Palestinian-led parties winning unprecedented 19 seats Last year, Umm Khaled Fatoun returned from volunteering in a Jewish-Arab support centre for victims of war to find bulldozers tearing into her son’s house in the Bedouin village of Azzarnug. The demolition crew, who arrived under police escort, did not even allow them to remove furniture or solar panels before reducing the home and its contents to a pile of rubble. Continue reading...",
+      "category": "Geopolitics",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/31/bedouin-women-success-arab-parties-israel-election",
+      "published": "2026-10-31T17:16:24Z"
+    },
+    {
+      "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+      "source": "BBC World",
+      "description": "Two analytics firms say they have robust intelligence pointing to a North Korean state-backed group as the likely culprit.",
+      "category": "Cyber",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T16:32:08Z"
+    },
+    {
+      "title": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
+      "source": "BBC World",
+      "description": "Government data shows that more than 10,000 people have contracted the rare virus.",
+      "category": "Geopolitics",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T15:16:20Z"
+    },
+    {
+      "title": "Ethiopian PM puts ministers through military training",
+      "source": "BBC World",
+      "description": "The prime minister has previously emphasised military preparedness as central to his government's ambitions.",
+      "category": "Defence",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmwyv2y7g9l8o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T14:28:15Z"
+    },
+    {
+      "title": "Starmer says UK must get closer to Europe as US relationship changes",
+      "source": "The Guardian World",
+      "description": "Shift in dealings with Washington not likely to reset once Trump leaves Oval Office, former PM says The UK and other European nations must draw closer together as the US becomes a less-reliable partner, Keir Starmer has said in his first significant political intervention since leaving No 10. The former prime minister warned European leaders of the threat posed by Russia, among others, and said the shift in relations with Washington during Donald Trump’s presidency was not likely to reset once h",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe",
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/politics/2026/oct/31/keir-starmer-uk-europe-us-relationship-trump",
+      "published": "2026-10-31T13:32:25Z",
+      "lat": 38.9,
+      "lon": -77.04,
+      "place": "Washington",
+      "location_precision": "city-reference",
+      "location_method": "description-lead-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Trump boosted half of US coal plants with taxpayer dollars and ‘free passes to pollute’, report says",
+      "source": "The Guardian Environment",
+      "description": "Environmental Defense Fund analysis shows administration handed out $950m and Clean Air Act exemptions It’s a good time to be a coal plant in the US. The Trump administration has given support to almost half of the nation’s coal plants, helping them to continue operating despite economic and regulatory headwinds, according to a new analysis by the Environmental Defense Fund. The analysis, which looked at the 184 operating coal plants that are connected to the grid, found that 90 received support",
+      "category": "Disasters",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/us-news/2026/oct/31/trump-coal-plants-taxpayer-dollars",
+      "published": "2026-10-31T13:00:42Z"
+    },
+    {
+      "title": "Watch: Blood donors get a Halloween fright in Thailand",
+      "source": "BBC World",
+      "description": "Thai Red Cross workers dressed up as part of a Halloween-themed blood drive in the country's capital Bangkok.",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/cmze42el49d9o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T12:50:45Z"
+    },
+    {
+      "title": "‘Bunch of baloney’: calls grow for Cop summit reforms as countries on track to fail nature targets",
+      "source": "The Guardian Environment",
+      "description": "Cop17, focused on protecting nature and restoring ecosystems, concludes on Saturday with critics saying system allows ‘one idiot’ to stall progress Calls are growing for major reforms to UN biodiversity summits as countries fail to deliver on their promises to halt the destruction of the natural world, with governments likely on track to continue their record of never having met a target in the 34-year history of the convention. Two weeks of negotiations at biodiversity Cop17 in Yerevan, Armenia",
+      "category": "Disasters",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/environment/2026/oct/31/cop17-reforms-fails-to-deliver-targets",
+      "published": "2026-10-31T12:30:06Z"
+    },
     {
       "title": "US approves sale of 500 Patriot missiles to Ukraine",
       "source": "BBC World",
@@ -22,38 +216,6 @@
       "location_verified": false
     },
     {
-      "title": "France and Germany braced for unrest with hundreds of demonstrations planned – Europe live",
-      "source": "The Guardian World",
-      "description": "French interior minister, Laurent Nuñez, warned earlier this week of a ‘very high risk of public disorder’ Here are some of the latest images from around France: In Paris, two separate marches planned by unions and gilets jaunes through the city centre have been banned. Instead, police have authorised a single march in the far south-east. An appeal by organisers against the decision to exclude them from the centre was rejected late on Friday night. Continue reading...",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/live/2026/oct/31/france-germany-protests-paris-europe-latest-news-updates",
-      "published": "2026-10-31T12:09:22Z",
-      "lat": 48.86,
-      "lon": 2.35,
-      "place": "Paris",
-      "location_precision": "city-reference",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Evacuees from Russia-occupied city where residents ate weeds on way to Ukraine",
-      "source": "BBC World",
-      "description": "Residents left the devastated city on Friday following a ceasefire brokered by US First Lady Melania Trump.",
-      "category": "Defence",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-31T12:05:04Z"
-    },
-    {
       "title": "Mill 19: a creative hub built into a former steel factory",
       "source": "The Guardian Environment",
       "description": "In Pittsburgh, Pennsylviania, a post-industrial site gets a second life Continue reading...",
@@ -63,6 +225,19 @@
       "kind": "news",
       "url": "https://www.theguardian.com/artanddesign/gallery/2026/oct/31/mill-19-steel-factory-pittsburgh",
       "published": "2026-10-31T12:00:42Z"
+    },
+    {
+      "title": "DPR Korea: Isolation deepens even as the country changes, says UN rights official",
+      "source": "UN News",
+      "description": "The Democratic People’s Republic of Korea (DPRK) is building factories and hospitals, rolling out smartphones and mobile banking, and passing new laws at an unprecedented rate. But its people are more cut off from the outside world than at any point in the country’s history.",
+      "category": "Humanitarian",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168690",
+      "published": "2026-10-31T12:00:00Z"
     },
     {
       "title": "Somalia looks to the future as the UN's political mission closes",
@@ -86,7 +261,7 @@
     {
       "title": "Healey to veto new offshore wind projects if they will not lower bills",
       "source": "The Guardian Environment",
-      "description": "UK chancellor’s plans add to concerns government is moving away from pro-renewables agenda John Healey has said he will veto new offshore wind projects if they will not lower bills, adding to concerns that the government is moving away from the pro-renewables agenda. Announcing his plans, the chancellor said clean power is “how we break the grip of international gas prices on our bills” but added the shift towards it “has to come at the right pace, in the right places, with the grid to carry it”",
+      "description": "UK chancellor’s plans add to concerns government is moving away from pro-renewables agenda John Healey has said he will veto new offshore wind projects if they will not lower bills, adding to concerns that the government is moving away from the pro-renewables agenda. Announcing his plans, the chancellor said clean power is “how we break the grip of international gas prices on our bills”, but added the shift towards it “has to come at the right pace, in the right places, with the grid to carry it",
       "category": "Disasters",
       "region": "all",
       "regions": [],
@@ -95,31 +270,7 @@
       "published": "2026-10-31T11:48:14Z"
     },
     {
-      "title": "‘Bunch of baloney’: calls grow for Cop summit reforms as countries on track to fail nature targets",
-      "source": "The Guardian Environment",
-      "description": "Cop17, focused on protecting nature and restoring ecosystems, concludes on Saturday with critics saying system allows ‘one idiot’ to stall progress Calls are growing for major reforms to UN biodiversity summits as countries fail to deliver on their promises to halt the destruction of the natural world, with governments likely on track to continue their record of never having met a target in the 34-year history of the convention. Two weeks of negotiations at biodiversity Cop17 in Yerevan, Armenia",
-      "category": "Disasters",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/environment/2026/oct/31/cop17-reforms-fails-to-deliver-targets",
-      "published": "2026-10-31T10:01:29Z"
-    },
-    {
-      "title": "‘You need the power of all your votes’: Bedouin women secure success for Arab parties in Israeli election",
-      "source": "The Guardian Middle East",
-      "description": "With 180,000 eligible voters, Bedouin turnout was key in Palestinian-led parties winning unprecedented 19 seats Last year, Umm Khaled Fatoun returned from volunteering in a Jewish-Arab support centre for victims of war to find bulldozers tearing into her son’s house in the Bedouin village of Azzarnug. The demolition crew, who arrived under police escort, did not even allow them to remove furniture or solar panels before reducing the home and its contents to a pile of rubble. Continue reading...",
-      "category": "Geopolitics",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/31/bedouin-women-success-arab-parties-israel-election",
-      "published": "2026-10-31T09:25:16Z"
-    },
-    {
-      "title": "CCTV, zip ties and election watchers: How US mail-in votes are secured and counted",
+      "title": "CCTV and zip ties: How US mail-in votes are secured and counted",
       "source": "BBC World",
       "description": "BBC Verify goes to an election centre to get a behind-the-scenes look at how mail-in ballots for the US midterm elections are processed.",
       "category": "Geopolitics",
@@ -211,7 +362,7 @@
     },
     {
       "title": "Riot police deployed to Poland’s constitutional court after judge suspended",
-      "source": "The Guardian World",
+      "source": "The Guardian Europe",
       "description": "President Karol Nawrocki seen struggling to gain entry to court building in Warsaw amid long-running row over the court’s legitimacy Riot police were locked in a tense standoff with protesters outside Poland’s constitutional court on Friday night after its top judge was suspended in the latest escalation in a decade-long dispute over the court’s legal status. The clashes followed a controversial decision by a group of government-appointed judges to suspend the court’s contested president, Bogdan",
       "category": "Geopolitics",
       "region": "Europe",
@@ -286,7 +437,7 @@
     },
     {
       "title": "Ukraine’s Zelenskyy praises US over $2.1bn Patriot missile deal but warns it could take years",
-      "source": "The Guardian World",
+      "source": "The Guardian Europe",
       "description": "The Ukrainian president called the US decision strong, but added that delivery of 500 Patriot PAC-3 missiles ⁠could take years The US has approved the sale ⁠of 500 Patriot PAC-3 missiles ⁠to Ukraine for an estimated $2.1bn, but Volodymyr Zelenskyy has warned deliveries could take years and stockpiles were needed now to counter Russian ballistic missile attacks. “The proposed sale will improve Ukraine’s capability to meet current and future threats by improving its integrated air and missile defe",
       "category": "Defence",
       "region": "Europe",
@@ -375,11 +526,13 @@
     },
     {
       "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
-      "source": "BBC World",
+      "source": "BBC Americas",
       "description": "The incumbent Republican running for re-election and allies have accused the Democrats of trying to confuse voters by recruiting a second Dan Sullivan to also stand in the race.",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-31T00:29:58Z"
@@ -737,19 +890,6 @@
       "published": "2026-10-30T17:33:02Z"
     },
     {
-      "title": "Evacuation of civilians begins in besieged Ukrainian city of Oleshky",
-      "source": "The Guardian Europe",
-      "description": "Humanitarian convoy brings food and medicine to Russian-held city where people have suffered severe shortages People living in the besieged Russian-held city of Oleshky in southern Ukraine were evacuated on Friday as part of a joint relief operation, the first of its kind in four years and eight months of war. The city, which lies on the Russian-occupied side of the Dnipro River, opposite Kherson, has suffered months of serious food and medical shortages, leading to warnings of starvation for th",
-      "category": "Humanitarian",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/30/evacuation-besieged-ukrainian-city-oleshky",
-      "published": "2026-10-30T17:13:48Z"
-    },
-    {
       "title": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
       "source": "BBC World",
       "description": "It is Pike's first public statement since she survived an execution attempt by lethal injection in September.",
@@ -818,31 +958,13 @@
       "published": "2026-10-30T16:04:55Z"
     },
     {
-      "title": "Russian society being ‘systematically crushed’ says Novaya Gazeta as newspaper announces closure",
-      "source": "The Guardian Europe",
-      "description": "Independent outlet, whose former editor Dmitry Muratov won Nobel prize, cites intolerable pressure from authorities Novaya Gazeta, one of Russia’s best-known independent media outlets, has announced it will permanently close next month. The newspaper, whose former editor-in-chief Dmitry Muratov won the Nobel peace prize in 2021 , cited intolerable pressure, including being stripped of its newsroom, its donation platforms and its legal right to publish. “This is not just our own story; it is the ",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/30/novaya-gazeta-russia-independent-newspaper-to-close",
-      "published": "2026-10-30T15:52:51Z",
-      "lat": 61.52,
-      "lon": 105.32,
-      "place": "Russia",
-      "location_precision": "country-centroid",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
-    },
-    {
       "title": "Democratic senator blames Egypt press crackdown on US military aid decision",
-      "source": "BBC World",
+      "source": "BBC Middle East",
       "description": "Chris Murphy said waiving a human rights condition on aid paved the way for arrests of journalists.",
       "category": "Humanitarian",
-      "region": "Africa",
+      "region": "Middle East",
       "regions": [
+        "Middle East",
         "Africa"
       ],
       "kind": "news",
@@ -886,19 +1008,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/ckdd8qdl9e0eo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-30T15:09:29Z"
-    },
-    {
-      "title": "Six dead after helicopter crashes in northern Indian state",
-      "source": "BBC World",
-      "description": "The aircraft reportedly took off from the Hindu pilgrimage site of Badrinath on Friday afternoon before losing contact.",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cr93zxyn9eqeo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-30T15:06:05Z"
     },
     {
       "title": "Spain transport minister says he won't resign over high-speed rail disaster",
@@ -955,19 +1064,6 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
-    },
-    {
-      "title": "Experts warn AI copyright changes could breach Australian constitution and spark huge compensation rights case",
-      "source": "The Guardian World",
-      "description": "Scraping copyrighted material from internet could ‘potentially’ amount to acquisition of property by government, Anne Twomey says Get our daily political email , free app or daily news podcast Altering copyright law to allow AI companies to scrape music, books and journalism could trigger a constitutional breach, Coalition senators and the recording industry have warned, as they raise new fears it could open Australia to massive legal action and compensation claims from rights holders worldwide.",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/law/2026/oct/31/experts-warn-ai-copyright-changes-could-breach-australian-constitution-and-spark-huge-compensation-rights-case",
-      "published": "2026-10-30T14:00:18Z"
     },
     {
       "title": "Sampa the Great: Nu Zamrock review – a full-circle moment for a world-class act",
@@ -1070,25 +1166,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-30T12:27:28Z"
-    },
-    {
-      "title": "China denies allegations of spy operation targeting Nvidia CEO",
-      "source": "BBC World",
-      "description": "US intelligence officials believe a Chinese businesswoman was gathering information for Beijing on the US chip-making giant, The New York Times reports.",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/ckgj9plnlxdeo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-30T12:20:04Z",
-      "lat": 35.86,
-      "lon": 104.2,
-      "place": "China",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "Google value plunges by $500bn as its own AI search hits ad sales",
@@ -1349,11 +1426,12 @@
     },
     {
       "title": "Human rights lawyer couple sentenced to 10 years' prison in Pakistan",
-      "source": "BBC World",
+      "source": "BBC Asia",
       "description": "Imaan Mazari and Hadi Ali Chattha were charged over an incident in 2024, when England's cricket team was touring Pakistan.",
       "category": "Geopolitics",
-      "region": "Middle East",
+      "region": "Asia-Pacific",
       "regions": [
+        "Asia-Pacific",
         "Middle East"
       ],
       "kind": "news",
@@ -1376,17 +1454,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cm9qz428nnljo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-30T07:45:00Z"
-    },
-    {
-      "title": "'I made the wrong decision,' Hyrox athlete who soiled herself in race tells BBC",
-      "source": "BBC World",
-      "description": "Speaking exclusively to the BBC, Joanna Wietrzyk says her determination to win the Hyrox race in September had clouded her judgement.",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/videos/cwly4p6e9264o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-30T07:33:27Z"
     },
     {
       "title": "Friday briefing: Israel has a dilemma - can its opposition govern with Palestinian parties?",
@@ -1468,11 +1535,13 @@
     },
     {
       "title": "Syrians struggle with soaring prices as crisis challenges post-Assad recovery",
-      "source": "BBC World",
+      "source": "BBC Middle East",
       "description": "End of subsidies and rising prices drive discontent, testing support for Ahmed al-Sharaa's government.",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cmn4egvez1yzo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-30T06:02:23Z"
@@ -1703,11 +1772,13 @@
     },
     {
       "title": "Student-backed election winners demand sweeping resignations in Serbia",
-      "source": "BBC World",
+      "source": "BBC Europe",
       "description": "Days after ousting Aleksandar Vučić's party from power, Student List MPs call for top figures to stand down.",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cmx2dwzp0z0vo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-30T00:17:28Z"
@@ -2048,19 +2119,6 @@
       "location_verified": false
     },
     {
-      "title": "Albanian opposition disrupts parliamentary session with flares after violent protests – video",
-      "source": "The Guardian Europe",
-      "description": "Opposition lawmakers in Albania disrupted a parliamentary session by burning flares, following weeks of violent anti-government protests called by students demanding the resignation of the prime minister, Edi Rama. Members of the opposition Democratic Party of Albania also blocked access to the podium when a law on the central bank was being voted on. As the opposition leader, Sali Berisha, spoke at the podium before his microphone was cut off, other opposition members held photos of protesters ",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/video/2026/oct/29/albanian-opposition-disrupts-parliamentary-session-with-flares-after-violent-protests-video",
-      "published": "2026-10-29T17:35:39Z"
-    },
-    {
       "title": "UK politics: Burnham denies preventing ministers from speaking about plans for closer relationship with EU – as it happened",
       "source": "The Guardian Europe",
       "description": "Prime minister wrote to ministers saying he did not want them to ‘advocate for specific options or opine on the likely outcome of the process’ Selling nicotine-free vapes to children under the age of 18 has become illegal from today, the government has said. Children were already banned from buying vapes containing nicotine. But, under the Tobacco and Vapes Act, shops across the UK will now be banned from selling nicotine-free vapes, and nicotine pouches, to children. Vaping can be a way to help",
@@ -2195,19 +2253,6 @@
       "location_precision": "country-centroid",
       "location_method": "description-lead-keyword",
       "location_verified": false
-    },
-    {
-      "title": "US convicts Rwandan man who hid genocide role for decades",
-      "source": "BBC Africa",
-      "description": "Eric Nshimiye was accused of lying to a jury to protect himself and a fellow perpetrator of the genocide.",
-      "category": "Geopolitics",
-      "region": "Africa",
-      "regions": [
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cmkgq90yxg7ko?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-29T13:49:20Z"
     },
     {
       "title": "Rock collapse kills two in Turkey's Cappadocia, local media reports",
@@ -3354,17 +3399,6 @@
       "location_verified": false
     },
     {
-      "title": "Aerial video shows California flooding amid ‘record-breaking tides’ – video",
-      "source": "The Guardian Environment",
-      "description": "Coastal communities across California were preparing for days of flooding amid potentially 'record-breaking tides' this week, as water levels began rising on Monday Coastal California braces for flooding amid forecast of ‘record-breaking tides’ Continue reading...",
-      "category": "Disasters",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/us-news/video/2026/oct/27/aerial-video-shows-california-flooding-amid-record-breaking-tides-video",
-      "published": "2026-10-27T21:55:44Z"
-    },
-    {
       "title": "Trump says US voter fraud is 'rampant' - evidence suggests it is extremely rare",
       "source": "BBC Americas",
       "description": "As the US president casts doubt on the security of the midterm elections, BBC Verify examines his claims.",
@@ -3873,25 +3907,6 @@
       "place": "Israel",
       "location_precision": "country-centroid",
       "location_method": "description-lead-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "World News in Brief: Ethiopians flee to Kenya amidst renewed conflict, new head of UN’s food programme, UN mission in Somalia concludes",
-      "source": "UN News",
-      "description": "Around 36,600 people have fled into northern Kenya following an uptick in fighting on the Ethiopian side of the border.",
-      "category": "Humanitarian",
-      "region": "Africa",
-      "regions": [
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168674",
-      "published": "2026-10-26T12:00:00Z",
-      "lat": 5.15,
-      "lon": 46.2,
-      "place": "Somalia",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
       "location_verified": false
     },
     {
