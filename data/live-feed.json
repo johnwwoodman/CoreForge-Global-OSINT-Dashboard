@@ -1,6 +1,115 @@
 {
-  "updated": "2026-10-31T19:16:58.871487Z",
+  "updated": "2026-11-01T00:06:59.032624Z",
   "records": [
+    {
+      "title": "I've been stuck on a tiny Pacific island for years and can't get a transit visa to fly home",
+      "source": "BBC World",
+      "description": "Ruchira Ranasingha, 50, has been stranded in the Cook Islands since 2023 and wants to return to Sri Lanka.",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmq5npz5l5geo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T23:06:13Z"
+    },
+    {
+      "title": "Tusk defends overhaul of Poland’s constitutional court despite protests",
+      "source": "The Guardian World",
+      "description": "Prime minister says shake-up is vital to restore tribunal crippled by years of political disputes Poland’s prime minister, Donald Tusk, has vowed to see through a contested overhaul of the country’s constitutional court, declaring that “in certain matters, there can be no compromise”. In a prime-time television address on Saturday night , Tusk was defiant, despite overnight protests that saw riot police drafted to protect the court’s building, saying the shake-up was vital to restore a tribunal ",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/31/donald-tusk-defends-overhaul-poland-constitutional-court-despite-protests",
+      "published": "2026-10-31T22:43:09Z"
+    },
+    {
+      "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+      "source": "BBC World",
+      "description": "The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack.",
+      "category": "Cyber",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T22:11:45Z"
+    },
+    {
+      "title": "Why did this Korean content creator throw a divorce ceremony?",
+      "source": "BBC Asia",
+      "description": "Cho Seung-yeon marked the end of her marriage by having a divorce ceremony - however not everyone online was happy about it.",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/c51kd2jyjr1eo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T22:01:39Z"
+    },
+    {
+      "title": "Thousands demonstrate in Paris as protests spread across Europe",
+      "source": "BBC World",
+      "description": "More than 320,000 people demonstrated across France against the rising cost of living and poor public services, with clashes between some protesters and police.",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T21:29:01Z",
+      "lat": 48.86,
+      "lon": 2.35,
+      "place": "Paris",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
+      "source": "BBC World",
+      "description": "One evacuated couple says they crossed minefields in Oleshky in search of food.",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T19:22:26Z",
+      "lat": 61.52,
+      "lon": 105.32,
+      "place": "Russia",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Oleshky evacuees reunite with families after truce allows crossing back into Ukraine",
+      "source": "The Guardian World",
+      "description": "Residents of nearby villages line highway waving flags to greet the evacuees’ convoy from the Russian-occupied city Evacuees from Russian-occupied Oleshky have been reunited with their families after crossing into Ukrainian-held territory on Saturday. The major rescue operation began on Friday and was carried out under the most significant truce since Russia’s full-scale invasion of Ukraine four and a half years ago. Continue reading...",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/31/oleshky-evacuees-reunite-with-families-after-truce-allows-crossing-into-ukraine",
+      "published": "2026-10-31T19:17:22Z",
+      "lat": 48.38,
+      "lon": 31.17,
+      "place": "Ukraine",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
     {
       "title": "Disquiet grows in Albanese’s back yard as Grayndler artists unite against ‘insane’ AI proposal",
       "source": "The Guardian World",
@@ -13,9 +122,9 @@
       "published": "2026-10-31T19:00:52Z"
     },
     {
-      "title": "Protests under way in Germany and France as minister warns against use of Halloween masks – Europe live",
+      "title": "Protests under way in Germany and France as minister warns against use of Halloween masks – as it happened",
       "source": "The Guardian World",
-      "description": "France’s interior minister, Laurent Nuñez, has warned protesters that covering their faces with Halloween costumes could result in fines Protesters in Paris have begun marching from Porte de Bagnolet, with demonstrations also taking place in Lille and Lyon . Crowds of people have gathered in Paris for the protests, where two French student unions have called for a blockade of schools and universities on Tuesday and Thursday. Continue reading...",
+      "description": "France’s interior minister, Laurent Nuñez, has warned protesters that covering their faces with Halloween costumes could result in fines Full report: Police clash with masked rioters after largely peaceful protests across France Protesters in Paris have begun marching from Porte de Bagnolet, with demonstrations also taking place in Lille and Lyon . Crowds of people have gathered in Paris for the protests, where two French student unions have called for a blockade of schools and universities on T",
       "category": "Geopolitics",
       "region": "Europe",
       "regions": [
@@ -24,17 +133,17 @@
       "kind": "news",
       "url": "https://www.theguardian.com/world/live/2026/oct/31/france-germany-protests-paris-europe-latest-news-updates",
       "published": "2026-10-31T18:31:38Z",
-      "lat": 48.86,
-      "lon": 2.35,
-      "place": "Paris",
-      "location_precision": "city-reference",
+      "lat": 46.6,
+      "lon": 2.21,
+      "place": "France",
+      "location_precision": "country-centroid",
       "location_method": "description-lead-keyword",
       "location_verified": false
     },
     {
       "title": "Police clash with masked rioters after largely peaceful protests across France",
       "source": "The Guardian World",
-      "description": "Demonstrations also taking place in Germany, where officers fire teargas to disperse crowds as evening falls Clashes have erupted in Paris, Marseille and other cities after tens of thousands of demonstrators, some in Halloween fancy dress, marched across France in a third wave of protests over the cost of living and deteriorating public services. About 320,000 people – down from an estimated 410,000 last weekend – took part in rallies around the country, the interior ministry said, including 70,",
+      "description": "Demonstrations also taking place in Germany, where officers fire teargas to disperse crowds as evening falls Clashes have erupted in Paris, Marseille and other cities after tens of thousands of demonstrators, some in Halloween fancy dress, marched across France in a third wave of protests over the cost of living and deteriorating public services. The interior minister, Laurent Nuñez, said about 150 planned demonstrations around the country had passed off peacefully, but police had encountered an",
       "category": "Geopolitics",
       "region": "Europe",
       "regions": [
@@ -102,17 +211,17 @@
       "published": "2026-10-31T17:16:24Z"
     },
     {
-      "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+      "title": "Emotional reunions with loved ones for Oleshky evacuees",
       "source": "BBC World",
-      "description": "Two analytics firms say they have robust intelligence pointing to a North Korean state-backed group as the likely culprit.",
-      "category": "Cyber",
-      "region": "Asia-Pacific",
+      "description": "The BBC's Dan Johnson travelled to the northern Ukrainian border with Belarus after evacuated Oleshky residents arrived in buses and ambulances following a temporary ceasefire.",
+      "category": "Defence",
+      "region": "Europe",
       "regions": [
-        "Asia-Pacific"
+        "Europe"
       ],
       "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-31T16:32:08Z"
+      "url": "https://www.bbc.co.uk/news/videos/cmy83w0jwznpo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T16:55:47Z"
     },
     {
       "title": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
@@ -197,7 +306,7 @@
     },
     {
       "title": "US approves sale of 500 Patriot missiles to Ukraine",
-      "source": "BBC World",
+      "source": "BBC Europe",
       "description": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles.",
       "category": "Defence",
       "region": "Europe",
@@ -225,6 +334,30 @@
       "kind": "news",
       "url": "https://www.theguardian.com/artanddesign/gallery/2026/oct/31/mill-19-steel-factory-pittsburgh",
       "published": "2026-10-31T12:00:42Z"
+    },
+    {
+      "title": "‘They deserve to know the truth’: UN rights chief demands probe into staffer’s death in Houthi custody",
+      "source": "UN News Middle East",
+      "description": "The UN human rights chief on Saturday demanded an independent investigation into the death of a Yemeni colleague held by the Houthis for more than two years, whose family learned of his death only weeks after it happened.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168716",
+      "published": "2026-10-31T12:00:00Z"
+    },
+    {
+      "title": "Samarkand: A ‘living museum’ on the Silk Road grapples with a tourism boom",
+      "source": "UN News",
+      "description": "As the sun sets over Samarkand’s majestic Registan, its last rays glint across the turquoise mosaics. Dusk settles on the ancient square where great trade routes have crossed for centuries.",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/10/1168711",
+      "published": "2026-10-31T12:00:00Z"
     },
     {
       "title": "DPR Korea: Isolation deepens even as the country changes, says UN rights official",
@@ -282,7 +415,7 @@
     },
     {
       "title": "Cost of living protests to spread to Germany and reignite in France on Halloween",
-      "source": "The Guardian World",
+      "source": "The Guardian Europe",
       "description": "Activists call for people to make their anger known over poor public services including education and housing Street protests sweeping Europe are expected to spread to Germany and reignite in France on Saturday, with police mobilised to stop potential looting and rioting on the fringes of what organisers hope will be peaceful rallies. Weeks of, at times violent, student demonstrations have rocked Italy, Spain, Portugal, Albania and France, where activists on Halloween have again called for peopl",
       "category": "Geopolitics",
       "region": "Europe",
@@ -301,11 +434,13 @@
     },
     {
       "title": "‘The last fortress’: historic Athens cafe closes as countercultural area gentrifies",
-      "source": "The Guardian World",
+      "source": "The Guardian Europe",
       "description": "Mouria coffeehouse unable to renew lease in Exarchia, known for leftwing solidarity, resistance and radicalism It has been the hangout of writers, artists, poets and politicians, doctors and lawyers, radicals and revolutionaries for as long as anyone can remember. And for 44 years, Christos Vanas, the proprietor of Mouria, has let them all in. Every day at 7am, the taciturn former waiter has been the first man to step inside the historic cafe in Exarchia, the heart of leftwing Athens . It is a r",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
       "kind": "news",
       "url": "https://www.theguardian.com/world/2026/oct/31/mouria-historic-athens-cafe-closes-exarchia-gentrifies",
       "published": "2026-10-31T08:00:37Z"
@@ -374,25 +509,6 @@
       "published": "2026-10-31T04:27:25Z"
     },
     {
-      "title": "Ukraine war briefing: Moscow’s Lavrov snubbed at G20 in Atlanta",
-      "source": "The Guardian Europe",
-      "description": "Russian foreign minister heavily criticised by EU foreign policy chief, and plans for the traditional ‘family photo’ abandoned. What we know on day 1,711 The EU’s foreign policy chief has accused Russian foreign minister Sergei Lavrov of presenting “lies” in G20 meetings in Atlanta about the Ukrainian conflict and suggested Moscow was not ready for peace negotiations . “We were talking about the big geopolitical crisis, including Ukraine, and we were able to address Sergei Lavrov head-on with th",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/31/ukraine-war-briefing-moscows-lavrov-snubbed-at-g20-in-atlanta",
-      "published": "2026-10-31T04:26:03Z",
-      "lat": 55.75,
-      "lon": 37.62,
-      "place": "Moscow",
-      "location_precision": "city-reference",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "‘Don’t worry about the leopard. It’s a man you don’t want to run into’: Delhi women reclaim the outdoors",
       "source": "The Guardian Global Development",
       "description": "On a wildlife walk in the Indian capital, a group of women share their stories of trying to enjoy nature in a city where strangers feel entitled to harass them Vallari Sheel wishes she could carry a camera or a pair of binoculars without being asked what her father does for a living. Once, looking at a tree in her south Delhi neighbourhood, about 50 metres away from her home, a man in a car screamed at her: “You have been clicking photos here for 10 days. What are you going to do with them?” She",
@@ -434,25 +550,6 @@
       "kind": "news",
       "url": "https://www.theguardian.com/australia-news/2026/oct/31/albanese-reset-world-stage-economic-spot-fires-rba-interest-rate-decision",
       "published": "2026-10-31T02:24:10Z"
-    },
-    {
-      "title": "Ukraine’s Zelenskyy praises US over $2.1bn Patriot missile deal but warns it could take years",
-      "source": "The Guardian Europe",
-      "description": "The Ukrainian president called the US decision strong, but added that delivery of 500 Patriot PAC-3 missiles ⁠could take years The US has approved the sale ⁠of 500 Patriot PAC-3 missiles ⁠to Ukraine for an estimated $2.1bn, but Volodymyr Zelenskyy has warned deliveries could take years and stockpiles were needed now to counter Russian ballistic missile attacks. “The proposed sale will improve Ukraine’s capability to meet current and future threats by improving its integrated air and missile defe",
-      "category": "Defence",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/31/ukraines-zelenskyy-praises-us-over-21bn-patriot-missile-deal-but-warns-it-could-take-years",
-      "published": "2026-10-31T02:18:17Z",
-      "lat": 48.38,
-      "lon": 31.17,
-      "place": "Ukraine",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
@@ -612,25 +709,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cmjwepvd0qq9o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-30T23:26:16Z"
-    },
-    {
-      "title": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
-      "source": "BBC World",
-      "description": "Ukraine correspondent Dan Johnson explains the temporary ceasefire in the devastated town of Oleshky.",
-      "category": "Defence",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-30T23:19:17Z",
-      "lat": 48.38,
-      "lon": 31.17,
-      "place": "Ukraine",
-      "location_precision": "country-centroid",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
     },
     {
       "title": "ICE agent charged for hitting Texas immigrant with vehicle during pursuit",
@@ -901,22 +979,8 @@
       "published": "2026-10-30T17:07:19Z"
     },
     {
-      "title": "Cape Town set for classic finale – what does history suggest could happen?",
-      "source": "BBC Africa",
-      "description": "South Africa set up an epic final day of their decisive Test against Australia by batting throughout the fourth day. What does history suggest could happen?",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific",
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c6n8dpvyyy71o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-30T17:03:40Z"
-    },
-    {
       "title": "Canada stops using 'avalanche dogs' for rescues in Rocky Mountains, stirring outrage",
-      "source": "BBC World",
+      "source": "BBC Americas",
       "description": "A 55-year-old dog rescue programme that has found missing hikers and children in the Canadian wilderness was axed as part of government budget cuts.",
       "category": "Geopolitics",
       "region": "Americas",
@@ -1011,7 +1075,7 @@
     },
     {
       "title": "Spain transport minister says he won't resign over high-speed rail disaster",
-      "source": "BBC World",
+      "source": "BBC Europe",
       "description": "Óscar Puente has been facing calls to resign after two high-speed trains collided earlier in the week, killing at least 69 people.",
       "category": "Geopolitics",
       "region": "Europe",
@@ -1158,7 +1222,7 @@
     },
     {
       "title": "What we know about Binance's $6.3bn hack",
-      "source": "BBC World",
+      "source": "BBC Business",
       "description": "Cyber correspondent Joe Tidy explains more about what is suspected to be the biggest hack in history.",
       "category": "Cyber",
       "region": "all",
@@ -1711,11 +1775,13 @@
     },
     {
       "title": "Democrats have an identity crisis - it won't be an easy fix",
-      "source": "BBC World",
+      "source": "BBC Americas",
       "description": "Whatever the result of the midterm elections, the party is facing tough questions over what they stand for and who should represent them.",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cknv08980d3vo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-30T02:14:41Z"
@@ -1730,32 +1796,6 @@
       "kind": "news",
       "url": "https://www.theguardian.com/world/2026/oct/30/png-el-nino-drought-papua-new-guinea",
       "published": "2026-10-30T01:45:56Z"
-    },
-    {
-      "title": "Watch: Why Australia's mushroom murderer may now die in prison",
-      "source": "BBC World",
-      "description": "Judges agreed with the prosecution’s appeal that Erin Patterson’s initial non-parole period of 33 years was insufficient.",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/videos/cmlykpd9kpy7o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-30T01:38:54Z"
-    },
-    {
-      "title": "Mushroom murderer fails to overturn convictions in Australian court challenge",
-      "source": "BBC World",
-      "description": "Erin Patterson argued her trial was unfair due to seven grounds but three appeal judges dismissed them all.",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/ck8dz8j5n993o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-30T01:35:40Z"
     },
     {
       "title": "The Documentary Podcast",
@@ -1907,19 +1947,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/videos/c6vgjeg0myzgo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-29T20:50:25Z"
-    },
-    {
-      "title": "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
-      "source": "BBC Europe",
-      "description": "A temporary ceasefire has brought rare quiet to Kherson, offering its residents a glimpse of normal life before fighting resumes.",
-      "category": "Defence",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/ck1l393pyrylo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-29T20:05:57Z"
     },
     {
       "title": "Inside the Houthi Campaign Against Saudi Arabia",
@@ -3602,30 +3629,6 @@
       "location_precision": "country-centroid",
       "location_method": "description-lead-keyword",
       "location_verified": false
-    },
-    {
-      "title": "Record carbon dioxide levels will impact us for centuries, says UN weather agency",
-      "source": "UN News",
-      "description": "Levels of carbon dioxide (CO2) and other major greenhouse gases in the atmosphere caused by burning fossil fuels reached record highs in 2025, locking in more long-term global warming, the World Meteorological Organization (WMO) said on Tuesday.",
-      "category": "Humanitarian",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168677",
-      "published": "2026-10-27T12:00:00Z"
-    },
-    {
-      "title": "Ebola: 20 contacts released from quarantine in Kenya, amid vaccine ‘hope’ in DR Congo",
-      "source": "UN News",
-      "description": "Twenty people associated with Kenya’s first case of Ebola Bundibugyo virus disease have been reunited with their families after being released from quarantine following completion of a mandatory 21-day monitoring period.",
-      "category": "Humanitarian",
-      "region": "Africa",
-      "regions": [
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168676",
-      "published": "2026-10-27T12:00:00Z"
     },
     {
       "title": "I struggled to come to terms with my mum’s death. Then I swam in the sea and suddenly felt connected to her",
@@ -6113,25 +6116,6 @@
       "location_verified": false
     },
     {
-      "title": "Lebanon: One in five children goes to bed hungry, says UNICEF",
-      "source": "UN News Middle East",
-      "description": "Four in five households in Lebanon struggle to afford basic necessities today, with children increasingly going without food, missing school and being pushed into work as conflict compounds years of economic crisis. \"I wanted to buy clothes for my children, but I could not. I also wanted to enrol them in school, but I could not afford that either,\" said one father of four, cited on Wednesday by the UN Children's Fund (UNICEF).",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168490",
-      "published": "2026-09-30T12:00:00Z",
-      "lat": 33.85,
-      "lon": 35.86,
-      "place": "Lebanon",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "The journalist who became king in Uganda",
       "source": "BBC Africa",
       "description": "Edward Rukidi Nyabongo I has been crowned king of Tooro in a ceremony attended by Uganda's President Museveni.",
@@ -6231,19 +6215,6 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
-    },
-    {
-      "title": "Europe's car makers are in crisis. Will the threat of war rescue them?",
-      "source": "BBC Business",
-      "description": "Auto executives across Europe hope rearmament can help them flex their industrial muscles once more.",
-      "category": "Economics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/c6vgyq598k9po?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-25T08:31:56Z"
     },
     {
       "title": "Old Rivals, New Alignments in North Africa",
@@ -9237,7 +9208,7 @@
   "classification_method": "keyword-heuristic",
   "location_method": "headline-or-lead-reference",
   "content_counts": {
-    "news": 394,
+    "news": 392,
     "podcast": 193,
     "research": 14
   },
