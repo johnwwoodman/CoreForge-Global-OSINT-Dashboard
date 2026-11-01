@@ -1,18 +1,150 @@
 {
-  "updated": "2026-11-01T00:06:59.032624Z",
+  "updated": "2026-11-01T06:00:12.526496Z",
   "records": [
     {
-      "title": "I've been stuck on a tiny Pacific island for years and can't get a transit visa to fly home",
-      "source": "BBC World",
-      "description": "Ruchira Ranasingha, 50, has been stranded in the Cook Islands since 2023 and wants to return to Sri Lanka.",
+      "title": "‘What’s our crime?’: A Palestinian family’s fight to get care for son injured by Hamas rocket",
+      "source": "The Guardian Middle East",
+      "description": "Kinaan Dadou, 10, has been left disabled since 7 October 2023 as his parents struggle to find funding for specialist treatment It was 7.30am on 7 October 2023 when a Hamas rocket exploded next to 7-year-old Kinaan Dadou. The rocket was aimed at the Israeli settlement of Efrat in the occupied West Bank but missed its mark by a few hundred metres, landing in front of Kinaan’s family home instead. A piece of shrapnel struck Kinaan in the head. He stood rigid, his hands frozen to his sides, and scre",
+      "category": "Geopolitics",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/01/palestinian-family-fight-care-son-hamas-rocket",
+      "published": "2026-11-01T06:00:03Z"
+    },
+    {
+      "title": "Hitler’s Eagle’s Nest retreat was torched in an arson attack. Should it be rebuilt?",
+      "source": "The Guardian Europe",
+      "description": "With the far right resurgent in Germany, experts are divided as to whether the dictator’s former mountaintop retreat is better restored or left a ruin One of the last structural relics of Adolf Hitler’s dictatorship was conceived to project indomitable power. Last month it was destroyed in a suspected arson attack. Will it, and should it, be rebuilt? The historic Nazi mountaintop retreat known as the Eagle’s Nest is perched on an Alpine peak at an altitude of 1,834 metres (6,000ft), with stunnin",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/01/hitler-eagles-nest-retreat-arson-attack-should-it-be-rebuilt",
+      "published": "2026-11-01T05:00:04Z",
+      "lat": 51.17,
+      "lon": 10.45,
+      "place": "Germany",
+      "location_precision": "country-centroid",
+      "location_method": "description-lead-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Piles of rubbish, power cuts and potholes: anger grows over Johannesburg’s run-down infrastructure",
+      "source": "The Guardian Africa",
+      "description": "The problems run deep in South Africa’s largest city. Will voters punish the ANC in next week’s local elections? One week before the local elections in South Africa, the pavements and roads of the Johannesburg township Alexandra were filled with piles of rubbish, rotting in the heat. At the Jukskei River, its banks choked with rubble and litter, foul-smelling brown water flowed out of a culvert. “We’ve got way too many challenges,” said Semadi Manganye, the chief executive of Alexandra Water War",
+      "category": "Geopolitics",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/01/anger-over-johannesburgs-run-down-infrastructure-elections",
+      "published": "2026-11-01T05:00:03Z"
+    },
+    {
+      "title": "Ukraine war briefing: Oleshky truce shows de-escalation is possible, says Zelenskyy",
+      "source": "The Guardian Europe",
+      "description": "Ukrainian president says Moscow must be shown that support for Kyiv will not diminish; US says interest also growing for limited Black Sea ceasefire. What we know on day 1,712 Volodymyr Zelenskyy has said the Oleshky ceasefire shows that de-escalation steps with Russia are possible, while the US says there is growing interest for a truce in the Black Sea. Zelenskyy said the humanitarian operation in the Russian-occupied Ukrainian city of Oleshky “clearly demonstrates that de-escalation steps are",
+      "category": "Defence",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/01/ukraine-war-briefing-oleshky-truce-shows-de-escalation-is-possible-says-zelenskyy",
+      "published": "2026-11-01T04:17:51Z",
+      "lat": 48.38,
+      "lon": 31.17,
+      "place": "Ukraine",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Binance says 90% of losses from $6.3bn hack covered as FBI says North Korea behind attack",
+      "source": "The Guardian World",
+      "description": "Cryptocurrency exchange says withdrawals expected to resume on Sunday as FBI blames North Korean state-sponsored group TraderTraitor Cryptocurrency exchange Binance says it has replaced 90% of the ⁠amount stolen after a record $6.3bn hack of its platform by a group the FBI identified as being backed by North Korea. The remaining 10% of tokens are less liquid, meaning they ⁠may take ​longer to buy, the company said in a post on X on Saturday. Co-CEO Richard Teng said separately that the company w",
+      "category": "Cyber",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency",
+      "published": "2026-11-01T02:41:34Z"
+    },
+    {
+      "title": "‘Our voices, our journey’: 2026 Taiwan Pride parade – in pictures",
+      "source": "The Guardian Asia",
+      "description": "An estimated 150,000 people took to the streets of Taipei on Saturday to attend the 24th Taiwan LGBT+ Pride parade. The largest annual pride event in east Asia, the march aims to promote gender equality, foster cross-community dialogue, and advocate for expanded legal protections and social inclusivity ‘We’re not freaks’: police raid sparks concern for Taiwan’s LGBT-friendly image Continue reading...",
       "category": "Geopolitics",
       "region": "Asia-Pacific",
       "regions": [
         "Asia-Pacific"
       ],
       "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cmq5npz5l5geo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-31T23:06:13Z"
+      "url": "https://www.theguardian.com/world/gallery/2026/nov/01/taiwan-pride-parade-2026-in-pictures",
+      "published": "2026-11-01T02:13:19Z",
+      "lat": 23.7,
+      "lon": 120.96,
+      "place": "Taiwan",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Shops looted as German cost of living protests turn violent",
+      "source": "BBC World",
+      "description": "Police in Frankfurt say \"violent riots\" took place in the city centre, with unrest also reported in Berlin, Hamburg and Cologne.",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-01T01:59:57Z",
+      "lat": 52.52,
+      "lon": 13.4,
+      "place": "Berlin",
+      "location_precision": "city-reference",
+      "location_method": "description-lead-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Police clash with masked rioters after largely peaceful protests across France",
+      "source": "The Guardian World",
+      "description": "Demonstrations also taking place in Germany, where officers fire teargas to disperse crowds as evening falls Clashes erupted in Paris, Marseille and other cities on Saturday after tens of thousands of demonstrators, some in Halloween fancy dress, marched across France in a third wave of protests over the cost of living and deteriorating public services. The interior minister, Laurent Nuñez, said about 150 planned demonstrations around the country had passed off peacefully, but police had encount",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/31/police-clash-rioters-after-largely-peaceful-protests-across-france",
+      "published": "2026-11-01T01:43:02Z",
+      "lat": 46.6,
+      "lon": 2.21,
+      "place": "France",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "These firms you've never heard of are feeding fears the AI bubble could burst",
+      "source": "BBC World",
+      "description": "The amount of debt held by data centres is measured in the tens of billions of pounds.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cje36degrgv5o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-01T01:37:26Z"
     },
     {
       "title": "Tusk defends overhaul of Poland’s constitutional court despite protests",
@@ -25,7 +157,57 @@
       ],
       "kind": "news",
       "url": "https://www.theguardian.com/world/2026/oct/31/donald-tusk-defends-overhaul-poland-constitutional-court-despite-protests",
-      "published": "2026-10-31T22:43:09Z"
+      "published": "2026-11-01T01:14:06Z"
+    },
+    {
+      "title": "How the downfall of Serbia's Vučiċ mirrored that of Hungary's Orbán",
+      "source": "BBC World",
+      "description": "Defeat for Serbia's Aleksandar Vučiċ in last weekend's vote was a carbon copy of Viktor Orbán's fall in Hungary.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c893z699q401o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-01T00:55:06Z"
+    },
+    {
+      "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
+      "source": "BBC Americas",
+      "description": "The incumbent Republican running for re-election and allies have accused the Democrats of trying to confuse voters by recruiting a second Dan Sullivan to also stand in the race.",
+      "category": "Geopolitics",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-01T00:46:12Z"
+    },
+    {
+      "title": "India's opposition set to hold mega rally seeking election chief's resignation",
+      "source": "BBC World",
+      "description": "It comes amid growing protests over a voter roll revision exercise feared to leave 130 million voters off rolls.",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-01T00:12:07Z"
+    },
+    {
+      "title": "I've been stuck on a tiny Pacific island for years and can't get a transit visa to fly home",
+      "source": "BBC World",
+      "description": "Ruchira Ranasingha, 50, has been stranded in the Cook Islands since 2023 and wants to return to Sri Lanka.",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmq5npz5l5geo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-10-31T23:06:13Z"
     },
     {
       "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
@@ -138,25 +320,6 @@
       "place": "France",
       "location_precision": "country-centroid",
       "location_method": "description-lead-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Police clash with masked rioters after largely peaceful protests across France",
-      "source": "The Guardian World",
-      "description": "Demonstrations also taking place in Germany, where officers fire teargas to disperse crowds as evening falls Clashes have erupted in Paris, Marseille and other cities after tens of thousands of demonstrators, some in Halloween fancy dress, marched across France in a third wave of protests over the cost of living and deteriorating public services. The interior minister, Laurent Nuñez, said about 150 planned demonstrations around the country had passed off peacefully, but police had encountered an",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/31/police-clash-rioters-after-largely-peaceful-protests-across-france",
-      "published": "2026-10-31T18:23:56Z",
-      "lat": 46.6,
-      "lon": 2.21,
-      "place": "France",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
       "location_verified": false
     },
     {
@@ -484,7 +647,7 @@
     },
     {
       "title": "Suited and booted: How Joseph Kabila went from president to rebel leader",
-      "source": "BBC World",
+      "source": "BBC Africa",
       "description": "What does Joseph Kabila launching a new rebel movement mean for DR Congo?",
       "category": "Geopolitics",
       "region": "Africa",
@@ -494,19 +657,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cr3wv311dwnlo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-31T04:32:07Z"
-    },
-    {
-      "title": "Riot police deployed to Poland’s constitutional court after judge suspended",
-      "source": "The Guardian Europe",
-      "description": "President Karol Nawrocki seen struggling to gain entry to court building in Warsaw amid long-running row over the court’s legitimacy Riot police were locked in a tense standoff with protesters outside Poland’s constitutional court on Friday night after its top judge was suspended in the latest escalation in a decade-long dispute over the court’s legal status. The clashes followed a controversial decision by a group of government-appointed judges to suspend the court’s contested president, Bogdan",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/31/riot-police-deployed-to-polands-constitutional-court-after-judge-suspended",
-      "published": "2026-10-31T04:27:25Z"
     },
     {
       "title": "‘Don’t worry about the leopard. It’s a man you don’t want to run into’: Delhi women reclaim the outdoors",
@@ -620,19 +770,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-31T01:11:43Z"
-    },
-    {
-      "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
-      "source": "BBC Americas",
-      "description": "The incumbent Republican running for re-election and allies have accused the Democrats of trying to confuse voters by recruiting a second Dan Sullivan to also stand in the race.",
-      "category": "Geopolitics",
-      "region": "Americas",
-      "regions": [
-        "Americas"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-31T00:29:58Z"
     },
     {
       "title": "US cancels G20 ‘family photo’ after Australia, UK and others refuse to appear with Russia",
@@ -849,11 +986,13 @@
     },
     {
       "title": "US tech stocks see sharp falls as AI spending nears $1tn",
-      "source": "BBC World",
+      "source": "BBC Americas",
       "description": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-30T20:34:46Z"
@@ -969,11 +1108,13 @@
     },
     {
       "title": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
-      "source": "BBC World",
+      "source": "BBC Americas",
       "description": "It is Pike's first public statement since she survived an execution attempt by lethal injection in September.",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/ck62ydn7dj9eo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-30T17:07:19Z"
@@ -1088,11 +1229,13 @@
     },
     {
       "title": "Pope Leo XIV becomes first pontiff to vote in a US election",
-      "source": "BBC World",
+      "source": "BBC Americas",
       "description": "The Chicago-born pontiff, who has a tense relationship with Trump, mailed in a ballot for the midterm elections that will decide control of the US Congress.",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-30T14:48:22Z"
@@ -2047,11 +2190,13 @@
     },
     {
       "title": "Hong Kong’s leader apologises for residential fire that killed 168 people",
-      "source": "The Guardian World",
+      "source": "The Guardian Asia",
       "description": "Blaze was world’s deadliest residential fire since 1980, but some survivors and bereaved families say justice has yet to be served Hong Kong’s leader has apologised for government shortcomings that contributed to a fire that killed 168 people in the city last year, a rare sign of public contrition that nevertheless failed to impress some victims’ families. The chief executive, John Lee, and seven other officials bowed in apology at the release of a report that pointed to “decades of failure” by ",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
       "kind": "news",
       "url": "https://www.theguardian.com/world/2026/oct/29/hong-kong-john-lee-apologises-wang-fuk-court-fire-killed-168-people",
       "published": "2026-10-29T18:14:21Z"
@@ -2581,25 +2726,6 @@
       "location_verified": false
     },
     {
-      "title": "Hello Kitty company cuts ties with Japanese spy show after China outcry",
-      "source": "The Guardian Asia",
-      "description": "Sanrio ends association with TV drama Vivant after China says portrayal of ruthless Chinese agents is ‘deliberate smear’ The company behind the successful Hello Kitty franchise has apologised and ended its commercial tie-up with a Japanese TV drama after Chinese state media and netizens condemned the show’s “deliberate smears” against China. Sanrio, a Japanese firm whose characters are popular around the world, said in a post on the Chinese social media site Weibo that it had decided to end its ",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/29/hello-kitty-japanese-spy-show-vivant-china-outcry",
-      "published": "2026-10-29T08:03:00Z",
-      "lat": 35.86,
-      "lon": 104.2,
-      "place": "China",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "Hello Kitty maker cuts ties with Japanese spy drama after China backlash",
       "source": "BBC Asia",
       "description": "Sanrio has apologised after its merchandise line with Japanese TV series Vivant drew criticism.",
@@ -2673,6 +2799,19 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cj1dw9znd1q1o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-29T03:15:35Z"
+    },
+    {
+      "title": "‘Feels like we’ve gone backwards’: Indonesia’s choking haze provides spark for wider protests",
+      "source": "The Guardian Asia",
+      "description": "After two years, President Prabowo Subianto is struggling with economic malaise, policy blunders and a devastating fire season in the world’s third-largest democracy As almost 2m hectares has gone up in smoke in Indonesia’s worst fire season in a decade , enveloping the region in a thick dystopian haze, 33-year-old university researcher Nurul Amalia has grown increasingly exasperated. “The government claims to be continuously increasing the number of personnel to extinguish it. But we have yet t",
+      "category": "Economics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/oct/29/indonesia-protests-fire-haze-economy",
+      "published": "2026-10-29T03:09:29Z"
     },
     {
       "title": "Details of thousands of US immigration agents leaked in major hack",
@@ -2933,19 +3072,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cqpvgxz3y49go?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-28T18:45:09Z"
-    },
-    {
-      "title": "Myanmar diplomat breaks down as he urges world to 'end our suffering'",
-      "source": "BBC Asia",
-      "description": "Kyaw Moe Tun - Myanmar's representative to the UN - makes an emotional appeal after saying the international community had failed the country's people.",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/videos/cqz0ve10jxn2o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-28T17:34:41Z"
     },
     {
       "title": "Ireland captain Stirling out of Namibia series",
@@ -3269,19 +3395,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cjy561y4pl56o?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-28T10:35:13Z"
-    },
-    {
-      "title": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
-      "source": "BBC Asia",
-      "description": "The Villa Vie Odyssey suspended its voyage and is working with passengers on \"temporary living arrangements\".",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-28T10:31:22Z"
     },
     {
       "title": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
@@ -3661,17 +3774,6 @@
       "location_verified": false
     },
     {
-      "title": "Apple to replace iPhone Duos affected by screen problem",
-      "source": "BBC Technology",
-      "description": "Photos shared online showed faults appearing on the screens of Apple's first foldable device.",
-      "category": "Cyber",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/c893zwlev2xpo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-27T09:37:55Z"
-    },
-    {
       "title": "Fears grow for Iranian athletes on death row as mountaineer latest to be hanged",
       "source": "The Guardian Global Development",
       "description": "Two sportspeople have been executed in the past month and at least six more face the same fate, says activist group Fears are growing for more Iranian athletes facing execution after mountain climber Ali-Sina Mostafavi became the latest in a string to be killed by the regime. Mostafavi – who documented his ascents of some of the world’s highest peaks, including Mount Everest – was executed on 14 October having been arrested in April after the anti-government protests a few months earlier. His de",
@@ -3789,19 +3891,6 @@
       "location_precision": "city-reference",
       "location_method": "description-lead-keyword",
       "location_verified": false
-    },
-    {
-      "title": "US bans vehicles from China’s BYD at Japan military base, calling them ‘unacceptable’ risk",
-      "source": "The Guardian Asia",
-      "description": "US military says the restrictions on the electric vehicles at Kadena airbase also apply to delivery drivers and taxis One of America’s biggest overseas military bases has banned vehicles made by the Chinese electric vehicle maker BYD over security concerns, the US military in Japan said on Tuesday. The ban, which went into effect this week at Kadena airbase on the southern Japanese island of Okinawa , has fueled speculation that similar measures could be taken at other US military facilities as ",
-      "category": "Defence",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/27/us-bans-byd-electric-vehicles-kadena-military-base",
-      "published": "2026-10-27T02:50:31Z"
     },
     {
       "title": "Jordan carries out deadly strike in Syria in retaliation for church attack",
@@ -4315,19 +4404,6 @@
       "location_precision": "city-reference",
       "location_method": "description-lead-keyword",
       "location_verified": false
-    },
-    {
-      "title": "Mystery over source of Ebola infection in Nigeria fuels concern about spread of virus",
-      "source": "The Guardian Africa",
-      "description": "Switzerland says patient is wife of Swiss diplomat and believed to have contracted virus while travelling in Uganda Health officials across Africa are racing to determine how Nigeria’s first Ebola patient ⁠in more than a decade ⁠became infected, amid fears ​the outbreak could spread further after reaching a fourth African country. The Swiss foreign ministry said on Friday the patient in Nigeria, the Ugandan-born wife of a Swiss diplomat based in Abuja, had not travelled to the Democratic Republi",
-      "category": "Geopolitics",
-      "region": "Africa",
-      "regions": [
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/23/ebola-swiss-patient-nigeria-dr-congo-concerns-virus-spread",
-      "published": "2026-10-23T13:57:11Z"
     },
     {
       "title": "World champion Jepchirchir fails drugs test",
@@ -9208,7 +9284,7 @@
   "classification_method": "keyword-heuristic",
   "location_method": "headline-or-lead-reference",
   "content_counts": {
-    "news": 392,
+    "news": 396,
     "podcast": 193,
     "research": 14
   },
@@ -9244,11 +9320,6 @@
       "episodes": 35
     }
   ],
-  "warnings": [
-    {
-      "source": "UN News Middle East",
-      "message": "Using alternate publisher-hosted RSS endpoint: https://news.un.org/feed/subscribe/en/news/region/middle-east/feed/rss.xml?output=rss"
-    }
-  ],
+  "warnings": [],
   "feed_health": "See errors for failed source names"
 }
