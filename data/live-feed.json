@@ -1,9 +1,299 @@
 {
-  "updated": "2026-11-03T17:02:14.797293Z",
+  "updated": "2026-11-03T23:22:01.334224Z",
   "records": [
     {
-      "title": "Death toll rises in Ukraine after Russia attacks aid centre, hospice and hospital",
+      "title": "Choice Shonky awards 2026: From ticket sellers and Virgin flight credits to a 25-hour laundry cycle",
+      "source": "The Guardian World",
+      "description": "Australia’s worst products and services for the year have been named by consumer advocacy group Choice Get our breaking news email , free app or daily news podcast Concert tickets that surge to $1,650, an airline pocketing $75m of unused flight credits and a washer/dryer cycle that takes 25 hours have all made the dishonour roll in consumer advocacy group Choice’s annual Shonky awards. Now in their 21st year, the Shonkys spotlight Australia’s worst products and services as decided by Choice. Con",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/04/choice-2026-shonky-awards-virgin-ticketmaster-hisense-sony",
+      "published": "2026-11-03T22:48:24Z"
+    },
+    {
+      "title": "Spanish transport minister resigns days after deadly train crash",
+      "source": "BBC World",
+      "description": "At least 69 people were killed and dozens injured in the collision south of the capital, Madrid.",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-03T22:45:59Z",
+      "lat": 40.42,
+      "lon": -3.7,
+      "place": "Madrid",
+      "location_precision": "city-reference",
+      "location_method": "description-lead-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "One dead and another missing in suspected grizzly bear attack in Canada",
+      "source": "The Guardian World",
+      "description": "The incident took place in the same province where a grizzly attacked a group of schoolchildren last November A mother is dead and her daughter is missing in western Canada after a suspected grizzly bear attack in the same community where a bear attacked a group of schoolchildren earlier in the year. On Tuesday, the British Columbia conservation officer service said in a social media post that it had launched a search for the two missing people on the weekend, and that during the search on Sunda",
+      "category": "Geopolitics",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/03/grizzly-bear-attack-canada",
+      "published": "2026-11-03T22:08:50Z",
+      "lat": 56.13,
+      "lon": -106.35,
+      "place": "Canada",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "NTSB says crucial plane parts found three miles from Florida crash site",
+      "source": "BBC World",
+      "description": "The NTSB said because the parts were found far from the accident site, they fell off before the crash.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c9e8lk5dpj7no?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-03T21:53:38Z"
+    },
+    {
+      "title": "Spanish transport minister resigns after deadly train crash",
+      "source": "The Guardian World",
+      "description": "Óscar Puente also announces his withdrawal from upcoming election following disaster that killed 69 people Spain’s transport minister handed in his resignation on Tuesday after the train crash that killed 69 people last week, one of the worst railway disasters in Europe this century. Óscar Puente, who had earlier pledged to work “tirelessly” to restore confidence in the world’s second-largest high-speed rail network, also said he was withdrawing from the country’s upcoming general election. Cont",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/03/spain-transport-minister-oscar-puente-resigns-deadly-train-crash",
+      "published": "2026-11-03T21:46:02Z"
+    },
+    {
+      "title": "UK and EU agree draft deal to scrap Brexit red tape over food exports",
       "source": "BBC Europe",
+      "description": "The food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.",
+      "category": "Economics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-03T20:53:03Z"
+    },
+    {
+      "title": "Seven flights across Europe targeted by suspected bomb threats",
+      "source": "BBC World",
+      "description": "Planes in Poland, Spain, Bulgaria and Italy have been checked for explosives following separate threats.",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-03T20:42:47Z"
+    },
+    {
+      "title": "Tech Life",
+      "source": "BBC Technology",
+      "description": "When copyright strikes silence reporters, rail safety & the Lord of the Rings live show.",
+      "category": "Cyber",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/sounds/play/w3ct8jyt?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-03T20:30:00Z"
+    },
+    {
+      "title": "Two Australians confirmed dead in Spain’s high-speed train crash",
+      "source": "The Guardian World",
+      "description": "Legal body handling identification says three latest victims include two Australians and a Japanese citizen Get our breaking news email , free app or daily news podcast Two Australians are among 69 people who died in last week’s high-speed train collision after Spanish authorities confirmed the identities of three more victims. A legal body set up to handle the identification work, made up of police and forensics experts, announced in a statement late on Monday the three latest confirmed victims",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe",
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/04/two-australians-dead-in-spain-high-speed-train-crash-ntwnfb",
+      "published": "2026-11-03T20:21:14Z"
+    },
+    {
+      "title": "Andy Burnham to unveil EU trade deals worth billions of pounds",
+      "source": "The Guardian Europe",
+      "description": "Agriculture, youth visas and emissions agreements nearly tied up under PM’s plan for a much closer relationship with Brussels The UK-EU food produce deal: what was agreed and will it affect shoppers? Andy Burnham is preparing to announce billions of pounds of trade deals with the EU covering everything from youth visas to pet passports under his vision of a much closer relationship with the bloc. With the prime minister scheduled to meet his European counterparts in Brussels on 20 November, offi",
+      "category": "Economics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/politics/2026/nov/03/andy-burnham-to-unveil-eu-trade-deals-brexit",
+      "published": "2026-11-03T20:00:13Z",
+      "lat": 50.85,
+      "lon": 4.35,
+      "place": "Brussels",
+      "location_precision": "city-reference",
+      "location_method": "description-lead-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Why are fridges being hacked and what could be next? - The Latest",
+      "source": "The Guardian Europe",
+      "description": "Supermarket fridges and freezers in several European countries have malfunctioned after a reported cyber-attack, with their thermostats remotely cranked up. It is unclear who is behind the latest apparent attack but the EU has condemned what it said was ‘a deliberate attempt to disrupt our food supply’. It comes as the UK’s cybersecurity body warns AI-powered malicious software is ‘highly likely’ to be used in hacking attacks against the UK’s power stations, airports and hospitals by 2028. Lucy ",
+      "category": "Cyber",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/news/video/2026/nov/03/why-are-fridges-being-hacked-and-what-could-be-next-the-latest",
+      "published": "2026-11-03T19:12:31Z"
+    },
+    {
+      "title": "The UK-EU food produce deal: what was agreed and will it affect shoppers?",
+      "source": "The Guardian Europe",
+      "description": "Two sides agree deal to remove some Brexit checks on food and animal product exports to EU Andy Burnham to unveil EU trade deals worth billions of pounds The UK and the EU have finalised their deal to remove red tape for food producers and agreed first drafts on joint positions on migration, youth mobility and electricity trading before a summit on 20 November. The draft text of a joint statement has emerged 17 days before the summit, an indication of the consensual state of play between two sid",
+      "category": "Economics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/politics/2026/nov/03/new-uk-eu-brexit-food-produce-deal-explained",
+      "published": "2026-11-03T18:24:37Z"
+    },
+    {
+      "title": "Seven reported bomb threats against European flights confirmed as false alarms – as it happened",
+      "source": "The Guardian World",
+      "description": "Bomb threats were made on routes involving a number of airlines, including Ryanair and WizzAir Back to Poland, Warsaw Modlin airport says it has resumed operations after an earlier bomb threat – but a part of the airport where the London flight was parked remain closed and is being checked by security forces. Ukraine’s Zelenskyy has said his talks with Merz and Germany’s president Steinmeier will focus on “diplomatic coordination” on air defence and energy sector. “These will be the priorities o",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/live/2026/nov/03/zelenskyy-berlin-merz-europe-sweden-spain-france-belgium-poland-latest-news",
+      "published": "2026-11-03T18:22:57Z"
+    },
+    {
+      "title": "Cold war? Why are fridges being hacked and what could be next? - The Latest",
+      "source": "The Guardian Europe",
+      "description": "Supermarket fridges and freezers in several European countries have malfunctioned after a reported cyber-attack, with their thermostats remotely cranked up. It is unclear who is behind the latest apparent attack but the EU has condemned what it said was ‘a deliberate attempt to disrupt our food supply’. It comes as the UK’s cybersecurity body warns AI-powered malicious software is ‘highly likely’ to be used in hacking attacks against the UK’s power stations, airports and hospitals by 2028. Lucy ",
+      "category": "Cyber",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/news/audio/2026/nov/03/cold-war-why-are-fridges-being-hacked-and-what-could-be-next-the-latest",
+      "published": "2026-11-03T18:21:30Z"
+    },
+    {
+      "title": "Even if US democracy can be salvaged from Trump, Europe is moving on | Rafael Behr",
+      "source": "The Guardian Europe",
+      "description": "It will take decades to rebuild trust in a country that removed a tyrant once – and then reinstated him four years later When Joe Biden entered the White House in 2021 it was possible to believe that Donald Trump’s reign had been an aberration. “America is back. The transatlantic alliance is back,” the new president declared to relieved European leaders shortly after winning the 2020 race. It was true, but not for long. Trump’s defeat proved that US democracy was mechanically operational, not cu",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/03/us-democracy-donald-trump-europe-trust",
+      "published": "2026-11-03T18:07:14Z"
+    },
+    {
+      "title": "UK makes huge aid cuts to Commonwealth nations despite warm words at Chogm",
+      "source": "The Guardian Environment",
+      "description": "Nations in the group fare worse than others, with funding for nature projects especially hard hit even as climate crisis intensifies global need The UK government has slashed overseas aid to Commonwealth countries, the Guardian can reveal, in contrast to the warm words for the group from King Charles and the prime minister, Andy Burnham , this week. Amid sharp cuts in the UK’s aid budget overall, the Commonwealth has fared poorly, an analysis of the most recent and projected aid figures, seen by",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/03/uk-cuts-aid-commonwealth-countries-despite-warm-words-at-chogm-summit",
+      "published": "2026-11-03T17:49:57Z"
+    },
+    {
+      "title": "Seven planes across Europe searched or diverted after ‘malicious hoax’ bomb threats",
+      "source": "The Guardian World",
+      "description": "Unclear if series of incidents affecting two UK departures and several Ryanair services, among others, were connected Seven planes across Europe have been searched or diverted after a series of bomb threats were made to passenger flights, prompting questions as to whether there was any coordination behind the warnings. Two UK departures – one from Heathrow and one from Manchester – were among those threatened in what Downing Street called “malicious hoaxes”, though all planes landed safely and n",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/03/four-planes-flying-across-europe-targeted-by-bomb-threats",
+      "published": "2026-11-03T17:32:45Z"
+    },
+    {
+      "title": "King tells Commonwealth leaders that Britain’s role in slave trade was ‘shameful’ but stops short of apology – as it happened",
+      "source": "The Guardian Europe",
+      "description": "Speech by Charles marks formal opening of Commonwealth Heads of Government Meeting (Chogm) in Antigua Q: Do you think the UK should reconsider Commonwealth membership, given other countries just keep asking us for slavery reparations? Badenoch said she did not agree with that “because most Commonwealth countries aren’t doing this”. China did all sorts of things. It’s not out there apologising. The purpose of the apology is to make us look weak. It is to make this country look weak. And once we s",
+      "category": "Economics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/politics/live/2026/nov/03/shabana-mahmood-migration-brexit-eu-labour-andy-burnham-kemi-badenoch-king-charles-commonwealth-uk-politics-latest-news",
+      "published": "2026-11-03T17:30:19Z"
+    },
+    {
+      "title": "Food suppliers in UK hit by cyber-attacks after freezers targeted in Europe",
+      "source": "The Guardian World",
+      "description": "Cybersecurity experts say national impact ‘minimal’ but incidents may represent the ‘foothills’ of a wider threat Food suppliers in the UK have been hit by cyber-attacks after hackers raised the temperatures of supermarket freezers across Europe. The UK’s National Cyber Security Centre (NSCS) said it was working with the affected companies but the national impact was minimal. Continue reading...",
+      "category": "Cyber",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/technology/2026/nov/03/uk-meat-processing-firms-fridges-heat-up-cyber-attacks",
+      "published": "2026-11-03T17:28:49Z"
+    },
+    {
+      "title": "Trump claims US will end military aid to Israel by end of this year",
+      "source": "The Guardian World",
+      "description": "US president makes surprise election day announcement, saying country does not ‘need’ $4bn annual payment Donald Trump has said that the US will end military aid to Israel at the end of this year in a surprise election day announcement that appeared to be targeted at voters sceptical of US support for Israel and the war in Gaza . In a phone interview with Fox News as voting began on Tuesday morning, the US president said the US would cut nearly $4bn (£2.96bn) in military aid to Israel because “t",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/us-news/2026/nov/03/donald-trump-usa-end-military-aid-to-israel-end-year-midterms",
+      "published": "2026-11-03T17:17:11Z",
+      "lat": 31.05,
+      "lon": 34.85,
+      "place": "Israel",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Irish Olympian Ciara Mageean was a 'talented and inspirational human being'",
+      "source": "BBC World",
+      "description": "The former European champion and two-time Olympic runner had been diagnosed with stage four bowel cancer.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cw62ye1030njo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-03T17:07:28Z"
+    },
+    {
+      "title": "Death toll rises in Ukraine after Russia attacks aid centre, hospice and hospital",
+      "source": "BBC World",
       "description": "At least 38 people are killed in 24 hours and Ukraine's Volodymyr Zelensky warns dozens more could be trapped under rubble.",
       "category": "Humanitarian",
       "region": "Europe",
@@ -32,45 +322,8 @@
       "published": "2026-11-03T16:44:20Z"
     },
     {
-      "title": "Seven reported bomb threats against European flights confirmed as false alarms – Europe live",
-      "source": "The Guardian World",
-      "description": "Bomb threats were made on routes involving a number of airlines, including Ryanair and WizzAir Back to Poland, Warsaw Modlin airport says it has resumed operations after an earlier bomb threat – but a part of the airport where the London flight was parked remain closed and is being checked by security forces. Ukraine’s Zelenskyy has said his talks with Merz and Germany’s president Steinmeier will focus on “diplomatic coordination” on air defence and energy sector. “These will be the priorities o",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/live/2026/nov/03/zelenskyy-berlin-merz-europe-sweden-spain-france-belgium-poland-latest-news",
-      "published": "2026-11-03T16:41:44Z"
-    },
-    {
-      "title": "King tells Commonwealth leaders that Britain’s role in slave trade was ‘shameful’ but stops short of apology – UK politics live",
-      "source": "The Guardian Europe",
-      "description": "Speech by Charles marks formal opening of Commonwealth Heads of Government Meeting (Chogm) in Antigua Q: Do you think the UK should reconsider Commonwealth membership, given other countries just keep asking us for slavery reparations? Badenoch said she did not agree with that “because most Commonwealth countries aren’t doing this”. China did all sorts of things. It’s not out there apologising. The purpose of the apology is to make us look weak. It is to make this country look weak. And once we s",
-      "category": "Economics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/politics/live/2026/nov/03/shabana-mahmood-migration-brexit-eu-labour-andy-burnham-kemi-badenoch-king-charles-commonwealth-uk-politics-latest-news",
-      "published": "2026-11-03T16:33:48Z"
-    },
-    {
-      "title": "Irish Olympian Ciara Mageean was a 'talented and inspirational human being'",
-      "source": "BBC World",
-      "description": "The former European champion and two-time Olympic runner had been diagnosed with stage four bowel cancer.",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cw62ye1030njo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-03T16:20:59Z"
-    },
-    {
       "title": "Binance says fake job interviews used as part of $6.3bn crypto hack",
-      "source": "BBC Technology",
+      "source": "BBC World",
       "description": "An engineer was contacted through a legitimate job-hunting platform and invited to bogus job interviews with fake company representatives, Binance says.",
       "category": "Cyber",
       "region": "all",
@@ -78,19 +331,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-03T16:19:29Z"
-    },
-    {
-      "title": "The UK-EU food produce deal: what was agreed and will it affect shoppers?",
-      "source": "The Guardian Europe",
-      "description": "Two sides have ‘settled’ text of a draft deal to remove some Brexit checks on food and animal product exports to EU The UK and the EU have finalised their deal to remove red tape for food producers wanting to export to the EU. It is the first of a series of agreements the two sides will formally announce at a summit in Brussels on 20 November. It is understood the text is “settled” and not subject to further negotiation with the European Commission, although an EU member state may yet raise issu",
-      "category": "Economics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/politics/2026/nov/03/new-uk-eu-brexit-food-produce-deal-explained",
-      "published": "2026-11-03T16:00:50Z"
     },
     {
       "title": "What's happening to UK interest rates and what does it mean for mortgages?",
@@ -117,19 +357,6 @@
       "published": "2026-11-03T15:50:12Z"
     },
     {
-      "title": "Freezers of UK meat suppliers heat up after cyber-attacks in Europe",
-      "source": "The Guardian World",
-      "description": "Cybersecurity experts say incidents had minimal effect but may represent the ‘foothills’ of a wider threat Meat suppliers in the UK have been hit by cyber-attacks after hackers raised the temperatures of supermarket freezers across Europe. The UK’s National Cyber Security Centre said it was working with the affected companies but the national impact was minimal. Continue reading...",
-      "category": "Cyber",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/technology/2026/nov/03/uk-meat-processing-firms-fridges-heat-up-cyber-attacks",
-      "published": "2026-11-03T15:43:14Z"
-    },
-    {
       "title": "The private creative world of Rabindranath Tagore, the man Yeats called ‘greater than any of us’",
       "source": "The Guardian World",
       "description": "A previously unseen family archive offers a glimpse into the Indian Nobel prize winner’s artistic process and personal relationships in his final years Don’t get This is India delivered to your inbox? Sign up here It’s easy to run out of words to describe Rabindranath Tagore. The first non-European to win the Nobel prize in literature, Tagore was a Bengali poet, musician, novelist, philosopher, songwriter, painter, humanist and educator. Born in 1861, Tagore left an indelible mark on the subcont",
@@ -154,7 +381,7 @@
       "published": "2026-11-03T15:12:35Z"
     },
     {
-      "title": "Trump says US will stop providing aid to Israel after year-end",
+      "title": "Trump says US 'won't be paying Israel' by end of year",
       "source": "BBC Middle East",
       "description": "The president accuses Democrats of weaponising US aid to Israel as a \"talking point\" with which to attack Republicans.",
       "category": "Humanitarian",
@@ -174,9 +401,9 @@
     },
     {
       "title": "Mining giant joins fight to stop killer toad march across Australia",
-      "source": "BBC Business",
+      "source": "BBC World",
       "description": "Rio Tinto is jointly funding a A$28m \"toad containment zoe\" to protect the Pilbara region.",
-      "category": "Economics",
+      "category": "Geopolitics",
       "region": "Asia-Pacific",
       "regions": [
         "Asia-Pacific"
@@ -234,26 +461,6 @@
       "place": "Paris",
       "location_precision": "city-reference",
       "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Four planes flying across Europe targeted by bomb threats",
-      "source": "The Guardian World",
-      "description": "Flights from London, Manchester, Copenhagen and Israel affected but no explosives found after touchdown Europe live – latest updates Four planes have landed safely after bomb threats were made across Europe, including for two flights that departed from the UK, according to reports. Polish officials said they had received bomb threats involving two Warsaw-bound flights, but the planes landed safely and no explosives were found. Continue reading...",
-      "category": "Geopolitics",
-      "region": "Middle East",
-      "regions": [
-        "Middle East",
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/nov/03/four-planes-flying-across-europe-targeted-by-bomb-threats",
-      "published": "2026-11-03T14:21:24Z",
-      "lat": 51.51,
-      "lon": -0.13,
-      "place": "London",
-      "location_precision": "city-reference",
-      "location_method": "description-lead-keyword",
       "location_verified": false
     },
     {
@@ -439,19 +646,6 @@
       "published": "2026-11-03T12:30:04Z"
     },
     {
-      "title": "Russia bombs humanitarian hub in Ukraine, killing at least 31 people",
-      "source": "The Guardian World",
-      "description": "Other overnight strikes targeted power plants across Ukraine, damaged hospitals and wounded scores of people Russia has bombed a humanitarian hub in southern Ukraine, killing at least 31 people and leaving dozens missing, as part of a wave of strikes across the country. Other overnight Russian strikes targeted power plants across Ukraine, damaged hospitals and wounded scores of people, as the Ukrainian president, Volodymyr Zelenskyy, warned that the US was distracted by its midterm elections. Co",
-      "category": "Humanitarian",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha",
-      "published": "2026-11-03T12:25:07Z"
-    },
-    {
       "title": "Four charged with attempted murder after South African farmer shot and tortured",
       "source": "BBC Africa",
       "description": "The attack on Donovan Marx, 50, comes as right-wing groups say there is a genocide of white people - a claim widely discredited.",
@@ -476,19 +670,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cxg5jln586pno?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-03T12:09:20Z"
-    },
-    {
-      "title": "UK and EU agree draft deal to scrap Brexit red tape over food exports",
-      "source": "BBC Europe",
-      "description": "The food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.",
-      "category": "Economics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-03T12:07:59Z"
     },
     {
       "title": "The Amazon’s canary in the coalmine: what a tropical fish can tell us about climate upheaval",
@@ -623,7 +804,7 @@
       "published": "2026-11-03T10:55:05Z"
     },
     {
-      "title": "‘I am deeply sorry’: Craig Silvey pens 9,000-word apology for child exploitation material offences",
+      "title": "Craig Silvey pens 9,000-word apology for child exploitation material offences",
       "source": "The Guardian World",
       "description": "The children’s author claims he experienced trauma in childhood as he begins seven-month sentence for possessing depraved material Warning: This article contains graphic content Get our breaking news email , free app or daily news podcast The disgraced best-selling author Craig Silvey has claimed he experienced trauma as a child in a 9,000-word apology published after he was jailed for child exploitation offences. The young adult novelist was sentenced on Monday to seven months’ imprisonment, af",
       "category": "Geopolitics",
@@ -675,7 +856,7 @@
     {
       "title": "Burnham denies proposing return to free movement in talks with EU",
       "source": "The Guardian Europe",
-      "description": "Prime minister says he is committed to manifesto red lines and ‘public need to be the boss’ on future relationship UK politics live – latest updates Andy Burnham has denied proposing a return of free movement in talks between the UK and EU, saying any decision about the future relationship will be led by the will of the British people. His comments came as two senior ministers expressed caution about the talk of the UK returning as a full member of the EU or single market and the consequences of",
+      "description": "Prime minister says he is committed to manifesto red lines and ‘public need to be the boss’ on future relationship Andy Burnham has denied proposing a return of free movement in talks between the UK and EU, saying any decision about the future relationship will be led by the will of the British people. His comments came as two senior ministers expressed caution about the talk of the UK returning as a full member of the EU or single market and the consequences of a return to free movement. Contin",
       "category": "Geopolitics",
       "region": "Europe",
       "regions": [
@@ -718,19 +899,6 @@
       "published": "2026-11-03T09:29:32Z"
     },
     {
-      "title": "UK and EU agree deal to remove Brexit checks on food and animal products",
-      "source": "The Guardian Europe",
-      "description": "Agreement to ease rules on food imports and exports is expected to come into force in first quarter of 2028 UK politics live – latest updates The EU and the UK have completed their deal to remove Brexit checks on imports and exports of food and animal products ranging from sausages and cheese to leather goods and flowers. A wider series of mini-deals expected to be sealed at a UK-EU summit on 20 November would also result in Britain once again contributing to the EU budget as the price of rejoin",
-      "category": "Economics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/politics/2026/nov/03/deal-finalised-remove-brexit-checks-food-animal-products",
-      "published": "2026-11-03T09:19:21Z"
-    },
-    {
       "title": "Tenerife striker De Miguel dies after on-field collision",
       "source": "BBC World",
       "description": "Tenerife forward Jesus de Miguel dies aged 30 after an on-field collision during a Spanish second-division match.",
@@ -744,46 +912,6 @@
       "published": "2026-11-03T09:09:18Z"
     },
     {
-      "title": "Manipulation review – preposterous Da Vinci Code-esque thriller like being trapped in a Ferrero Rocher ad",
-      "source": "The Guardian Europe",
-      "description": "Conspiracies and espionage abound as a secret society’s young initiate is sent to infiltrate the Catholic church for inexplicable reasons. Who knows what’s going on? With its candle-lit occult settings and ersatz Europudding of performers all speaking English, this preposterous thriller is like being trapped in a Ferrero Rocher advert – with a creamy Dan Brown filling. Kicking off with young novice Matteo (Radoslav Gavlas) being initiated into a tentacular secret society, Manipulation’s impenetr",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/film/2026/nov/03/manipulation-review-preposterous-da-vinci-code-thriller-david-balda",
-      "published": "2026-11-03T09:00:43Z"
-    },
-    {
-      "title": "Emergency responders comb through rubble after deadly strike on Ukrainian aid centre – video",
-      "source": "The Guardian Europe",
-      "description": "Russia bombed an aid distribution centre and neighbouring shelter in southern Ukraine on Monday, killing at least 26 ​people. Emergency services said two members of a rescue crew and four police officers were among the dead in the village ⁠of Komyshuvakha, in south-eastern Zaporizhzhia region. Five people were being treated in hospital, including two rescue workers Russian bombing of Ukrainian aid centre kills at least 26, Kyiv says Continue reading...",
-      "category": "Humanitarian",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/video/2026/nov/03/rubble-deadly-strike-ukrainian-aid-centre-video",
-      "published": "2026-11-03T08:53:04Z"
-    },
-    {
-      "title": "Australia seeks to change visa deal with UK after influx of Britons",
-      "source": "The Guardian World",
-      "description": "Australia says easing of rules has led to surge in British visitor numbers, putting pressure on local workforce UK politics live – latest updates The Australian prime minister, Anthony Albanese, has told Andy Burnham he is looking at changing rules for British backpackers in Australia, after an increase in the number of travellers visiting popular hotspots such as Sydney. Albanese, who met Burnham on Monday evening at the Commonwealth heads of government meeting (Chogm) in the Caribbean, told re",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe",
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/03/australia-seeks-to-change-visa-deal-uk",
-      "published": "2026-11-03T08:36:41Z"
-    },
-    {
       "title": "North Korea denies being behind record $6.3bn Binance hack",
       "source": "BBC World",
       "description": "US government agencies and cyber analysts have blamed Pyongyang for the record-breaking heist.",
@@ -795,17 +923,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c6rey4v53exgo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-03T08:33:20Z"
-    },
-    {
-      "title": "Major Queensland hospital to close pathology labs amid potential formaldehyde exposure investigation",
-      "source": "The Guardian World",
-      "description": "About 400 staff affected by closure at both Mater’s Brisbane and Springfield hospitals, with financial sustainability of pathology business a factor Get our breaking news email , free app or daily news podcast In-house pathology services at one of Queensland’s biggest hospitals will permanently close amid an investigation into potential formaldehyde exposure and continual financial strain. The closure, which affects 400 staff across Mater’s Brisbane and Springfield hospitals, includes the lab wh",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/03/major-queensland-hospital-to-close-pathology-labs-amid-potential-formaldehyde-exposure-investigation",
-      "published": "2026-11-03T08:11:08Z"
     },
     {
       "title": "Uganda arrests former army deputy chief stripped of military rank",
@@ -823,7 +940,7 @@
     {
       "title": "Honouring the departed: All Souls’ Day observed in India and Bangladesh – in pictures",
       "source": "The Guardian Asia",
-      "description": "Devotees gather in Dhaka, Bangladesh, and across India to observe All Souls’ Day, dedicated to remembering and honouring the dead. The occasion brings together members of the Christian community to offer prayers for departed loved ones and reflect on life, death and remembrance through faith and tradition. Picture essay: How rebuilding old mosques is bringing Sikhs, Hindus and Muslims together in Punjab Continue reading...",
+      "description": "Devotees gather in Dhaka in Bangladesh and across India to observe All Souls’ Day, dedicated to remembering and honouring the dead. The occasion brings together members of the Christian community to offer prayers for departed loved ones and reflect on life, death and remembrance through faith and tradition Picture essay: How rebuilding old mosques is bringing Sikhs, Hindus and Muslims together in Punjab Continue reading...",
       "category": "Geopolitics",
       "region": "Asia-Pacific",
       "regions": [
@@ -1067,7 +1184,7 @@
       "location_verified": false
     },
     {
-      "title": "Bollywood film star Ranbir Kapoor on AI, movies and fatherhood",
+      "title": "Film star Ranbir Kapoor on AI, movies and fatherhood",
       "source": "BBC World",
       "description": "The film star plays the leading role in a major new adaptation of the Indian epic Ramayana.",
       "category": "Geopolitics",
@@ -1169,7 +1286,7 @@
     },
     {
       "title": "Man guilty of stealing cash from farm owned by South African president",
-      "source": "BBC World",
+      "source": "BBC Africa",
       "description": "The case, part of the \"Farmgate\" scandal, has left President Cyril Ramaphosa mired in an impeachment saga.",
       "category": "Geopolitics",
       "region": "Africa",
@@ -1737,26 +1854,6 @@
       "published": "2026-11-02T05:00:32Z"
     },
     {
-      "title": "Radical-right youth groups are at the root of Europe’s populist surge | Cas Mudde and Duncan McDonnell",
-      "source": "The Guardian Europe",
-      "description": "From France’s Jordan Bardella to Italy’s Giorgia Meloni, organised youth politics has produced many rightwing leaders. Democrats must catch up The leaders of the most successful populist radical right parties in western Europe have one thing in common that is often overlooked. Italy’s Matteo Salvini, Jordan Bardella from France, Jimmie Åkesson from the Sweden Democrats, and Tom Van Grieken from Belgium’s Vlaams Belang all led the youth wing of the parties they now run. These movements shaped the",
-      "category": "Geopolitics",
-      "region": "Middle East",
-      "regions": [
-        "Middle East",
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/02/radical-right-youth-europe-populist-surge-france-jordan-bardella-italy-giorgia-meloni",
-      "published": "2026-11-02T05:00:31Z",
-      "lat": 46.6,
-      "lon": 2.21,
-      "place": "France",
-      "location_precision": "country-centroid",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
-    },
-    {
       "title": "China state broadcaster pulls La Liga matches following Mbappé joke",
       "source": "BBC Asia",
       "description": "China Media Group, which acknowledged Mbappé's apology, has not said how long the blackout will last.",
@@ -1876,7 +1973,7 @@
     },
     {
       "title": "Negotiators ‘braced for worst’ over US-Iran talks to reopen strait of Hormuz",
-      "source": "The Guardian World",
+      "source": "The Guardian Middle East",
       "description": "Third day of indirect talks as Qatar tries to negotiate release of $6bn in Iranian assets that could lead to waterway’s reopening Officials from the Gulf states are “braced for the worst” as they wait for Washington’s response to an Iranian proposal that could reopen the strait of Hormuz before the US midterm elections on Tuesday. Indirect talks in Doha ran into a third day on Sunday with Qatar trying to negotiate the release of more than $6bn in Iranian assets, which could lead to the reopening",
       "category": "Geopolitics",
       "region": "Middle East",
@@ -1925,19 +2022,6 @@
       "location_precision": "city-reference",
       "location_method": "headline-keyword",
       "location_verified": false
-    },
-    {
-      "title": "University of Cambridge scientist among those who died in Spanish train crash",
-      "source": "BBC Europe",
-      "description": "Marta Shahbazi was an \"inspiring, talented and passionate scientist\", says the laboratory where she worked.",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cq5ynzvkn1d8o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-01T17:05:18Z"
     },
     {
       "title": "UK willing to spend £450m a year on EU students if it can join Made in Europe scheme",
@@ -2080,19 +2164,6 @@
       "published": "2026-11-01T11:54:23Z"
     },
     {
-      "title": "Rachel Reeves says UK’s future is in EU as she backs Andy Burnham on Brexit",
-      "source": "The Guardian Europe",
-      "description": "Former chancellor says leaving European Union has made Britain ‘poorer, weaker and less secure’ The former chancellor Rachel Reeves has argued Britain’s future should be back in the European Union, saying Brexit has made the UK “poorer, weaker and less secure”. In her first major intervention since leaving the Treasury when Andy Burnham took office, she said those forging a path back towards EU membership had to make compelling arguments to the public. Continue reading...",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/politics/2026/nov/01/rachel-reeves-uk-future-is-in-eu-andy-burnham-brexit",
-      "published": "2026-11-01T09:55:20Z"
-    },
-    {
       "title": "‘What’s our crime?’: A Palestinian family’s fight to get care for son injured by Hamas rocket",
       "source": "The Guardian Middle East",
       "description": "Kinaan Dadou, 10, has been left disabled since 7 October 2023 as his parents struggle to find funding for specialist treatment It was 7.30am on 7 October 2023 when a Hamas rocket exploded next to 7-year-old Kinaan Dadou. The rocket was aimed at the Israeli settlement of Efrat in the occupied West Bank but missed its mark by a few hundred metres, landing in front of Kinaan’s family home instead. A piece of shrapnel struck Kinaan in the head. He stood rigid, his hands frozen to his sides, and scre",
@@ -2178,25 +2249,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/videos/c51kd2jyjr1eo?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-31T22:01:39Z"
-    },
-    {
-      "title": "From teargas in Paris to gen Z in Germany: protests across Europe – in pictures",
-      "source": "The Guardian Europe",
-      "description": "Demonstrations over the high cost of living and inequality spread from France to Germany and Albania Continue reading...",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/gallery/2026/oct/31/from-teargas-in-paris-to-gen-z-in-germany-europe-across-protests-in-pictures",
-      "published": "2026-10-31T17:49:22Z",
-      "lat": 48.86,
-      "lon": 2.35,
-      "place": "Paris",
-      "location_precision": "city-reference",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "‘You need the power of all your votes’: Bedouin women secure success for Arab parties in Israeli election",
@@ -2617,19 +2669,6 @@
       "published": "2026-10-30T15:09:29Z"
     },
     {
-      "title": "‘Amateur morons’: Flávio Bolsonaro’s short-lived ‘president-elect’ claim met with mockery",
-      "source": "The Guardian World",
-      "description": "Brazilian media ridicule defeated candidate over ‘shameful’ absconsion to US and bizarre letter with wrong coat of arms Flávio Bolsonaro had hoped that by Sunday night people would be calling him the next president of Brazil. Instead, the far-right politician’s decision to flee to the US after losing the election and – for 58 minutes – to declare himself “Brazil’s true president-elect” , has made him a laughing stock, with Brazilian newspapers and commentators raining a barrage of scornful adjec",
-      "category": "Geopolitics",
-      "region": "Americas",
-      "regions": [
-        "Americas"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/30/flavio-bolsonaros-president-elect-claim-mockery-brazil",
-      "published": "2026-10-30T14:08:41Z"
-    },
-    {
       "title": "The Iran war is deepening the US energy crisis. A bad winter is ahead | Mark Wolfe",
       "source": "The Guardian Environment",
       "description": "Congress must act to ensure that families are able to heat their homes before the start of the season Heating oil may be the clearest warning yet of how the war in Iran is deepening the US’s energy affordability crisis. Families who heat their homes with oil are facing bills that could be 50% higher this winter, adding nearly $900 to the cost of keeping their homes warm. These families were already struggling before the war began. As the Guardian recently reported , research by my organization f",
@@ -2818,7 +2857,7 @@
     {
       "title": "Who could be behind the Binance hack and what we know so far",
       "source": "BBC Technology",
-      "description": "Binance has been hit by what could be the biggest crypto hack ever - here's what we know so far",
+      "description": "Binance has been hit by be the biggest crypto hack ever - here's what we know so far.",
       "category": "Cyber",
       "region": "all",
       "regions": [],
@@ -3089,19 +3128,6 @@
       "kind": "podcast",
       "url": "https://www.bbc.co.uk/sounds/play/p0pjwj3t?at_medium=RSS&at_campaign=rss",
       "published": "2026-10-30T01:30:00Z"
-    },
-    {
-      "title": "Netanyahu accused of smearing Arab voters to hold on to power",
-      "source": "The Guardian Middle East",
-      "description": "Prime minister claims Arab Israeli parties used foreign backing to steal elections, in which his coalition lost its majority Benjamin Netanyahu has been accused of using smear tactics to cling to power, after he claimed that Arab Israeli parties had used foreign backing to “steal” Tuesday’s election, in which the prime minister’s coalition lost its parliamentary majority. Netanyahu and his allies called on the internal security service, Shin Bet, to investigate alleged vote buying and other irre",
-      "category": "Geopolitics",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/29/israeli-leader-netanyahu-accused-of-using-ugly-smear-tactics-to-cling-to-power",
-      "published": "2026-10-29T23:14:53Z"
     },
     {
       "title": "What we know so far about deadly Spain train crash",
@@ -5556,17 +5582,6 @@
       "published": "2026-10-07T04:00:32Z"
     },
     {
-      "title": "Tech Life",
-      "source": "BBC Technology",
-      "description": "What is a supercomputer for? How does it work? And who gets to use it? We explain all",
-      "category": "Cyber",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/sounds/play/w3ct8jyj?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-06T19:30:00Z"
-    },
-    {
       "title": "Israeli demolition in East Jerusalem displaces 69 Palestinians",
       "source": "UN News Middle East",
       "description": "Sixty-nine Palestinians – more than half of them children – were displaced on Tuesday after Israeli authorities green lit the demolition of their residential building in the At Tur area of East Jerusalem, the UN aid coordination office (OCHA) has reported.",
@@ -6240,6 +6255,17 @@
       "audio_url": "https://dts.podtrac.com/redirect.mp3/mcdn.podbean.com/mf/web/rtifsnbzktyw3dz6/260909_TPI-MEAD-MASTER.mp3",
       "url": "https://thepresidentsinbox.podbean.com/e/what-the-us-got-wrong-in-the-war-on-terror/",
       "published": "2026-09-10T00:32:42Z"
+    },
+    {
+      "title": "Aviation faces hotter, stormier skies – and passengers might have to accept more disruption",
+      "source": "BBC Business",
+      "description": "Are people going to have to increasingly accept more delays and diversions as the effects of climate change intensify?",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cm274p8m88lo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-05T23:20:00Z"
     },
     {
       "title": "What is the United Nations for?",
@@ -8971,7 +8997,7 @@
   "classification_method": "keyword-heuristic",
   "location_method": "headline-or-lead-reference",
   "content_counts": {
-    "news": 379,
+    "news": 381,
     "podcast": 194,
     "research": 15
   },
