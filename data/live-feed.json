@@ -1,6 +1,202 @@
 {
-  "updated": "2026-11-04T23:39:28.647492Z",
+  "updated": "2026-11-05T06:43:41.570558Z",
   "records": [
+    {
+      "title": "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
+      "source": "BBC World",
+      "description": "Wong, 30, is among hundreds of Hongkongers detained under the controversial national security law.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-05T06:35:25Z"
+    },
+    {
+      "title": "‘I worry people will forget Hong Kong’: Joshua Wong laments city’s fate from inside maximum security prison",
+      "source": "The Guardian Asia",
+      "description": "Exclusive: pro-democracy activist’s prison letters reveal fascination with AI, brushes with Triads and an appetite for books Hong Kong pro-democracy activist Joshua Wong sentenced to 10 years in prison in national security case From inside Hong Kong’s oldest maximum security prison, where he swaps books with Triad gang members and studies law, Joshua Wong writes letters like a man desperate to stay connected to the outside world. Excerpts from his private prison writings reveal the pro-democracy",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/05/joshua-wong-hong-kong-prison-letters-sentenced-10-years",
+      "published": "2026-11-05T06:11:48Z"
+    },
+    {
+      "title": "Democrats won on affordability. Can they deliver it?",
+      "source": "BBC Business",
+      "description": "Democrats will hold Congress but President Donald Trump still has the power to block their plans.",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ck1ex50x5q46o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-05T06:01:05Z"
+    },
+    {
+      "title": "World’s wettest rainstorms are getting wetter, affecting flood and drought risk",
+      "source": "The Guardian Environment",
+      "description": "Events that deliver about half of global rainfall are getting shorter but more intense, with wide-ranging implications The world’s wettest rainstorms produce about half of the global annual rainfall. Now a study shows that these intense downpours have become shorter in duration and fewer in number, compressing the same amount of rain into quicker and more extreme events, with implications for flood and drought risk. Chiyuan Miao and colleagues from Beijing Normal University in China analysed dai",
+      "category": "Disasters",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/news/2026/nov/05/worlds-wettest-rainstorms-getting-worse-flood-drought-risk",
+      "published": "2026-11-05T06:00:54Z"
+    },
+    {
+      "title": "Beau Lamarre-Condon trial live updates: accused double murderer gives evidence in high-profile case",
+      "source": "The Guardian World",
+      "description": "The 31-year-old former police officer is accused of fatally shooting couple Jesse Baird and Luke Davies in Sydney in 2024 Former police officer Beau Lamarre-Condon enters witness box in Sydney double murder trial Get our breaking news email , free app or daily news podcast The court has adjourned for lunch. Lamarre-Condon will continue giving evidence at 2pm. Public pile in to watch Lamarre-Condon give evidence Continue reading...",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/05/beau-lamarre-condon-trial-former-police-accused-murder-case-jesse-baird-luke-davies-ntwnfb",
+      "published": "2026-11-05T05:58:24Z"
+    },
+    {
+      "title": "Why do sausage rolls and veterinary fees vary in price across London?",
+      "source": "BBC Business",
+      "description": "Location is not just the only factor on why prices differ across London, as Anna O'Neill finds out.",
+      "category": "Economics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmgqw51gdnzyo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-05T05:56:46Z",
+      "lat": 51.51,
+      "lon": -0.13,
+      "place": "London",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "‘Bring it on’: Pauline Hanson to appeal Mehreen Faruqi racial discrimination ruling in high court",
+      "source": "The Guardian World",
+      "description": "One Nation leader granted special leave to appeal after full federal court earlier this year agreed Hanson portrayed Faruqi as a ‘second-class citizen’ Get our daily political email , free app or daily news podcast Australia’s high court has agreed to hear Pauline Hanson’s appeal against a ruling that she engaged in racial discrimination against Mehreen Faruqi when she told the Greens senator to “pack your bags and piss off back to Pakistan”. The One Nation leader was granted special leave to ap",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/05/pauline-hanson-to-appeal-mehreen-faruqi-racial-discrimination-ruling-high-court-ntwnfb",
+      "published": "2026-11-05T05:03:08Z"
+    },
+    {
+      "title": "UK found to be ‘dangerously’ reliant on China for critical minerals needed for defence and AI",
+      "source": "The Guardian World",
+      "description": "Delivering net zero also at risk, say MPs as they call for centralised policy and funding for mines and diversification The UK is “dangerously” dependent on China for critical raw materials needed for the military, renewable energy infrastructure and AI, a parliamentary investigation has found. MPs on the business select committee called for an urgent centralised policy and the creation of a “critical minerals finance facility” to help fund rare earth and other critical mineral mines, and deploy",
+      "category": "Defence",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/05/uk-dangerously-reliant-on-china-critical-minerals-military-ai-renewable-energy",
+      "published": "2026-11-05T05:00:55Z",
+      "lat": 35.86,
+      "lon": 104.2,
+      "place": "China",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Protesters to join nationwide march as France braces for day of strike action",
+      "source": "The Guardian World",
+      "description": "Hospital workers, air traffic and rail staff expected to join strikes amid renewed protests over education and rising living costs Hundreds of thousands are expected to march in demonstrations across France as trade unions call for a nationwide strike expected to extend to hospital workers, air traffic control, the post office, teachers and rail staff. President Emmanuel Macron’s final months in office continue to be marred by domestic crises, as high school students protesting over poor teachin",
+      "category": "Economics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/05/protesters-france-march-strikes-education-cost-of-living",
+      "published": "2026-11-05T05:00:54Z",
+      "lat": 46.6,
+      "lon": 2.21,
+      "place": "France",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "The Czech government's new culture war assault on press freedom shows the Maga spirit is still alive in Europe | Jan Bělíček",
+      "source": "The Guardian Europe",
+      "description": "The country’s wealthy elite is aligning itself with the far-right politics of the Motorists party to stifle dissent Oto Klempíř was for many years the frontman of JAR, a popular Czech funk-rock band. He was expelled from the band last year, not over creative differences, or even because of his collaboration with the secret police in the 1980s, but after he declared his intention to stand for parliament for Motorists for Themselves, a populist, nationalist, climate-sceptic party that is closely a",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/commentisfree/2026/nov/05/czechia-government-culture-war-maga-europe",
+      "published": "2026-11-05T05:00:54Z"
+    },
+    {
+      "title": "‘Turner prize for dance’ winner Christos Papadopoulos: failure, friction and my forgotten youthquake",
+      "source": "The Guardian Europe",
+      "description": "Amid galloping global crises, the Greek choreographer has returned to his revolutionary ideals. He explains how asking the near-impossible of dancers brings a shared joy Christos Papadopoulos is talking about how to spend £40,000. Specifically the winnings he scooped from the first ever Rose international prize for choreography in 2025 – the dance world’s equivalent of the Turner and the Booker. The Greek choreographer came out top of four finalists, picked by a judging panel including Arlene Ph",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/stage/2026/nov/05/christos-papadopoulos-my-fierce-ignorant-step-sadlers-wells",
+      "published": "2026-11-05T05:00:54Z"
+    },
+    {
+      "title": "Lab-grown meat was supposed to save the world. What happened?",
+      "source": "The Guardian Long Read",
+      "description": "We were promised a panacea for the climate crisis and a way to save our food system. So why is nobody firing up the chicken vats? I went to find out On 5 August 2013, a man and a woman ate a burger. Not just any burger: a world-historic burger, made from cattle cells grown in a laboratory by Mark Post , a professor of vascular physiology at Maastricht University in the Netherlands. The burger had taken two years to produce and cost €250,000 (about £210,000 at the time), money furnished by the Go",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "research",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/nov/05/lab-grown-meat-save-the-world-food-revolution-climate-crisis-food-system",
+      "published": "2026-11-05T05:00:54Z"
+    },
+    {
+      "title": "‘An insult to his culture’: Italian chef sacked for not putting pineapple on pizza loses bid to get job back",
+      "source": "The Guardian World",
+      "description": "Australia’s Fair Work Commission heard that Davide Tamburella was sacked after refusing to use the controversial topping With its sea foam-green and white decor, exposed brick columns and “classic Italian dishes” served atop European oak tables, La Costa was billed as an elegant slice of Italy in the urban heart of Queensland, Australia’s sunshine state. “We promise, it’ll only take a moment to realize you’re not in Brisbane anymore, you’ve made it to the Italian Riviera,” the now closed restaur",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe",
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/food/2026/nov/05/italian-chef-sacked-refusing-pineapple-on-pizza-australia-fair-work",
+      "published": "2026-11-05T04:53:28Z"
+    },
+    {
+      "title": "South Korea says it will expand naval operations closer to strait of Hormuz",
+      "source": "The Guardian World",
+      "description": "Seoul to seek parliamentary approval to extend anti-piracy Cheonghae unit’s area to about 650km from the vital strait after criticism from Donald Trump on Iran war support South Korea plans to expand the operations ⁠of its anti-piracy unit to waters closer to the strait of Hormuz, its defence ministry has said, after pressure from Donald Trump to ⁠provide support for his war in Iran. The government is to submit a motion to parliament that would expand the Cheonghae unit’s area of operation to wa",
+      "category": "Defence",
+      "region": "Middle East",
+      "regions": [
+        "Middle East",
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/05/south-korea-to-expand-anti-piracy-unit-strait-of-hormuz",
+      "published": "2026-11-05T04:22:49Z",
+      "lat": 37.57,
+      "lon": 126.98,
+      "place": "Seoul",
+      "location_precision": "city-reference",
+      "location_method": "description-lead-keyword",
+      "location_verified": false
+    },
     {
       "title": "Pound rises to its highest level since the Brexit referendum",
       "source": "BBC Business",
@@ -10,12 +206,53 @@
       "regions": [],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c6lykq2qjn2vo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-04T23:30:28Z"
+      "published": "2026-11-05T04:21:35Z"
+    },
+    {
+      "title": "Hong Kong pro-democracy activist Joshua Wong sentenced to 10 years in prison in national security case",
+      "source": "The Guardian World",
+      "description": "Wong, 30, has been imprisoned since 2020 and is the only activist in Hong Kong prosecuted twice under national security law Exclusive: Joshua Wong laments city’s fate from inside maximum security prison Hong Kong activist Joshua Wong has been sentenced to 10 years in prison after earlier pleading guilty to “foreign collusion”, his second conviction under a national security law that critics say has been used to silence political opposition in the city. Wong, who rose to prominence as the teenage",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/05/hong-kong-joshua-wong-sentenced-national-security-case",
+      "published": "2026-11-05T04:04:49Z"
+    },
+    {
+      "title": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
+      "source": "BBC World",
+      "description": "The vice-president's blunt assessment of Republican election defeat marked one of the sharpest breaks with a sitting president in recent memory.",
+      "category": "Geopolitics",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-05T03:47:56Z",
+      "lat": 32.43,
+      "lon": 53.69,
+      "place": "Iran",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Beau Lamarre-Condon tells double murder trial he suffered ‘daily bullying’ when working for NSW police",
+      "source": "The Guardian World",
+      "description": "Lamarre-Condon gives evidence in court after pleading not guilty to murdering Jesse Baird and Luke Davies in early 2024 Live updates: Beau Lamarre-Condon gives evidence in murder trial Get our breaking news email , free app or daily news podcast Former officer Beau Lamarre-Condon has alleged he heard homophobic abuse and was bullied when working for New South Wales police, as the 31-year-old gave evidence in his double murder trial. Lamarre-Condon is accused of fatally shooting couple Jesse Bair",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/05/beau-lamarre-condon-witness-trial-ntwnfb",
+      "published": "2026-11-05T03:16:08Z"
     },
     {
       "title": "David Jones goes into administration, with store closures expected and thousands of jobs at risk",
       "source": "The Guardian World",
-      "description": "Future of department store in jeopardy after administrators appointed on Thursday morning Get our breaking news email , free app or daily news podcast Australia’s premier upmarket department store David Jones has collapsed into voluntary administration, putting thousands of jobs at risk and leaving the future of the 188-year-old retailer hanging in the balance. The upheaval follows years of steep losses and underperforming stores that left the heritage retailer falling behind on rent, culminatin",
+      "description": "Future of Australia’s upmarket department store in jeopardy after years of steep losses, and outer suburban and regional locations vulnerable Get our breaking news email , free app or daily news podcast Australia’s premier upmarket department store David Jones has collapsed into voluntary administration, putting thousands of jobs at risk amid warnings “difficult decisions” lie ahead to salvage the 188-year-old retailer. The upheaval follows years of steep losses and underperforming stores that l",
       "category": "Geopolitics",
       "region": "Asia-Pacific",
       "regions": [
@@ -23,7 +260,145 @@
       ],
       "kind": "news",
       "url": "https://www.theguardian.com/business/2026/nov/05/david-jones-stores-closing-down-collapse-administration",
-      "published": "2026-11-04T22:53:29Z"
+      "published": "2026-11-05T03:12:54Z"
+    },
+    {
+      "title": "Ukraine war briefing: Zelenskyy awards Melania Trump national honour for role in brokering Oleshky truce",
+      "source": "The Guardian Europe",
+      "description": "US first lady awarded for ‘significant personal contribution to humanitarian support’. What we know on day 1,716 Continue reading...",
+      "category": "Humanitarian",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/05/ukraine-war-briefing-zelenskyy-awards-melania-trump-national-honour-for-role-in-brokering-oleshky-truce",
+      "published": "2026-11-05T02:11:20Z",
+      "lat": 48.38,
+      "lon": 31.17,
+      "place": "Ukraine",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Pope Leo hosts Bob Dylan at official residence in Rome",
+      "source": "BBC World",
+      "description": "Pope Leo had previously quoted Dylan's work in the preface of a book warning against nuclear rearmament.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cm0e035n13ylo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-05T02:09:23Z",
+      "lat": 41.9,
+      "lon": 12.5,
+      "place": "Rome",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Australia's oldest department store David Jones folds after 188 years",
+      "source": "BBC Business",
+      "description": "The brand's 38 physical stores and online site will continue to operate while receivers review its operations.",
+      "category": "Economics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cky93z5y0171o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-05T00:59:22Z"
+    },
+    {
+      "title": "Hubert Aiwanger, prominent German politician, found dead in Berlin hotel",
+      "source": "The Guardian World",
+      "description": "Police and prosecutors open investigation into death of the 55-year-old Bavarian state deputy leader A prominent German politician was found dead in a Berlin hotel on Wednesday, police said, adding they had launched an investigation. The cause of death of Hubert Aiwanger, 55, who was deputy leader of southern Bavaria state, was not immediately clear. Continue reading...",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/05/hubert-aiwanger-dead-german-politician-berlin-hotel",
+      "published": "2026-11-05T00:53:19Z",
+      "lat": 52.52,
+      "lon": 13.4,
+      "place": "Berlin",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Why a US-funded vaccine trial on babies was cancelled in Guinea-Bissau",
+      "source": "BBC Africa",
+      "description": "The trial was condemned as \"unethical\" and \"neocolonial\" because half of the babies would not be given the vaccine.",
+      "category": "Geopolitics",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cm0rlxq08ejko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-05T00:30:37Z"
+    },
+    {
+      "title": "Five reasons why Republicans lost so badly",
+      "source": "BBC Americas",
+      "description": "From angry voters to an unpopular president, here is why Americans in traditional Republican areas turned to Democrats.",
+      "category": "Geopolitics",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cqkgjvr00zmyo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-05T00:07:19Z"
+    },
+    {
+      "title": "Interest rates expected to rise for first time in over three years",
+      "source": "BBC Business",
+      "description": "Most analysts are predicting an increase from 3.75% to 4%, the first increase in more than three years.",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-05T00:00:09Z"
+    },
+    {
+      "title": "Mother and daughter die after suspected grizzly bear attack in Canada",
+      "source": "BBC World",
+      "description": "Authorities in British Columbia say evidence suggests an animal may have been involved in the women's deaths.",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe",
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cqvgry8k5d01o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-04T23:50:40Z",
+      "lat": 56.13,
+      "lon": -106.35,
+      "place": "Canada",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Typhoons batter East Asia as El Niño makes Pacific 'burn with fever'",
+      "source": "BBC World",
+      "description": "Even for countries where typhoons are a way of life, the last few months have brought unusually wild weather.",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cw33kgj7nkemo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-04T23:12:47Z"
     },
     {
       "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
@@ -43,6 +418,17 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
+    },
+    {
+      "title": "'Hopefully things get done': Americans react to historic political shift",
+      "source": "BBC World",
+      "description": "The BBC spoke to voters from different states for their reaction to Democrats taking control of both the Senate and the House of Representatives.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/cwj0l61e2927o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-04T22:34:08Z"
     },
     {
       "title": "Could Democrats in Congress end the war in Iran?",
@@ -78,17 +464,6 @@
       "published": "2026-11-04T21:41:15Z"
     },
     {
-      "title": "Telstra apologises after customers mystified by phantom missed call notifications",
-      "source": "The Guardian World",
-      "description": "Telco blames its MessageBank service and apologises for customer confusion Get our breaking news email , free app or daily news podcast Thousands of Telstra users have reported phantom missed-call notifications on their mobile devices with some messages arriving days after the actual phone calls. The company acknowledged an issue with its MessageBank service on Wednesday but said the issue had been fixed. Telstra was investigating the cause, which was linked to a technical issue. Continue readin",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/business/2026/nov/05/telstra-customers-false-missed-call-notifications-apology",
-      "published": "2026-11-04T21:10:20Z"
-    },
-    {
       "title": "Serbia detains police officers over alleged use of force against protesters",
       "source": "The Guardian World",
       "description": "Interior ministry claims suspects tortured and intimidated protesters detained in garage of government compound Serbian authorities detained nine active police officers and one former officer on Wednesday for ⁠allegedly using excessive force against detainees during anti-corruption protests last year in Belgrade, the country’s interior ministry ⁠said. Anti-corruption protests swept ⁠across Serbia, ​a candidate for European Union membership, in 2025 and 2026 after 16 people died when a concrete c",
@@ -114,7 +489,7 @@
     },
     {
       "title": "Food grown in illegal West Bank settlements being sold in Australia as ‘produce of Israel’",
-      "source": "The Guardian World",
+      "source": "The Guardian Middle East",
       "description": "Analysis by human rights organisation Global Echo shows 85 of 132 shipments over eight years contained more than US$5m of organic dates grown in settlements Get our breaking news email , free app or daily news podcast Millions of dollars of food grown in illegal Israeli settlements in the occupied West Bank has been shipped to Australia labelled as “produce of Israel”, a new analysis of trade data has shown. The human rights legal organisation Global Echo has analysed commercial documents and of",
       "category": "Geopolitics",
       "region": "Middle East",
@@ -288,7 +663,7 @@
     },
     {
       "title": "US midterm results a 'victory' for Canadians hopeful of tariff relief",
-      "source": "BBC World",
+      "source": "BBC Americas",
       "description": "With Canada-US trade talks back on, Tuesday’s midterm Democratic wave puts pressure on the White House to come to a deal.",
       "category": "Humanitarian",
       "region": "Americas",
@@ -307,13 +682,11 @@
     },
     {
       "title": "What Democrats can and can't do with their new power after taking Congress",
-      "source": "BBC Americas",
+      "source": "BBC World",
       "description": "Democrats can vote legislation through. But Trump still has veto power.",
       "category": "Geopolitics",
-      "region": "Americas",
-      "regions": [
-        "Americas"
-      ],
+      "region": "all",
+      "regions": [],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cq1kdgnn2xdeo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-04T18:01:27Z"
@@ -485,7 +858,7 @@
     },
     {
       "title": "Spain’s deadly train crashes have damaged public confidence in the system",
-      "source": "The Guardian World",
+      "source": "The Guardian Europe",
       "description": "Pedro Sánchez and his socialist-led coalition government are racing to rebuild trust ahead of a snap election, but the task they face is immense • Don’t get This Is Europe delivered to your inbox? Sign up here A week ago today, for the second time in nine months, I got in my car and drove south from Madrid to cover a deadly train crash. At 8.53am last Wednesday, a high-speed train operated by Spain’s state-owned rail company, Renfe, smashed into the back of a stationary train run by the private ",
       "category": "Geopolitics",
       "region": "Europe",
@@ -597,9 +970,9 @@
     },
     {
       "title": "Endangered giant burrowing frog returns to wild after tadpoles rescued from ashes of black summer fires",
-      "source": "The Guardian World",
+      "source": "The Guardian Environment",
       "description": "Tadpoles collected from puddles in East Gippsland were transported to Melbourne zoo, where they were raised to metamorphosis and successfully bred in captivity for the first time After the 2019-20 black summer bushfires , scientists in eastern Victoria stumbled across something they had been after for years: puddles of tadpoles from the southern giant burrowing frog, one of the state’s most cryptic amphibians. The fires had torn through extensive areas in East Gippsland, sparking concerns for th",
-      "category": "Geopolitics",
+      "category": "Disasters",
       "region": "all",
       "regions": [],
       "kind": "news",
@@ -620,45 +993,17 @@
       "published": "2026-11-04T14:01:27Z"
     },
     {
-      "title": "Albanese government warned it is ‘sleepwalking into another robodebt scenario’ over use of algorithms and AI",
-      "source": "The Guardian World",
-      "description": "Centre for Public Integrity report calls for audit and public register of all automated decision-making Get our breaking news email , free app or daily news podcast The federal government is “sleepwalking its way into another robodebt” scandal amid a lack of transparency and legislation around the use of algorithms and AI in decisions, the chief executive of the independent thinktank the Centre for Public Integrity said. Dr Catherine Williams launched the centre’s “Computer Says No” report on Th",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/05/albanese-government-warned-its-sleepwalking-into-another-robodebt-scenario-over-use-of-algorithms-and-ai",
-      "published": "2026-11-04T14:00:37Z"
-    },
-    {
       "title": "'This is a disaster': Angry Republicans blame Trump for midterms defeat",
-      "source": "BBC World",
+      "source": "BBC Americas",
       "description": "Some Republicans tell the BBC the president's focus on his legacy and indifference to voter concerns cost them.",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c6x29rr8djy3o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-04T13:33:30Z"
-    },
-    {
-      "title": "French blood banks hacked in latest cyber-attack on Europe",
-      "source": "The Guardian World",
-      "description": "Temperature and defrosting thresholds raised to ‘very high levels’ at three cold stores stocking vital blood products France’s national blood service has said hackers accessed control systems and boosted temperatures at three cold stores stocking vital blood products, in an apparent escalation of recent cyber-attacks on fridges and freezers across Europe. The French blood service (EFS) said temperature and defrosting thresholds had been raised to “very high levels” in the attack, adding that its",
-      "category": "Cyber",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/technology/2026/nov/04/france-national-blood-service-hack-cyber-attack-europe",
-      "published": "2026-11-04T13:22:28Z",
-      "lat": 46.6,
-      "lon": 2.21,
-      "place": "France",
-      "location_precision": "country-centroid",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
     },
     {
       "title": "Nadal set to join Real Madrid board of directors",
@@ -693,21 +1038,8 @@
       "published": "2026-11-04T13:00:11Z"
     },
     {
-      "title": "Five reasons why Republicans lost so badly",
-      "source": "BBC Americas",
-      "description": "From angry voters to an unpopular president, here is why Americans in traditional Republican areas turned to Democrats.",
-      "category": "Geopolitics",
-      "region": "Americas",
-      "regions": [
-        "Americas"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cqkgjvr00zmyo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-04T12:44:19Z"
-    },
-    {
       "title": "Sharp objects found in Halloween sweets in three European nations",
-      "source": "BBC World",
+      "source": "BBC Europe",
       "description": "Dozens of cases are reported in Austria, Germany and Hungary, including a nine-year-old girl hurting her tongue while eating chocolate containing a pin.",
       "category": "Geopolitics",
       "region": "Europe",
@@ -744,17 +1076,88 @@
       "location_verified": false
     },
     {
-      "title": "More than 900 academics urge UK to reverse decision to bar Andreas Malm",
-      "source": "The Guardian Europe",
-      "description": "Blocking Swedish writer’s entry for event with Palestine Action co-founder is attack on free expression, letter says More than 900 academics have voiced their opposition to the government’s decision to block the climate academic Andreas Malm from entering the UK, warning that the move represents “a grave violation of academic freedom and freedom of expression”. Malm, the author of How to Blow Up a Pipeline and a leading climate scholar, was prevented from entering the UK last week by the Home Of",
-      "category": "Geopolitics",
-      "region": "Europe",
+      "title": "Gunfire damages tents at Rafah displacement site in Gaza, as aid teams prepare for winter storms",
+      "source": "UN News Middle East",
+      "description": "Gunfire hit and damaged multiple tents at a displacement site in Gaza’s northern Rafah region on Tuesday, reportedly causing injuries and forcing a humanitarian partner to leave the area, the UN aid coordination office (OCHA) has said.",
+      "category": "Humanitarian",
+      "region": "Middle East",
       "regions": [
-        "Europe"
+        "Middle East"
       ],
       "kind": "news",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/04/andreas-malm-academics-letter-uk-reverse-entry-bar",
-      "published": "2026-11-04T12:00:10Z"
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168740",
+      "published": "2026-11-04T12:00:00Z"
+    },
+    {
+      "title": "Syria’s undocumented children ‘pay the price’ of war and a law that shuts out mothers",
+      "source": "UN News Middle East",
+      "description": "Many children born in Syria since the war began in 2011 have no legal identity because nationality passes only through fathers – many of whom are dead or missing – a member of the independent UN commission investigating rights violations in the country said on Wednesday.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168737",
+      "published": "2026-11-04T12:00:00Z",
+      "lat": 34.8,
+      "lon": 38.99,
+      "place": "Syria",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "COP31 explained: What’s at stake at this year’s UN climate summit?",
+      "source": "UN News",
+      "description": "The world has more tools than ever to tackle climate change, yet millions remain unable to benefit from them. As clean energy technologies advance faster than ever, the challenge facing countries at COP31 is no longer just finding solutions – but making sure everyone can afford them.",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168735",
+      "published": "2026-11-04T12:00:00Z"
+    },
+    {
+      "title": "UN peacekeeping chief warns of ‘security vacuum’ as Blue Helmets leave Lebanon and Western Sahara",
+      "source": "UN News",
+      "description": "The UN’s peacekeeping chief warned on Wednesday that the withdrawal of “Blue Helmets” from Lebanon and Western Sahara risks leaving a dangerous security vacuum, while the Security Council remains divided over what, if anything, should replace them.",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168741",
+      "published": "2026-11-04T12:00:00Z",
+      "lat": 33.85,
+      "lon": 35.86,
+      "place": "Lebanon",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Fuel price shock: Why developing economies are paying the most at the pump",
+      "source": "UN News",
+      "description": "When war shut the Strait of Hormuz in February, oil prices soared everywhere. But the pain at the pump has been far from equal, and the world’s developing economies are paying the heaviest price, according to a new report from UNCTAD, the UN trade and development agency.",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168738",
+      "published": "2026-11-04T12:00:00Z"
+    },
+    {
+      "title": "15 years of ‘almost no progress’ in getting young people moving: WHO",
+      "source": "UN News",
+      "description": "One in four adolescents worldwide reported not getting at least 60 minutes of physical activity on any day in the previous week, according to new global estimates released by the World Health Organization (WHO) on Wednesday.",
+      "category": "Humanitarian",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://news.un.org/feed/view/en/story/2026/11/1168736",
+      "published": "2026-11-04T12:00:00Z"
     },
     {
       "title": "Afghan children face narrowing path to education, UN agencies report",
@@ -787,22 +1190,8 @@
       "published": "2026-11-04T12:00:00Z"
     },
     {
-      "title": "BMW warns on profits as it counts cost of plan for 8,000 job cuts",
-      "source": "The Guardian Europe",
-      "description": "German carmaker slashes profit margin to between -0.5% and 0.5% this year in face of competition from China The German carmaker BMW has issued its second profit warning in a year, blaming the costs of a restructuring programme including significant job losses in the face of continuing competition from China. The company is the latest to issue a profit downgrade in the German car sector, after Mercedes-Benz last week cut its profit outlook. Western automakers have struggled to keep pace with lowe",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe",
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/business/2026/nov/04/bmw-warns-on-profits-counts-cost-plan-for-8000-job-cuts",
-      "published": "2026-11-04T11:58:19Z"
-    },
-    {
       "title": "ANC under pressure to reverse South Africa decline",
-      "source": "BBC World",
+      "source": "BBC Africa",
       "description": "As South Africans vote in local elections, residents tell the BBC they are tired of the poor quality of services they get.",
       "category": "Geopolitics",
       "region": "Africa",
@@ -826,7 +1215,7 @@
     },
     {
       "title": "Rwanda's army team removed from Africa league after US sanctions, NBA says",
-      "source": "BBC World",
+      "source": "BBC Africa",
       "description": "The US imposed sanctions on Rwanda's army over its role in the conflict in DR Congo.",
       "category": "Defence",
       "region": "Africa",
@@ -847,25 +1236,6 @@
       "kind": "news",
       "url": "https://www.theguardian.com/global-development/2026/nov/04/funding-poorer-countries-climate-crisis-adaptation-un-report",
       "published": "2026-11-04T11:00:09Z"
-    },
-    {
-      "title": "‘The point was to dehumanise’: London Holocaust archive examines world’s first ‘viral’ antisemitism scandal",
-      "source": "The Guardian Europe",
-      "description": "Dreyfus affair has echoes of how anti-Jewish hatred manifests itself today, say curators at Weiner Library It was the world’s first experience of antisemitism “gone viral”, said Barbara Warnock, a co-director of the oldest Holocaust archive, the Wiener Holocaust Library in London. It was 1894 and printing presses were faster than ever before. France’s prohibitive censorship laws had been lifted, and then along came the Dreyfus affair: a public shouting match that followed the wrongful conviction",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/news/2026/nov/04/london-wiener-holocaust-library-dreyfus-affair-antisemitism",
-      "published": "2026-11-04T10:58:48Z",
-      "lat": 51.51,
-      "lon": -0.13,
-      "place": "London",
-      "location_precision": "city-reference",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "What's happening to UK interest rates and what does it mean for mortgages?",
@@ -946,11 +1316,13 @@
     },
     {
       "title": "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
-      "source": "BBC World",
+      "source": "BBC Asia",
       "description": "On Wednesday morning, Delhi's air quality index reading stood at 377, in the \"very poor\" category.",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c699z8792n7ro?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-04T07:39:38Z",
@@ -1008,36 +1380,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c6pvgw8gz1k4o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-04T06:13:19Z"
-    },
-    {
-      "title": "Rogue UK energy bosses and brokers face crackdown on mis-selling",
-      "source": "The Guardian Environment",
-      "description": "Exclusive: Ofgem to be given powers to issue fines and rein in bonuses for executives who ‘reward themselves while customers suffer’ Energy bosses in the UK will have their bonuses curtailed when suppliers and brokers break the rules under a crackdown on mis-selling. Through the energy independence bill, which will be introduced on Wednesday, Ofgem will be given new powers to order compensation, impose fines and ban rogue operators that have pushed businesses and households into overpriced contr",
-      "category": "Disasters",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/business/2026/nov/04/rogue-energy-bosses-and-brokers-face-crackdown-on-mis-selling",
-      "published": "2026-11-04T06:00:27Z"
-    },
-    {
-      "title": "‘We are a threat to Putin’: the small Norwegian news outlet with half its staff on Russia’s wanted list",
-      "source": "The Guardian Europe",
-      "description": "Exiled journalists at the Barents Observer face growing intimidation as Moscow seeks to control media beyond its borders The official newspaper of the Russian government is an unlikely source of recognition for a European news outlet critical of Vladimir Putin and providing sanctuary to exiled Russian journalists. But in May, two days after Russia tested its new intercontinental ballistic missile system nicknamed “Satan II” by Nato, an article in Rossiyskaya Gazeta prompted celebrations in a rem",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/nov/04/small-norwegian-news-outlet-russia-wanted-list-barents-observer",
-      "published": "2026-11-04T06:00:27Z",
-      "lat": 61.52,
-      "lon": 105.32,
-      "place": "Russia",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "The next global pandemic could be brewing on a mink farm in Utah – and little is being done to stop it | George Monbiot",
@@ -1589,17 +1931,6 @@
       "published": "2026-11-03T13:00:07Z"
     },
     {
-      "title": "Car finance compensation payments explained",
-      "source": "BBC Business",
-      "description": "Millions could be entitled to compensation as a result of commission arrangements between lenders and dealers.",
-      "category": "Economics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/c2l9vvj097lo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-03T12:30:04Z"
-    },
-    {
       "title": "The Amazon’s canary in the coalmine: what a tropical fish can tell us about climate upheaval",
       "source": "The Guardian Global Development",
       "description": "Scientist Adalberto Luis Val’s pioneering research on the tambaqui fish is revealing the effect of climate disruption in Brazil, with global implications for biodiversity and food security As a boy in rural São Paulo, Adalberto Luis Val used to stare into the lake where his father took him fishing and wonder how all those creatures swimming below stayed alive. One day, he netted a few, put them in a jar, and brought them home to observe. The next morning, they were all dead. Val was devastated b",
@@ -1667,19 +1998,6 @@
       ],
       "kind": "news",
       "url": "https://news.un.org/feed/view/en/story/2026/11/1168729",
-      "published": "2026-11-03T12:00:00Z"
-    },
-    {
-      "title": "Haiti gang leader seeks UN talks as El Salvador sends 2,000 troops to hunt for missing soldiers",
-      "source": "UN News",
-      "description": "A Haitian gang leader wanted by the United States has asked the UN to mediate, as El Salvador sends more than 2,000 troops into the country to search for four of its personnel who went missing after a gang ambush.",
-      "category": "Defence",
-      "region": "Americas",
-      "regions": [
-        "Americas"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/11/1168728",
       "published": "2026-11-03T12:00:00Z"
     },
     {
@@ -1762,9 +2080,9 @@
     },
     {
       "title": "Apple unsure when it will get more foldable iPhones ahead of Christmas",
-      "source": "BBC Business",
+      "source": "BBC Technology",
       "description": "The tech giant reports strong sales but admits \"constraints\" are affecting supplies of the iPhone Duo.",
-      "category": "Economics",
+      "category": "Cyber",
       "region": "all",
       "regions": [],
       "kind": "news",
@@ -1841,19 +2159,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c6rey4v53exgo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-03T08:33:20Z"
-    },
-    {
-      "title": "Honouring the departed: All Souls’ Day observed in India and Bangladesh – in pictures",
-      "source": "The Guardian Asia",
-      "description": "Devotees gather in Dhaka in Bangladesh and across India to observe All Souls’ Day, dedicated to remembering and honouring the dead. The occasion brings together members of the Christian community to offer prayers for departed loved ones and reflect on life, death and remembrance through faith and tradition Picture essay: How rebuilding old mosques is bringing Sikhs, Hindus and Muslims together in Punjab Continue reading...",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/society/gallery/2026/nov/03/honouring-the-departed-all-souls-day-observed-in-india-and-bangladesh-in-pictures",
-      "published": "2026-11-03T08:04:05Z"
     },
     {
       "title": "Major test for Australia's social media ban begins in High Court",
@@ -1990,55 +2295,6 @@
       "published": "2026-11-03T03:00:35Z"
     },
     {
-      "title": "Christmas 2026 stamps unveiled by Royal Mail",
-      "source": "BBC Business",
-      "description": "The annual Christmas collection of five stamps feature scenes from the Nativity.",
-      "category": "Economics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cw62yeq7958ro?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-03T02:27:50Z"
-    },
-    {
-      "title": "‘Men know they won’t face consequences’: rise of street sex work in Tokyo is fuelling calls for change",
-      "source": "The Guardian Asia",
-      "description": "The boom in international tourism has fuelled a new phenomenon of women soliciting on the streets of Tokyo’s Kabukicho night-time district Kabukicho is not known as “sleepless town” for nothing. The bustling centre of Tokyo’s night-time economy is a magnet for tourists and locals in search of a bite to eat, a few drinks and a karaoke session. But behind its famous neon entrance lies a darker side: backstreets populated by women offering sex in exchange for money. Tokyo has an established fuzoku ",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/nov/03/tokyo-sex-industry-street-workers-on-rise",
-      "published": "2026-11-03T01:52:44Z",
-      "lat": 35.68,
-      "lon": 139.69,
-      "place": "Tokyo",
-      "location_precision": "city-reference",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "'We grew up around this historic Delhi mosque - now we have been forced out'",
-      "source": "BBC Asia",
-      "description": "Authorities have razed hundreds of houses in a neighbourhood in central Delhi, saying they were built on government land.",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cwp9gljmp3kdo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-03T00:20:50Z",
-      "lat": 28.61,
-      "lon": 77.21,
-      "place": "Delhi",
-      "location_precision": "city-reference",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "Film star Ranbir Kapoor on AI, movies and fatherhood",
       "source": "BBC World",
       "description": "The film star plays the leading role in a major new adaptation of the Indian epic Ramayana.",
@@ -2102,30 +2358,6 @@
       "published": "2026-11-02T19:54:23Z"
     },
     {
-      "title": "What Florida jet audio and flight data tells us about its final moments",
-      "source": "BBC World",
-      "description": "A private jet crashed in Florida on Sunday, killing all nine people on board, according to US authorities.",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/videos/c52e9lgxjz82o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-02T19:49:22Z"
-    },
-    {
-      "title": "The Guardian view on Poland’s political turmoil: an ominous portent of bigger battles to come | Editorial",
-      "source": "The Guardian Europe",
-      "description": "Donald Tusk is attempting to restore legitimacy to the country’s constitutional court. In a polarised country and continent, that carries political risks The Polish prime minister, Donald Tusk, must occasionally look towards Budapest and sigh. A landslide victory in elections last spring enabled Hungary’s new prime minister, Péter Magyar, to act with ruthless determination to clean up the country’s politics after 16 years of corrupt Orbánisation . Mr Tusk, whose centrist coalition ousted the far",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/02/the-guardian-view-on-polands-political-turmoil-an-ominous-portent-of-bigger-battles-to-come",
-      "published": "2026-11-02T18:52:32Z"
-    },
-    {
       "title": "If hackers can take control of a supermarket freezer, how vulnerable is other tech?",
       "source": "BBC Europe",
       "description": "Dozens of shops across European countries have been hit by a cyber-attack affecting their fridges.",
@@ -2137,39 +2369,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/ckpqg8lve73go?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-02T18:25:01Z"
-    },
-    {
-      "title": "A diplomatic incident in Ealing over Kim Jong-un’s haircut | Brief letters",
-      "source": "The Guardian Asia",
-      "description": "North Korean embassy | Reform UK newspaper | Wholemeal bread | Tarred and feathered | Lincolnshire’s actor-manager Regarding your article on foreign embassies in residential London neighbourhoods ( 29 October ), in 2014, a hairdresser in south Ealing put up a window poster with an image of Kim Jong-un and the strapline “Bad hair day?” They were offering a 15% discount on men’s haircuts. The next day, two besuited men from the nearby North Korean embassy turned up , demanding that the poster be r",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe",
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/nov/02/a-diplomatic-incident-in-ealing-over-kim-jong-un-haircut",
-      "published": "2026-11-02T17:57:31Z",
-      "lat": 51.51,
-      "lon": -0.13,
-      "place": "London",
-      "location_precision": "city-reference",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Shop freezers in seven European countries hit by cyber-attack",
-      "source": "BBC Business",
-      "description": "The temperature of freezers in several shops across Europe reportedly rose to as high as 50C.",
-      "category": "Cyber",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-02T17:38:11Z"
     },
     {
       "title": "'All this food is now useless': Piles of rubbish after shop freezers hit by cyber-attack",
@@ -2252,19 +2451,6 @@
       "kind": "news",
       "url": "https://www.theguardian.com/film/2026/nov/02/one-in-a-million-review-itab-azzam-jack-macinnes",
       "published": "2026-11-02T13:00:41Z"
-    },
-    {
-      "title": "Ryanair says it may freeze workers' pay and raise airfares",
-      "source": "BBC Business",
-      "description": "The airline says fuel prices may rise by €2bn in 2028 unless there is an end to the US-Israel war with Iran.",
-      "category": "Economics",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cr0qkve1x224o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-02T12:22:10Z"
     },
     {
       "title": "A lackluster response to North Carolina flooding disasters is eroding Republican support in one county",
@@ -2678,19 +2864,6 @@
       "published": "2026-11-01T12:00:00Z"
     },
     {
-      "title": "Binance resumes customer withdrawals after record $6.3bn hack",
-      "source": "The Guardian World",
-      "description": "Cryptocurrency exchange says 90% of losses covered as FBI blames North Korean state-sponsored group TraderTraitor The cryptocurrency exchange Binance has started to allow its customers to withdraw their funds from the platform, as it recovers from a record $6.3bn (£4.7bn) hack. The exchange was hit by the theft on Thursday, which has since been described as the biggest heist in history, with experts identifying North Korea as the likely culprit. Continue reading...",
-      "category": "Cyber",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency",
-      "published": "2026-11-01T11:54:23Z"
-    },
-    {
       "title": "‘What’s our crime?’: A Palestinian family’s fight to get care for son injured by Hamas rocket",
       "source": "The Guardian Middle East",
       "description": "Kinaan Dadou, 10, has been left disabled since 7 October 2023 as his parents struggle to find funding for specialist treatment It was 7.30am on 7 October 2023 when a Hamas rocket exploded next to 7-year-old Kinaan Dadou. The rocket was aimed at the Israeli settlement of Efrat in the occupied West Bank but missed its mark by a few hundred metres, landing in front of Kinaan’s family home instead. A piece of shrapnel struck Kinaan in the head. He stood rigid, his hands frozen to his sides, and scre",
@@ -2715,6 +2888,25 @@
       "kind": "news",
       "url": "https://www.theguardian.com/world/2026/nov/01/anger-over-johannesburgs-run-down-infrastructure-elections",
       "published": "2026-11-01T05:00:03Z"
+    },
+    {
+      "title": "‘Our voices, our journey’: 2026 Taiwan Pride parade – in pictures",
+      "source": "The Guardian Asia",
+      "description": "An estimated 150,000 people took to the streets of Taipei on Saturday to attend the 24th Taiwan LGBT+ Pride parade. The largest annual pride event in east Asia, the march aims to promote gender equality, foster cross-community dialogue, and advocate for expanded legal protections and social inclusivity ‘We’re not freaks’: police raid sparks concern for Taiwan’s LGBT-friendly image Continue reading...",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/gallery/2026/nov/01/taiwan-pride-parade-2026-in-pictures",
+      "published": "2026-11-01T02:13:19Z",
+      "lat": 23.7,
+      "lon": 120.96,
+      "place": "Taiwan",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
     },
     {
       "title": "These firms you've never heard of are feeding fears the AI bubble could burst",
@@ -3028,25 +3220,6 @@
       "published": "2026-10-30T18:00:19Z"
     },
     {
-      "title": "'Nothing will change for us': Palestinians react to Israeli elections – video",
-      "source": "The Guardian Middle East",
-      "description": "While Palestinians in Gaza, the West Bank and Israel held on to hope, many questioned whether the results of the Israeli elections would bring about any change. Tuesday’s elections led to Benjamin Netanyahu’s far-right coalition losing its majority after four years in power. The main Jewish opposition bloc also fell short of a majority, however, leaving two Arab Israeli parties, the Joint List and Ra’am, holding the balance of power Netanyahu accused of smearing Arab voters to hold on to power I",
-      "category": "Geopolitics",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/video/2026/oct/30/nothing-will-change-for-us-palestinians-react-to-israeli-elections-video",
-      "published": "2026-10-30T17:41:19Z",
-      "lat": 31.5,
-      "lon": 34.47,
-      "place": "Gaza",
-      "location_precision": "city-reference",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
-    },
-    {
       "title": "Roy Moxham obituary",
       "source": "The Guardian Africa",
       "description": "My uncle Roy Moxham, who has died aged 86, was a former tea plantation supervisor who in later life turned his hand to writing about tea and about India, a country he visited many times on extended trips. His most successful book was The Great Hedge of India (2001), which was published not just in English but in multiple Indian languages. The hedge of the title, which was four metres high and 2.5m wide, was made of thorny shrubs and stretched 2,500 miles across British India to form a customs li",
@@ -3062,7 +3235,7 @@
     },
     {
       "title": "How crypto hacking funds isolated North Korea’s nuclear programme",
-      "source": "The Guardian World",
+      "source": "The Guardian Asia",
       "description": "Cryptocurrency theft is estimated to generate half of the country’s foreign currency income North Korea plays by its own rules. The isolated, secretive and autocratic country is largely cut off from the world’s economic system – but when it comes to generating foreign earnings it relies on some of the world’s most sophisticated hacking. Experts, such as TRM Labs, quickly attributed the extraordinary $6.3bn (£4.7bn) Binance cryptocurrency theft to TraderTraitor, an elite North Korean hacking unit",
       "category": "Cyber",
       "region": "Asia-Pacific",
@@ -3295,25 +3468,6 @@
       "kind": "news",
       "url": "https://www.theguardian.com/us-news/2026/oct/30/climate-crisis-midterms-affordability",
       "published": "2026-10-30T11:30:52Z"
-    },
-    {
-      "title": "Beijing Queer film festival cancelled after harassment from authorities",
-      "source": "The Guardian World",
-      "description": "Forums for discussion of feminist and LGBTQ+ views face growing intolerance from Chinese state, say experts Beijing’s annual independent queer film festival has been cancelled after what is understood to have been a campaign of sustained harassment from authorities. Beijing Queer film festival, which was due to begin on Friday in China’s capital, is one of the country’s oldest independent film festivals. Continue reading...",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/oct/30/beijing-queer-film-festival-cancelled-after-police-harassment",
-      "published": "2026-10-30T11:04:12Z",
-      "lat": 39.9,
-      "lon": 116.4,
-      "place": "Beijing",
-      "location_precision": "city-reference",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "Afcon to return to two-year cycle after Caf U-turn",
@@ -3553,87 +3707,6 @@
       ],
       "kind": "news",
       "url": "https://news.un.org/feed/view/en/story/2026/10/1168705",
-      "published": "2026-10-29T12:00:00Z"
-    },
-    {
-      "title": "AI is changing the way we think. The question is whether we’ll notice in time",
-      "source": "UN News",
-      "description": "Artificial intelligence promises to make life easier. With a few keystrokes, it can write emails, summarize reports, generate ideas and answer complex questions in seconds. For many people, it feels like a technological leap on par with the arrival of the internet itself.",
-      "category": "Humanitarian",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168704",
-      "published": "2026-10-29T12:00:00Z"
-    },
-    {
-      "title": "World News in Brief: 5 children killed in Sudan, Haiti hunger emergency, Yemen war update",
-      "source": "UN News",
-      "description": "At least five children were killed and two others injured in a drone attack on a market in Nyala, in Sudan’s South Darfur state, on Monday, the UN Children’s Fund (UNICEF) said on Thursday.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East",
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168703",
-      "published": "2026-10-29T12:00:00Z",
-      "lat": 12.86,
-      "lon": 30.22,
-      "place": "Sudan",
-      "location_precision": "country-centroid",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Russia drone strike on Ukrainian railway station kills 13",
-      "source": "UN News",
-      "description": "The UN’s top humanitarian official in Ukraine on Thursday condemned a Russian drone attack on the city of Dnipro that killed at least 13 civilians and injured 10 others at its main railway station.",
-      "category": "Defence",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168702",
-      "published": "2026-10-29T12:00:00Z",
-      "lat": 61.52,
-      "lon": 105.32,
-      "place": "Russia",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Nature is making a comeback – now restoration funding must quadruple",
-      "source": "UN News",
-      "description": "From salmon spawning grounds in Canada to coral reefs in Indonesia, ecosystems around the world are being restored at an unprecedented rate.",
-      "category": "Humanitarian",
-      "region": "Americas",
-      "regions": [
-        "Americas",
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168700",
-      "published": "2026-10-29T12:00:00Z",
-      "lat": 56.13,
-      "lon": -106.35,
-      "place": "Canada",
-      "location_precision": "country-centroid",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Security Council LIVE: Can new technology keep the world’s sea lanes safe?",
-      "source": "UN News",
-      "description": "Cheap drones, autonomous vessels and cyberattacks are changing the threats to the world’s shipping lanes – and the tools to counter them. At an open debate on Thursday, the Security Council is weighing how emerging technologies could both endanger and protect seafarers, global trade and food and energy supplies.",
-      "category": "Humanitarian",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168698",
       "published": "2026-10-29T12:00:00Z"
     },
     {
@@ -4549,19 +4622,6 @@
       "location_verified": false
     },
     {
-      "title": "Indonesian students clash with police as protests over toxic haze escalate – video",
-      "source": "The Guardian Asia",
-      "description": "Students across Kalimantan and Sumatra took to the streets to demand government accountability for the wildfires and toxic haze blanketing the region. While Indonesia regularly battles wildfires in the dry season, these blazes are the most intense in more than a decade and exacerbated by slash-and-burn practices to clear land for agriculture, including palm oil, of which Indonesia is the world’s largest producer Indonesia fights fire with dry ice as toxic haze spreads across region Continue read",
-      "category": "Disasters",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/video/2026/oct/22/indonesia-students-clash-police-protests-toxic-haze-video",
-      "published": "2026-10-22T15:04:41Z"
-    },
-    {
       "title": "Blockades, checkpoints and court action: fending off Brazil’s biofuel giants in the Amazon",
       "source": "The Guardian Global Development",
       "description": "After decades of violent displacement and land theft, the country’s quilombola communities are fighting back For most of his 39 years, Josias Dias dos Santos, known as Jota, has endured degrading cycles of displacement as a quilombola , a descendant of Black people once enslaved on Brazil ’s sugar cane and coffee plantations. He says his and other quilombola families subsisting in the rainforests in Pará, northern Brazil, were first forced out of their settlements by violent loggers, then by ran",
@@ -5436,17 +5496,6 @@
       "published": "2026-10-08T09:00:15Z"
     },
     {
-      "title": "A death, a plagiarism scandal and a quest for revenge: the bizarre tale of Otto Z",
-      "source": "The Guardian Long Read",
-      "description": "After his mother died, Otto became convinced he’d been wronged by the forensic investigators – and that one of them was a fraud. The truth was even stranger On a balmy, quiet evening in June 2020, Otto’s elderly mother, Doria, was fading in her Munich apartment. As she lay with her eyes closed, her pale face, framed by her white hair, was calm. Otto, masked, gloved and draped in a sterile apron, dozed in a chair beside her. Otto, who sometimes goes by the name Rainer, and whose last name is only",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "research",
-      "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/08/a-death-a-plagiarism-scandal-and-a-quest-for-revenge-the-bizarre-tale-of-otto-z",
-      "published": "2026-10-08T04:00:09Z"
-    },
-    {
       "title": "Will There Be Meddling in the Midterms?",
       "source": "CFR The President Inbox",
       "description": "This episode unpacks the ongoing threat of influence and interference operations posed by Russia, China, and Iran as the 2026 U.S. midterm elections approach. Host: James M. Lindsay , Mary and David Boies Distinguished Senior Fellow in U.S. Foreign Policy, CFR Guest: Jessica Brandt , Senior Fellow for Technology and National Security, CFR, and former director of the Foreign Malign Influence Center at the Office of the Director of National Intelligence We Discuss: The difference between foreign “",
@@ -5708,25 +5757,6 @@
       "location_verified": false
     },
     {
-      "title": "Gaza: WHO appeals for massive aid influx ahead of winter",
-      "source": "UN News Middle East",
-      "description": "Repeated delays in bringing lifesaving medicines, prosthetics and more from Israel into Gaza risk having devastating consequences on Palestinians who urgently need them in the war-torn enclave, the UN World Health Organization (WHO) said on Friday.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/10/1168508",
-      "published": "2026-10-02T12:00:00Z",
-      "lat": 31.5,
-      "lon": 34.47,
-      "place": "Gaza",
-      "location_precision": "city-reference",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "Why the Houthis' Red Sea power play makes Iran even stronger",
       "source": "Chatham House podcasts",
       "description": "The Iranian-backed Houthi rebels' capture of Yemen's port city of Mocha means that Iran now effectively controls two crucial waterways in the region – the Bab al-Mandab Strait to the Red Sea and thus the Suez Canal, as well as the Hormuz Strait. Why has this simmering conflict exploded again? What do Iran and the Houthis want? How serious is this potential blockade for world trade and energy supply? And could the Houthis become a regional power, in economic terms even more powerful than Iran? Br",
@@ -5808,25 +5838,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cgk53dkmyxko?at_medium=RSS&at_campaign=rss",
       "published": "2026-09-30T23:02:21Z"
-    },
-    {
-      "title": "Palestinians yearn for ‘a return to normal life’, says top Middle East peace envoy",
-      "source": "UN News Middle East",
-      "description": "The UN is continuing efforts to support Palestinians in Gaza amid major challenges to humanitarian access, reconstruction and the restoration of essential services, according to Ramiz Alakbarov, Acting UN Special Coordinator for the Middle East Peace Process.",
-      "category": "Humanitarian",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://news.un.org/feed/view/en/story/2026/09/1168497",
-      "published": "2026-09-30T12:00:00Z",
-      "lat": 31.5,
-      "lon": 34.47,
-      "place": "Gaza",
-      "location_precision": "city-reference",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
     },
     {
       "title": "The journalist who became king in Uganda",
@@ -6476,6 +6487,17 @@
       "audio_url": "https://traffic.libsyn.com/secure/middleeastinst/Middle_East_Focus_7.22.26_20260217T160513.002642_20260402T104122.002838_20260603T161046.615840_20260604T142209.247149_mixdown.mp3?dest-id=531685",
       "url": "https://middleeastinst.libsyn.com/food-security-in-a-hotter-drier-north-africa",
       "published": "2026-07-23T14:11:00Z"
+    },
+    {
+      "title": "Why the UK is dithering over what to do about e-scooters",
+      "source": "BBC Business",
+      "description": "Why is it taking so long for the government to regulate them, and what are the consequences of delay?",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cn4nvn9w00no?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-22T23:51:24Z"
     },
     {
       "title": "Maximum Pressure on Cuba, With Will Freeman",
@@ -8912,7 +8934,7 @@
   "classification_method": "keyword-heuristic",
   "location_method": "headline-or-lead-reference",
   "content_counts": {
-    "news": 372,
+    "news": 375,
     "podcast": 194,
     "research": 17
   },
@@ -8952,6 +8974,10 @@
     {
       "source": "UN News Middle East",
       "message": "Using alternate publisher-hosted RSS endpoint: https://news.un.org/feed/subscribe/en/news/region/middle-east/feed/rss.xml?output=rss"
+    },
+    {
+      "source": "UN News",
+      "message": "Using alternate publisher-hosted RSS endpoint: https://news.un.org/feed/subscribe/en/news/all/rss.xml?output=rss"
     }
   ],
   "feed_health": "See errors for failed source names"
