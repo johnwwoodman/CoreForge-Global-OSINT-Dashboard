@@ -1,0 +1,853 @@
+{
+  "schemaVersion": 1,
+  "edition": "reference-starter",
+  "updated": "2026-11-07",
+  "disclaimer": "Non-exhaustive reference directory. Activity countries are broad historical associations, not verified current operational locations. No legal designation is inferred. Check linked primary lists before relying on any status.",
+  "authorities": {
+    "UK": {
+      "name": "United Kingdom — Home Office proscription",
+      "url": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2"
+    },
+    "US_FTO": {
+      "name": "United States — State Department FTO",
+      "url": "https://www.state.gov/foreign-terrorist-organizations/"
+    },
+    "US_OFAC": {
+      "name": "United States — OFAC sanctions search",
+      "url": "https://sanctionssearch.ofac.treas.gov/"
+    },
+    "UN": {
+      "name": "United Nations — Security Council consolidated sanctions list",
+      "url": "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list"
+    },
+    "EU": {
+      "name": "European Union — sanctions map",
+      "url": "https://www.sanctionsmap.eu/"
+    }
+  },
+  "organisations": [
+    {
+      "id": "al-qaida",
+      "name": "Al-Qaida",
+      "aliases": [
+        "Al Qaeda",
+        "AQ"
+      ],
+      "countries": [
+        "Afghanistan",
+        "Pakistan",
+        "Yemen",
+        "Somalia",
+        "Sahel"
+      ],
+      "context": "Transnational network; geographical references reflect historical reporting, not current control.",
+      "activityEvidenceDate": null,
+      "designations": {
+        "UK": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2",
+          "effectiveDate": null
+        },
+        "US_FTO": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.state.gov/foreign-terrorist-organizations/",
+          "effectiveDate": null
+        },
+        "US_OFAC": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://sanctionssearch.ofac.treas.gov/",
+          "effectiveDate": null
+        },
+        "UN": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list",
+          "effectiveDate": null
+        },
+        "EU": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.sanctionsmap.eu/",
+          "effectiveDate": null
+        }
+      }
+    },
+    {
+      "id": "isil",
+      "name": "Islamic State (ISIL/ISIS/Daesh)",
+      "aliases": [
+        "ISIS",
+        "ISIL",
+        "Daesh"
+      ],
+      "countries": [
+        "Iraq",
+        "Syria"
+      ],
+      "context": "Network and affiliates; territorial control and activity vary over time.",
+      "activityEvidenceDate": null,
+      "designations": {
+        "UK": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2",
+          "effectiveDate": null
+        },
+        "US_FTO": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.state.gov/foreign-terrorist-organizations/",
+          "effectiveDate": null
+        },
+        "US_OFAC": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://sanctionssearch.ofac.treas.gov/",
+          "effectiveDate": null
+        },
+        "UN": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list",
+          "effectiveDate": null
+        },
+        "EU": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.sanctionsmap.eu/",
+          "effectiveDate": null
+        }
+      }
+    },
+    {
+      "id": "isis-k",
+      "name": "Islamic State Khorasan Province",
+      "aliases": [
+        "ISKP",
+        "ISIS-K"
+      ],
+      "countries": [
+        "Afghanistan",
+        "Pakistan"
+      ],
+      "context": "Regional affiliate; reported operating areas require dated corroboration.",
+      "activityEvidenceDate": null,
+      "designations": {
+        "UK": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2",
+          "effectiveDate": null
+        },
+        "US_FTO": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.state.gov/foreign-terrorist-organizations/",
+          "effectiveDate": null
+        },
+        "US_OFAC": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://sanctionssearch.ofac.treas.gov/",
+          "effectiveDate": null
+        },
+        "UN": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list",
+          "effectiveDate": null
+        },
+        "EU": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.sanctionsmap.eu/",
+          "effectiveDate": null
+        }
+      }
+    },
+    {
+      "id": "aqap",
+      "name": "Al-Qaida in the Arabian Peninsula",
+      "aliases": [
+        "AQAP"
+      ],
+      "countries": [
+        "Yemen"
+      ],
+      "context": "Country association is historical and not a real-time presence assessment.",
+      "activityEvidenceDate": null,
+      "designations": {
+        "UK": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2",
+          "effectiveDate": null
+        },
+        "US_FTO": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.state.gov/foreign-terrorist-organizations/",
+          "effectiveDate": null
+        },
+        "US_OFAC": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://sanctionssearch.ofac.treas.gov/",
+          "effectiveDate": null
+        },
+        "UN": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list",
+          "effectiveDate": null
+        },
+        "EU": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.sanctionsmap.eu/",
+          "effectiveDate": null
+        }
+      }
+    },
+    {
+      "id": "al-shabaab",
+      "name": "Al-Shabaab",
+      "aliases": [
+        "Harakat al-Shabaab al-Mujahideen"
+      ],
+      "countries": [
+        "Somalia",
+        "Kenya"
+      ],
+      "context": "Reported cross-border activity; verify current information.",
+      "activityEvidenceDate": null,
+      "designations": {
+        "UK": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2",
+          "effectiveDate": null
+        },
+        "US_FTO": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.state.gov/foreign-terrorist-organizations/",
+          "effectiveDate": null
+        },
+        "US_OFAC": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://sanctionssearch.ofac.treas.gov/",
+          "effectiveDate": null
+        },
+        "UN": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list",
+          "effectiveDate": null
+        },
+        "EU": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.sanctionsmap.eu/",
+          "effectiveDate": null
+        }
+      }
+    },
+    {
+      "id": "boko-haram",
+      "name": "Boko Haram",
+      "aliases": [
+        "JAS"
+      ],
+      "countries": [
+        "Nigeria",
+        "Niger",
+        "Chad",
+        "Cameroon"
+      ],
+      "context": "Distinguish factions and related organisations.",
+      "activityEvidenceDate": null,
+      "designations": {
+        "UK": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2",
+          "effectiveDate": null
+        },
+        "US_FTO": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.state.gov/foreign-terrorist-organizations/",
+          "effectiveDate": null
+        },
+        "US_OFAC": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://sanctionssearch.ofac.treas.gov/",
+          "effectiveDate": null
+        },
+        "UN": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list",
+          "effectiveDate": null
+        },
+        "EU": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.sanctionsmap.eu/",
+          "effectiveDate": null
+        }
+      }
+    },
+    {
+      "id": "iswap",
+      "name": "Islamic State West Africa Province",
+      "aliases": [
+        "ISWAP"
+      ],
+      "countries": [
+        "Nigeria",
+        "Niger",
+        "Chad",
+        "Cameroon"
+      ],
+      "context": "Distinct from Boko Haram factions.",
+      "activityEvidenceDate": null,
+      "designations": {
+        "UK": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2",
+          "effectiveDate": null
+        },
+        "US_FTO": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.state.gov/foreign-terrorist-organizations/",
+          "effectiveDate": null
+        },
+        "US_OFAC": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://sanctionssearch.ofac.treas.gov/",
+          "effectiveDate": null
+        },
+        "UN": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list",
+          "effectiveDate": null
+        },
+        "EU": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.sanctionsmap.eu/",
+          "effectiveDate": null
+        }
+      }
+    },
+    {
+      "id": "jnim",
+      "name": "Jama’at Nusrat al-Islam wal-Muslimin",
+      "aliases": [
+        "JNIM",
+        "GSIM"
+      ],
+      "countries": [
+        "Mali",
+        "Burkina Faso",
+        "Niger"
+      ],
+      "context": "Sahel network; location labels are broad historical context.",
+      "activityEvidenceDate": null,
+      "designations": {
+        "UK": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2",
+          "effectiveDate": null
+        },
+        "US_FTO": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.state.gov/foreign-terrorist-organizations/",
+          "effectiveDate": null
+        },
+        "US_OFAC": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://sanctionssearch.ofac.treas.gov/",
+          "effectiveDate": null
+        },
+        "UN": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list",
+          "effectiveDate": null
+        },
+        "EU": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.sanctionsmap.eu/",
+          "effectiveDate": null
+        }
+      }
+    },
+    {
+      "id": "aqim",
+      "name": "Al-Qaida in the Islamic Maghreb",
+      "aliases": [
+        "AQIM"
+      ],
+      "countries": [
+        "Algeria",
+        "Mali"
+      ],
+      "context": "Historical footprint; organisational evolution requires review.",
+      "activityEvidenceDate": null,
+      "designations": {
+        "UK": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2",
+          "effectiveDate": null
+        },
+        "US_FTO": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.state.gov/foreign-terrorist-organizations/",
+          "effectiveDate": null
+        },
+        "US_OFAC": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://sanctionssearch.ofac.treas.gov/",
+          "effectiveDate": null
+        },
+        "UN": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list",
+          "effectiveDate": null
+        },
+        "EU": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.sanctionsmap.eu/",
+          "effectiveDate": null
+        }
+      }
+    },
+    {
+      "id": "ttp",
+      "name": "Tehrik-i-Taliban Pakistan",
+      "aliases": [
+        "TTP",
+        "Pakistani Taliban"
+      ],
+      "countries": [
+        "Pakistan",
+        "Afghanistan"
+      ],
+      "context": "Separate organisation from the Afghan Taliban.",
+      "activityEvidenceDate": null,
+      "designations": {
+        "UK": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2",
+          "effectiveDate": null
+        },
+        "US_FTO": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.state.gov/foreign-terrorist-organizations/",
+          "effectiveDate": null
+        },
+        "US_OFAC": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://sanctionssearch.ofac.treas.gov/",
+          "effectiveDate": null
+        },
+        "UN": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list",
+          "effectiveDate": null
+        },
+        "EU": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.sanctionsmap.eu/",
+          "effectiveDate": null
+        }
+      }
+    },
+    {
+      "id": "taliban",
+      "name": "Taliban",
+      "aliases": [
+        "Afghan Taliban"
+      ],
+      "countries": [
+        "Afghanistan"
+      ],
+      "context": "De facto governing authority and armed movement; legal designations differ by jurisdiction.",
+      "activityEvidenceDate": null,
+      "designations": {
+        "UK": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2",
+          "effectiveDate": null
+        },
+        "US_FTO": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.state.gov/foreign-terrorist-organizations/",
+          "effectiveDate": null
+        },
+        "US_OFAC": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://sanctionssearch.ofac.treas.gov/",
+          "effectiveDate": null
+        },
+        "UN": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list",
+          "effectiveDate": null
+        },
+        "EU": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.sanctionsmap.eu/",
+          "effectiveDate": null
+        }
+      }
+    },
+    {
+      "id": "hezbollah",
+      "name": "Hezbollah",
+      "aliases": [
+        "Hizballah",
+        "Hizbullah"
+      ],
+      "countries": [
+        "Lebanon",
+        "Syria"
+      ],
+      "context": "Political and armed organisation; designation scope varies.",
+      "activityEvidenceDate": null,
+      "designations": {
+        "UK": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2",
+          "effectiveDate": null
+        },
+        "US_FTO": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.state.gov/foreign-terrorist-organizations/",
+          "effectiveDate": null
+        },
+        "US_OFAC": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://sanctionssearch.ofac.treas.gov/",
+          "effectiveDate": null
+        },
+        "UN": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list",
+          "effectiveDate": null
+        },
+        "EU": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.sanctionsmap.eu/",
+          "effectiveDate": null
+        }
+      }
+    },
+    {
+      "id": "hamas",
+      "name": "Hamas",
+      "aliases": [
+        "Harakat al-Muqawama al-Islamiya"
+      ],
+      "countries": [
+        "Palestinian territories",
+        "Gaza",
+        "West Bank"
+      ],
+      "context": "Political and armed organisation; legal classifications must be checked separately.",
+      "activityEvidenceDate": null,
+      "designations": {
+        "UK": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2",
+          "effectiveDate": null
+        },
+        "US_FTO": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.state.gov/foreign-terrorist-organizations/",
+          "effectiveDate": null
+        },
+        "US_OFAC": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://sanctionssearch.ofac.treas.gov/",
+          "effectiveDate": null
+        },
+        "UN": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list",
+          "effectiveDate": null
+        },
+        "EU": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.sanctionsmap.eu/",
+          "effectiveDate": null
+        }
+      }
+    },
+    {
+      "id": "pkk",
+      "name": "Kurdistan Workers’ Party",
+      "aliases": [
+        "PKK"
+      ],
+      "countries": [
+        "Türkiye",
+        "Iraq",
+        "Syria"
+      ],
+      "context": "Organisational relationships and designation scope vary.",
+      "activityEvidenceDate": null,
+      "designations": {
+        "UK": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2",
+          "effectiveDate": null
+        },
+        "US_FTO": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.state.gov/foreign-terrorist-organizations/",
+          "effectiveDate": null
+        },
+        "US_OFAC": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://sanctionssearch.ofac.treas.gov/",
+          "effectiveDate": null
+        },
+        "UN": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list",
+          "effectiveDate": null
+        },
+        "EU": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.sanctionsmap.eu/",
+          "effectiveDate": null
+        }
+      }
+    },
+    {
+      "id": "ltte",
+      "name": "Liberation Tigers of Tamil Eelam",
+      "aliases": [
+        "LTTE",
+        "Tamil Tigers"
+      ],
+      "countries": [
+        "Sri Lanka"
+      ],
+      "context": "Historical organisation; do not infer current operational activity.",
+      "activityEvidenceDate": null,
+      "designations": {
+        "UK": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2",
+          "effectiveDate": null
+        },
+        "US_FTO": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.state.gov/foreign-terrorist-organizations/",
+          "effectiveDate": null
+        },
+        "US_OFAC": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://sanctionssearch.ofac.treas.gov/",
+          "effectiveDate": null
+        },
+        "UN": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list",
+          "effectiveDate": null
+        },
+        "EU": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.sanctionsmap.eu/",
+          "effectiveDate": null
+        }
+      }
+    },
+    {
+      "id": "abu-sayyaf",
+      "name": "Abu Sayyaf Group",
+      "aliases": [
+        "ASG"
+      ],
+      "countries": [
+        "Philippines"
+      ],
+      "context": "Historical country association.",
+      "activityEvidenceDate": null,
+      "designations": {
+        "UK": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2",
+          "effectiveDate": null
+        },
+        "US_FTO": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.state.gov/foreign-terrorist-organizations/",
+          "effectiveDate": null
+        },
+        "US_OFAC": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://sanctionssearch.ofac.treas.gov/",
+          "effectiveDate": null
+        },
+        "UN": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list",
+          "effectiveDate": null
+        },
+        "EU": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.sanctionsmap.eu/",
+          "effectiveDate": null
+        }
+      }
+    },
+    {
+      "id": "jemaah-islamiyah",
+      "name": "Jemaah Islamiyah",
+      "aliases": [
+        "JI"
+      ],
+      "countries": [
+        "Indonesia"
+      ],
+      "context": "Historical organisation; organisational status requires recent verification.",
+      "activityEvidenceDate": null,
+      "designations": {
+        "UK": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2",
+          "effectiveDate": null
+        },
+        "US_FTO": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.state.gov/foreign-terrorist-organizations/",
+          "effectiveDate": null
+        },
+        "US_OFAC": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://sanctionssearch.ofac.treas.gov/",
+          "effectiveDate": null
+        },
+        "UN": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list",
+          "effectiveDate": null
+        },
+        "EU": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.sanctionsmap.eu/",
+          "effectiveDate": null
+        }
+      }
+    },
+    {
+      "id": "el-n",
+      "name": "National Liberation Army (Colombia)",
+      "aliases": [
+        "ELN"
+      ],
+      "countries": [
+        "Colombia",
+        "Venezuela"
+      ],
+      "context": "Non-state armed group; designation differs by authority.",
+      "activityEvidenceDate": null,
+      "designations": {
+        "UK": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2",
+          "effectiveDate": null
+        },
+        "US_FTO": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.state.gov/foreign-terrorist-organizations/",
+          "effectiveDate": null
+        },
+        "US_OFAC": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://sanctionssearch.ofac.treas.gov/",
+          "effectiveDate": null
+        },
+        "UN": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list",
+          "effectiveDate": null
+        },
+        "EU": {
+          "status": "not_checked",
+          "checkedAt": null,
+          "source": "https://www.sanctionsmap.eu/",
+          "effectiveDate": null
+        }
+      }
+    }
+  ]
+}

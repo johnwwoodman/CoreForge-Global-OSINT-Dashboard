@@ -1,17 +1,16 @@
-# CoreForge v1.9.0 — Consolidated Intelligence Analysis
+# CoreForge v1.10.0 — Armed Groups & Jurisdictional Designations
 
-**Release scope:** Adds source-linked timeline, country evidence register, ASCOPE civil-environment notes, approximate cross-publisher headline matching, leadership change detection and historical World Bank indicator tables. Retains all v1.5.2 functionality and original workflow filenames.
+Adds an **Armed Groups & Designations** widget to the Widget Library. Search organisation names and aliases, filter broad historical country associations, and compare separate UK, US FTO, US OFAC, UN and EU designation records. Each authority links to its official list. Existing intelligence, country, map and local Windows features are retained.
 
-**Important limits:** UN News direct RSS can still be blocked by its publisher. The collector now attempts a clearly labelled third-party indexed-headline fallback; this is not equivalent to publisher RSS and has not been verified live. REST Countries API errors are diagnosed rather than silently treated as valid data. Historical indicators populate on the next successful GitHub country workflow run; bundled data may initially be empty. Leadership records remain candidates until corroborated.
+**Critical data-quality limitation:** The bundled directory is a **non-exhaustive 18-organisation starter reference**, not a comprehensive index. Every legal designation initially displays **Not checked** because current official list membership could not be verified in the build environment. Do not interpret that as *not designated*. Country associations are historical/broad context, **not current operational positions**. No claims of current leadership, territory controlled or active locations are made. A complete verified index requires ingesting and matching current primary designation lists and recording the evidence and date for each authority; this release does not claim to have done that.
 
-**Use:** Add analysis panels from the Widget Library. Select a country in Country Profile before opening the Country Assessment or ASCOPE panels. ASCOPE notes stay in browser storage. Existing workspaces are not automatically overwritten.
+**Updating:** Maintainers may edit `data/armed-groups.json`, setting `listed`, `not_listed`, `review_required` or `not_checked` separately per authority with source and checkedAt. Only use `not_listed` after checking the relevant complete official list. Keep organisation aliases distinct from legal designation entities; do not infer status from name similarity. No workflow names were changed.
 
-**Windows:** Starts with bundled data, synchronises country facts from GitHub when accessible, and retains a cached copy offline.
-
-**Workflow files:** `.github/workflows/collect-intelligence.yml`, `.github/workflows/update-country-facts.yml`, `.github/workflows/weekly-brief.yml`. Do not add a duplicate `collect.yml`.
+**Windows:** The complete package includes the directory and works offline when served by `START-COREFORGE-WINDOWS.bat`. The directory is bundled reference data, not a live-synchronised designation feed.
 
 ## Release history
 
+- **v1.10.0:** Armed Groups & Designations widget; jurisdiction-specific statuses, searchable reference directory, primary-list links and explicit verification safeguards.
 - **v1.9.0:** Consolidated analytical widgets, ASCOPE notes, indexed UN News fallback, REST Countries diagnostics, leadership change comparison, version alignment and workflow filename preservation.
 - **v1.5.2:** Strategic territories and political status.
 - **v1.5.1:** ISO country coverage and search aliases.
