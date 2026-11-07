@@ -1,6 +1,204 @@
 {
-  "updated": "2026-11-07T14:26:41.209437Z",
+  "updated": "2026-11-07T19:26:05.923727Z",
   "records": [
+    {
+      "title": "Paraguay's former president charged after bank collapse",
+      "source": "BBC World",
+      "description": "Santiago Peña was ousted due to a banking crisis which left millions of people unable to access their money.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-07T19:17:22Z"
+    },
+    {
+      "title": "Kraków shooting latest updates: six killed and more than a dozen injured, police say",
+      "source": "The Guardian World",
+      "description": "Polish Prime Minister Donald Tusk heads to the city after four women and two men are killed and more than a dozen people injured Tom Rose, the US ambassador to Poland, wrote on X: We are just learning details of the horrific mass shooting in Kraków, a savage and murderous attack that’s shattered the peace of Poland. America stands with Poland at this dark hour as Poland stands with her beloved citizens of Kraków. A terrible tragedy in Kraków’s Main Market Square. I share the grief of the familie",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
+      "published": "2026-11-07T19:02:28Z"
+    },
+    {
+      "title": "How do you broker UN climate talks when your own country is a big coal and gas exporter? Chris Bowen is about to find out",
+      "source": "The Guardian World",
+      "description": "Ahead of Cop31, climate change minister dismisses concerns about whether Australia as a major producer can keep the world moving away from fossil fuels Listen to the podcast: Chris Bowen on how he’ll reach consensus at Cop31 Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here Australia has been urged to set aside support for its near US$100bn fossil fuel export industries and fight for a global agreement to move away from coal, gas and oil as its climate chang",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/environment/2026/nov/08/chris-bowen-cop31-experts-condemn-australia-coal-gas-approvals",
+      "published": "2026-11-07T19:00:20Z"
+    },
+    {
+      "title": "Let a thousand blossoms bloom: Sydney’s jacarandas put on their spring show – in pictures",
+      "source": "The Guardian Environment",
+      "description": "The city enters its purple patch with jacaranda trees blazing into flower in the warmer weather. Every October and November the fast-growing trees are festooned with trumpet-shaped blossoms that soon carpet the ground below them, drawing sightseers, photographers – and people taking photos of people taking photos Blooming beautiful! The Tesselaar tulip festival – in pictures Continue reading...",
+      "category": "Disasters",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/australia-news/gallery/2026/nov/08/sydney-jacaranda-season-in-pictures",
+      "published": "2026-11-07T19:00:20Z"
+    },
+    {
+      "title": "A Big Build royal commission helped Ben Carroll become premier. Will it be his downfall?",
+      "source": "The Guardian World",
+      "description": "Two weeks of public hearings will begin on Monday morning, right in the middle of the state election campaign Get our daily political email , free app or daily news podcast The commitment that made Ben Carroll premier may ultimately cost him the election. On Monday morning, right in the middle of a state election campaign, the royal commission into Victoria’s Big Build will begin two weeks of public hearings. Continue reading...",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/08/big-build-royal-commission-victorian-election-ben-carroll-labor-ntwnfb",
+      "published": "2026-11-07T19:00:19Z"
+    },
+    {
+      "title": "What we know about Krakow mass shooting so far",
+      "source": "BBC World",
+      "description": "At least six people were killed by a gunman in military fatigues who opened fire in Poland's second largest city.",
+      "category": "Defence",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-07T18:22:11Z"
+    },
+    {
+      "title": "US offers $20m reward for information about Iran's nuclear programme",
+      "source": "BBC World",
+      "description": "Donald Trump has repeatedly raised the prospecting of renewing strikes against Iran's nuclear facilities.",
+      "category": "Geopolitics",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-07T18:14:38Z",
+      "lat": 32.43,
+      "lon": 53.69,
+      "place": "Iran",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Gaza wedding festival sees 250 couples married at the same time",
+      "source": "BBC World",
+      "description": "A mass wedding for Palestinian brides and grooms has taken place in the rubble-strewn streets of Gaza.",
+      "category": "Geopolitics",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/ckr5ygm78j76o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-07T17:58:41Z",
+      "lat": 31.5,
+      "lon": 34.47,
+      "place": "Gaza",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Six dead after gunman opens fire ‘at random’ in Kraków market square",
+      "source": "The Guardian World",
+      "description": "Reports say man fired shots from from his car in Poland’s second city before being wounded by police while trying to flee Kraków shooting – latest updates Six people have been killed and 15 injured after a shooting in a market square in Kraków, Poland. A man who had driven into the square at about 3pm began “firing at random people from his car”, according to a statement by local police on X. Continue reading...",
+      "category": "Economics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
+      "published": "2026-11-07T17:17:23Z"
+    },
+    {
+      "title": "Houthis say at least 25 killed in Saudi air strike",
+      "source": "BBC World",
+      "description": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
+      "category": "Geopolitics",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-07T17:09:24Z",
+      "lat": 15.55,
+      "lon": 48.52,
+      "place": "Yemen",
+      "location_precision": "country-centroid",
+      "location_method": "description-lead-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Italian foreign minister says hackers leaked his personal data",
+      "source": "BBC World",
+      "description": "Prime Minister Giorgia Meloni has blamed pro-Russian hackers for publishing the details online.",
+      "category": "Cyber",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cr20wvge32j3o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-07T16:50:06Z"
+    },
+    {
+      "title": "No clear winner after tight New Zealand general election",
+      "source": "BBC World",
+      "description": "Weeks of coalition talks could follow after preliminary results pointed to a highly divided national parliament.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c3ewev11g1e0o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-07T15:56:28Z"
+    },
+    {
+      "title": "Five European leaders call for closer EU-UK ties ahead of Brussels summit",
+      "source": "The Guardian Europe",
+      "description": "Germany, Belgium, Netherlands, Luxembourg and Denmark say cooperation on clean energy will benefit both sides Five European leaders have called for closer ties with Britain ahead of a keenly anticipated EU-UK summit. The leaders of Germany, Belgium, the Netherlands, Luxembourg and Denmark, said deeper cooperation on clean energy would benefit both sides in a letter to Ursula von der Leyen and António Costa. Continue reading...",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/07/europe-leaders-call-closer-eu-uk-ties-brussels-summit",
+      "published": "2026-11-07T15:30:35Z",
+      "lat": 50.85,
+      "lon": 4.35,
+      "place": "Brussels",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "UK cannot 'cherry pick' EU single market deal, Barnier tells BBC",
+      "source": "BBC World",
+      "description": "The former Brexit negotiator says EU countries would reject any British attempts to follow economic rules \"a la carte\".",
+      "category": "Economics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c9kgjj206nzpo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-07T15:19:35Z"
+    },
     {
       "title": "They have gone 10 weeks without answers. Will these families ever know what happened to loved ones missing after Nepal’s floods?",
       "source": "The Guardian Asia",
@@ -68,25 +266,6 @@
       "kind": "news",
       "url": "https://www.theguardian.com/law/2026/nov/07/court-of-appeal-rules-kidnap-for-ransom-libya-exploitation-trafficking-victims-asylum-seeker-home-office",
       "published": "2026-11-07T13:00:11Z"
-    },
-    {
-      "title": "Five European leaders call for closer EU-UK ties ahead of Brussels summit",
-      "source": "The Guardian Europe",
-      "description": "Germany, Belgium, Netherlands, Luxembourg and Denmark say cooperation on clean energy will benefit both sides Five European leaders have called for closer ties with Britain ahead of a keenly anticipated EU-UK summit. The leaders of Germany, Belgium, the Netherlands, Luxembourg and Denmark, said deeper cooperation on clean energy would benefit both sides in a letter to Ursula von der Leyen and António Costa. Continue reading...",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/nov/07/europe-leaders-call-closer-eu-uk-ties-brussels-summit",
-      "published": "2026-11-07T12:51:25Z",
-      "lat": 50.85,
-      "lon": 4.35,
-      "place": "Brussels",
-      "location_precision": "city-reference",
-      "location_method": "headline-keyword",
-      "location_verified": false
     },
     {
       "title": "Russian strikes wound nine and damage Ukraine's power network ahead of talks",
@@ -188,13 +367,11 @@
     },
     {
       "title": "Texas mayor instructs police to limit co-operation with ICE",
-      "source": "BBC Americas",
+      "source": "BBC World",
       "description": "There has been months of public outcry in Houston after an Immigration and Customs Enforcement (ICE) officer fatally shot a man who was driving to work.",
       "category": "Geopolitics",
-      "region": "Americas",
-      "regions": [
-        "Americas"
-      ],
+      "region": "all",
+      "regions": [],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c8dx33d22zkro?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-07T08:15:55Z"
@@ -220,27 +397,14 @@
     },
     {
       "title": "Meghan's father Thomas Markle under house arrest after child sex abuse material charge",
-      "source": "BBC Americas",
-      "description": "The 82-year-old appeared in court in Florida after the FBI searched two Los Angeles-area storage units he rented.",
-      "category": "Geopolitics",
-      "region": "Americas",
-      "regions": [
-        "Americas"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cqgkvv8m8pgyo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-07T07:27:44Z"
-    },
-    {
-      "title": "Paraguay's president impeached and under house arrest after bank collapse",
       "source": "BBC World",
-      "description": "Santiago Peña was ousted due to a banking crisis which left millions of people unable to access their money.",
+      "description": "The 82-year-old appeared in court in Florida after the FBI searched two Los Angeles-area storage units he rented.",
       "category": "Geopolitics",
       "region": "all",
       "regions": [],
       "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-07T07:20:00Z"
+      "url": "https://www.bbc.co.uk/news/articles/cqgkvv8m8pgyo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-07T07:27:44Z"
     },
     {
       "title": "Pineapple on pizza is an insult to our great Italian cuisine – and here’s why we secretly love it | Luca Cesari",
@@ -357,7 +521,7 @@
     },
     {
       "title": "Ukraine war briefing: Beijing confirms historic Xi-Trump-Putin meeting under discussion",
-      "source": "The Guardian Europe",
+      "source": "The Guardian Asia",
       "description": "Russia could use tri leader summit to nudge China and US closer to its position on Ukraine, experts say. What we know on day 1,718 Beijing has confirmed that it is discussing a historic meeting between Chinese leader Xi Jinping, the US president, Donald Trump, and Russia’s Vladimir Putin . Mao Ning, a spokesperson for the Chinese foreign ministry, said at a press briefing this week in Beijing that China “is in communication with relevant parties regarding a meeting between the three heads of sta",
       "category": "Geopolitics",
       "region": "Europe",
@@ -475,11 +639,13 @@
     },
     {
       "title": "Cornell faculty pass no-confidence vote over leadership's handling of Jane Doe allegations",
-      "source": "BBC World",
+      "source": "BBC Americas",
       "description": "Friday's resolution by academic staff is largely symbolic as they do not have the power to remove those in charge of the university.",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c933xxl8yv0go?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-06T23:46:08Z"
@@ -534,11 +700,13 @@
     },
     {
       "title": "Elon Musk appears to signal the end of the road for Cybertruck",
-      "source": "BBC World",
+      "source": "BBC Americas",
       "description": "Musk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.",
       "category": "Cyber",
-      "region": "all",
-      "regions": [],
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-06T21:49:50Z"
@@ -607,19 +775,6 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
-    },
-    {
-      "title": "Activists break into building site of Microsoft datacentre in Amsterdam",
-      "source": "The Guardian World",
-      "description": "Separate actions also take place outside fence and across Europe in backlash against impact of AI boom Activists have stormed the site of a Microsoft datacentre being built in Amsterdam, as the backlash to the social and environmental harms of the AI boom spreads across Europe. Protesters from Geef Tegengas, a Dutch direct action group, clashed with police while breaking into a construction site at Westpoort, Amsterdam, where some members climbed a crane, lit flares and tied helium balloons to e",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/nov/06/activists-break-into-building-site-of-microsoft-datacentre-in-amsterdam",
-      "published": "2026-11-06T18:51:37Z"
     },
     {
       "title": "Why the US midterms sparked an AI stock selloff",
@@ -720,25 +875,14 @@
       "published": "2026-11-06T17:19:38Z"
     },
     {
-      "title": "Further bomb threats disrupt at least another 18 flights across Europe",
-      "source": "The Guardian World",
-      "description": "Media organisations in Ireland and UK also affected as apparently coordinated effort to cause chaos continues A fresh wave of bomb threats disrupted air traffic across Europe on Friday but the affected aircraft landed safely and searches revealed no explosive devices. The latest alerts affected at least 18 flights to or from Bulgaria, Cyprus, Czechia, France, Hungary, Italy, Portugal, Romania and the UK. Continue reading...",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/nov/06/further-bomb-threats-disrupt-flights-across-europe",
-      "published": "2026-11-06T17:14:31Z"
-    },
-    {
       "title": "Dozens of Democrats eyeing 2028 presidential run, says former Obama aide",
-      "source": "BBC World",
+      "source": "BBC Americas",
       "description": "Jim Messina tells the BBC that after Democrats' midterm victories he's talked to \"over two dozen campaigns\", with some already hiring staff.",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cx8dzzy8n713o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-06T16:51:01Z"
@@ -820,7 +964,7 @@
     },
     {
       "title": "Two dead after bus crashes in France, officials say",
-      "source": "BBC World",
+      "source": "BBC Europe",
       "description": "One child and one young adult were killed in the crash, local authorities say, with more injured.",
       "category": "Geopolitics",
       "region": "Europe",
@@ -836,17 +980,6 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
-    },
-    {
-      "title": "Judge blocks construction of Trump's massive arch after federal agency approval",
-      "source": "BBC World",
-      "description": "The Trump administration had hoped the construction of the 250-foot arch could begin as early as this week.",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cq99zd93ryvko?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-06T15:30:42Z"
     },
     {
       "title": "PM tells firms to publish salaries in job adverts ahead of new law",
@@ -927,11 +1060,13 @@
     },
     {
       "title": "Tanzanian opposition leader found guilty of inciting unrest but acquitted of treason",
-      "source": "BBC World",
+      "source": "BBC Africa",
       "description": "The 58-year-old, who has been detained since April last year, says the charges are politically motivated.",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/ckp8g4pm0y4lo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-06T14:57:08Z"
@@ -948,28 +1083,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-06T14:46:03Z"
-    },
-    {
-      "title": "Anti-fire ant eradication activist convicted after using legal arguments ‘similar to sovereign citizens’",
-      "source": "The Guardian World",
-      "description": "Legal expert compares Trevor Hold’s failed defence to ‘tried and tested argument’ used by sovereign citizen movement Get our breaking news email , free app or daily news podcast The Queensland leader of a group opposing the eradication of fire ants in Australia has been convicted of obstructing government officers, after a magistrate threw out his argument that the commonwealth-funded program is illegal. Trevor Hold was fined $1,500 but a conviction was not recorded. Hold has described himself a",
-      "category": "Defence",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/07/trevor-hold-activist-convicted-qld-fire-ant-eradication-program-queensland-ntwnfb",
-      "published": "2026-11-06T14:00:46Z"
-    },
-    {
-      "title": "The Victorian Liberals’ campaign bus was supposed to be a reset. Instead it became the symbol of a rough week",
-      "source": "The Guardian World",
-      "description": "Crashing into a shop awning ended the first outing of the Jess Express – but the opposition’s electoral momentum will be harder to stop Get our daily political email , free app or daily news podcast Jess Wilson has barely put a foot wrong since becoming Victorian Liberal leader a little under a year ago. That was until this week, which ended with her campaign bus reversing into a small business . The bus was launched on Friday, a few days earlier than planned, in what appeared to be an effort to",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/07/the-victorian-liberals-campaign-bus-was-supposed-to-be-a-reset-instead-it-became-the-symbol-of-a-rough-week",
-      "published": "2026-11-06T14:00:45Z"
     },
     {
       "title": "Australia’s coal and gas approvals are starting to stink ahead of Cop31 | Jess Harwood",
@@ -1031,7 +1144,7 @@
     },
     {
       "title": "Russian extremist group denies sending hoax bomb threats",
-      "source": "BBC World",
+      "source": "BBC Europe",
       "description": "Scores of flights across Europe have received bomb threats this week, but no explosives have been found so far.",
       "category": "Geopolitics",
       "region": "Europe",
@@ -1423,9 +1536,9 @@
     },
     {
       "title": "Delhi braces for ‘pollution season’ as smog shrouds India’s capital – in pictures",
-      "source": "The Guardian Environment",
+      "source": "The Guardian Asia",
       "description": "The air quality index in Delhi has already soared above 650, more than 30 times the limit the World Health Organization deems to be safe Continue reading...",
-      "category": "Disasters",
+      "category": "Geopolitics",
       "region": "Asia-Pacific",
       "regions": [
         "Asia-Pacific"
@@ -1500,17 +1613,6 @@
       "kind": "news",
       "url": "https://www.theguardian.com/commentisfree/2026/nov/06/serbia-banished-monsters-belgrade-student-list-milosevic-regime",
       "published": "2026-11-06T05:00:44Z"
-    },
-    {
-      "title": "More than 40 pilot whales die after mass stranding in New Zealand’s North Island",
-      "source": "The Guardian Environment",
-      "description": "Rescuers were unable to save the whales after they became beached on a remote and rocky part of the country More than 40 pilot whales died after a mass stranding event on New Zealand’s remote east coast, conservation officials said on Friday, despite rescue efforts by volunteers and conservation workers. The Department of Conservation (DoC) said 43 whales had died in the mass stranding along the Ngawi coast on the south-eastern tip of the North Island. Continue reading...",
-      "category": "Disasters",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/nov/06/pilot-whales-dead-stranded-new-zealand-north-island",
-      "published": "2026-11-06T04:45:33Z"
     },
     {
       "title": "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
@@ -2001,7 +2103,7 @@
     },
     {
       "title": "Was an Italian chef really fired over refusal to put pineapple on pizza?",
-      "source": "BBC World",
+      "source": "BBC Europe",
       "description": "The chef had stated that putting pineapple on pizza was \"offensive to his culture\".",
       "category": "Geopolitics",
       "region": "Europe",
@@ -4465,25 +4567,6 @@
       "place": "Lebanon",
       "location_precision": "country-centroid",
       "location_method": "description-lead-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Why Israel's election is one of the most important in its history",
-      "source": "BBC Middle East",
-      "description": "Security and democracy emerge as central issues in Israel's highly anticipated general election, as Middle East correspondent Lucy Williamson reports.",
-      "category": "Geopolitics",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/videos/c64g1wje3jjwo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-10-25T22:05:30Z",
-      "lat": 31.05,
-      "lon": 34.85,
-      "place": "Israel",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
       "location_verified": false
     },
     {
@@ -8926,7 +9009,7 @@
   "classification_method": "keyword-heuristic",
   "location_method": "headline-or-lead-reference",
   "content_counts": {
-    "news": 378,
+    "news": 383,
     "podcast": 193,
     "research": 16
   },
@@ -8964,8 +9047,8 @@
   ],
   "warnings": [
     {
-      "source": "UN News Middle East",
-      "message": "Using alternate publisher-hosted RSS endpoint: https://news.un.org/feed/subscribe/en/news/region/middle-east/feed/rss.xml?output=rss"
+      "source": "UN News",
+      "message": "Using alternate publisher-hosted RSS endpoint: https://news.un.org/feed/subscribe/en/news/all/rss.xml?output=rss"
     }
   ],
   "feed_health": "See errors for failed source names"
