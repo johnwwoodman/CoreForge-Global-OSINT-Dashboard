@@ -1,9 +1,156 @@
 {
-  "updated": "2026-11-08T17:55:22.393387Z",
+  "updated": "2026-11-08T22:02:17.159914Z",
   "records": [
     {
-      "title": "Gadi Eisenkot reaches out to Netanyahu allies as he strives to form government",
+      "title": "Nvidia launches investigation into CEO's affair with suspected Chinese spy",
+      "source": "BBC Americas",
+      "description": "Jensen Huang also admitted to having been \"unfaithful\" to his wife and says he will cooperate with a security investigation.",
+      "category": "Geopolitics",
+      "region": "Americas",
+      "regions": [
+        "Americas",
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c3dxw10rjn9no?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-08T21:40:46Z"
+    },
+    {
+      "title": "Cold blast brings springtime snow to alpine regions as temperatures plummet across Australia’s south-east",
+      "source": "The Guardian World",
+      "description": "Thredbo, Perisher and Mount Hotham all recorded falls, along with Kunanyi/Mount Wellington in Tasmania Get our breaking news email , free app or daily news podcast Snow blanketed parts of NSW, Victoria and Tasmania across the weekend as an unseasonal cold blast whipped through Australia’s south-east, but forecaster say warm temperatures and thunderstorms are on the way. Thredbo, Perisher and Mount Hotham all recorded falls on Saturday and Sunday, while snow also fell on Kunanyi/Mount Wellington ",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/08/australia-weather-cold-blast-springtime-snow-thredbo-perisher-hotham-victoria-tasmania-el-nino",
+      "published": "2026-11-08T21:25:10Z"
+    },
+    {
+      "title": "Two police officers hailed as heroes for confronting Kraków gunman",
+      "source": "The Guardian World",
+      "description": "Jakub Kulik critically injured and Artur Morański also wounded after actions that ‘prevented further casualties’ Two Polish police officers who were injured as they pursued and detained the gunman in Kraków on Saturday have been hailed as heroes. One of them is Jakub Kulik, a former paratrooper and volunteer firefighter, who was left critically injured after a close-range exchange of fire with the suspect, a 24-year-old Polish national who killed six and injured 17 in an attack believed to have ",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/08/two-police-officers-heroes-confronting-krakow-gunman-poland",
+      "published": "2026-11-08T21:11:40Z"
+    },
+    {
+      "title": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
+      "source": "The Guardian World",
+      "description": "CEO reportedly ‌had close relationship ‌with a Chinese businesswoman who passed information to ‌Beijing Nvidia said ⁠on Sunday it “is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort”. The Republican-led foreign affairs and intelligence committees of the US Congress asked Huang to testify next week at a closed-door briefing on Nvidia’s “security protocols against foreign adversary espionage",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
+      "published": "2026-11-08T21:00:58Z",
+      "lat": 39.9,
+      "lon": 116.4,
+      "place": "Beijing",
+      "location_precision": "city-reference",
+      "location_method": "description-lead-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Top House Democrat 'a hard yes' on impeaching Hegseth",
+      "source": "BBC Americas",
+      "description": "But the Pentagon said the defence secretary would not be deterred by \"phony investigations\".",
+      "category": "Defence",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cj4g1nwx39wno?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-08T20:49:32Z"
+    },
+    {
+      "title": "White House vows to keep up immigration crackdown after midterms defeat",
+      "source": "BBC Americas",
+      "description": "The Department of Homeland Security also insists it is not backing away on the round-up.",
+      "category": "Geopolitics",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmg476w7wnl2o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-08T20:23:58Z"
+    },
+    {
+      "title": "Seven dead and more than 100 injured after trains collide in Egypt",
+      "source": "BBC World",
+      "description": "Several carriages derailed after two trains travelling in the same direction crashed outside the city of Giza.",
+      "category": "Geopolitics",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-08T19:58:02Z",
+      "lat": 26.82,
+      "lon": 30.8,
+      "place": "Egypt",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Heavy rain floods displaced families’ tents in Gaza – in pictures",
       "source": "The Guardian Middle East",
+      "description": "The first winter storm began affecting the people of Gaza this weekend with heavy rain hitting on Saturday. Reports that about 70,000 tents were flooded within 12 hours prompted warnings of a worsening humanitarian situation for hundreds of thousands of displaced people living in temporary camps lacking adequate protection from rain and cold Continue reading...",
+      "category": "Humanitarian",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/gallery/2026/nov/08/heavy-rain-floods-displaced-families-tents-gaza-in-pictures",
+      "published": "2026-11-08T18:50:12Z",
+      "lat": 31.5,
+      "lon": 34.47,
+      "place": "Gaza",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
+      "source": "BBC World",
+      "description": "Further details have emerged about two police officers hailed for preventing a Polish gunman from killing more.",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-08T18:22:53Z"
+    },
+    {
+      "title": "Lisa Nandy wary of ‘circular arguments’ about rejoining EU",
+      "source": "The Guardian World",
+      "description": "Culture secretary pushes back against talk of revisiting Brexit but says closer ties would fulfil referendum promises One of Andy Burnham’s cabinet ministers has said she wants to avoid “circular arguments” about whether the UK should rejoin the EU, underlining divisions at the top of government over revisiting Brexit. Lisa Nandy, the culture secretary, appeared to suggest she was not in favour of rejoining the trade bloc, but she said the prime minister should still pursue closer ties to fulfil",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/politics/2026/nov/08/lisa-nandy-wary-of-circular-arguments-about-rejoining-eu",
+      "published": "2026-11-08T18:20:06Z"
+    },
+    {
+      "title": "Gadi Eisenkot reaches out to Netanyahu allies as he strives to form government",
+      "source": "The Guardian World",
       "description": "Former military chief says prime minister brought Israel to historic crisis and it is approaching ‘point of no return’ Israel’s former military chief Gadi Eisenkot started the tough task of forming a government on Sunday, reaching out to Benjamin Netanyahu’s allies as he said the veteran prime minister had brought the country to a historic crisis. Eisenkot, 66, the leader of the Yashar party, who has vowed to bridge Israel’s deep polarisation under Netanyahu, formally received a mandate from the",
       "category": "Defence",
       "region": "Middle East",
@@ -21,9 +168,20 @@
       "location_verified": false
     },
     {
+      "title": "Labour expected to cut EV targets for UK’s car industry despite MPs’ protests",
+      "source": "The Guardian Environment",
+      "description": "Exclusive: Louise Haigh likely to weaken mandate for sales that forms key part of emission reduction plan Analysis: Climate always comes second – are green issues slipping down Burnham’s agenda? Ministers are expected to make steep cuts to the government’s electric vehicle (EV) targets this week, in a move that will relieve carmakers but alarm many Labour MPs who are worried about the government’s commitment to the green agenda. Louise Haigh, the de facto deputy prime minister, will finalise the",
+      "category": "Disasters",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/environment/2026/nov/08/labour-cut-ev-target-car-industry-despite-climate-concerns",
+      "published": "2026-11-08T17:51:19Z"
+    },
+    {
       "title": "Collision of two trains in Egypt kills at least seven",
       "source": "The Guardian World",
-      "description": "President orders prompt investigation after one train derails in collision in al-Ayyat about 30 miles from Cairo At least seven people were killed and more than 100 others injured when two trains collided on Sunday south of Cairo, authorities have said. The crash occurred in al-Ayyat district in Giza province, about 30 miles (50km) south of the capital, when a train travelling to the south-western Fayoum province crashed into the rear of a train heading to the southern province of Aswan, accordi",
+      "description": "President orders prompt investigation after one train derails in collision in al-Ayyat about 30 miles from Cairo Seven people were killed and more than 100 injured when two trains collided on Sunday south of the Egyptian capital, Cairo, officials said. The crash occurred in al-Ayyat district in Giza province, about 30 miles south of Cairo, when a train travelling to Fayoum province crashed into the rear of a train heading to the southern province of Aswan, according to the transport ministry. Co",
       "category": "Geopolitics",
       "region": "Africa",
       "regions": [
@@ -31,13 +189,26 @@
       ],
       "kind": "news",
       "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
-      "published": "2026-11-08T17:19:39Z",
+      "published": "2026-11-08T17:51:17Z",
       "lat": 26.82,
       "lon": 30.8,
       "place": "Egypt",
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
+    },
+    {
+      "title": "South Africa's ANC records worst-ever results in local elections",
+      "source": "BBC Africa",
+      "description": "President Cyril Ramaphosa says the verdict must be respected, while the party's secretary-general calls the outcome \"catastrophic\".",
+      "category": "Geopolitics",
+      "region": "Africa",
+      "regions": [
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cwrkygrxp11mo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-08T17:51:03Z"
     },
     {
       "title": "Nicola Jennings on Cop31 in Turkey – cartoon",
@@ -68,7 +239,7 @@
     {
       "title": "Footage shows derailed carriages after fatal train crash in Egypt",
       "source": "BBC World",
-      "description": "It is yet unclear what caused the accident but Egyptian President Abdel Fattah al-Sisi said an investigation is underway and will \"hold accountable anyone who proves their negligence\".",
+      "description": "At least seven people died when two trains collided, causing several carriages to derail and fall down an embankment.",
       "category": "Geopolitics",
       "region": "Africa",
       "regions": [
@@ -105,19 +276,6 @@
       "kind": "news",
       "url": "https://www.theguardian.com/environment/2026/nov/08/beef-industry-climate-impact-education",
       "published": "2026-11-08T15:00:43Z"
-    },
-    {
-      "title": "Two police officers hailed as heroes for confronting Kraków gunman",
-      "source": "The Guardian World",
-      "description": "Jakub Kulik critically injured and Artur Morański also wounded after actions that ‘prevented further casualties’ Two Polish police officers who were injured as they pursued and detained the gunman in Kraków on Saturday have been hailed as heroes. One of them is Jakub Kulik, a former paratrooper and volunteer firefighter, who was left critically injured after a close-range exchange of fire with the suspect, a 24-year-old Polish national who killed six and injured 17 in an attack believed to have ",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/nov/08/two-police-officers-heroes-confronting-krakow-gunman-poland",
-      "published": "2026-11-08T14:49:16Z"
     },
     {
       "title": "Homes and temples glow across India to mark Diwali",
@@ -193,7 +351,7 @@
     {
       "title": "Weakening AI copyright law will spell ‘disaster for creativity’, global music body warns Albanese",
       "source": "The Guardian World",
-      "description": "Exclusive: Head of IFPI says allowing AI companies access to online content would be a ‘huge mistake’ and damage Australia’s reputation Get our breaking news email , free app or daily news podcast Australia weakening copyright protections for AI companies would be “ridiculous and dangerous”, the global peak body for the music recording industry has warned as it watches with concern how the Albanese government responds to big tech’s demands. While local creatives have raised constitutional issues",
+      "description": "Exclusive: Head of IFPI says allowing AI companies access to online content would be a ‘huge mistake’ and damage Australia’s reputation Get our breaking news email , free app or daily news podcast Australia weakening copyright protections to aid AI companies would be “ridiculous and dangerous”, the global peak body for the music recording industry has warned as it watches with concern how the Albanese government responds to big tech’s demands. While local creatives have raised constitutional iss",
       "category": "Geopolitics",
       "region": "Asia-Pacific",
       "regions": [
@@ -202,17 +360,6 @@
       "kind": "news",
       "url": "https://www.theguardian.com/technology/2026/nov/09/weakening-ai-copyright-law-will-spell-disaster-for-creativity-australia",
       "published": "2026-11-08T14:00:43Z"
-    },
-    {
-      "title": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
-      "source": "BBC World",
-      "description": "One of the men, Professor Michal Pędziwiatr, when they got to the scene, they treated both the alleged gunman and the police officers.",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-08T13:40:24Z"
     },
     {
       "title": "Iran executes three men for 'armed unrest' after January protests",
@@ -320,7 +467,7 @@
     },
     {
       "title": "How the story of ‘the girl of 100 portraits’ inspired two books",
-      "source": "The Guardian World",
+      "source": "The Guardian Europe",
       "description": "Luc Corlouër made ‘deal’ with Prix Goncourt winner Philippe Jaenada over his research into model Louise Cansot, murdered in Paris in 1949 For almost eight decades the artists’ model Louise Cansot, the subject of the novel winning France’s most prestigious literary prize this year, was one of Paris’s forgotten murder victims. After her body was found near the Seine in September 1949, city police wrote off the young woman, immortalised as “the girl of 100 portraits”, as loose, libertine and – wors",
       "category": "Geopolitics",
       "region": "Europe",
@@ -353,19 +500,6 @@
       "published": "2026-11-08T10:00:37Z"
     },
     {
-      "title": "Briton among six dead after gunman opens fire in Kraków market square",
-      "source": "The Guardian Europe",
-      "description": "Three more people found dead at home of suspect, who minister says held ‘ultra-nationalistic’ views Six people were killed and 16 wounded after a gunman opened fire in a busy market square in Kraków, authorities said, in what Poland’s defence minister called an “act of terror” on the people of the city. The suspect, a 25-year-old Polish citizen, opened fire with an automatic weapon in the city’s main square at about 3pm on Saturday before being apprehended by police. Continue reading...",
-      "category": "Economics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
-      "published": "2026-11-08T09:30:22Z"
-    },
-    {
       "title": "How the deadly shooting in Krakow unfolded",
       "source": "BBC World",
       "description": "Video authenticated by BBC Verify shows the moment gunshots rang out in Krakow's main market square.",
@@ -387,17 +521,6 @@
       ],
       "kind": "news",
       "url": "https://www.theguardian.com/world/2026/nov/08/popes-visit-to-argentina-sets-up-showdown-with-hyper-capitalist-milei",
-      "published": "2026-11-08T09:00:35Z"
-    },
-    {
-      "title": "Psychiatrists and paediatricians among specialists most likely to charge ‘extreme’ fees, thinktank finds",
-      "source": "The Guardian World",
-      "description": "Grattan Institute finds some doctors charge up to triple the fees of their peers – well beyond what can be justified by business running costs Get our breaking news email , free app or daily news podcast More than 2.2 million Australians paid an “extreme” fee to see a specialist last year, with psychiatrists and paediatricians among the most likely to routinely unreasonably charge their patients, according to new research. Specialists cannot justify exorbitant fees by blaming inadequate governme",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/08/psychiatrists-paediatricians-extreme-specialist-fees-health-australia",
       "published": "2026-11-08T09:00:35Z"
     },
     {
@@ -916,17 +1039,6 @@
       "published": "2026-11-07T09:15:35Z"
     },
     {
-      "title": "Autumn colours around the world – in pictures",
-      "source": "The Guardian Environment",
-      "description": "The seasonal transformation offers the chance to enjoy warm, golden colours before winter Continue reading...",
-      "category": "Disasters",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/environment/gallery/2026/nov/07/autumn-colours-around-the-world-in-pictures",
-      "published": "2026-11-07T08:30:05Z"
-    },
-    {
       "title": "Texas mayor instructs police to limit co-operation with ICE",
       "source": "BBC World",
       "description": "There has been months of public outcry in Houston after an Immigration and Customs Enforcement (ICE) officer fatally shot a man who was driving to work.",
@@ -1064,7 +1176,7 @@
     },
     {
       "title": "US carries out another round of ‘minor’ strikes on Iran, Trump says",
-      "source": "The Guardian World",
+      "source": "The Guardian Middle East",
       "description": "The president’s announcement comes days after an earlier attack on Iran was made public, and as diplomatic efforts to end the conflict have accelerated Donald Trump has said the US military on Friday carried out a new round of limited strikes on Iran, targeting an air defence system, describing the action as “minor.” Iranian state media reported the sound of two explosions in the Suza area of Qeshm Island, which is in the strait of Hormuz, the crucial waterway for oil shipments that has been dis",
       "category": "Defence",
       "region": "Middle East",
@@ -2170,11 +2282,13 @@
     },
     {
       "title": "Duchess of Sussex’s estranged half-brother ‘person of interest’ in child sexual abuse inquiry",
-      "source": "The Guardian World",
+      "source": "The Guardian Asia",
       "description": "Philippine official says there are ‘signs that point to Thomas Markle Jr’s involvement in crime’, but he’s not yet being treated as a suspect The Duchess of Sussex’s estranged half-brother, Thomas Markle Jr, has been named as a “person of interest” in the Philippine authorities’ inquiry into child sexual abuse image allegations made against her father, Thomas Markle Sr. The country’s interior and local government secretary, Jonvic Remulla, told a press conference in Manila there were “signs that",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
       "kind": "news",
       "url": "https://www.theguardian.com/world/2026/nov/05/meghan-sussex-thomas-markle-jr-philippines-child-sexual-abuse-inquiry",
       "published": "2026-11-05T17:37:27Z"
@@ -2717,19 +2831,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cq1kdgnn2xdeo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-04T18:01:27Z"
-    },
-    {
-      "title": "Win or lose? Inside the 6 November Guardian Weekly",
-      "source": "The Guardian Middle East",
-      "description": "Who will control the Knesset? Plus: why the argument over autism? Get the Guardian Weekly delivered to your home address I’m writing this as the world wakes up to news of a blue wave of Democrat wins in the US midterms. What they mean for America and the world will be the subject of next week’s issue but this week we are focusing on Israel. As seasoned Knesset watchers know, the plethora of parties on the ballot and proportional representation rarely produce immediate clear winners and a new gov",
-      "category": "Geopolitics",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/news/2026/nov/04/win-or-lose-inside-the-6-november-guardian-weekly",
-      "published": "2026-11-04T18:00:40Z"
     },
     {
       "title": "Is 2026 the New 1914?",
@@ -8930,7 +9031,7 @@
   "classification_method": "keyword-heuristic",
   "location_method": "headline-or-lead-reference",
   "content_counts": {
-    "news": 380,
+    "news": 386,
     "podcast": 193,
     "research": 15
   },
@@ -8966,11 +9067,6 @@
       "episodes": 35
     }
   ],
-  "warnings": [
-    {
-      "source": "UN News",
-      "message": "Using alternate publisher-hosted RSS endpoint: https://news.un.org/feed/subscribe/en/news/all/rss.xml?output=rss"
-    }
-  ],
+  "warnings": [],
   "feed_health": "See errors for failed source names"
 }
