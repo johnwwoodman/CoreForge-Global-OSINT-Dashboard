@@ -1,6 +1,131 @@
 {
-  "updated": "2026-11-07T19:26:05.923727Z",
+  "updated": "2026-11-08T00:34:37.574701Z",
   "records": [
+    {
+      "title": "'Dana, please take the job!' - Trump asks UFC boss to be White House press secretary",
+      "source": "BBC Americas",
+      "description": "It was unclear whether the president's public job offer was genuine, although White said later on Saturday: \"I got a lot of jobs already.\"",
+      "category": "Geopolitics",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cvze47p9jeexo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-08T00:31:53Z"
+    },
+    {
+      "title": "Victoria Barracks in Sydney and Melbourne to remain in public hands after partial backtrack on defence property selloff",
+      "source": "The Guardian World",
+      "description": "Four heritage-listed defence properties to be preserved for community use after backlash from veterans and former PMs Get our daily political email , free app or daily news podcast Four heritage-listed defence sites, including Sydney’s Victoria Barracks, will remain in public hands after the Albanese government yielded to public backlash against their sale. The sites, along with 63 others around the country, were identified in an independent audit as being underutilised by defence, not fit for p",
+      "category": "Defence",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/08/victoria-barracks-sydney-and-melbourne-remain-in-public-hands-backtrack-defence-property-sale-albanese-marles",
+      "published": "2026-11-08T00:17:28Z"
+    },
+    {
+      "title": "Labubu hype seemed unstoppable, now the fluffy monster mania is dying",
+      "source": "BBC Asia",
+      "description": "Parent company Pop Mart's revenue has fallen as appetite for the quirky collectible monsters wanes.",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmvg652l927lo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-07T23:02:35Z"
+    },
+    {
+      "title": "What we know so far after Krakow gun attack",
+      "source": "BBC World",
+      "description": "Six people were killed in a random shooting in the city's main square, and three bodies were later found at his home.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-07T22:58:49Z"
+    },
+    {
+      "title": "Kraków shooting latest updates: six killed and more than a dozen injured – as it happened",
+      "source": "The Guardian World",
+      "description": "Polish Prime Minister Donald Tusk heads to the city after four women and two men are killed and more than a dozen people injured Tom Rose, the US ambassador to Poland, wrote on X: We are just learning details of the horrific mass shooting in Kraków, a savage and murderous attack that’s shattered the peace of Poland. America stands with Poland at this dark hour as Poland stands with her beloved citizens of Kraków. A terrible tragedy in Kraków’s Main Market Square. I share the grief of the familie",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
+      "published": "2026-11-07T22:32:41Z"
+    },
+    {
+      "title": "Israel's president tasks opposition leader Eisenkot with forming government",
+      "source": "BBC World",
+      "description": "Neither PM Benjamin Netanyahu's bloc nor that of his rival secured a majority in last week's election.",
+      "category": "Geopolitics",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-07T22:19:59Z",
+      "lat": 31.05,
+      "lon": 34.85,
+      "place": "Israel",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "'Flat', 'tired', 'cynical': Unusually gloomy Kiwis deliver New Zealand's tightest election in years",
+      "source": "BBC Asia",
+      "description": "The national mood is low, and faith in politics even lower - with voters deserting the major parties at the polls.",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cxr5yyg2nj9eo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-07T21:36:16Z"
+    },
+    {
+      "title": "Six dead after gunman opens fire in Kraków market square, with three more victims found at suspect’s home",
+      "source": "The Guardian World",
+      "description": "Suspect was influenced by far-right ideology and held ‘ultra-nationalistic’ views, says Polish interior minister Six people have been killed and 16 wounded after a gunman opened fire in a busy market square in Kraków, authorities said, in what Poland’s defence minister called an “act of terror” on the people of the city. The suspect, a 25-year-old Polish citizen, opened fire with an automatic weapon in the city’s main square at about 3pm on Saturday. Continue reading...",
+      "category": "Economics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
+      "published": "2026-11-07T21:19:01Z"
+    },
+    {
+      "title": "Israel’s president picks Yashar leader Gadi Eisenkot to form government",
+      "source": "The Guardian World",
+      "description": "Knesset has been deadlocked since the election last month when Benjamin Netanyahu’s coalition lost its majority Israel’s president has ⁠chosen Gadi Eisenkot, prime minister Benjamin Netanyahu’s ⁠strongest rival, to ⁠try to ​form a new government, after a deadlocked election that left neither man ⁠with a clear path to power. Isaac Herzog’s office said he had informed Eisenkot, the leader of the Yashar party, on Saturday night “of his intention to task him with forming a government”. Continue read",
+      "category": "Geopolitics",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/07/israel-president-gadi-eisenkot-form-government",
+      "published": "2026-11-07T19:49:39Z",
+      "lat": 31.05,
+      "lon": 34.85,
+      "place": "Israel",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
     {
       "title": "Paraguay's former president charged after bank collapse",
       "source": "BBC World",
@@ -11,19 +136,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-07T19:17:22Z"
-    },
-    {
-      "title": "Kraków shooting latest updates: six killed and more than a dozen injured, police say",
-      "source": "The Guardian World",
-      "description": "Polish Prime Minister Donald Tusk heads to the city after four women and two men are killed and more than a dozen people injured Tom Rose, the US ambassador to Poland, wrote on X: We are just learning details of the horrific mass shooting in Kraków, a savage and murderous attack that’s shattered the peace of Poland. America stands with Poland at this dark hour as Poland stands with her beloved citizens of Kraków. A terrible tragedy in Kraków’s Main Market Square. I share the grief of the familie",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
-      "published": "2026-11-07T19:02:28Z"
     },
     {
       "title": "How do you broker UN climate talks when your own country is a big coal and gas exporter? Chris Bowen is about to find out",
@@ -61,22 +173,9 @@
       "published": "2026-11-07T19:00:19Z"
     },
     {
-      "title": "What we know about Krakow mass shooting so far",
-      "source": "BBC World",
-      "description": "At least six people were killed by a gunman in military fatigues who opened fire in Poland's second largest city.",
-      "category": "Defence",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-07T18:22:11Z"
-    },
-    {
       "title": "US offers $20m reward for information about Iran's nuclear programme",
       "source": "BBC World",
-      "description": "Donald Trump has repeatedly raised the prospecting of renewing strikes against Iran's nuclear facilities.",
+      "description": "Donald Trump has repeatedly raised the prospect of renewing strikes against Iran's nuclear facilities.",
       "category": "Geopolitics",
       "region": "Middle East",
       "regions": [
@@ -110,19 +209,6 @@
       "location_precision": "city-reference",
       "location_method": "headline-keyword",
       "location_verified": false
-    },
-    {
-      "title": "Six dead after gunman opens fire ‘at random’ in Kraków market square",
-      "source": "The Guardian World",
-      "description": "Reports say man fired shots from from his car in Poland’s second city before being wounded by police while trying to flee Kraków shooting – latest updates Six people have been killed and 15 injured after a shooting in a market square in Kraków, Poland. A man who had driven into the square at about 3pm began “firing at random people from his car”, according to a statement by local police on X. Continue reading...",
-      "category": "Economics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
-      "published": "2026-11-07T17:17:23Z"
     },
     {
       "title": "Houthis say at least 25 killed in Saudi air strike",
@@ -202,7 +288,7 @@
     {
       "title": "They have gone 10 weeks without answers. Will these families ever know what happened to loved ones missing after Nepal’s floods?",
       "source": "The Guardian Asia",
-      "description": "From Sydney to South Africa, they text loved ones with no reply and respond to questions they can’t answer. But some still hold hope Get our breaking news email , free app or daily news podcast Every day, Nikhila Agastya answers more questions from her two children: has she heard anything about their father? Is he with anyone? Is it snowing in Kathmandu? Is he cold, and does he have warm clothing? Will he come home? The answer is: probably not. “They know that [their] father is missing,” Nikhila",
+      "description": "From Sydney to South Africa, they text loved ones with no reply and respond to questions they can’t answer. But some still hold hope Every day, Nikhila Agastya answers more questions from her two children: has she heard anything about their father? Is he with anyone? Is it snowing in Kathmandu? Is he cold, and does he have warm clothing? Will he come home? The answer is: probably not. “They know that [their] father is missing,” Nikhila says. “And they are still looking for him. They always wait;",
       "category": "Disasters",
       "region": "Asia-Pacific",
       "regions": [
@@ -290,7 +376,7 @@
     {
       "title": "New Zealand election 'too close to call' - so who will be next PM?",
       "source": "BBC Asia",
-      "description": "With the New Zealand election too tight to call the BBC's Tiffanie Turnbull reports from a Labour Party gathering after an inconclusive night.",
+      "description": "With the New Zealand election too tight to call, the BBC's Tiffanie Turnbull reports from a Labour Party gathering after an inconclusive night.",
       "category": "Geopolitics",
       "region": "Asia-Pacific",
       "regions": [
@@ -597,6 +683,17 @@
       "published": "2026-11-07T01:55:11Z"
     },
     {
+      "title": "'My mortgage is going up £200 a month': How rising interest rates are hitting people's pockets",
+      "source": "BBC Business",
+      "description": "With UK interest rates set to rise, mortgages, credit cards and loans could get more expensive for millions.",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c617kjqjvk12o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-07T01:41:36Z"
+    },
+    {
       "title": "This man refused life-saving treatment because of his religion - days later the rules changed",
       "source": "BBC World",
       "description": "Jehovah's Witness leaders relaxed strict rules on blood transfusions, but the change came 23 days too late for Isaac Valdez.",
@@ -660,17 +757,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/crp3gg2z171go?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-06T23:24:15Z"
-    },
-    {
-      "title": "When a single vowel stands in the path to victory, the stakes could not be higher for these spelling bee champions",
-      "source": "The Guardian World",
-      "description": "Primary school students bested 200,000 competitors across New South Wales to reach the Premier’s Spelling Bee finals in Sydney Get our breaking news email , free app or daily news podcast Competing in a spelling bee is not for the faint of heart. Sometimes, the difference between victory and loss is one incorrect vowel and you’re undone, months of training reduced to nought. At a small theatre hall in Sydney’s west on Friday afternoon, 34 primary school students sit stony-faced on a brightly lit",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/07/when-a-single-vowel-stands-in-the-path-to-victory-the-stakes-could-not-be-higher-for-these-spelling-bee-champions",
-      "published": "2026-11-06T23:06:10Z"
     },
     {
       "title": "An Indian film that nobody would release is finally a hit - 18 awards later",
@@ -888,6 +974,17 @@
       "published": "2026-11-06T16:51:01Z"
     },
     {
+      "title": "Food bank to close amid rising costs",
+      "source": "BBC Business",
+      "description": "A food bank in Goole annouces it will close in January as costs rise and donations drop.",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cqrkyyj6rx7ro?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-06T16:42:23Z"
+    },
+    {
       "title": "Israel’s election and self-definition invite questions | Letters",
       "source": "The Guardian Middle East",
       "description": "Dr Richard Skues responds to an article by Jonathan Freedland in which he says the opposition can’t win unless they join forces with Arab parties Jonathan Freedland is surely right that the Israeli political parties opposed to Benjamin Netanyahu should make common cause with their Palestinian fellow citizens ( This is the hard lesson from Israel’s election: to stop nationalist populists, you can’t play by gentlemen’s rules, 30 October ). He is also right to be pessimistic, recognising that “Isra",
@@ -905,6 +1002,17 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
+    },
+    {
+      "title": "Winter support for residents facing cost pressures",
+      "source": "BBC Business",
+      "description": "The plans aim to help more people access food, financial advice and help with heating costs.",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cm20rrer25ezo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-06T16:22:18Z"
     },
     {
       "title": "Spate of bomb threats poses serious challenge to airline industry",
@@ -1318,6 +1426,17 @@
       "published": "2026-11-06T12:00:00Z"
     },
     {
+      "title": "'I've taken an extra job to pay for heating oil'",
+      "source": "BBC Business",
+      "description": "People in Sussex say they are taking on extra work and not heating their homes due to oil prices.",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmj47j7e92gvo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-06T11:40:35Z"
+    },
+    {
       "title": "She lost her sight - now she is fighting to make history for Africa",
       "source": "BBC Africa",
       "description": "After losing her sight in 2009, Nigeria’s Rukayat Suleimon has overcome isolation and limited support to make history as the first blind woman to win gold at the World Sambo Cup.",
@@ -1724,19 +1843,6 @@
       "published": "2026-11-05T19:14:00Z"
     },
     {
-      "title": "Chris vs Chris: Who's running and what's at stake this New Zealand election",
-      "source": "BBC Asia",
-      "description": "New Zealanders will head to the polls on 7 November to elect a new government, with rising cost of living a key concern for voters.",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/videos/cr86zxe1q5j3o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-05T19:08:48Z"
-    },
-    {
       "title": "Why are new strikes and protests taking place in France?",
       "source": "BBC Europe",
       "description": "More than 250,000 people had taken to the streets in almost 70 towns and cities by Thursday afternoon, and that was \"just the start\", the CGT union said.",
@@ -1930,7 +2036,7 @@
     },
     {
       "title": "Yemen’s president sacks ministers and officers in attempt to turn tide of war",
-      "source": "The Guardian World",
+      "source": "The Guardian Middle East",
       "description": "Dismissals follow Houthi victories and pressure from southern Yemenis for more power The UN-recognised government of Yemen has shaken up its political and military leadership in an attempt to regain territory lost to the Houthis in September and lift the four-week siege of Taiz , the country’s third largest city. A counteroffensive launched on 5 October and aimed at liberating the entire country from Houthi control has failed amid fighting that has left thousands dead on both sides. The air supe",
       "category": "Defence",
       "region": "Middle East",
@@ -2175,17 +2281,6 @@
       "published": "2026-11-05T07:00:56Z"
     },
     {
-      "title": "Poundland owner in crunch talks as retailer's collapse looms",
-      "source": "BBC Business",
-      "description": "Gordon Brothers will meet Jonathan Reynolds on Wednesday as the investment firm faces scrutiny over Poundland.",
-      "category": "Economics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/ck240mm3e42do?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-05T06:58:03Z"
-    },
-    {
       "title": "Food, fuel and taxes – can the Democrats actually make life cheaper?",
       "source": "BBC Americas",
       "description": "Their message on cost of living resonated with voters. Now they must show they can deliver.",
@@ -2314,9 +2409,9 @@
     },
     {
       "title": "Elon Musk's millions failed to deliver Republican wins in fierce midterms",
-      "source": "BBC Business",
+      "source": "BBC Technology",
       "description": "Musk spent nearly $500m in the 2026 US midterm elections, an individual election spending record.",
-      "category": "Economics",
+      "category": "Cyber",
       "region": "all",
       "regions": [],
       "kind": "news",
@@ -2342,17 +2437,6 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
-    },
-    {
-      "title": "Kellogg's admits snap, crackle and pop is quieter after uproar over Rice Krispies recipe change",
-      "source": "BBC Business",
-      "description": "The cereal giant has changed the recipes for Rice Krispies and Coco Pops, sparking a backlash online.",
-      "category": "Economics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cqvg0y44ym7vo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-04T19:38:53Z"
     },
     {
       "title": "The midterms were a thumping rebuke of the US-Israel relationship",
@@ -2886,17 +2970,6 @@
       "published": "2026-11-04T00:29:51Z"
     },
     {
-      "title": "Canva announces major job cuts after 'our hardest year yet'",
-      "source": "BBC Business",
-      "description": "CEO Melanie Perkins says more than 1,000 staff will either lose their jobs or be asked to change roles.",
-      "category": "Economics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cw77pg7neydmo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-04T00:09:35Z"
-    },
-    {
       "title": "Graduates are managing AI - but are they learning much else?",
       "source": "BBC Business",
       "description": "Graduates are spending more time managing AI, but are they missing out on other work experience?",
@@ -2906,17 +2979,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c820vz6wyp65o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-04T00:04:35Z"
-    },
-    {
-      "title": "UK and EU agree draft deal to scrap Brexit red tape over food exports",
-      "source": "BBC Business",
-      "description": "The food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.",
-      "category": "Economics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-03T20:53:03Z"
     },
     {
       "title": "Tech Life",
@@ -3008,7 +3070,7 @@
     },
     {
       "title": "Binance says fake job interviews used as part of $6.3bn crypto hack",
-      "source": "BBC Business",
+      "source": "BBC Technology",
       "description": "An engineer was contacted through a legitimate job-hunting platform and invited to bogus job interviews with fake company representatives, Binance says.",
       "category": "Cyber",
       "region": "all",
@@ -3031,17 +3093,6 @@
       "published": "2026-11-03T15:24:53Z"
     },
     {
-      "title": "Asda hires ex-Morrisons boss in bid to grow firm",
-      "source": "BBC Business",
-      "description": "David Potts takes charge of Asda, which is based in Leeds, with immediate effect.",
-      "category": "Economics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/c6vg0xzd0ln4o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-03T15:12:35Z"
-    },
-    {
       "title": "Trump says US 'won't be paying Israel' by end of year",
       "source": "BBC Middle East",
       "description": "The president accuses Democrats of weaponising US aid to Israel as a \"talking point\" with which to attack Republicans.",
@@ -3056,38 +3107,6 @@
       "lat": 31.05,
       "lon": 34.85,
       "place": "Israel",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
-      "title": "Mining giant joins fight to stop killer toad march across Australia",
-      "source": "BBC Business",
-      "description": "Rio Tinto is jointly funding a A$28m \"toad containment zone\" to protect the Pilbara region.",
-      "category": "Economics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/c3dxw8p99ervo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-03T15:05:01Z"
-    },
-    {
-      "title": "US strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
-      "source": "The Guardian Middle East",
-      "description": "Strikes on eve of US midterms reportedly target surface-to-air missiles being used against US assets The ⁠US launched limited strikes on ​Iran’s Qeshm Island late on Monday, hours after the vice-president, JD Vance, said he was optimistic that diplomatic efforts to end the war were moving in the right direction. The strikes, disclosed by Iranians on social media and confirmed by US Central Command (Centcom), came on the eve of crucial midterm elections in which Donald Trump’s Republican party is",
-      "category": "Defence",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
-      "published": "2026-11-03T13:52:34Z",
-      "lat": 32.43,
-      "lon": 53.69,
-      "place": "Iran",
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
@@ -3217,17 +3236,6 @@
       "location_verified": false
     },
     {
-      "title": "Drivers may get compensation offers before car finance saga ends",
-      "source": "BBC Business",
-      "description": "The regulator says it supports lenders offering early compensation offers, as long as they are fair.",
-      "category": "Economics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cqrky5nxxn4po?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-03T11:56:31Z"
-    },
-    {
       "title": "US strikes Iranian island ahead of midterm elections",
       "source": "BBC Middle East",
       "description": "US officials described the attacks on Qeshm Island as limited and defensive, according to CBS, the BBC's US partner.",
@@ -3276,17 +3284,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c6rey4v53exgo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-03T08:33:20Z"
-    },
-    {
-      "title": "From scooters to shampoo - the people saving hundreds from dumpster diving",
-      "source": "BBC Business",
-      "description": "The men and women who rummage through commercial bins to take clothes and other items.",
-      "category": "Economics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cm86zdp2ygqno?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-03T07:50:14Z"
     },
     {
       "title": "Why a US-Russia showdown left Morocco celebrating",
@@ -3345,32 +3342,6 @@
       "kind": "research",
       "url": "https://www.theguardian.com/news/ng-interactive/2026/nov/03/my-secret-life-as-a-relapsed-alcoholic-addiction-sober",
       "published": "2026-11-03T05:00:38Z"
-    },
-    {
-      "title": "Film star Ranbir Kapoor on AI, movies and fatherhood",
-      "source": "BBC Asia",
-      "description": "The film star plays the leading role in a major new adaptation of the Indian epic Ramayana.",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/videos/cmvg9w5w2p1no?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-03T00:09:13Z"
-    },
-    {
-      "title": "Indonesia's toxic haze is giving its neighbours a political headache",
-      "source": "BBC Asia",
-      "description": "Governments in Singapore and Malaysia are split between anxious citizens and an irascible neighbour.",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/c3dxwzjn2gw8o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-02T23:02:01Z"
     },
     {
       "title": "'It's a form of terrorism': fridges across Europe hit by suspected cyber-attacks – video",
@@ -6010,6 +5981,17 @@
       "published": "2026-09-30T23:43:29Z"
     },
     {
+      "title": "The AI telling farmers when to harvest",
+      "source": "BBC Business",
+      "description": "Will farmers want AI tools to help judge when to pick fruit, or is their own intuition enough?",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cgk53dkmyxko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-30T23:02:21Z"
+    },
+    {
       "title": "The journalist who became king in Uganda",
       "source": "BBC Africa",
       "description": "Edward Rukidi Nyabongo I has been crowned king of Tooro in a ceremony attended by Uganda's President Museveni.",
@@ -6067,6 +6049,17 @@
       "published": "2026-09-28T08:00:28Z"
     },
     {
+      "title": "My hometown shows that high streets have to change or die",
+      "source": "BBC Business",
+      "description": "Aberdeen is launching an ambitious bid to revive its struggling centre. Could it offer lessons for other high streets?",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/crd689de186jo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-27T23:05:53Z"
+    },
+    {
       "title": "Tech Now",
       "source": "BBC Technology",
       "description": "Ammie Sekhon explores tech used to identify and remove counterfeit products online.",
@@ -6098,6 +6091,19 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
+    },
+    {
+      "title": "Europe's car makers are in crisis. Will the threat of war rescue them?",
+      "source": "BBC Business",
+      "description": "Auto executives across Europe hope rearmament can help them flex their industrial muscles once more.",
+      "category": "Economics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c6vgyq598k9po?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-25T08:31:56Z"
     },
     {
       "title": "Old Rivals, New Alignments in North Africa",
@@ -6347,6 +6353,17 @@
       "audio_url": "https://dts.podtrac.com/redirect.mp3/mcdn.podbean.com/mf/web/rtifsnbzktyw3dz6/260909_TPI-MEAD-MASTER.mp3",
       "url": "https://thepresidentsinbox.podbean.com/e/what-the-us-got-wrong-in-the-war-on-terror/",
       "published": "2026-09-10T00:32:42Z"
+    },
+    {
+      "title": "Aviation faces hotter, stormier skies – and passengers might have to accept more disruption",
+      "source": "BBC Business",
+      "description": "Are people going to have to increasingly accept more delays and diversions as the effects of climate change intensify?",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cm274p8m88lo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-09-05T23:20:00Z"
     },
     {
       "title": "What is the United Nations for?",
@@ -6624,6 +6641,17 @@
       "published": "2026-07-23T14:11:00Z"
     },
     {
+      "title": "Why the UK is dithering over what to do about e-scooters",
+      "source": "BBC Business",
+      "description": "Why is it taking so long for the government to regulate them, and what are the consequences of delay?",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cn4nvn9w00no?at_medium=RSS&at_campaign=rss",
+      "published": "2026-07-22T23:51:24Z"
+    },
+    {
       "title": "Maximum Pressure on Cuba, With Will Freeman",
       "source": "CFR The President Inbox",
       "description": "This episode unpacks how the Trump administration's maximum pressure campaign is accelerating Cuba's economic collapse and what a firsthand trip to the country reveals about life amidst the crisis. Host: James M. Lindsay , Mary and David Boies Distinguished Senior Fellow in U.S. Foreign Policy, CFR Guest: Will Freeman , Fellow for Latin America Studies, CFR We Discuss: What the Trump administration is ultimately seeking to accomplish with its Cuba policy. How secondary sanctions differ from the ",
@@ -6828,6 +6856,17 @@
       "location_precision": "country-centroid",
       "location_method": "headline-keyword",
       "location_verified": false
+    },
+    {
+      "title": "Why Gen Z are planning for life without a state pension",
+      "source": "BBC Business",
+      "description": "Many younger people do not believe the state pension will exist when they are older",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c8e2yp1gg37o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-06-30T23:05:19Z"
     },
     {
       "title": "Will “El Tigre” Colombia’s New President Launch Another War on Drugs?",
@@ -9009,7 +9048,7 @@
   "classification_method": "keyword-heuristic",
   "location_method": "headline-or-lead-reference",
   "content_counts": {
-    "news": 383,
+    "news": 386,
     "podcast": 193,
     "research": 16
   },
@@ -9045,11 +9084,6 @@
       "episodes": 35
     }
   ],
-  "warnings": [
-    {
-      "source": "UN News",
-      "message": "Using alternate publisher-hosted RSS endpoint: https://news.un.org/feed/subscribe/en/news/all/rss.xml?output=rss"
-    }
-  ],
+  "warnings": [],
   "feed_health": "See errors for failed source names"
 }
