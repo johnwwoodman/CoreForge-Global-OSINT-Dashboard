@@ -1,7 +1,34 @@
 {
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "description": "Changes in collected candidate data; not independently confirmed political transitions.",
   "changes": [
+    {
+      "code": "NC",
+      "country": "New Caledonia",
+      "field": "headOfGovernment",
+      "previous": "Philippe Germain",
+      "current": "Milakulo Tukumuli",
+      "detected": "2026-11-14",
+      "verification": "Unverified source-data change"
+    },
+    {
+      "code": "PY",
+      "country": "Paraguay",
+      "field": "headOfState",
+      "previous": "Santiago Peña Palacios",
+      "current": "Pedro Alliana",
+      "detected": "2026-11-14",
+      "verification": "Unverified source-data change"
+    },
+    {
+      "code": "PY",
+      "country": "Paraguay",
+      "field": "headOfGovernment",
+      "previous": "Santiago Peña Palacios",
+      "current": "Pedro Alliana",
+      "detected": "2026-11-14",
+      "verification": "Unverified source-data change"
+    },
     {
       "code": "GR",
       "country": "Greece",
