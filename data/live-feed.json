@@ -1,6 +1,337 @@
 {
-  "updated": "2026-11-19T20:33:51.786517Z",
+  "updated": "2026-11-20T02:18:14.883225Z",
   "records": [
+    {
+      "title": "GTA 6 breaks records as sales top $2bn - industry estimate",
+      "source": "BBC Technology",
+      "description": "Rockstar Games ended a 13-year wait with what is expected to be the biggest entertainment launch ever.",
+      "category": "Cyber",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T02:13:05Z"
+    },
+    {
+      "title": "Indonesian daycare principal jailed for five years over child abuse case",
+      "source": "BBC Asia",
+      "description": "Toddlers were found with their hands and feet tied with rags when police raided the centre in April.",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cvkg58d7z10ro?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T01:48:08Z"
+    },
+    {
+      "title": "Ukraine war briefing: Trump ‘open’ to Kyiv getting Nato-like mutual defence guarantee, says Kushner",
+      "source": "The Guardian Europe",
+      "description": "US presidential envoy also says he believes Moscow is ‘comfortable’ with a guarantee while France calls for fresh look at Ukraine joining Nato. What we know on day 1,731 US envoy Jared Kushner has said Donald Trump is open to extending Ukraine a security guarantee similar to Nato’s mutual defence clause , but stressed that Washington has to protect its interests too. French president Emmanuel Macron meanwhile urged Kyiv’s allies to “reopen the question” of Ukraine becoming a member of the milita",
+      "category": "Defence",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/20/ukraine-war-briefing-trump-open-to-kyiv-getting-nato-like-mutual-defence-guarantee-says-kushner",
+      "published": "2026-11-20T01:37:48Z",
+      "lat": 50.45,
+      "lon": 30.52,
+      "place": "Kyiv",
+      "location_precision": "city-reference",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "US army warns detonation of unstable explosives will create toxic plume",
+      "source": "BBC Americas",
+      "description": "The Army has delayed the controlled explosion of unstable lead azide in eastern Iowa to Monday after concerns from residents and lawmakers.",
+      "category": "Defence",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmlye2334wlyo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T01:27:27Z"
+    },
+    {
+      "title": "More climate money for Africa? Europe says use what's already pledged",
+      "source": "BBC World",
+      "description": "African countries at the UN climate summit in Turkey are demanding more funding from developed nations to help them cope with climate change.",
+      "category": "Geopolitics",
+      "region": "Middle East",
+      "regions": [
+        "Middle East",
+        "Europe",
+        "Africa"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c6074k5jjrzko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T00:54:50Z"
+    },
+    {
+      "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+      "source": "BBC World",
+      "description": "European allies of Ukraine say they have a \"united\" negotiating position at a summit in Berlin.",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T00:50:24Z",
+      "lat": 52.52,
+      "lon": 13.4,
+      "place": "Berlin",
+      "location_precision": "city-reference",
+      "location_method": "description-lead-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Religion should be removed from terrorism definition under Australian law as it gives ‘false credibility’, watchdog says",
+      "source": "The Guardian World",
+      "description": "Independent National Security Legislation Monitor says reference to religion has ‘contributed to discrimination and violence against religious minorities’ Get our breaking news email , free app or daily news podcast Religion should be removed from Australia’s terrorism definition and making bomb threats should not result in life imprisonment, the country’s national security laws watchdog has said. The highly anticipated report from the Independent National Security Legislation Monitor (INSLM), r",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/law/2026/nov/20/religion-should-removed-from-terrorism-definition-australian-law-gives-false-credibility-watchdog-ntwnfb",
+      "published": "2026-11-20T00:19:57Z"
+    },
+    {
+      "title": "US warned supplying nuclear-powered submarines to Australia would diminish its own fleet for ‘many years’",
+      "source": "The Guardian World",
+      "description": "Congressional Budget Office also questions whether Australian-flagged vessels could be compelled into a conflict with China under Aukus deal Get our breaking news email , free app or daily news podcast Providing nuclear-powered submarines to Australia would diminish the US navy’s own fleet for “many years”, a new report for the US Congress has cautioned, questioning whether Australian-flagged vessels could be compelled into service in a conflict with China. The US navy’s latest shipbuilding plan",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/20/aukus-defence-us-warned-supplying-nuclear-powered-submarines-to-australia-would-diminish-its-own-fleet-for-many-years",
+      "published": "2026-11-20T00:16:29Z",
+      "lat": 35.86,
+      "lon": 104.2,
+      "place": "China",
+      "location_precision": "country-centroid",
+      "location_method": "description-lead-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "Why Canada is embracing AI data centres while the US pushes back",
+      "source": "BBC World",
+      "description": "Shark Tank's Kevin O'Leary is among the big investors looking to Canada as a data centre development destination, while his US project faces local opposition.",
+      "category": "Geopolitics",
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2q223z1jlo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T00:13:24Z",
+      "lat": 56.13,
+      "lon": -106.35,
+      "place": "Canada",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "'I tell my son it's just fireworks': People inside besieged Yemeni city speak to BBC",
+      "source": "BBC World",
+      "description": "Orla Guerin speaks to seven people trapped in Taiz by the Houthis who reveal what life is like under siege.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cx7v2d8q879eo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T00:13:21Z"
+    },
+    {
+      "title": "Airbnb's divisive new house rules come into force",
+      "source": "BBC Business",
+      "description": "New rules on what Airbnb hosts can reasonably ask guests to do could mean fewer chores but higher costs for customers.",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmx278n2genyo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T00:12:28Z"
+    },
+    {
+      "title": "Fish and eggs al desko? The dos and don'ts of the lunch break",
+      "source": "BBC Business",
+      "description": "What is acceptable to eat at your desk, without annoying your colleagues?",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cwp8g4092zglo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T00:08:37Z"
+    },
+    {
+      "title": "Tens of thousands of UK fridges secured from hackers in secret nationwide operation",
+      "source": "BBC Business",
+      "description": "Supermarkets, warehouses, restaurants and stadiums have been scrambling to make their devices safe.",
+      "category": "Cyber",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-20T00:02:07Z"
+    },
+    {
+      "title": "How did Anthropic's stock market debut unfold?",
+      "source": "BBC World",
+      "description": "The BBC's Samira Hussain breaks down the AI company's first day as a publicly traded company, as shares closed up 17%.",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/cwg7l01vg081o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T23:52:25Z"
+    },
+    {
+      "title": "Trump posthumously pardons US baseball legend Pete Rose",
+      "source": "BBC World",
+      "description": "Rose, who died in 2024, was given a lifetime ban from the sport for betting on games but was reinstated last year.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cx1l0pm7l9jmo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T23:51:50Z"
+    },
+    {
+      "title": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
+      "source": "BBC World",
+      "description": "Fiona, who became an internet star after her premature birth in 2017, \"fought until she couldn’t anymore\", the zoo says.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T23:40:29Z"
+    },
+    {
+      "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
+      "source": "BBC World",
+      "description": "Anthropic is the first purely AI company to be publicly listed, creating a test for the entire industry.",
+      "category": "Economics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T23:33:51Z"
+    },
+    {
+      "title": "An elevator, a brick wall and a bathroom: scientists use gravity to send ‘practically unblockable’ message",
+      "source": "The Guardian World",
+      "description": "Australian physicists chose to transmit the word ‘gravity’ in binary code through brick wall Get our breaking news email , free app or daily news podcast Australian scientists have used gravity as a means of communication, in a proof-of-concept experiment involving a snail-paced 1950s elevator, a brick wall and a men’s bathroom. Physicists at the University of Queensland have used gravity to transmit a “practically unblockable” message about 70cm through a brick wall, by sending an elevator up a",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/science/2026/nov/20/scientists-communicate-using-gravity-elevator-brick-wall-bathroom-experiment",
+      "published": "2026-11-19T23:30:26Z"
+    },
+    {
+      "title": "Cumin-laced fizzy sodas are giving cola giants a tough fight in India",
+      "source": "BBC World",
+      "description": "Cumin-laced sodas are capturing a bigger market share in India as demand for homegrown flavours goes up.",
+      "category": "Economics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cw1m4ym7ez2eo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T23:29:00Z"
+    },
+    {
+      "title": "Howard-era minister Sharman Stone dies via voluntary assisted dying, aged 75",
+      "source": "The Guardian World",
+      "description": "The former Liberal MP had fought a long battle against glioblastoma, an aggressive form of brain cancer Get our daily political email , free app or daily news podcast Former Liberal MP Sharman Stone has died via voluntary assisted dying after spending much of her political career advocating that people should have autonomy over their bodies. Stone died aged 75 on Wednesday surrounded by family after a long fight against glioblastoma, an aggressive form of brain cancer. She had a long political c",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/20/howard-era-minister-sharman-stone-dies-via-voluntary-assisted-dying-aged-75",
+      "published": "2026-11-19T23:07:02Z"
+    },
+    {
+      "title": "California targets Nvidia in China AI chip probe",
+      "source": "BBC World",
+      "description": "The probe by California, where the AI chipmaker has its global headquarters, follows former CEO Jensen Huang's departure.",
+      "category": "Geopolitics",
+      "region": "Asia-Pacific",
+      "regions": [
+        "Asia-Pacific"
+      ],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T23:04:30Z",
+      "lat": 35.86,
+      "lon": 104.2,
+      "place": "China",
+      "location_precision": "country-centroid",
+      "location_method": "headline-keyword",
+      "location_verified": false
+    },
+    {
+      "title": "From premature baby to social media star - Famed hippo Fiona dies",
+      "source": "BBC World",
+      "description": "The beloved hippopotamus died days after swallowing a knitted hat that accidentally got into her enclosure at the Cincinnati Zoo.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/cq39gvj9y7xpo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T22:54:03Z"
+    },
+    {
+      "title": "Judge finds Thomas Markle mentally fit to stand trial on child abuse charges",
+      "source": "BBC World",
+      "description": "Markle, who has denied possessing images of child sex abuse was deemed competent after an evaluation by a court-appointed psychiatrist.",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/crgj35ldz2zxo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T22:48:22Z"
+    },
+    {
+      "title": "Mark Speakman resigns and says Liberals face ‘existential threat’ as NSW exodus continues",
+      "source": "The Guardian World",
+      "description": "Former NSW opposition leader warns party against becoming ‘Labor lite’ or ‘One Nation lite’ in late-night speech Get our breaking news email , free app or daily news podcast Former New South Wales opposition leader Mark Speakman will not contest his seat at the March state election, the latest in a mass exodus of MPs under the Liberal leader who replaced him, Kellie Sloane. In a late-night speech on Thursday, the final sitting day of NSW’s legislative assembly before the vote, Speakman said he w",
+      "category": "Geopolitics",
+      "region": "all",
+      "regions": [],
+      "kind": "news",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/19/mark-speakman-resigns-and-says-liberals-face-existential-threat-as-nsw-exodus-continues",
+      "published": "2026-11-19T22:17:09Z"
+    },
+    {
+      "title": "UK-EU reset talks will go ‘down to the wire’ as crunch summit approaches",
+      "source": "The Guardian World",
+      "description": "Britain makes concessions on youth mobility scheme as negotiations on food and farming go down to the wire British and European negotiators were closing in on a reset deal on Thursday night as they provisionally agreed to allow 100,000 EU citizens to come to the UK every year under a new mobility scheme. It is understood the EU dropped its demands at the last minute that EU students would pay home tuition fees if they attended British universities in a last minute concession to get the deal over",
+      "category": "Geopolitics",
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
+      "kind": "news",
+      "url": "https://www.theguardian.com/world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees",
+      "published": "2026-11-19T20:52:05Z"
+    },
     {
       "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
       "source": "BBC World",
@@ -15,34 +346,31 @@
       "published": "2026-11-19T20:07:02Z"
     },
     {
-      "title": "Howard-era minister Sharman Stone dies via voluntary assisted dying, aged 75",
-      "source": "The Guardian World",
-      "description": "The former Liberal MP had fought a long battle against glioblastoma, an aggressive form of brain cancer Get our daily political email , free app or daily news podcast Former Liberal MP Sharman Stone has died via voluntary assisted dying after spending much of her political career advocating that people should have autonomy over their bodies. Stone died aged 75 on Wednesday surrounded by family after a long fight against glioblastoma, an aggressive form of brain cancer. Continue reading...",
+      "title": "Bowen: Myanmar genocide verdict is historic and could have far-reaching implications",
+      "source": "BBC Asia",
+      "description": "Lawyers will study the way in which Gambia proved the crucial point that Myanmar intended to commit genocide, writes the BBC's international editor.",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/20/howard-era-minister-sharman-stone-dies-via-voluntary-assisted-dying-aged-75",
-      "published": "2026-11-19T19:44:24Z"
-    },
-    {
-      "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-      "source": "BBC World",
-      "description": "European allies of Ukraine say they have a \"united\" negotiating position at a summit in Berlin.",
-      "category": "Geopolitics",
-      "region": "Europe",
+      "region": "Asia-Pacific",
       "regions": [
-        "Europe"
+        "Asia-Pacific"
       ],
       "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T19:16:21Z",
-      "lat": 52.52,
-      "lon": 13.4,
-      "place": "Berlin",
-      "location_precision": "city-reference",
-      "location_method": "description-lead-keyword",
-      "location_verified": false
+      "url": "https://www.bbc.co.uk/news/articles/c6ly58ndgd0no?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T20:02:02Z"
+    },
+    {
+      "title": "COP31: What's at Stake in Antalya",
+      "source": "MEI Middle East Focus",
+      "description": "More than 100,000 people registered for the UN's 31st annual climate change conference, COP31, now under way in Antalya, Turkey, in what could be the largest climate summit to date. Mohammed Mahmoud, CEO and founder of the Climate and Water Initiative, joins hosts Alistair Taylor and Matthew Czekaj to discuss the key takeaways from the conference so far and the negotiations around a final agreement. They unpack the fight over fossil fuels and climate finance, the US government's absence, and whe",
+      "category": "Geopolitics",
+      "region": "Middle East",
+      "regions": [
+        "Middle East"
+      ],
+      "kind": "podcast",
+      "audio_url": "https://traffic.libsyn.com/secure/middleeastinst/Middle_East_Focus_11.19.26__mixdown.mp3?dest-id=531685",
+      "url": "https://middleeastinst.libsyn.com/cop31-whats-at-stake-in-antalya",
+      "published": "2026-11-19T20:01:00Z"
     },
     {
       "title": "UK and EU plan first talks on sending refused asylum seekers to third countries",
@@ -129,9 +457,9 @@
       "location_verified": false
     },
     {
-      "title": "Cop31 told it risks being ‘ghost’ summit as all mentions of ‘fossil fuels’ removed from draft text",
+      "title": "Cop31 told it risks being ‘ghost’ summit as all mentions of fossil fuels removed from draft text",
       "source": "The Guardian Environment",
-      "description": "Draft agreement also fails to show how developing countries will receive financial help to deal with climate crisis Cop31 live – latest updates Every mention of “fossil fuels” has been expunged from the draft outcome of global climate talks, which were approaching their final hours on Thursday night , threatening to turn the UN summit into what campaigners called a “ghost Cop”. The second draft of the key text , released on Thursday afternoon and setting out the main commitments from the Cop31 c",
+      "description": "Draft agreement also fails to show how developing countries will receive financial help to deal with climate crisis Cop31 live – latest updates Every mention of fossil fuels has been expunged from the draft outcome of global climate talks, which were approaching their final hours on Thursday night , threatening to turn the UN summit into what campaigners called a “ghost Cop”. The second draft of the key text , released on Thursday afternoon and setting out the main commitments from the Cop31 cli",
       "category": "Disasters",
       "region": "all",
       "regions": [],
@@ -200,7 +528,7 @@
       "published": "2026-11-19T17:23:34Z"
     },
     {
-      "title": "What did Trump, Xi and Putin get out of their historic meeting?",
+      "title": "BBC correspondents discuss what Trump, Xi and Putin got out of historic talks",
       "source": "BBC World",
       "description": "Trump, Putin and Xi have issued a \"joint declaration of peace\" after historical trilateral talks, but what did they get out of meeting?",
       "category": "Geopolitics",
@@ -209,19 +537,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/videos/c63rgnq05pdwo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-19T17:23:29Z"
-    },
-    {
-      "title": "UK-EU reset talks will go ‘down to the wire’ as crunch summit approaches",
-      "source": "The Guardian World",
-      "description": "Britain understood to have made concessions on youth mobility scheme as negotiations on wider deal continue British and EU negotiators have provisionally agreed to allow 100,000 young EU citizens to come to the UK every year under a new mobility scheme, as negotiations on the UK-EU reset talks go “down to the wire”. Tensions in Brussels remained high on Thursday afternoon as ambassadors began crunch talks on the latest draft of the wider agreement, with sources confirming both sides were still b",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees",
-      "published": "2026-11-19T17:19:17Z"
     },
     {
       "title": "US army plan to detonate bomb-making chemicals has Iowa residents bracing for lead dust cloud",
@@ -436,32 +751,6 @@
       "published": "2026-11-19T14:15:15Z"
     },
     {
-      "title": "Australian music industry rejects ‘divide and conquer’ proposal to give musicians exemption from AI scraping",
-      "source": "The Guardian World",
-      "description": "Reported proposal to give musicians special treatment is ‘unworkable’, Aria CEO says, vowing to stand with other creatives Get our daily political email , free app or daily news podcast The music industry will not accept an AI carveout deal that leaves other creative sectors behind, rejecting a reported proposal to give musicians special treatment while allowing big tech to train on other copyrighted material – described by David Pocock as a “divide and conquer strategy”. The trade union represe",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/20/australian-music-industry-rejects-proposal-to-give-musicians-exemption-ai-scraping",
-      "published": "2026-11-19T14:00:52Z"
-    },
-    {
-      "title": "An elevator, a brick wall and a bathroom: scientists use gravity to send ‘practically unblockable’ message",
-      "source": "The Guardian World",
-      "description": "Australian physicists chose to transmit the word ‘gravity’ in binary code through brick wall Get our breaking news email , free app or daily news podcast Australian scientists have used gravity as a means of communication, in a proof-of-concept experiment involving a snail-paced 1950s elevator, a brick wall and a men’s bathroom. Physicists at the University of Queensland have used gravity to transmit a “practically unblockable” message about 70cm through a brick wall, by sending an elevator up a",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/science/2026/nov/20/scientists-communicate-using-gravity-elevator-brick-wall-bathroom-experiment",
-      "published": "2026-11-19T14:00:50Z"
-    },
-    {
       "title": "Myanmar committed genocide against Rohingya minority, world’s top court rules",
       "source": "The Guardian World",
       "description": "Judgment finds ‘intent to destroy a substantial part of the Rohingya population’ after case seen as critical test for dealing with most serious of state crimes Myanmar committed genocide against its Rohingya minority during a 2017 military campaign, the world’s highest court has ruled, in a historic and unprecedented decision. The judgment from the international court of justice (ICJ) – which has never previously found a state responsible for genocide – ends a seven-year legal battle that was se",
@@ -589,19 +878,6 @@
       "location_verified": false
     },
     {
-      "title": "Danish MPs approve Greenland security pact with US",
-      "source": "The Guardian Europe",
-      "description": "Danish foreign minister says deal ‘removes all uncertainty’ over territory but warns trust in US needs rebuilding Europe live – latest updates The Danish parliament has unanimously approved a new Arctic security pact between Greenland, Denmark and the US in what it is hoped will mark a new chapter in relations, months after Donald Trump’s threats to invade the largely autonomous territory. The deal, which was signed by the US president and the prime ministers of Greenland and Denmark, Jens-Frede",
-      "category": "Geopolitics",
-      "region": "Europe",
-      "regions": [
-        "Europe"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/world/2026/nov/19/danish-mps-approve-greenland-security-pact-us",
-      "published": "2026-11-19T12:33:52Z"
-    },
-    {
       "title": "‘It’s a biohazard’: Native communities in US south-west try to recover after flooding intensified by El Niño",
       "source": "The Guardian Environment",
       "description": "Residents and local groups band together after severe flooding submerged a New Mexico town in toxic water On the night of 23 October, Jimmie Goodman was trying to get some rest when his sister, who was recovering from back surgery and having trouble sleeping, woke him. Authorities in their home town of Shiprock, New Mexico , had warned that the nearby San Juan River was at risk of flooding as unprecedented rain fell across the Four Corners region of the south-west US – and so Goodman peeked outs",
@@ -681,11 +957,13 @@
     },
     {
       "title": "'Frustrated' - Democrats remain a divided party despite winning big in midterms",
-      "source": "BBC World",
+      "source": "BBC Americas",
       "description": "After winning power in Congress, a Democratic conference in Denver was animated with talk on the best way forward.",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c6174edpp5e8o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-19T11:43:06Z"
@@ -702,30 +980,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/videos/cke89vdn75gyo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-19T11:38:09Z"
-    },
-    {
-      "title": "Mark Speakman resigns and says Liberals face ‘existential threat’ as NSW exodus continues",
-      "source": "The Guardian World",
-      "description": "Former NSW opposition leader warns party against becoming ‘Labor lite’ or ‘One Nation lite’ in late-night speech Get our breaking news email , free app or daily news podcast Former New South Wales opposition leader, Mark Speakman, will not contest his seat at the March state election, the latest in a mass exodus of MPs under the Liberal leader who replaced him, Kellie Sloane. In a late-night speech on Thursday, the final sitting day of NSW’s legislative assembly ahead of the vote, Speakman said ",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/19/mark-speakman-resigns-and-says-liberals-face-existential-threat-as-nsw-exodus-continues",
-      "published": "2026-11-19T11:23:41Z"
-    },
-    {
-      "title": "Guardian Australia takes home two Walkley awards for excellence in journalism",
-      "source": "The Guardian World",
-      "description": "Stories revealing Pauline Hanson’s US trip with Gina Rinehart and the systemic betrayal of Kardell Lomas before her death recognised Get our breaking news email , free app or daily news podcast Guardian Australia journalists have won two Walkley awards, one for a story about the systemic betrayal of a woman who was killed by her partner, and another for an exclusive story that revealed Pauline Hanson had travelled to the US with mining billionaire Gina Rinehart. Investigative reporter Sarah Mart",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/19/guardian-australia-takes-home-two-walkley-awards-for-excellence-in-journalism",
-      "published": "2026-11-19T11:13:32Z"
     },
     {
       "title": "Race to replant five South African baobabs after export blocked",
@@ -756,7 +1010,7 @@
     },
     {
       "title": "'It's a dream come true' – South African DJ celebrates featuring in GTA 6",
-      "source": "BBC World",
+      "source": "BBC Africa",
       "description": "DJ lag, one of South Africa's best-known electronic music producers, is among several African stars to feature on Grand Theft Auto 6.",
       "category": "Geopolitics",
       "region": "Africa",
@@ -806,11 +1060,12 @@
     },
     {
       "title": "Trump greets 'my friend' Putin as pair shake hands",
-      "source": "BBC World",
+      "source": "BBC Americas",
       "description": "The pair met ahead of a trilateral meeting later with Chinese leader Xi Jinping.",
       "category": "Geopolitics",
-      "region": "Asia-Pacific",
+      "region": "Americas",
       "regions": [
+        "Americas",
         "Asia-Pacific"
       ],
       "kind": "news",
@@ -908,17 +1163,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cmwy8pgj2z8vo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-19T06:15:57Z"
-    },
-    {
-      "title": "Leftover pumpkins help deliver 1,000th free meal",
-      "source": "BBC Business",
-      "description": "\"It's a really tough time for a lot of people,\" a sustainable food organisation says.",
-      "category": "Economics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/c6x29jxgkjpno?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-19T06:04:30Z"
     },
     {
       "title": "Tulip Siddiq says she is considering legal action against former Bangladesh leader",
@@ -1051,7 +1295,7 @@
     },
     {
       "title": "India's religious make-up - what a new Pew study says about Hindus and Muslims",
-      "source": "BBC World",
+      "source": "BBC Asia",
       "description": "India will remain predominantly Hindu, though its Muslim population is projected to grow faster, according to a new survey.",
       "category": "Geopolitics",
       "region": "Asia-Pacific",
@@ -1088,22 +1332,26 @@
     },
     {
       "title": "Why has Waymo pulled all its driverless cars from US freeways?",
-      "source": "BBC World",
+      "source": "BBC Americas",
       "description": "The vehicles currently operate in 15 US cities, though freeway rides are only offered in a handful, including San Francisco and Los Angeles.",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/videos/cmx2ryw97x4go?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-18T23:47:46Z"
     },
     {
       "title": "The seven Anthropic founders who are about to become multi-billionaires",
-      "source": "BBC World",
+      "source": "BBC Americas",
       "description": "The AI company behind Claude is about to sell its shares on the US stock market - making its founders very rich.",
       "category": "Economics",
-      "region": "all",
-      "regions": [],
+      "region": "Americas",
+      "regions": [
+        "Americas"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-18T23:42:07Z"
@@ -1241,17 +1489,6 @@
       "location_precision": "city-reference",
       "location_method": "description-lead-keyword",
       "location_verified": false
-    },
-    {
-      "title": "How high is UK inflation and how will you be affected?",
-      "source": "BBC Business",
-      "description": "Prices rose 3.6% in the year to October, mainly because of higher petrol and diesel prices, official figures show.",
-      "category": "Economics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/videos/cxp80q5pv4q5o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T19:37:27Z"
     },
     {
       "title": "Can the New Congress Shift Trump’s Foreign Policy?",
@@ -1416,11 +1653,13 @@
     },
     {
       "title": "Julio Iglesias facing court investigation over alleged sexual offences",
-      "source": "BBC World",
+      "source": "BBC Europe",
       "description": "The 83-year-old singer is accused of abusing two former employees at Caribbean residences in 2021.",
       "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
+      "region": "Europe",
+      "regions": [
+        "Europe"
+      ],
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c6x284pnn4e2o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-18T16:33:16Z"
@@ -1489,17 +1728,6 @@
       "kind": "news",
       "url": "https://www.theguardian.com/politics/2026/nov/18/david-lammy-andy-burnham-campaign-rejoining-eu-election-brexit",
       "published": "2026-11-18T15:18:34Z"
-    },
-    {
-      "title": "Cathedral's staff review 'difficult but necessary'",
-      "source": "BBC Business",
-      "description": "Gloucester Cathedral has been going through a restructure due to \"significant financial pressure\".",
-      "category": "Economics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/c6kgr03jlv4ro?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T15:14:34Z"
     },
     {
       "title": "Israel delays building contracts for West Bank settlement after UK sanctions",
@@ -1662,19 +1890,6 @@
       "published": "2026-11-18T11:44:25Z"
     },
     {
-      "title": "Bancroft sandpaper claims heap pressure on Cummins",
-      "source": "BBC World",
-      "description": "Cameron Bancroft claims the whole Australia team knew about the 2018 sandpaper plot in explosive revelations that will heap pressure on current captain Pat Cummins.",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cmqlqdevgl9ro?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T11:12:46Z"
-    },
-    {
       "title": "After 49 years, Nasa’s Voyager 1 is one light-day away from us. Can we save this ‘pale blue dot’? | Kim Heacox",
       "source": "The Guardian Environment",
       "description": "Since the spacecraft’s 1977 launch, our wonderful and terrible species has done great damage to our planet. Voyager has offered us a clear view of ourselves Imagine traveling nonstop for 49 years, alone in the dark with no destination in sight, powered by curiosity and engineering. Further imagine making that journey not at bullet train or jet plane speed, but much faster: at 37,800 miles per hour, free from friction in a vast sea of cold, soundless space, bombarded by radiation and cosmic rays ",
@@ -1698,17 +1913,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/c9n70gd320mpo?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-18T10:53:21Z"
-    },
-    {
-      "title": "Democrats win Alaska Senate race two weeks after midterms counting began",
-      "source": "BBC World",
-      "description": "Confirmation of Mary Peltola's victory caps of the party's rout of the Republicans in the midterms Senate election.",
-      "category": "Geopolitics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T10:23:57Z"
     },
     {
       "title": "Former Spain midfielder Mata retires aged 38",
@@ -1764,7 +1968,7 @@
     },
     {
       "title": "British hacker who stole $11m through text message scheme jailed for six years in US",
-      "source": "BBC World",
+      "source": "BBC Technology",
       "description": "Tyler Buchanan, from Dundee, was a member of the notorious Scattered Spider group and began hacking when he was a teenager.",
       "category": "Cyber",
       "region": "Europe",
@@ -1880,17 +2084,6 @@
       "kind": "news",
       "url": "https://www.bbc.co.uk/news/articles/cx053jrv9rz9o?at_medium=RSS&at_campaign=rss",
       "published": "2026-11-18T05:11:42Z"
-    },
-    {
-      "title": "Watch: Marco Rubio says recent tech outages are 'completely unrelated' to one another",
-      "source": "BBC Technology",
-      "description": "Microsoft, major US banks, Apple and Air Traffic authorities have been hit over recent days by tech glitches.",
-      "category": "Cyber",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/videos/cx1l0vm87yl9o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-18T05:10:02Z"
     },
     {
       "title": "From the archive: Dark waters: how the adventure of a lifetime turned to tragedy – podcast",
@@ -2013,9 +2206,9 @@
     },
     {
       "title": "Nvidia says it won't reinstate Huang as it reports soaring sales",
-      "source": "BBC World",
+      "source": "BBC Business",
       "description": "The AI chip giant reported strong quarterly earnings on Tuesday after the dramatic exit of Jensen Huang.",
-      "category": "Geopolitics",
+      "category": "Economics",
       "region": "all",
       "regions": [],
       "kind": "news",
@@ -2852,32 +3045,6 @@
       "published": "2026-11-17T00:08:19Z"
     },
     {
-      "title": "The AI start-ups fixing India's broken roads and messy land records",
-      "source": "BBC Asia",
-      "description": "From legal-tech to healthcare, dozens of Indian AI start-ups are solving uniquely Indian challenges.",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/c820vnln2lzpo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-16T23:25:53Z"
-    },
-    {
-      "title": "Taking Korea's toughest exam from behind bars",
-      "source": "BBC Asia",
-      "description": "Eleven convicts at the Mandela Boys' School will be among the thousands of young Koreans taking the country's hardest exam, the Suneung.",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cmewvxg855yno?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-16T23:09:49Z"
-    },
-    {
       "title": "China is hosting the world's leaders in its AI wonderland. Here's what they won't see",
       "source": "BBC Asia",
       "description": "Leave Shenzhen's tech-flecked city skyline and you run into the challenges confronting Xi's China.",
@@ -3474,19 +3641,6 @@
       "published": "2026-11-14T00:03:52Z"
     },
     {
-      "title": "After a summer win, India's Gen Z protesters face a winter of uncertainty",
-      "source": "BBC Asia",
-      "description": "A new wave of youth dissent swept India this summer, fuelled by frustration and irreverent online satire.",
-      "category": "Geopolitics",
-      "region": "Asia-Pacific",
-      "regions": [
-        "Asia-Pacific"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/cq99e0z4vg1eo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-13T23:11:51Z"
-    },
-    {
       "title": "E Guinea goalkeeper involved in fatal collision gets 12-game ban",
       "source": "BBC Africa",
       "description": "Jesus Owono is given a 12-match suspension by the Spanish football federation's disciplinary committee after his challenge which resulted in the death of Jesus de Miguel.",
@@ -3865,19 +4019,6 @@
       "kind": "news",
       "url": "https://www.theguardian.com/environment/2026/nov/12/canada-climate-geoengineering-marine-carbon-credits-biology-ocean-alkalinity-enhancement",
       "published": "2026-11-12T11:00:47Z"
-    },
-    {
-      "title": "Can Nigeria's president regain voters' trust after painful first term?",
-      "source": "BBC Africa",
-      "description": "For Nigerians to feel meaningful improvements, reforms will need to go beyond the promises outlined, analysts say.",
-      "category": "Geopolitics",
-      "region": "Africa",
-      "regions": [
-        "Africa"
-      ],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/ck5ynyw527wdo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-12T07:30:44Z"
     },
     {
       "title": "Afghan women told to ‘go home’ after de facto ban on male doctors treating them",
@@ -5993,17 +6134,6 @@
       "location_verified": false
     },
     {
-      "title": "My hometown shows that high streets have to change or die",
-      "source": "BBC Business",
-      "description": "Aberdeen is launching an ambitious bid to revive its struggling centre. Could it offer lessons for other high streets?",
-      "category": "Economics",
-      "region": "all",
-      "regions": [],
-      "kind": "news",
-      "url": "https://www.bbc.co.uk/news/articles/crd689de186jo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-09-27T23:05:53Z"
-    },
-    {
       "title": "Tech Now",
       "source": "BBC Technology",
       "description": "Ammie Sekhon explores tech used to identify and remove counterfeit products online.",
@@ -8009,26 +8139,6 @@
       "location_verified": false
     },
     {
-      "title": "Is the Regime Doomed? Iran on the Eve of War",
-      "source": "MEI Middle East Focus",
-      "description": "Against the backdrop of one of the largest US military deployments to the Middle East since 2003, MEI Senior Fellow Alex Vatanka joins hosts Alistair Taylor and Matthew Czekaj to assess the situation inside Iran on the eve of potential war. Weeks after the Islamic Republic's brutal crackdown on anti-government protesters and as negotiations with the US fail to find common ground, Donald Trump is reportedly weighing options for military action against Iran. Vatanka breaks down the regime's strate",
-      "category": "Defence",
-      "region": "Middle East",
-      "regions": [
-        "Middle East"
-      ],
-      "kind": "podcast",
-      "audio_url": "https://traffic.libsyn.com/secure/middleeastinst/Middle_East_Focus_2.26.26_mixdown.mp3?dest-id=531685",
-      "url": "https://middleeastinst.libsyn.com/is-the-regime-doomed-iran-on-the-eve-of-war",
-      "published": "2026-02-26T15:49:00Z",
-      "lat": 32.43,
-      "lon": 53.69,
-      "place": "Iran",
-      "location_precision": "country-centroid",
-      "location_method": "headline-keyword",
-      "location_verified": false
-    },
-    {
       "title": "Cuba on the Brink, With Michael Bustamante",
       "source": "CFR The President Inbox",
       "description": "Michael Bustamante, Chair in Cuban and Cuban-American Studies at the University of Miami, sits down with James M. Lindsay to discuss the Trump administration’s maximum pressure campaign against Cuba. Mentioned on the Episode: Marc Caputo, “ Exclusive: Rubio's Secret Squeeze on Raul Castro's Cuba ,” Axios For an episode transcript and show notes, visit The President’s Inbox at: https://www.cfr.org/podcasts/presidents-inbox/cuba-on-the-brink Opinions expressed on The President’s Inbox are solely t",
@@ -8761,7 +8871,7 @@
   "classification_method": "keyword-heuristic",
   "location_method": "headline-or-lead-reference",
   "content_counts": {
-    "news": 367,
+    "news": 374,
     "podcast": 194,
     "research": 13
   },
@@ -8801,6 +8911,10 @@
     {
       "source": "UN News Middle East",
       "message": "Using alternate publisher-hosted RSS endpoint: https://news.un.org/feed/subscribe/en/news/region/middle-east/feed/rss.xml?output=rss"
+    },
+    {
+      "source": "UN News",
+      "message": "Using alternate publisher-hosted RSS endpoint: https://news.un.org/feed/subscribe/en/news/all/rss.xml?output=rss"
     }
   ],
   "feed_health": "See errors for failed source names"
