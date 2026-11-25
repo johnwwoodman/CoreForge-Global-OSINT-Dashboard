@@ -1,7 +1,16 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "description": "Changes in collected candidate data; not independently confirmed political transitions.",
   "changes": [
+    {
+      "code": "BD",
+      "country": "Bangladesh",
+      "field": "headOfState",
+      "previous": "Mohammad Shahabuddin",
+      "current": "Mirza Fakhrul Islam Alamgir",
+      "detected": "2026-11-25",
+      "verification": "Unverified source-data change"
+    },
     {
       "code": "NC",
       "country": "New Caledonia",
